@@ -1,0 +1,75 @@
+@import 'mixins';
+
+:root{
+    --clr-accent:           #{$color-accent};
+    --clr-accent-shd:       #{$color-accent-shade};
+    --clr-bg-1:             #{$background-1--lite};
+    --clr-bg-2:             #{$background-2--lite};
+    --clr-bg-3:             #{$background-3--lite};
+    --clr-bg-4:             #{$background-4--lite};
+    --clr-bg-5:             #{$background-5--lite};
+    --clr-bg-bd-decor:      #{$background-border-decor--lite};
+    --clr-bg-bd-decor-int:  #{$background-border-int--lite};
+    --clr-typo:             #{$color-typo--lite};
+    --clr-typo-faint:       #{$color-typo-faint--lite};
+    --clr--bg-nav:          #{$background-nav--lite};
+}
+
+.darkmode{
+    --clr-accent:                   #{$color-accent} ;   
+    --clr-accent-shd:               #{$color-accent-shade}; 
+    --clr-bg-1:                     #{$background-1};
+    --clr-bg-2:                     #{$background-2};
+    --clr-bg-3:                     #{$background-3};
+    --clr-bg-4:                     #{$background-4}; 
+    --clr-bg-5:                     #{$background-5} ; 
+    --clr-bg-bd-decor:              #{$color-typo-faint};
+    --clr-bg-bd-decor-int:          #{$background-border-interactive};
+    --clr-typo:                     #{$color-typo};
+    --clr-typo-faint:               #{$color-typo-faint};
+    --clr--bg-nav:                  #{$background-nav};
+}
+
+%extend1{
+    margin: 0;
+    padding: 0;
+}
+*,
+*::before,
+*::after{
+    @extend %extend1;
+}
+html{
+    @extend %extend1;
+    min-height: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    // overflow: hidden;
+}
+body{
+    // all: unset;
+    @extend %extend1;
+    min-height: 100%;
+    height: 100%;
+    background-color: var(--clr-bg-1);
+    font-family: Arial, Helvetica, sans-serif;
+    color:  var(--clr-typo);
+    line-height: 1.6;
+    font-size: 16px;
+    text-rendering: optimizeLegibility;
+    transition: background-color .75s;
+}
+a{
+    text-decoration: none !important;
+}
+ul,ol{
+    list-style-type: none;
+}
+.mini-title{
+    font-size: $doc-font-size !important;
+    font-weight: 700;
+}
+.pos-rel{
+    position: relative;
+    z-index: 300;
+}

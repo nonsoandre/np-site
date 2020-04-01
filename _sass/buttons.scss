@@ -1,0 +1,28 @@
+//Button
+.btn{
+    all: unset;
+    outline: none;
+
+    &:focus{
+        outline: none;
+    }
+}
+
+//Hamburger
+.ham-menu{
+    background-color: transparent !important;
+    width: 100%;
+    // height: 100%;
+    // padding: .5em 1em;
+    color: $background-5;
+    cursor: pointer;
+    margin-top: -.35rem;
+    position: relative;
+    z-index: 300;
+    padding: 0 12px;
+}
+.hamburger-icon__bottom, 
+.hamburger-icon__middle,
+.hamburger-icon__top{
+    @include fill(#{$color-typo-string});
+}

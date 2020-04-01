@@ -1,0 +1,90 @@
+// Center-align a block level element
+// ----------------------------------
+:root{
+  --clr-accent:           #{$color-accent};
+  --clr-accent-shd:       #{$color-accent-shade};
+  --clr-bg-1:             #{$background-1--lite};
+  --clr-bg-2:             #{$background-2--lite};
+  --clr-bg-3:             #{$background-3--lite};
+  --clr-bg-4:             #{$background-4--lite};
+  --clr-bg-5:             #{$background-5--lite};
+  --clr-bg-bd-decor:      #{$background-border-decor--lite};
+  --clr-bg-bd-decor-int:  #{$background-border-int--lite};
+  --clr-typo:             #{$color-typo--lite};
+  --clr-typo-faint:       #{$color-typo-faint--lite};
+  --clr-bg-nav:          #{$background-nav--lite};
+}
+
+.darkmode{
+  --clr-accent:                   #{$color-accent} ;   
+  --clr-accent-shd:               #{$color-accent-shade}; 
+  --clr-bg-1:                     #{$background-1};
+  --clr-bg-2:                     #{$background-2};
+  --clr-bg-3:                     #{$background-3};
+  --clr-bg-4:                     #{$background-4}; 
+  --clr-bg-5:                     #{$background-5} ; 
+  --clr-bg-bd-decor:              #{$background-border-decor};
+  --clr-bg-bd-decor-int:          #{$background-border-interactive};
+  --clr-typo:                     #{$color-typo--lite};
+  --clr-typo-faint:               #{$color-typo-faint};
+  --clr-bg-nav:                   #{$background-nav};
+}
+
+
+$background-nav-string:                     'bg-nav';
+$color-typo-string:                         'typo';
+$background-border-decor-string:            'bg-bd-decor';
+$background-3-string:                       'bg-3';
+$background-1-string:                       'bg-1';
+
+
+@mixin center-block() {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+
+  @mixin font-size($size) {
+    font-size: 0px + $size;
+    font-size: 0rem + $size / $doc-font-size;
+    line-height: 0 + round($doc-line-height / $size*10000) / 10000;
+    margin-bottom: 0px + $doc-line-height;
+    margin-bottom: 0rem + ($doc-line-height / $doc-font-size);
+  }
+  
+  // Just the REMs
+  // -------------
+  @mixin font-rem($size) {
+    font-size: 0px + $size;
+    font-size: 0rem + $size / $doc-font-size;
+  }
+  
+  // Just font-size and line-height
+  // ------------------------------
+  @mixin font($size) {
+    font-size: 0px + $size;
+    font-size: 0rem + $size / $doc-font-size;
+    line-height: 0 + round($doc-line-height / $size*10000) / 10000;
+  }
+
+  @mixin bg-color($clr) {
+    background-color: var(--clr- + $clr);
+  }
+
+  @mixin text-color($clr) {
+    color: var(--clr- + $clr);
+  }
+
+  @mixin border-bottom($clr ) {
+    border-bottom: 1px solid var(--clr- + $clr);
+  }
+  @mixin border-gen($clr ) {
+    border: 1px solid var(--clr- + $clr);
+  }
+  @mixin border($width:null, $style:null, $color:null, $direction:null){
+    border#{$direction}: $width $style var(--clr- + $color)
+  }
+  @mixin fill($clr){
+    fill: var(--clr- + $clr) !important;
+  }

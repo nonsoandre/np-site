@@ -2,5 +2,16 @@
 sitemap: false
 ---
 
-
-@import 'home'
+// Partials
+@import 'home';
+@import 'vendors/Bootstrap/bootstrap.scss';
+@import 'vendors/font-awesome';
+@import 'vendors/animate';
+// @import 'normalize.scss';
+// @import 'reset';
+@import 'variables.scss';
+@import 'base';
+@import 'navigation';
+@import 'switchButton';
+@import 'buttons';
+@import 'side-menu';

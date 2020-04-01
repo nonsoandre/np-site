@@ -1,0 +1,58 @@
+//colors
+//dark theme
+$color-accent                   : #27CE21;
+$color-accent-shade             : rgb(78, 180, 75);
+$background-1                   : #171A23;
+$background-2                   : rgb(23, 26, 34);
+$background-3                   : rgba(255,255,255,0.15);
+$background-4                   : rgba(255,255,255,0.15);
+$background-5                   : #171A23;
+$background-modal               : rgba(23,25,35,0.98);
+$background-border-decor        : rgba(255,255,255,0.15);
+$background-border-interactive  : rgba(255,255,255,0.15);
+$color-typo                     : #ffffff;
+$color-typo-faint               : rgba(255,255,255,0.7);
+$color-ui                       : #ffffff;
+$background-nav                 : #171A23;
+
+//Light theme
+$background-1--lite             : #F7F7F7;
+$background-2--lite             : #ffffff;
+$background-3--lite             : rgba(0,0,0,0.15);
+$background-4--lite             : #ffffff;
+$background-5--lite             : #9E9999;
+$background-modal--lite         : rgba(249,249,249,0.98);
+$background-border-decor--lite  : rgba(0,0,0,0.15);
+$background-border-int--lite    : rgba(0,0,0,0.15);
+$color-typo--lite               : #0C0B0B;
+$color-typo-faint--lite         : #333333;
+$background-nav--lite           : #f9f9f9;
+
+
+//navigation
+$color-nav-link                 : #707070;
+$color-nav-link-faint           : #CBCBCB;
+
+$color-nav--link--dark          : #171A23;
+
+//fonts
+$font1-dev                      : sans-serif;
+$font2-dev                      : Inconsolata;
+$font1-prod                     : Walfork, Walcort;
+$alt-font                       : serif;
+$font-decor                     : Lucida Sans;
+$doc-font-size                  : 16px;
+$doc-font-size-lg               : 20px;
+$doc-line-height                : 6;
+
+//media
+$small                          : "only screen and (max-width: 30em)";
+$medium                         : "only screen and (min-width: 30.1em) and (max-width: 48em)";
+$large                          : "only screen and (min-width: 48.1em) and (max-width: 62.5em)";
+$notsmall                       : "only screen and (min-width: 48em)";
+
+$lg-scn                         : "only screen and (min-width: 768px)";
+$lg-scn--dn                     : "only screen and (max-width: 768px)";
+
+
+
