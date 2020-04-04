@@ -51,8 +51,12 @@ $medium                         : "only screen and (min-width: 30.1em) and (max-
 $large                          : "only screen and (min-width: 48.1em) and (max-width: 62.5em)";
 $notsmall                       : "only screen and (min-width: 48em)";
 
-$lg-scn                         : "only screen and (min-width: 768px)";
+$lg-scn                         : "only screen and (min-width: 65em)";
 $lg-scn--dn                     : "only screen and (max-width: 768px)";
+
+$md-scn--up                     : "only screen and (min-width: 48em)";
+$lg-scn--up                     : "only screen and (min-width: 65em)";
+$xlg-scn--up                    : "only screen and (min-width: 72em)";
 
 
 

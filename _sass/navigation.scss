@@ -18,10 +18,15 @@ header{
     width: 100%;
 }
 .nav-wrapper{
-    margin: 0 .5em;
+    @media #{$lg-scn} {
+        margin: 0 25px;
+    }
 }
 .nav-masthead{
-   margin: 0 25px;
+   margin: 0 20px;
+   @media #{$lg-scn} {
+    margin: 0 25px;
+}
 }
 .upper-nav{
     display: flex;
