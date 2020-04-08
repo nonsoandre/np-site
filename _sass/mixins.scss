@@ -26,13 +26,14 @@
   --clr-bg-bd-decor:              #{$background-border-decor};
   --clr-bg-bd-decor-int:          #{$background-border-interactive};
   --clr-typo:                     #{$color-typo--lite};
-  --clr-typo-faint:               #{$color-typo-faint};
+  --clr-typo-faint:               #{$color-typo-faint--lite};
   --clr-bg-nav:                   #{$background-nav};
 }
 
 
 $background-nav-string:                     'bg-nav';
 $color-typo-string:                         'typo';
+$color-typo-faint-string:                   'typo-faint';
 $background-border-decor-string:            'bg-bd-decor';
 $background-3-string:                       'bg-3';
 $background-1-string:                       'bg-1';
@@ -45,13 +46,13 @@ $background-1-string:                       'bg-1';
   }
   
 
-  @mixin font-size($size) {
-    font-size: 0px + $size;
-    font-size: 0rem + $size / $doc-font-size;
-    line-height: 0 + round($doc-line-height / $size*10000) / 10000;
-    margin-bottom: 0px + $doc-line-height;
-    margin-bottom: 0rem + ($doc-line-height / $doc-font-size);
-  }
+  // @mixin font-size($size) {
+  //   font-size: 0px + $size;
+  //   font-size: 0rem + $size / $doc-font-size;
+  //   line-height: 0 + round($doc-line-height / $size*10000) / 10000;
+  //   margin-bottom: 0px + $doc-line-height;
+  //   margin-bottom: 0rem + ($doc-line-height / $doc-font-size);
+  // }
   
   // Just the REMs
   // -------------

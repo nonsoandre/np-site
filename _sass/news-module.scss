@@ -4,6 +4,10 @@
     @media #{$md-scn--up}{
         padding: 40px 50px 0;
     }
+    h3{
+        font-size: 33px;
+        margin-bottom: 1em;
+    }
     & .inner-section-padding{
         padding-bottom: 40px;
         margin-bottom: 40px;
@@ -68,6 +72,8 @@
             }
             
             & .post-module-summary{
+                @include text-color(#{$color-typo-string});
+                transition: color .3s;
                 @media #{$lg-scn--up}{
                     margin-top: .65em;
                 }
@@ -83,6 +89,10 @@
                     // display: flex;
                     font-style: italic;
                 }                
+            }
+
+            & .post-module-summary:hover{
+                @include text-color(#{$color-typo-faint-string});
             }
 
         }
@@ -140,6 +150,7 @@
         flex-shrink: 0;
         scroll-snap-align: start;
         margin-left: 1em;
+        margin-bottom: 40px;
         
         @media #{$md-scn--up}{
             width: 50%;
