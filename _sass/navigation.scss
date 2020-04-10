@@ -13,7 +13,7 @@ header{
     @media #{$lg-scn} {
         position: relative;
         padding-top: .1em;
-        height: 8em;
+        height: 6em;
     }
 }
 .navigation{
@@ -41,6 +41,7 @@ header{
         max-width: 11500px;
         margin-left: auto;
         margin-right: auto;
+        margin-bottom: 0;
     }
     & .top-nav-list-item:first-of-type{
         position: static;
@@ -74,7 +75,7 @@ header{
     width: 284.023px !important;
     height: 25.242px !important;
     @media #{$lg-scn} {
-        height: 38.242px !important;
+        height: 30.242px !important;
         width: 484.023 !important;
     }
     .logo-path{
@@ -108,7 +109,7 @@ header{
         color: $color-nav-link;
         text-transform: uppercase;
         font-weight: 800;
-        
+        font-size: 12px;
         &:hover{
             color: $color-nav--link--dark;
         }

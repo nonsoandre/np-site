@@ -83,7 +83,9 @@ ul,ol{
 img{
     border-style: none;
 }
-
+strong{
+    line-height: 1.3;
+}
 .mini-title{
     font-size: $doc-font-size !important;
     font-weight: 700;

@@ -2,7 +2,6 @@
     background: gray;
     position: fixed;
     width: 100vw;
-    // height: 100vh;
     z-index: 999;
     @include bg-color(#{$background-1-string});
     height: calc(100vh - 63px);
@@ -14,8 +13,8 @@
     padding: 1em;
     overflow-y: scroll;
     @media #{$lg-scn} {
-        height: calc(100vh - 126px);
-        top: 126px;
+        height: calc(100vh - 95px);
+        top: 95px;
         width: 440px;
         padding-top: 3em;
         overflow-y: scroll;
