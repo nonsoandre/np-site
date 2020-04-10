@@ -7,6 +7,7 @@ sitemap: false
 @import 'vendors/Bootstrap/bootstrap.scss';
 @import 'vendors/font-awesome';
 @import 'vendors/animate';
+@import 'vendors/typi/scss/typi';
 // @import 'normalize.scss';
 // @import 'reset';
 @import 'variables.scss';
@@ -18,3 +19,5 @@ sitemap: false
 @import 'main-page';
 @import 'news-module';
 @import 'footer';
+@import 'mobile-nav';
+@import 'typography';

@@ -1,0 +1,74 @@
+$breakpoints: (
+    small:  48em,
+    large:  65em,
+    xlarge: 72em
+);
+
+$typi: (
+    base:(
+        null: (16px, 1.4),
+        small: (18px),
+        large:(20px),
+        xlarge:(20px)
+    ),
+    h1:(
+        null:  (30px, 1.05),
+        small: (36px),
+        large: (40px),
+    ),
+    h2:(
+        null:  (26px, 1.04),
+        small: (38px),
+        large: (38px),
+        xlarge:(40px)
+    ),
+    h3:(
+        null:  (16px, 1.04),
+        small: (18px),
+        large: (20px),
+        xlarge:(22px)
+    ),
+    p:(
+        null:  (16px, 1.3),
+        small: (18px),
+        large: (20px, 1.5),
+    ),
+    latest-header:(
+        null:  (13px, 1.3),
+        small: (16px),
+        large: (16px),
+    ),
+    summ-font:(
+        null:  (18px, 1.3),
+        small: (20px),
+        large: (20px), 
+    )
+);
+
+html{
+    @include typi-init;
+}
+h1{
+    @include typi('h1')
+}
+h2{
+    @include typi('h2');
+}
+h3{
+    @include typi('h3');
+}
+p{
+    @include typi('p');
+}
+.title{
+    @include typi('h1')
+}
+.summ-font{
+    @include typi('summ-font');
+}
+.latest-header{
+    @include typi('latest-header');
+}
+.section-header{
+    @include typi('h2');
+}
