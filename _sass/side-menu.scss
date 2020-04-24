@@ -2,7 +2,7 @@
     background: gray;
     position: fixed;
     width: 100vw;
-    z-index: 999;
+    z-index: 9999;
     @include bg-color(#{$background-1-string});
     height: calc(100vh - 63px);
     top: 63px;
