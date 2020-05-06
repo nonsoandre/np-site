@@ -42,3 +42,26 @@ function disableDarkMode(){
     document.body.classList.remove('darkmode');
     localStorage.setItem('darkmode', 'off');
 }
+
+//navbr hide on scroll
+// function Scroll() {
+//     var top = document.getElementById('header');
+//     var ypos = window.pageYOffset;
+//     if(ypos > 0){
+//        console.log(ypos)
+//     }else{
+//         console.log('fuck-off')
+//     }
+// }
+
+// window.addEventListener('scroll', Scroll);
+
+var top = document.getElementById('header');
+var zero = 0;
+
+window.addEventListener('scroll', e=>{
+    var top = document.getElementById('header');
+    console.log(top)
+    top.classList.toggle('hide', window.scrollX > zero);
+    zero = window.scrollX;
+})
