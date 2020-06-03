@@ -2,10 +2,11 @@
 title:                Nwangele Post
 deescription:         From Nwangele to the world
 logo:                 'assets/img/logo.png'
+#baseurl:               /nwangelepost
 
 
 # Jekyll
-permalink:            /:title/
+permalink:            pretty
 markdown:             kramdown
 sass:
   sass_dir:           _sass

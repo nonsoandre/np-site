@@ -1,3 +1,9 @@
+.feature-main{
+    display: block;
+    background-color: inherit;
+    position: relative;
+    z-index: 200;
+}
 .page-feature-header{
     all: unset;
     margin-bottom: 10px;
@@ -692,6 +698,9 @@
     }
     .second-tier{
          padding: 0;
+         margin: 3em 0;
+         margin-left: -40px;
+         margin-right: -20px;
     }
 
     .module__title{
@@ -701,7 +710,11 @@
         font-size: 1rem;
     }
 }
-
+.third-tier{
+    @media #{$lg-scn--up}{
+        margin-top: 3em;
+    }
+}
 .third-tier .feature-module{
     position: relative;
     min-height: 1px;
@@ -724,8 +737,10 @@
 .container-fluid:after, .container-fluid:before {
     content: " ";
     display: table;
+    clear: both;
 }
 .clearfix:after, .clearfix:before {
     content: " ";
     display: table;
+    clear: both;
 }

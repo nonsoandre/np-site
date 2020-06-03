@@ -1,9 +1,9 @@
 ---
 layout: post
-title: My Experience Applying to Outreachy
+title: Nwangele Post first Post that was 
 tags: [Outreachy Internship]
 location: Abba
-category: Featuured
+category: Feature
 author: Zainab Okoye
 date-custom: December 06 2019
 publisher: Zaycodes

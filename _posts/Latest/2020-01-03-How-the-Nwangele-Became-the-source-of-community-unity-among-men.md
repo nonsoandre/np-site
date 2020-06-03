@@ -3,7 +3,7 @@ layout: post
 title: How the Nwangele River became the source of community unity among men
 tags: [Outreachy Internship]
 location: Nwangele
-category: Featuured
+category: latest-news
 author: Zainab Okoye
 date-custom: January 03 2020
 publisher: Nwangele Post

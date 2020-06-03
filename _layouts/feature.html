@@ -1,6 +1,6 @@
 ---
 layout: compress
-title: Latest stories
+title: Features
 ---
 
 
@@ -15,7 +15,7 @@ title: Latest stories
         {% include nav.html %}   
        </div>
 
-       <main id="site-content pt-sm">
+       <main id="site-content">
             <div class="homepage">
                 <div class="inner-site-container">
                     <header class="page-feature-header">
@@ -104,10 +104,10 @@ title: Latest stories
                                                 <div class="module__highlights"></div>
                                             </div>
 
-
+                                            {% for feature in site.categories.Feature %}
                                             <div class="feature-module module module-with-abstract">
                                                 <div class="module_img module__visual">
-                                                    <a href="#" class="image-link">
+                                                    <a href="{{ site.url}}{{ feature.url }}" class="image-link">
                                                         <span class="sr-only">A short message that displays module title</span>
                                                         <img class="module_image"  src="../assets/images/feature-modules/pitchforkpplheader.jpg" alt="">
                                                         <div class="overlay"></div>
@@ -115,7 +115,7 @@ title: Latest stories
                                                     <a href="#" class="type">Rising</a>
                                                 </div>
                                                 <div class="article-details module__article-details">
-                                                    <a href="#" class="title-link module__title-link">
+                                                    <a href="{{ site.url}}{{ feature.url }}" class="title-link module__title-link">
                                                         <h2 class="module__title">
                                                             Talking beyond Buzz Words
                                                         </h2>
@@ -140,6 +140,8 @@ title: Latest stories
                                                 </div>
                                                 <div class="module__highlights"></div>
                                             </div>
+
+                                            {% endfor %}
 
                                             <div class="feature-module module module-with-abstract">
                                                 <div class="module_img module__visual">
@@ -327,6 +329,11 @@ title: Latest stories
                             </div>
                         </div>
                     </div>
+               
+               
+               
+               
+               
                 </div>    
             </div>
         </main>
@@ -334,7 +341,7 @@ title: Latest stories
 
 
 
-              <!-- {% include footer.html %} -->
+    {% include footer.html %}
    </div>
    {% include mobi-footer.html %}
    <script src="../assets/js/hamburger.js "></script>

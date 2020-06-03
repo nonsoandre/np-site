@@ -1,9 +1,7 @@
 let hamBtn = document.querySelector('.ham-menu');
 let hamIconTop = hamBtn.querySelector('.hamburger-icon__top');
 
-console.log(hamBtn);
 hamBtn.addEventListener('click', (e)=>{
-    console.log(123);
     e.preventDefault();
 
     let pathClass = hamBtn.querySelector('span');
@@ -11,14 +9,36 @@ hamBtn.addEventListener('click', (e)=>{
 
     let sideMenu = document.querySelector('.side-menu');
     sideMenu.classList.toggle('visible');
+
+    // if(sideMenu.classList.contains('visible')){
+    //     window.addEventListener('click',e=>{
+    //         sideMenu.classList.remove('visible')
+    //     }, false);
+    // }
 })
 
+// window.addEventListener('click',e=>{
+//     let pathClass = hamBtn.querySelector('span');
+//     let sideMenu = document.querySelector('.side-menu');
+
+
+//     if(sideMenu.classList.contains('visible')){
+//         sideMenu.classList.remove('visible')
+//         console.log(sideMenu)
+//     }
+//     if(sideMenu.hasAttributes('visible')){
+//         pathClass.classList.remove('open');
+//         sideMenu.classList.remove('visibe');
+
+//         console.log('hello');
+//     }
+
+// }, false);
 
 //darkMode
 //get dm button
 const darkmodeToggle = document.querySelector('.switch-button input');
 
-console.dir(darkmodeToggle);
 
 darkmodeToggle.addEventListener('click', e=>{
     darkMode = localStorage.getItem('darkmode');
@@ -56,12 +76,30 @@ function disableDarkMode(){
 
 // window.addEventListener('scroll', Scroll);
 
-var top = document.getElementById('header');
-var zero = 0;
+// var top = document.getElementById('header');
+// var zero = 0;
 
-window.addEventListener('scroll', e=>{
-    var top = document.getElementById('header');
-    console.log(top)
-    top.classList.toggle('hide', window.scrollX > zero);
-    zero = window.scrollX;
+// window.addEventListener('scroll', e=>{
+//     var top = document.getElementById('header');
+//     console.log(top)
+//     top.classList.toggle('hide', window.scrollX > zero);
+//     zero = window.scrollX;
+// })
+
+var lastScrollTop = 10;
+var header = document.getElementById('header');
+
+
+window.addEventListener('scroll', function(){
+    var scrollTop = window.pageYOffset || this.document.documentElement.scrollTop;
+
+    if(scrollTop > lastScrollTop){
+        header.classList.remove('show');
+        header.classList.add('hide');
+    }else{
+        header.classList.remove('hide');
+        header.classList.add('show');
+    }
+
+    lastScrollTop = scrollTop;
 })
