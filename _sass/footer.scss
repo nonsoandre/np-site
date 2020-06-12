@@ -114,6 +114,8 @@
             position: relative;
             margin: 0 auto;
             font-size: 20px;
+            text-align: center;
+            line-height: 1.25;
 
             & span{
                 display: none;
@@ -121,6 +123,7 @@
                     display: inline;
                    font-size: .45em;
                    font-style: italic; 
+                   margin-top: .85em;
                 }
             }
             @media #{$md-scn--up}{

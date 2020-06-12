@@ -68,6 +68,7 @@
         @media #{$lg-scn--up}{
             margin-left: 90px;
             margin-right: 90px;
+            margin: 0 auto;
         }
         @media (min-width: 1780px){
             width: 100%;
@@ -147,52 +148,61 @@
 
 
 }
-.article-meta{
-    // max-width: 200px;
-    & .site-name{
-        @media #{$md-scn--up}{
-            font-size: 13px;
+.context-list{
+    .article-meta{
+        // max-width: 200px;
+        left: unset !important;
+        width: unset !important;
+        padding-left: 0;
+        padding-right: 0;
+        & .site-name{
+            @media #{$md-scn--up}{
+                font-size: 13px;
+            }
+            @media #{$lg-scn--up}{
+                font-size: 15px;
+            }
         }
-        @media #{$lg-scn--up}{
-            font-size: 15px;
+        .meta-details{
+            font-weight: 700;
+            line-height: 1.05;
+            max-width: 100px;
+        }   
+        h3{
+            font-size: 18px;
+            line-height: 1.03;
+            margin: 7px 0 5px;
+
+            @media #{$md-scn--up}{
+                font-size: 35px;
+                // margin: 10px 0;
+            }
+            @media #{$lg-scn--up}{
+                font-size: 40px;
+                // margin: 15px 0;
+            }
+            @media #{$xlg-scn--up}{
+                margin: 15px 0;
+                font-size: 50px;
+            }
         }
-    }
-    .meta-details{
-        font-weight: 700;
-        line-height: 1.05;
-        max-width: 100px;
+        .article-info{
+            display: none;
+            flex-direction: column;
+            line-height: 1.2;
+            font-size: 11px;
+            @media #{$md-scn--up}{
+                display: flex;
+                font-size: 13px;
+            }
+            @media #{$lg-scn--up}{
+                font-size: 15px;
+            }
+
+            .cat{
+                font-size: 10px;
+            }
+        }
     }   
-    h3{
-        font-size: 18px;
-        line-height: 1.03;
-        margin: 7px 0 5px;
-
-        @media #{$md-scn--up}{
-            font-size: 35px;
-            // margin: 10px 0;
-        }
-        @media #{$lg-scn--up}{
-            font-size: 40px;
-            // margin: 15px 0;
-        }
-        @media #{$xlg-scn--up}{
-            margin: 15px 0;
-        }
-    }
-    .article-info{
-        display: flex;
-        flex-direction: column;
-        line-height: 1.2;
-        font-size: 11px;
-        @media #{$md-scn--up}{
-            font-size: 13px;
-        }
-        @media #{$lg-scn--up}{
-            font-size: 15px;
-        }
-
-        .cat{
-            font-size: 10px;
-        }
-    }
 }
+

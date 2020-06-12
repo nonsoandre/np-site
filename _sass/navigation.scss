@@ -57,9 +57,10 @@ header{
     top: 50%;
     transform: translate(-49%, -50%);
     z-index: 400;
-
+    cursor: pointer;
     @media #{$lg-scn}{
         all: unset;
+        cursor: pointer;
     }
 }
 .logo--small{
