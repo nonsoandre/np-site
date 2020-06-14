@@ -81,126 +81,41 @@ layout: compress
                                     </li>
                                 </ul>
                             </section>
-                            <section id="section" class="main-page-posts featured-post-padding">
+                            <section id="section" class="main-page-posts featured-post-padding feature-z">
                                 <h3 class="section-title section-header">Featured Articles</h3>
                                 <ul class="main-page-posts-lists">
                                     <li class="post-module inner-section-padding">
                                         <div class="featured-lists">
+                                            {% for feature in site.categories.Feature%}
                                             <div class="featured-item featured-card">
                                                 <div class="image module--visual">
-                                                    <a href="#">
+                                                    <a href=" {{ feature.url }}">
                                                         <!-- <figure>
                                                             <picture class="artdirection--123"> -->
-                                                            <img src="../assets/images/img-4a.jpg" alt="a white man passport" class="img featured-image">  
+                                                            <img src="{{ site.baseurl }}{{ feature.image-path }}/{{ feature.image }}" alt="a white man passport" class="img featured-image">  
                                                             <!-- </picture>
                                                         </figure> -->
                                                     </a>     
                                                 </div>
                                                 <div class="fetured-details">
-                                                    <a href="" class="featured-title-link fetured-link">
-                                                        <h2 class="featured-title title">The Strokes Announce North American Concerts</h2>
+                                                    <a href="{{ feature.url }}" class="featured-title-link fetured-link">
+                                                        <h2 class="featured-title title">{{ feature.title }}</h2>
                                                     </a>
                                                     <div class="featured-meta">
                                                         <div class="featured--byline">
                                                             <ul class="authors">
-                                                                <li><span class="display-name">by: Maddison Bloom</span></li>
+                                                                <li><span class="display-name">by: {{ feature.author }}</span></li>
                                                             </ul>
                                                         </div>
                                                         <p class="cat-date">
                                                             <a href="#" class="">
-                                                            Featured/History 
+                                                            {{ feature.post-category }}
                                                             </a>
                                                         </p>
                                                     </div>
                                                 </div>
                                             </div>
-
-                                            <div class="featured-item featured-card">
-                                                <div class="image module--visual">
-                                                    <a href="#">
-                                                        <!-- <figure>
-                                                            <picture class="artdirection--123"> -->
-                                                            <img src="../assets/images/img-4a.jpg" alt="a white man passport" class="img featured-image">  
-                                                            <!-- </picture>
-                                                        </figure> -->
-                                                    </a>     
-                                                </div>
-                                                <div class="fetured-details">
-                                                    <a href="" class="featured-title-link fetured-link">
-                                                        <h2 class="featured-title title">The Strokes Announce North American Concerts</h2>
-                                                    </a>
-                                                    <div class="featured-meta">
-                                                        <div class="featured--byline">
-                                                            <ul class="authors">
-                                                                <li><span class="display-name">by: Maddison Bloom</span></li>
-                                                            </ul>
-                                                        </div>
-                                                        <p class="cat-date">
-                                                            <a href="#" class="">
-                                                            Featured/History 
-                                                            </a>
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="featured-item featured-card">
-                                                <div class="image module--visual">
-                                                    <a href="#">
-                                                        <!-- <figure>
-                                                            <picture class="artdirection--123"> -->
-                                                            <img src="../assets/images/img-4a.jpg" alt="a white man passport" class="img featured-image">  
-                                                            <!-- </picture>
-                                                        </figure> -->
-                                                    </a>     
-                                                </div>
-                                                <div class="fetured-details">
-                                                    <a href="" class="featured-title-link fetured-link">
-                                                        <h2 class="featured-title title">The Strokes Announce North American Concerts</h2>
-                                                    </a>
-                                                    <div class="featured-meta">
-                                                        <div class="featured--byline">
-                                                            <ul class="authors">
-                                                                <li><span class="display-name">by: Maddison Bloom</span></li>
-                                                            </ul>
-                                                        </div>
-                                                        <p class="cat-date">
-                                                            <a href="#" class="">
-                                                            Featured/History 
-                                                            </a>
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="featured-item featured-card">
-                                                <div class="image module--visual">
-                                                    <a href="#">
-                                                        <!-- <figure>
-                                                            <picture class="artdirection--123"> -->
-                                                            <img src="../assets/images/img-4a.jpg" alt="a white man passport" class="img featured-image">  
-                                                            <!-- </picture>
-                                                        </figure> -->
-                                                    </a>     
-                                                </div>
-                                                <div class="fetured-details">
-                                                    <a href="" class="featured-title-link fetured-link">
-                                                        <h2 class="featured-title title">The Strokes Announce North American Concerts</h2>
-                                                    </a>
-                                                    <div class="featured-meta">
-                                                        <div class="featured--byline">
-                                                            <ul class="authors">
-                                                                <li><span class="display-name">by: Maddison Bloom</span></li>
-                                                            </ul>
-                                                        </div>
-                                                        <p class="cat-date">
-                                                            <a href="#" class="">
-                                                            Featured/History 
-                                                            </a>
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                            {% endfor %}
                                         </div>
                                     </li>
                                     
@@ -295,7 +210,7 @@ layout: compress
                                     </li>
                                 </ul>
                             </section> 
-                            <section id="section" class="main-page-posts featured-post-padding">
+                            <section id="section" class="main-page-posts featured-post-padding video-z">
                                 <h3 class="section-title section-header">Videos</h3>
                                 <ul class="main-page-posts-lists">
                                     <li class="post-module inner-section-padding">
@@ -420,7 +335,7 @@ layout: compress
                                     
                                 </ul>
                             </section> 
-                            <section id="section" class="main-page-posts featured-post-padding">
+                            <section id="section" class="main-page-posts featured-post-padding gallery-z">
                                 <h3 class="section-title section-header">Gallery</h3>
                                 <ul class="main-page-posts-lists">
                                     <li class="post-module inner-section-padding">
@@ -621,165 +536,27 @@ layout: compress
                                 <h2><a href="/" class="title-link">Latest News From Home</a></h2>
                             </div>
                             <ul class="latest-list">
+                            {% for latest in site.categories.latest-news %}
                                 <li class="mb-5">
-                                    <a href="">
+                                    <a href="{{ site.baseurl}}{{ latest.url}}">
                                         <div class="latest-module-content">
                                             <div class="latest-img pos-rel bd-ovf" style="padding-bottom: 56.38888888888888886%;">
-                                                <img src="../assets/images/img-1a.jpg" alt="" class="pos-rel">
+                                                <img src="{{ site.baseurl}}{{ latest.image-path}}/{{ latest.image }}" alt="" class="pos-rel">
                                             </div>
                                             <section class="latest-module-detail">
-                                                <h4>How Nwangele is breaking grounds on new health care kit</h4>
+                                                <h4>{{ latest.title }}</h4>
                                                 <div class="latest-byline">
                                                     <div class="author">
-                                                        <p class="mb-0 author-name">by: Nina Nkemakonam /</p> 
-                                                        <div class="cat">News</div>
+                                                        <p class="mb-0 author-name">by:  {{ latest.author }} /</p> 
+                                                        <div class="cat">{{ latest.type }}</div>
                                                     </div>
-                                                    <div class="site-name">nwangele post</div>
+                                                    <div class="site-name">{{ latest.publisher }}</div>
                                                 </div>
                                             </section>                
-                                        </div>
+                                        </div> 
                                     </a>
                                 </li>
-
-                                <li class="mb-5">
-                                    <a href="">
-                                        <div class="latest-module-content">
-                                            <div class="latest-img pos-rel bd-ovf" style="padding-bottom: 56.38888888888888886%;">
-                                                <img src="../assets/images/img-3a.jpg" alt="" class="pos-rel">
-                                            </div>
-                                            <section class="latest-module-detail">
-                                                <h4>How Nwangele is breaking grounds on new health care kit</h4>
-                                                <div class="latest-byline">
-                                                    <div class="author">
-                                                        <p class="mb-0 author-name">by: Nina Nkemakonam /</p> 
-                                                        <div class="cat">News</div>
-                                                    </div>
-                                                    <div class="site-name">nwangele post</div>
-                                                </div>
-                                            </section>                
-                                        </div>
-                                    </a>
-                                </li>
-
-                                <li class="mb-5">
-                                    <a href="">
-                                        <div class="latest-module-content">
-                                            <div class="latest-img pos-rel bd-ovf" style="padding-bottom: 56.38888888888888886%;">
-                                                <img src="../assets/images/img-2a.jpg" alt="" class="pos-rel">
-                                            </div>
-                                            <section class="latest-module-detail">
-                                                <h4>How Nwangele is breaking grounds on new health care kit</h4>
-                                                <div class="latest-byline">
-                                                    <div class="author">
-                                                        <p class="mb-0 author-name">by: Nina Nkemakonam /</p> 
-                                                        <div class="cat">News</div>
-                                                    </div>
-                                                    <div class="site-name">nwangele post</div>
-                                                </div>
-                                            </section>                
-                                        </div>
-                                    </a>
-                                </li>
-
-                                <li class="mb-5">
-                                    <a href="">
-                                        <div class="latest-module-content">
-                                            <div class="latest-img pos-rel bd-ovf" style="padding-bottom: 56.38888888888888886%;">
-                                                <img src="../assets/images/img-5a.jpg" alt="" class="pos-rel">
-                                            </div>
-                                            <section class="latest-module-detail">
-                                                <h4>How Nwangele is breaking grounds on new health care kit</h4>
-                                                <div class="latest-byline">
-                                                    <div class="author">
-                                                        <p class="mb-0 author-name">by: Nina Nkemakonam /</p> 
-                                                        <div class="cat">News</div>
-                                                    </div>
-                                                    <div class="site-name">nwangele post</div>
-                                                </div>
-                                            </section>                
-                                        </div>
-                                    </a>
-                                </li>
-
-                                <li class="mb-5">
-                                    <a href="">
-                                        <div class="latest-module-content">
-                                            <div class="latest-img pos-rel bd-ovf" style="padding-bottom: 56.38888888888888886%;">
-                                                <img src="../assets/images/img-4a.jpg" alt="" class="pos-rel">
-                                            </div>
-                                            <section class="latest-module-detail">
-                                                <h4>How Nwangele is breaking grounds on new health care kit</h4>
-                                                <div class="latest-byline">
-                                                    <div class="author">
-                                                        <p class="mb-0 author-name">by: Nina Nkemakonam /</p> 
-                                                        <div class="cat">News</div>
-                                                    </div>
-                                                    <div class="site-name">nwangele post</div>
-                                                </div>
-                                            </section>                
-                                        </div>
-                                    </a>
-                                </li>
-
-                                <li class="mb-5">
-                                    <a href="">
-                                        <div class="latest-module-content">
-                                            <div class="latest-img pos-rel bd-ovf" style="padding-bottom: 56.38888888888888886%;">
-                                                <img src="../assets/images/img-1a.jpg" alt="" class="pos-rel">
-                                            </div>
-                                            <section class="latest-module-detail">
-                                                <h4>How Nwangele is breaking grounds on new health care kit</h4>
-                                                <div class="latest-byline">
-                                                    <div class="author">
-                                                        <p class="mb-0 author-name">by: Nina Nkemakonam /</p> 
-                                                        <div class="cat">News</div>
-                                                    </div>
-                                                    <div class="site-name">nwangele post</div>
-                                                </div>
-                                            </section>                
-                                        </div>
-                                    </a>
-                                </li>
-
-                                <li class="mb-5">
-                                    <a href="">
-                                        <div class="latest-module-content">
-                                            <div class="latest-img pos-rel bd-ovf" style="padding-bottom: 56.38888888888888886%;">
-                                                <img src="../assets/images/img-3a.jpg" alt="" class="pos-rel">
-                                            </div>
-                                            <section class="latest-module-detail">
-                                                <h4>How Nwangele is breaking grounds on new health care kit</h4>
-                                                <div class="latest-byline">
-                                                    <div class="author">
-                                                        <p class="mb-0 author-name">by: Nina Nkemakonam /</p> 
-                                                        <div class="cat">News</div>
-                                                    </div>
-                                                    <div class="site-name">nwangele post</div>
-                                                </div>
-                                            </section>                
-                                        </div>
-                                    </a>
-                                </li>
-
-                                <li class="mb-5">
-                                    <a href="">
-                                        <div class="latest-module-content">
-                                            <div class="latest-img pos-rel bd-ovf" style="padding-bottom: 56.38888888888888886%;">
-                                                <img src="../assets/images/img-2a.jpg" alt="" class="pos-rel">
-                                            </div>
-                                            <section class="latest-module-detail">
-                                                <h4>How Nwangele is breaking grounds on new health care kit</h4>
-                                                <div class="latest-byline">
-                                                    <div class="author">
-                                                        <p class="mb-0 author-name">by: Nina Nkemakonam /</p> 
-                                                        <div class="cat">News</div>
-                                                    </div>
-                                                    <div class="site-name">nwangele post</div>
-                                                </div>
-                                            </section>                
-                                        </div>
-                                    </a>
-                                </li>
+                            {% endfor %}
                             </ul>
                         </div>                        
                     </div>

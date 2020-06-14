@@ -17,29 +17,29 @@ layout: compress
                 <div class="inner-site-container post-container">
                     <article>
                         <div class="post-article-mobile-header"></div>
-                        <div class="article-header">
+                        <div class="article-header"> 
                             <figure class="post-article-figure">
                                 <div class="pos-rel post-article-img-container">
                                     <div class="post-article-img">
-                                        <img src="{{ site.url }}/assets/images/banner-1.png" alt="" srcset="">
+                                        <img src="{{ site.url }}/{{ page.image-path }}/{{ page.image }}" alt="" srcset="">
                                     </div>  
-                                    <div class="img-credit">Reuters/Silva</div>                                  
+                                    <div class="img-credit">{{ page.image-credit }}</div>                                  
                                 </div>
-                                <figcaption class="post-article-img-caption">Long-Johnny-Walker</figcaption>
+                                <figcaption class="post-article-img-caption">{{ page.image-caption }}</figcaption>
                             </figure>
                             <div class="post-article-title">
-                                <div class="post-article-cat">Realtions</div>
+                                <div class="post-article-cat">{{ page.post-category }}</div>
                                 <h1>{{ page.title }}</h1>
                                 <div class="author-meta">
                                     <ul class="post-authors">
                                         <li>
                                             <a href="" class="post-author-link">
                                                 <span>by:</span>
-                                                Zainab Ogechi Nnamani
+                                                {{ page.author}}
                                             </a>
                                         </li>
                                     </ul>
-                                    <time class="post-pub-date" datetime="" title="Mon 27 2020 22:01:58">January 06 2020</time>                                    
+                                    <time class="post-pub-date" datetime="" title="{{ page.date-custom}}">{{ page.pub-date }}</time>                                    
                                 </div>
                             </div>      
                         </div>
@@ -50,7 +50,7 @@ layout: compress
                                         <li>
                                             <a href="" class="post-author-link">
                                                 <span>by:</span>
-                                                Zainab Ogechi Nnamani
+                                                {{ page.author }}
                                             </a>
                                         </li>
                                     </ul>
@@ -58,7 +58,7 @@ layout: compress
                                 </div>
                                 <ul class="post-tag-lists">
                                     <li class="tag-list_item">
-                                        <a href="#" class="post-tag-link">Abba</a>
+                                        <a href="#" class="post-tag-link post-tag-area">Abba</a>
                                     </li>
                                 </ul>
                             </div>
@@ -67,7 +67,7 @@ layout: compress
                                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam natus laudantium eius quos ut sapiente ea repudiandae itaque dignissimos perspiciatis explicabo harum obcaecati inventore ipsum placeat consectetur autem quod doloribus minus, rem praesentium. Perspiciatis hic, quisquam praesentium nulla, architecto eligendi delectus reprehenderit, illum aperiam sint sit corrupti totam laudantium voluptatum.</p>
                             </div>
                             <div class="post-message">
-                                <p class="helllo">
+                                <p class="hello">
                                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error doloribus doloremque quas?
                                 </p>
                             </div>
@@ -79,9 +79,9 @@ layout: compress
                                         <ul class="post-tag__list"> 
                                             <h6 class="post-footer-titles">tags in this story</h6>   
                                             <li>
-                                                <a href="">Amaigbo</a>
-                                                <a href="/">Traditional Knowledge</a>
-                                                <a href="#">Chalk</a>
+                                                <a href="#">{{ page.post-tag-1}}</a>
+                                                <a href="#">{{ page.post-tag-2}}</a>
+                                                <a href="#">{{ page.post-tag-3}}</a>
                                             </li>
                                         </ul>
                                     </div>

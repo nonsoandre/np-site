@@ -1,0 +1,164 @@
+---
+layout: compress
+title: Gallery
+---
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include head.html %}
+</head>
+<body>
+   <div id="main">
+       <div class="div-wrapper">
+        {% include nav.html %}   
+       </div>
+        <main id="site-content">
+            <div class="homepage">
+                <div class="inner-site-container">
+                    <header class="page-feature-header">
+                        
+                        <!-- <h1 class="page-intro--title"> Photo Gallery</h1>
+                        <div class="type-desc">Potriats, Live shots amd photo essays that put a torch on our world.</div> -->
+                        <div class="container-fluid">
+                            <div class="page-title">
+                                <h1>Photo Gallery</h1>
+                                <p class="page-feature--sub-title">Stories the take a comprehensive look at what defines our history today</p>
+                            </div>                            
+                        </div>
+                    </header>
+
+                    <div class="features-type feature-page">
+                        <div class="container-block">
+                            <div class="container-clear-fix">
+                                <div class="feature-page-fragments">
+                                    <div class="container-fluid">
+
+                                        <style TYPE="text/css">
+                                            .gallery-wrapper {
+                                              width: 35em;
+                                              text-align: center;
+                                              padding: 1em 0 4em 0;
+                                            }
+                                            .gallery-best-image{
+                                              max-height: 20em;
+                                              max-width: 20em;
+                                            }
+                                            </style>
+                                            {% for gallery in page.galleries %}
+                                            <div class="gallery-wrapper">
+                                                <a href="{{ gallery['gallery'] }}">
+                                                    <img class="gallery-best-image" src="{{ gallery['gallery'] }}/thumbs/{{ gallery['best_image'] }}">
+                                                </a>
+                                                <h3><a href="{{ gallery['gallery'] }}">{{ gallery["name"] }}</a></h3>
+                                                {{ gallery["images"] | size }} image{% if gallery["images"].size != 1 %}s{% endif %}
+                                            </div>
+                                            {% endfor %}
+                                        <div class="second-tier module-row">
+                                        
+                                            {% for gallery in page.galleries %}
+                                            <div class="feature-module module module-with-abstract">
+                                                <div class="module_img module__visual">
+                                                    <a href="{{ site.url}}{{ galleries.url }}" class="image-link">
+                                                        <span class="sr-only">A short message that displays module title</span>
+                                                        <img class="module_image"  src="../assets/images/feature-modules/pitchforkpplheader.jpg" alt="">
+                                                        <div class="overlay"></div>
+                                                    </a>
+                                                    <a href="#" class="type">Rising</a>
+                                                </div>
+                                                <div class="article-details module__article-details">
+                                                    <a href="{{ site.url}}{{ feature.url }}" class="title-link module__title-link">
+                                                        <h2 class="module__title">
+                                                            Talking beyond Buzz Words
+                                                        </h2>
+                                                    </a>
+                                                    <div class="abstract module__abstract">
+                                                        <p>The race against time when we cant stop and we find ourselves running through the red lights</p>
+                                                    </div>
+                                                    <div class="module__meta meta">
+                                                        <div class="bylne module__byline">
+                                                            <ul class="authors module__authors">
+                                                                <li><span class="display-name">
+                                                                    by: Oluchi Gramesz /
+                                                                </span></li>
+                                                            </ul>
+                                                        </div>
+                                                        <p class="date feature-module__date">
+                                                            <time class="pub-date" datetime="" title="">
+                                                                january 15 2020
+                                                            </time>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="module__highlights"></div>
+                                            </div>
+                                        
+                                            {% endfor %}
+                                        
+                                            {% for feature in site.categories.Feature %}
+                                            <div class="feature-module module module-with-abstract">
+                                                <div class="module_img module__visual">
+                                                    <a href="{{ site.url}}{{ feature.url }}" class="image-link">
+                                                        <span class="sr-only">A short message that displays module title</span>
+                                                        <img class="module_image"  src="../assets/images/feature-modules/pitchforkpplheader.jpg" alt="">
+                                                        <div class="overlay"></div>
+                                                    </a>
+                                                    <a href="#" class="type">Rising</a>
+                                                </div>
+                                                <div class="article-details module__article-details">
+                                                    <a href="{{ site.url}}{{ feature.url }}" class="title-link module__title-link">
+                                                        <h2 class="module__title">
+                                                            {{ feature.title }}
+                                                        </h2>
+                                                    </a>
+                                                    <div class="abstract module__abstract">
+                                                        <p>The race against time when we cant stop and we find ourselves running through the red lights</p>
+                                                    </div>
+                                                    <div class="module__meta meta">
+                                                        <div class="bylne module__byline">
+                                                            <ul class="authors module__authors">
+                                                                <li><span class="display-name">
+                                                                    by: Oluchi Gramesz /
+                                                                </span></li>
+                                                            </ul>
+                                                        </div>
+                                                        <p class="date feature-module__date">
+                                                            <time class="pub-date" datetime="" title="">
+                                                                january 15 2020
+                                                            </time>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="module__highlights"></div>
+                                            </div>
+                                        
+                                            {% endfor %}
+                                        
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+                </div>    
+            </div>
+        </main>
+    {% include footer.html %}
+   </div>
+   {% include mobi-footer.html %}
+   <script src="../assets/js/hamburger.js "></script>
+   <script src="../assets/js/horizontal-mod.js "></script>
+</body>
+</html>

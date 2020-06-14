@@ -25,46 +25,21 @@ title: Latest stories
                     <div class="article-container">
                         <div class="container">
                             <div class="article-inner-container">
-
-                                <article class="article-details context-list article-summary">
-                                   <div class="sub-article-details context-list">
-                                        <a href="" class="article-link">
-                                            <figure class="article-figure size-medium">
-                                                <div class=" visible pb-cent article-img-box">
-                                                    <img src="../assets/images/img-5a.jpg" srcset="" alt="">
-                                                </div>
-                                            </figure>
-                                            <div class="article-meta local">
-                                                <div class="article-context meta-details"></div>
-                                                <h3>Coronavirus presence: How we Africans are looking to God for protection</h3>
-                                                <div class="site-name"><span>BBC UK</span></div>
-                                                <div class="article-info">
-                                                    <div class="author">By Sam Ndukwe</div>
-                                                    <div class="cat">
-                                                        <span>News / </span>
-                                                        <span class="date">January 20 2020</span>
-                                                    </div> 
-                                                </div>
-
-                                            </div>
-                                        </a>
-                                   </div>
-                                </article>
-                            {% for post in site.posts %}
+                            {% for latest in site.categories.latest-news limit: 8 %}
                                 <article class="article-details context-list article-summary">
                                     <div class="sub-article-details context-list">
-                                        <a href="{{ site.url }}{{ post.url }}" class="article-link">
+                                        <a href="{{ site.url }}{{ latest.url }}" class="article-link">
                                             <figure class="article-figure size-medium">
                                                 <div class=" visible pb-cent article-img-box">
-                                                    <img src="{{ site.url }}/assets/images/img-5a.jpg" srcset="" alt="">
+                                                    <img src="{{ site.baseurl}}{{ latest.image-path}}/{{ latest.image }}" srcset="" alt="">
                                                 </div>
                                             </figure>
                                             <div class="article-meta local">
                                                 <div class="article-context meta-details">{{ page.location }}</div>
                                                 <h3>{{ post.title }}</h3>
-                                                <div class="site-name"><span>{{ post.publisher }}</span></div>
+                                                <div class="site-name"><span>{{ latest.publisher }}</span></div>
                                                 <div class="article-info">
-                                                    <div class="author">By {{ post.author }}</div>
+                                                    <div class="author">By {{ latest.author }}</div>
                                                     <div class="cat">
                                                         <span>{{ post.category}} / </span>
                                                         <span class="date">{{ post.date-custom }}</span>
@@ -76,30 +51,6 @@ title: Latest stories
                                     </div>
                                 </article>
                                 {% endfor %}
-                                <!-- <article class="article-details context-list article-summary">
-                                    <div class="sub-article-details context-list">
-                                         <a href="" class="article-link">
-                                             <figure class="article-figure size-medium">
-                                                 <div class="pos-rel visible pb-cent article-img-box">
-                                                     <img src="../assets/images/img-5a.jpg" srcset="" alt="">
-                                                 </div>
-                                             </figure>
-                                             <div class="article-meta international">
-                                                 <div class="article-context meta-details"></div>
-                                                 <h3>Coronavirus presence: How we Africans are looking to God for protection</h3>
-                                                 <div class="site-name"><span>BBC UK</span></div> -->
-                                                 <div class="article-info">
-                                                     <!-- <div class="author">By Sam Ndukwe</div> -->
-                                                     <div class="cat">
-                                                         <!-- <span style="font-weight: 700; font-size: 13px;"> BBC </span> -->
-                                                         <!-- <span class="date">January 20 2020</span> -->
-                                                     <!-- </div> 
-                                                 </div>
- 
-                                             </div>
-                                         </a>
-                                    </div>
-                                </article> -->
                             </div>
                         </div>
 

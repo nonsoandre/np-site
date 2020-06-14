@@ -4,9 +4,20 @@ title: How the Nwangele River became the source of community unity among men
 tags: [Outreachy Internship]
 location: Nwangele
 category: latest-news
-author: Zainab Okoye
+type: news
+image-path: assets\images\uploads\latest-news
+image: Boards-of-Canada.jpg
+image-caption: borads of Canada
+image-credit: Reuters/Anthony 
+image-alt: trancemusic
+author: Chinyere Nwosu
 date-custom: January 03 2020
 publisher: Nwangele Post
+post-category: Experience
+post-quote: thanks to the reports and resources from my mentor, but that's not to say that I    haven't encountered some challenges.
+post-tag-1: nkwerre
+post-tag-2: society
+post-tag-area: Nkwerre
 ---
 
 My internship with wikimedia officially kicked off on the 3rd of december 2019. I had a chat session with my mentor where my project tasks were outlined. My first task was to work on pages that weren't completed during the contribution period. I started working on my first task and so far I've been able to work on three pages, create 3 PRs and currently working on the fourth one. The journey so far has been a lot easier for me, thanks to the reports and resources from my mentor, but that's not to say that I haven't encountered some challenges.

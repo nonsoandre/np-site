@@ -305,10 +305,12 @@ strong{
     .author{
         display: flex;
         text-transform: uppercase;
+        align-items: center;
         @include font-size(12px);
         line-height: 1.2;
         & .author-name{
-          font-size: 12px;  
+          font-size: 12px; 
+          text-transform: capitalize; 
         }
         .cat{
             margin-left: 5px;

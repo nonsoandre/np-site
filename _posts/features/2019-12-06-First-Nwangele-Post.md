@@ -1,12 +1,26 @@
 ---
 layout: post
-title: Nwangele Post first Post that was 
+title: What it feels like being a wikipedia intern for a week
 tags: [Outreachy Internship]
-location: Abba
+location: Nwangele
 category: Feature
-author: Zainab Okoye
-date-custom: December 06 2019
-publisher: Zaycodes
+level: cover
+type: news
+image-path: assets\images\uploads\feature-modules
+image: Priests.jpg
+image-caption: Priests
+image-credit: Reuters/Anthony 
+image-alt: trancemusic
+author: Fabian Ekwi
+date-custom: April 29 2020
+publisher: Nwangele Post
+pub-date: December 06 2020
+post-category: Music/Concert
+post-quote: thanks to the reports and resources from my mentor, but that's not to say that I    haven't encountered some challenges.
+post-tag: music
+post-tag-2: society
+post-tag-area: 
+link: https//www.np.com/latest-news/2020/05/02/two-killed-in-armed-robbery-gone-wrong-in-nkwerre/ 
 ---
 
 
@@ -24,7 +38,11 @@ Fastforward few weeks later I submitted my initial application and was ecstatic 
 
 #### Selecting a Project
 
-The contribution phase kicked off on 1st of October and lasted for about a month. It came with the dilemma of selecting a project from the numerous list of projects to contribute to. I wanted to make contributions to at least two different projects to increase my chances of getting selected. I went through all the projects and read their descriptions and required skill set to find a project that matches my skillset and where I knew I could make a difference. I was happy when I came across Mediawiki's project `Documentation improvements to the ~20 top 100 most viewed MediaWiki Action API pages on-wiki`. Wikipedia has always been a primary source of content when carrying out any research for me, from solving school assignments to undergraduate thesis, to post-graduate studies, my software-development career and even getting information on the fly. Though I hadn't contributed to wikimedia before, although I have worked on improving documentation for an organization before and managed their engineering blog, I decided to take a leap of faith by applying with the mindset that even if I didn't get accepted, I will have the opportunity to contribute to improving the experience of thousands of developers who utilize Mediawiki's API and be able to give back to the community that has helped me by so doing. So with that mindset, I chose wikimedia and my contribution phase began.
+The contribution phase kicked off on 1st of October and lasted for about a month. It came with the dilemma of selecting a project from the numerous list of projects to contribute to. I wanted to make contributions to at least two different projects to increase my chances of getting selected. I went through all the projects and read their descriptions and required skill set to find a project that matches my skillset and where I knew I could make a difference. I was happy when I came across Mediawiki's project `Documentation improvements to the ~20 top 100 most viewed MediaWiki Action API pages on-wiki`. Wikipedia has always been a primary source of content when carrying out any research for me, from solving school 
+
+![mosiac feature of drillz concert]({{ site.baseurl}}/assets/images/feature-modules/drill-wide-still.jpg)
+
+assignments to undergraduate thesis, to post-graduate studies, my software-development career and even getting information on the fly. Though I hadn't contributed to wikimedia before, although I have worked on improving documentation for an organization before and managed their engineering blog, I decided to take a leap of faith by applying with the mindset that even if I didn't get accepted, I will have the opportunity to contribute to improving the experience of thousands of developers who utilize Mediawiki's API and be able to give back to the community that has helped me by so doing. So with that mindset, I chose wikimedia and my contribution phase began.
 
 ### Contributing
 
