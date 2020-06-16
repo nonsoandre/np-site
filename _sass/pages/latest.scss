@@ -111,6 +111,10 @@
         display: flex;
         flex-direction: row;
         align-items: center;
+
+        &:hover{
+            color: unset;
+        }
     }
 
     & .article-figure{
@@ -206,3 +210,48 @@
     }   
 }
 
+
+
+//Repairs
+.context-list .article-meta .meta-details {
+    display: flex;
+}
+.feed_item-author {
+    display: flex;
+    margin-left: .35em;
+
+    @media (max-width: 300px){
+        font-size: 10px
+    }
+    @media (max-width: 425px){
+        font-size: 12px
+    }
+}
+.article-context > span {
+    font-weight: 800;
+    color: $color-accent;
+
+    @media (max-width: 300px){
+        font-size: 10px
+    }
+    @media (max-width: 425px){
+        font-size: 12px
+    }
+}
+.context-list .article-meta h3 {
+    margin-top: 0;
+}
+.feed_item-author .author {
+    width: 250px;
+    max-width: 300px;
+    margin-left: .35em;
+    color: $color-accent;
+    font-weight: lighter;
+}
+.context-list .article-meta h3:hover {
+    color: black;
+    text-decoration: underline;
+}
+.article-info .author {
+ display: none;   
+}

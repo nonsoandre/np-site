@@ -31,18 +31,24 @@ title: Latest stories
                                         <a href="{{ site.url }}{{ latest.url }}" class="article-link">
                                             <figure class="article-figure size-medium">
                                                 <div class=" visible pb-cent article-img-box">
-                                                    <img src="{{ site.baseurl}}{{ latest.image-path}}/{{ latest.image }}" srcset="" alt="">
+                                                    <img src="{{ site.url}}/{{ latest.image-path}}/{{ latest.image }}" srcset="" alt="">
                                                 </div>
                                             </figure>
                                             <div class="article-meta local">
-                                                <div class="article-context meta-details">{{ page.location }}</div>
-                                                <h3>{{ post.title }}</h3>
+                                                <div class="article-context meta-details">
+                                                    <span>{{ latest.location }}</span>
+                                                    <address class="feed_item-author">
+                                                        <span class="article-spacer">|</span>
+                                                        <div class="author">By {{ latest.author }}</div>
+                                                    </address>
+                                                </div>
+                                                <h3>{{ latest.title }}</h3>
                                                 <div class="site-name"><span>{{ latest.publisher }}</span></div>
                                                 <div class="article-info">
                                                     <div class="author">By {{ latest.author }}</div>
                                                     <div class="cat">
-                                                        <span>{{ post.category}} / </span>
-                                                        <span class="date">{{ post.date-custom }}</span>
+                                                        <!-- <span>{{ latest.category}} / </span> -->
+                                                        <span class="date">{{ latest.date-custom }}</span>
                                                     </div> 
                                                 </div>
 
