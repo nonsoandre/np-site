@@ -744,3 +744,38 @@
     display: table;
     clear: both;
 }
+
+//Repairs
+@media only screen and (min-width: 768px){
+    .module__article-details {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .module-row {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+    }
+
+    .module, .module__visual, .module__visual a {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+    }
+
+    .module, .module__visual {
+        flex-direction: column;
+    }
+}

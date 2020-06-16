@@ -44,37 +44,41 @@ title: Features
                                 <div class="feature-page-fragments">
                                     <div class="container-fluid">
                                         <div class="feature-hero-module-container">
+                                            {% for feature in site.categories.feature %}
+                                            {% if feature.level == "cover" %}
                                             <div class="feature-hero module">
                                                 <div class="feature-image image module__visual">
-                                                    <a href="#" class="image-link">
-                                                        <img src="../assets/images/feature-modules/1Trance.jpg" alt="" class="module__img">
+                                                    <a href="{{ feature.url }}" class="image-link">
+                                                        <img src="{{ site.url}}/{{ feature.image-thumb-path}}/{{ feature.image }}" alt="{{ feature.image-alt }}" class="module__img">
                                                         <div class="overlay"></div>
                                                     </a>
-                                                    <a href="#" class="feature-type type">Investigative</a>
+                                                    <a href="#" class="feature-type type">{{ feature.type }}</a>
                                                 </div>
                                                 <div class="feature-article-details module__article-details">
-                                                    <a href="#" class="title-link">
+                                                    <a href="{{ feature.url }}" class="title-link">
                                                         <h2 class="feature-title module__title">
-                                                            How the great Isu kingdom was broken into villages
+                                                            {{ feature.title }}
                                                         </h2>
                                                     </a>
                                                     <div class="feature-meta module__meta">
                                                         <div class="abstract module__abstract">
-                                                            <p>More than a year before the rapper’s death, the woman at the center of his domestic battery case granted a rare interview for a documentary about his life. Will the footage ever see the light of day?</p>
+                                                            <p> {{ feature.post-meta }} </p>
                                                         </div>
                                                         <div class="byline module__byline">
                                                             <ul class="authors module__authors">
-                                                                <li><span class="display-name">by: Chiamaka / </span></li>
+                                                                <li><span class="display-name">by: {{ feature.author }} / </span></li>
                                                             </ul>
-                                                            <time class="pub-date module_pub-date" datetime="" title="">
-                                                                January 16 2020
+                                                            <time class="pub-date module_pub-date" datetime=" {{ feature.pub-date }} " title="">
+                                                                {{ feature.pub-date }}
                                                             </time>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
+                                            {% endif %}
+                                            {% endfor %}
                                         </div>
-                                        <div class="second-tier module-row">
+                                        <!-- <div class="second-tier module-row">
                                             <div class="feature-module module module-with-abstract">
                                                 <div class="module_img module__visual">
                                                     <a href="#" class="image-link">
@@ -188,144 +192,52 @@ title: Features
 
 
 
-                                        </div>
+                                        </div> -->
                                     </div>
                                     <div class="third-tier compact-list">
                                         <div class="infinite-container">
                                             <div class="clerarfix">
                                                 <div class="features-fragment">
                                                     <div class="container-fluid">
-                                                        <div class="feature-module module">
-                                                            <div class="module_img module__visual">
-                                                                <a href="#" class="image-link">
-                                                                    <span class="sr-only">A short message that displays module title</span>
-                                                                    <img class="module_image"  src="../assets/images/feature-modules/1Kanye.jpg" alt="">
-                                                                    <div class="overlay"></div>
-                                                                </a>
-                                                                <a href="#" class="type">Rising</a>
-                                                            </div>
-                                                            <div class="article-details module__article-details">
-                                                                <a href="#" class="title-link module__title-link">
-                                                                    <h2 class="module__title">
-                                                                        Talking beyond Buzz Words
-                                                                    </h2>
-                                                                </a>
-                                                                <div class="module__meta meta">
-                                                                    <div class="bylne module__byline">
-                                                                        <ul class="authors module__authors">
-                                                                            <li><span class="display-name">
-                                                                                by: Oluchi Gramesz /
-                                                                            </span></li>
-                                                                        </ul>
-                                                                    </div>
-                                                                    <p class="date feature-module__date">
-                                                                        <time class="pub-date" datetime="" title="">
-                                                                            january 15 2020
-                                                                        </time>
-                                                                    </p>
+                                                        <div class="module-row">
+                                                            {% for feature in site.categories.feature %}
+                                                            {% if feature.level == "non-cover" %}
+                                                            <div class="feature-module module">
+                                                                <div class="module_img module__visual">
+                                                                    <a href="{{ feature.url }}" class="image-link">
+                                                                        <span class="sr-only"> {{ feature.title }}A short message that displays module title</span>
+                                                                        <img class="module_image"  src="{{ site.url}}/{{ feature.image-thumb-path}}/{{ feature.image }}" alt=" {{ feature.image-alt }} ">
+                                                                        <div class="overlay"></div>
+                                                                    </a>
+                                                                    <a href="#" class="type">{{ feature.type }}</a>
                                                                 </div>
-                                                            </div>
-                                                            <div class="highlight"></div>
-                                                        </div>
-                                                        
-                                                        <div class="feature-module module">
-                                                            <div class="module_img module__visual">
-                                                                <a href="#" class="image-link">
-                                                                    <span class="sr-only">A short message that displays module title</span>
-                                                                    <img class="module_image"  src="../assets/images/feature-modules/future.jpg" alt="">
-                                                                    <div class="overlay"></div>
-                                                                </a>
-                                                                <a href="#" class="type">Rising</a>
-                                                            </div>
-                                                            <div class="article-details module__article-details">
-                                                                <a href="#" class="title-link module__title-link">
-                                                                    <h2 class="module__title">
-                                                                        Talking beyond Buzz Words
-                                                                    </h2>
-                                                                </a>
-                                                                <div class="module__meta meta">
-                                                                    <div class="bylne module__byline">
-                                                                        <ul class="authors module__authors">
-                                                                            <li><span class="display-name">
-                                                                                by: Oluchi Gramesz /
-                                                                            </span></li>
-                                                                        </ul>
+                                                                <div class="article-details module__article-details">
+                                                                    <a href="{{ feature.url }}" class="title-link module__title-link">
+                                                                        <h2 class="module__title">
+                                                                            {{  feature.title }}
+                                                                        </h2>
+                                                                    </a>
+                                                                    <div class="module__meta meta">
+                                                                        <div class="bylne module__byline">
+                                                                            <ul class="authors module__authors">
+                                                                                <li><span class="display-name">
+                                                                                    by: {{ feature.author }}
+                                                                                </span></li>
+                                                                            </ul>
+                                                                        </div>
+                                                                        <p class="date feature-module__date">
+                                                                            <time class="pub-date" datetime="{{ feature.pub-date }}" title="">
+                                                                                {{ feature.pub-date }}
+                                                                            </time>
+                                                                        </p>
                                                                     </div>
-                                                                    <p class="date feature-module__date">
-                                                                        <time class="pub-date" datetime="" title="">
-                                                                            january 15 2020
-                                                                        </time>
-                                                                    </p>
                                                                 </div>
+                                                                <div class="highlight"></div>
                                                             </div>
-                                                            <div class="highlight"></div>
+                                                            {% endif %}
+                                                            {% endfor %}                                                            
                                                         </div>
 
-                                                        <div class="feature-module module">
-                                                            <div class="module_img module__visual">
-                                                                <a href="#" class="image-link">
-                                                                    <span class="sr-only">A short message that displays module title</span>
-                                                                    <img class="module_image"  src="../assets/images/feature-modules/Priests.jpg" alt="">
-                                                                    <div class="overlay"></div>
-                                                                </a>
-                                                                <a href="#" class="type">Rising</a>
-                                                            </div>
-                                                            <div class="article-details module__article-details">
-                                                                <a href="#" class="title-link module__title-link">
-                                                                    <h2 class="module__title">
-                                                                        Talking beyond Buzz Words
-                                                                    </h2>
-                                                                </a>
-                                                                <div class="module__meta meta">
-                                                                    <div class="bylne module__byline">
-                                                                        <ul class="authors module__authors">
-                                                                            <li><span class="display-name">
-                                                                                by: Oluchi Gramesz /
-                                                                            </span></li>
-                                                                        </ul>
-                                                                    </div>
-                                                                    <p class="date feature-module__date">
-                                                                        <time class="pub-date" datetime="" title="">
-                                                                            january 15 2020
-                                                                        </time>
-                                                                    </p>
-                                                                </div>
-                                                            </div>
-                                                            <div class="highlight"></div>
-                                                        </div>
-
-                                                        <div class="feature-module module">
-                                                            <div class="module_img module__visual">
-                                                                <a href="#" class="image-link">
-                                                                    <span class="sr-only">A short message that displays module title</span>
-                                                                    <img class="module_image"  src="../assets/images/feature-modules/NewPinegroveHeader.jpg" alt="">
-                                                                    <div class="overlay"></div>
-                                                                </a>
-                                                                <a href="#" class="type">Rising</a>
-                                                            </div>
-                                                            <div class="article-details module__article-details">
-                                                                <a href="#" class="title-link module__title-link">
-                                                                    <h2 class="module__title">
-                                                                        Talking beyond Buzz Words
-                                                                    </h2>
-                                                                </a>
-                                                                <div class="module__meta meta">
-                                                                    <div class="bylne module__byline">
-                                                                        <ul class="authors module__authors">
-                                                                            <li><span class="display-name">
-                                                                                by: Oluchi Gramesz /
-                                                                            </span></li>
-                                                                        </ul>
-                                                                    </div>
-                                                                    <p class="date feature-module__date">
-                                                                        <time class="pub-date" datetime="" title="">
-                                                                            january 15 2020
-                                                                        </time>
-                                                                    </p>
-                                                                </div>
-                                                            </div>
-                                                            <div class="highlight"></div>
-                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
