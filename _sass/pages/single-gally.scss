@@ -674,6 +674,19 @@ element {
     font-size: 1.8rem;
 }
 
+//Repairs
+.gallery-preview__photo{
+    height: 100px;
+}
+.gallery-preview__photo-btn{
+    height: 100%;
+}
+
+.gallery-preview__photo-btn img{
+    height: 100%;
+    object-fit: cover;
+}
+
 /* main.css | http://localhost:4000/assets/css/main.css */
 
 // .mobile-gallery--fs .mobile-gallery__carousel-item {
