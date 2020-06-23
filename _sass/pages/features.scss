@@ -757,7 +757,7 @@
         flex-direction: column;
     }
 
-    .module-row {
+    .feature-module-row {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -777,5 +777,9 @@
 
     .module, .module__visual {
         flex-direction: column;
+    }
+
+    .module_image{
+        height: 284.98px;
     }
 }

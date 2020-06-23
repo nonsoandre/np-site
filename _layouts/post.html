@@ -21,7 +21,7 @@ layout: compress
                             <figure class="post-article-figure">
                                 <div class="pos-rel post-article-img-container">
                                     <div class="post-article-img">
-                                        <img src="{{ site.url }}/{{ page.image-path }}/{{ page.image }}" alt="" srcset="">
+                                        <img src="{{ site.baseurl }}/{{ page.image-path }}/{{ page.image }}" alt="" srcset="">
                                     </div>  
                                     <div class="img-credit">{{ page.image-credit }}</div>                                  
                                 </div>
@@ -127,6 +127,6 @@ layout: compress
        {% include footer.html %}
    </div>
    {% include mobi-footer.html %}
-   <script src="{{ site.url }}/assets/js/hamburger.js "></script>
+   <script src="{{ site.baseurl }}/assets/js/hamburger.js "></script>
 </body>
 </html>

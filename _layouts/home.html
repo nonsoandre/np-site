@@ -19,7 +19,7 @@ layout: compress
                                 <figure class="img-module--container">
                                     <picture class="img img-banner artdirection">
                                         <source media="(max-width: 26.524em)" srcset="">
-                                            <img src="../assets/images/banner-1.png" alt="" class="module--image-box">
+                                            <img src="{{ site.baseurl }}/assets/images/banner-1.png" alt="" class="module--image-box">
                                     </picture>
                                     <figcaption class="banner-img-caption">
                                         <a href="#">*Long John Addidas</a>
@@ -33,7 +33,7 @@ layout: compress
                                         <a href="#" class="post-module-content">
                                             <figure>
                                                 <picture class="artdirection--123">
-                                                  <img src="../assets/images/img-3a.jpg" alt="a white man passport" class="img img-thumbnail sm-img-module">  
+                                                  <img src="{{ site.baseurl }}/assets/images/img-3a.jpg" alt="a white man passport" class="img img-thumbnail sm-img-module">  
                                                 </picture>
                                             </figure>                                        
                                             <div class="post-module-summary">
@@ -541,7 +541,7 @@ layout: compress
                                     <a href="{{ site.baseurl}}{{ latest.url}}">
                                         <div class="latest-module-content">
                                             <div class="latest-img pos-rel bd-ovf" style="padding-bottom: 56.38888888888888886%;">
-                                                <img src="{{ site.baseurl}}{{ latest.image-path}}/{{ latest.image }}" alt="" class="pos-rel">
+                                                <img src="{{ site.baseurl}}/{{ latest.image-path}}/{{ latest.image }}" alt="" class="pos-rel">
                                             </div>
                                             <section class="latest-module-detail">
                                                 <h4>{{ latest.title }}</h4>
@@ -566,6 +566,6 @@ layout: compress
         {% include footer.html %}
     </div>
     {% include mobi-footer.html %}
-    <script src="../assets/js/hamburger.js "></script>
+    <script src="{{ site.baseurl }}/assets/js/hamburger.js "></script>
 </body>
 </html>

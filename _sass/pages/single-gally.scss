@@ -273,7 +273,7 @@
     }
 
     .mobile-gallery__carousel-item {
-        width: 100vw;
+        // width: 100vw;
         margin: 0;
     }
 }
@@ -600,9 +600,9 @@
 // .mobile-gallery--fs .mobile-gallery__carousel-item {
 //     margin: 0 5em;
 // }
-.mobile-gallery--fs .mobile-gallery__carousel-item .carousel-img{
-    margin: 0 1.5em;
-}
+// .mobile-gallery--fs .mobile-gallery__carousel-item .carousel-img{
+//     margin: 0 1.5em;
+// }
 .mobile-gallery .flickity-viewport{
     min-height: 294px !important;
     max-height: 600px !important;
@@ -686,6 +686,20 @@ element {
     height: 100%;
     object-fit: cover;
 }
+.mobile-gallery--fs .mobile-gallery__carousel-item img{
+    position: relative;
+    top: -50px;
+}
+.mobile-gallery--fs .mobile-gallery__carousel-item{
+   margin: 0 2em;
+}
+.mobile-gallery__title{
+    padding-top: .5em;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
 
 /* main.css | http://localhost:4000/assets/css/main.css */
 

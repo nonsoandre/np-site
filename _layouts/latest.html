@@ -28,10 +28,10 @@ title: Latest stories
                             {% for latest in site.categories.latest-news limit: 8 %}
                                 <article class="article-details context-list article-summary">
                                     <div class="sub-article-details context-list">
-                                        <a href="{{ site.url }}{{ latest.url }}" class="article-link">
+                                        <a href="{{ site.baseurl }}{{ latest.url }}" class="article-link">
                                             <figure class="article-figure size-medium">
                                                 <div class=" visible pb-cent article-img-box">
-                                                    <img src="{{ site.url}}/{{ latest.image-path}}/{{ latest.image }}" srcset="" alt=" {{ latest.image-alt }} ">
+                                                    <img src="{{ site.baseurl}}/{{ latest.image-path}}/{{ latest.image }}" srcset="" alt=" {{ latest.image-alt }} ">
                                                 </div>
                                             </figure>
                                             <div class="article-meta local">
@@ -68,6 +68,6 @@ title: Latest stories
        {% include footer.html %}
    </div>
    {% include mobi-footer.html %}
-   <script src="../assets/js/hamburger.js "></script>
+   <script src="{{ site.baseurl }}/assets/js/hamburger.js "></script>
 </body>
 </html>
