@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What it feels like being a wikipedia intern for a week
-tags: [Outreachy Internship]
+tags: tech jekyll blog
 location: Nwangele
 category: feature
 level: cover

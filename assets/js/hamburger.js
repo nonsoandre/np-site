@@ -36,9 +36,21 @@ hamBtn.addEventListener('click', (e)=>{
 // }, false);
 
 //darkMode
+//get darkmode current settings in local storage
+let darkmode = localStorage.getItem('darkmode');
+console.log(darkmode);
+
+
 //get dm button
 const darkmodeToggle = document.querySelector('.switch-button input');
+console.dir(darkmodeToggle);
 
+//keep darkmode on if darkmode is already set to on
+if(darkmode === 'on'){
+    enableDarkMode();
+
+    darkmodeToggle.checked = 'true';
+}
 
 darkmodeToggle.addEventListener('click', e=>{
     darkMode = localStorage.getItem('darkmode');
@@ -86,20 +98,20 @@ function disableDarkMode(){
 //     zero = window.scrollX;
 // })
 
-var lastScrollTop = 10;
-var header = document.getElementById('header');
+// var lastScrollTop = 10;
+// var header = document.getElementById('header');
 
 
-window.addEventListener('scroll', function(){
-    var scrollTop = window.pageYOffset || this.document.documentElement.scrollTop;
+// window.addEventListener('scroll', function(){
+//     var scrollTop = window.pageYOffset || this.document.documentElement.scrollTop;
 
-    if(scrollTop > lastScrollTop){
-        header.classList.remove('show');
-        header.classList.add('hide');
-    }else{
-        header.classList.remove('hide');
-        header.classList.add('show');
-    }
+//     if(scrollTop > lastScrollTop){
+//         header.classList.remove('show');
+//         header.classList.add('hide');
+//     }else{
+//         header.classList.remove('hide');
+//         header.classList.add('show');
+//     }
 
-    lastScrollTop = scrollTop;
-})
+//     lastScrollTop = scrollTop;
+// })

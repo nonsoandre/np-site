@@ -782,4 +782,46 @@
     .module_image{
         height: 284.98px;
     }
+
+    .module__meta {
+        padding: unset;
+        
+    }
+
+    a:hover .module__title {
+        color: black;
+    }
+    .bylne .display-name {
+        font-size: .75rem
+    }
+    p.date.feature-module__date{
+        margin-top: -.65rem
+    }
+    .third-tier .feature-module .feature-module__date .pub-date {
+        font-size: .65rem;
+        
+    }
+
+    .third-tier .feature-module  .module__title{
+        font-size: 1.2rem!important;
+    }
+}
+
+
+.feature-module:hover .highlight {
+    height: 5px;
+}
+.highlight {
+    position: absolute;
+    height: 0;
+    transition: height .15s;
+    bottom: 0;
+    left: 20px;
+    right: 20px;
+    background: palegreen;
+}
+
+
+.feature-title {
+    color: black;
 }

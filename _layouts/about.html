@@ -1,6 +1,6 @@
 ---
 layout: compress
-title: Latest stories
+title: About
 ---
 
 <!DOCTYPE html>
@@ -20,7 +20,6 @@ title: Latest stories
                 <header class="page-intro">
                     <div class="type-desc">A Nwangele to the world project.</div>
                     <h1 class="page-intro--title"> A global touch on local news we can strongly relate to for new gneration.</h1>
-                    
                 </header>
 
                 <div class="about section-tier first-tier-section">
@@ -48,207 +47,41 @@ title: Latest stories
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi eum quidem expedita suscipit eveniet ducimus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse voluptates omnis explicabo eligendi.
                                     </p>
                                 </div>
-                            </div> 
+                            </div>   
                             
                             <div class="tier-row">
+                                {% for team in site.data.staff-teams %}
+                               
                                 <div class="editorial tier-module">
                                     <div class="title tier-module--title">
-                                        <h5>Team Editorial</h5> 
+                                        <h5>{{ team.name }}</h5> 
                                     </div>
     
                                     <div class="tier-module--members">
                                         <ul class="members--list">
+                                            {% for staff in site.data.staffs  %}
+                                            {% if staff.team == team.name  %}
                                             <li>
                                                 <div class="tier-member--image">
                                                     <div class="tier-image">
-                                                        <img src="../assets/images/feature-modules/KanyeWyoming.jpg" alt="" class="member-image">                
+                                                        <img src="{{ site.baseurl }}/assets/images/feature-modules/KanyeWyoming.jpg" alt="" class="member-image">                
                                                     </div>
                                                 </div>
                                                 <div class="title-member--details">
-                                                    <div class="name">Philip Gallagher</div>
-                                                    <div class="job-title">Chief Operating Officer</div>
+                                                    <div class="name">{{ staff.name }}</div>
+                                                    <div class="job-title">{{ staff.role }}</div>
                                                 </div>
                                             </li>
-
-                                            <li>
-                                                <div class="tier-member--image">
-                                                    <div class="tier-image">
-                                                        <img src="../assets/images/feature-modules/KanyeWyoming.jpg" alt="" class="member-image">                
-                                                    </div>
-                                                </div>
-                                                <div class="title-member--details">
-                                                    <div class="name">Philip Gallagher</div>
-                                                    <div class="job-title">Chief Operating Officer</div>
-                                                </div>
-                                            </li>
-
-                                            <li>
-                                                <div class="tier-member--image">
-                                                    <div class="tier-image">
-                                                        <img src="../assets/images/feature-modules/KanyeWyoming.jpg" alt="" class="member-image">                
-                                                    </div>
-                                                </div>
-                                                <div class="title-member--details">
-                                                    <div class="name">Philip Gallagher</div>
-                                                    <div class="job-title">Chief Operating Officer</div>
-                                                </div>
-                                            </li>
-
-                                            <li>
-                                                <div class="tier-member--image">
-                                                    <div class="tier-image">
-                                                        <img src="../assets/images/feature-modules/KanyeWyoming.jpg" alt="" class="member-image">                
-                                                    </div>
-                                                </div>
-                                                <div class="title-member--details">
-                                                    <div class="name">Philip Gallagher</div>
-                                                    <div class="job-title">Chief Operating Officer</div>
-                                                </div>
-                                            </li>
-
-                                            <li>
-                                                <div class="tier-member--image">
-                                                    <div class="tier-image">
-                                                        <img src="../assets/images/feature-modules/KanyeWyoming.jpg" alt="" class="member-image">                
-                                                    </div>
-                                                </div>
-                                                <div class="title-member--details">
-                                                    <div class="name">Philip Gallagher</div>
-                                                    <div class="job-title">Chief Operating Officer</div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <button type="button">Show more</button>
+                                            {% endif %}
+                                            {% endfor %}
+                                            <li class="abt-btn">
+                                                <button type="button" class="btn btn-abt">Show more</button>
                                             </li>
                                         </ul>
                                     </div>
                                 </div>
-
-
-
-                                <div class="editorial tier-module">
-                                    <div class="title tier-module--title">
-                                        <h5>Buisness Team</h5> 
-                                    </div>
-                                        <div class="tier-module--members">
-                                        <ul class="members--list">
-                                            <li>
-                                                <div class="tier-member--image">
-                                                    <div class="tier-image">
-                                                        <img src="../assets/images/feature-modules/KanyeWyoming.jpg" alt="" class="member-image">                
-                                                    </div>
-                                                </div>
-                                                <div class="title-member--details">
-                                                    <div class="name">Philip Gallagher</div>
-                                                    <div class="job-title">Chief Operating Officer</div>
-                                                </div>
-                                            </li>
-
-                                            <li>
-                                                <div class="tier-member--image">
-                                                    <div class="tier-image">
-                                                        <img src="../assets/images/feature-modules/KanyeWyoming.jpg" alt="" class="member-image">                
-                                                    </div>
-                                                </div>
-                                                <div class="title-member--details">
-                                                    <div class="name">Philip Gallagher</div>
-                                                    <div class="job-title">Chief Operating Officer</div>
-                                                </div>
-                                            </li>
-
-                                            <li>
-                                                <div class="tier-member--image">
-                                                    <div class="tier-image">
-                                                        <img src="../assets/images/feature-modules/KanyeWyoming.jpg" alt="" class="member-image">                
-                                                    </div>
-                                                </div>
-                                                <div class="title-member--details">
-                                                    <div class="name">Philip Gallagher</div>
-                                                    <div class="job-title">Chief Operating Officer</div>
-                                                </div>
-                                            </li>
-
-                                            <li>
-                                                <div class="tier-member--image">
-                                                    <div class="tier-image">
-                                                        <img src="../assets/images/feature-modules/KanyeWyoming.jpg" alt="" class="member-image">                
-                                                    </div>
-                                                </div>
-                                                <div class="title-member--details">
-                                                    <div class="name">Philip Gallagher</div>
-                                                    <div class="job-title">Chief Operating Officer</div>
-                                                </div>
-                                            </li>
-
-                                            <li>
-                                                <div class="tier-member--image">
-                                                    <div class="tier-image">
-                                                        <img src="../assets/images/feature-modules/KanyeWyoming.jpg" alt="" class="member-image">                
-                                                    </div>
-                                                </div>
-                                                <div class="title-member--details">
-                                                    <div class="name">Philip Gallagher</div>
-                                                    <div class="job-title">Chief Operating Officer</div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <button type="button">Show more</button>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-
-
-
-                                <div class="editorial tier-module">
-                                    <div class="title tier-module--title">
-                                        <h5>Team Editorial</h5> 
-                                    </div>
-    
-                                    <div class="tier-module--members">
-                                        <ul class="members--list">
-                                            <li>
-                                                <div class="tier-member--image">
-                                                    <div class="tier-image">
-                                                        <img src="../assets/images/feature-modules/KanyeWyoming.jpg" alt="" class="member-image">                
-                                                    </div>
-                                                </div>
-                                                <div class="title-member--details">
-                                                    <div class="name">Philip Gallagher</div>
-                                                    <div class="job-title">Chief Operating Officer</div>
-                                                </div>
-                                            </li>
-
-                                            <li>
-                                                <div class="tier-member--image">
-                                                    <div class="tier-image">
-                                                        <img src="../assets/images/feature-modules/KanyeWyoming.jpg" alt="" class="member-image">                
-                                                    </div>
-                                                </div>
-                                                <div class="title-member--details">
-                                                    <div class="name">Philip Gallagher</div>
-                                                    <div class="job-title">Chief Operating Officer</div>
-                                                </div>
-                                            </li>
-
-                                            <li>
-                                                <div class="tier-member--image">
-                                                    <div class="tier-image">
-                                                        <img src="../assets/images/feature-modules/KanyeWyoming.jpg" alt="" class="member-image">                
-                                                    </div>
-                                                </div>
-                                                <div class="title-member--details">
-                                                    <div class="name">Philip Gallagher</div>
-                                                    <div class="job-title">Chief Operating Officer</div>
-                                                </div>
-                                            </li>
-
-                                            <li>
-                                                <button type="button">Show more</button>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
+                                
+                                {% endfor %}
                             </div>
                         </div>
 
@@ -382,6 +215,6 @@ title: Latest stories
               {% include footer.html %}
    </div>
    {% include mobi-footer.html %}
-   <script src="{{ site.url }}/assets/js/hamburger.js "></script>
+   <script src="{{ site.baseurl }}/assets/js/hamburger.js "></script>
 </body>
 </html>

@@ -2,8 +2,8 @@
 title:                Nwangele Post
 deescription:         From Nwangele to the world
 logo:                 'assets/img/logo.png'
-baseurl:               /np.io/
-url:                   "http://localhost:4000/np.io/"
+baseurl:               
+url:                   
 
 
 # Jekyll
@@ -18,6 +18,9 @@ sass:
 collections:
    gallery:
     output: true
+   tags:
+    output: true
+    permalink: tags/
 
 
 plugins:

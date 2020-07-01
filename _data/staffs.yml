@@ -1,0 +1,183 @@
+- name: Gabriel Agbans
+  team: Editorial
+  role: Chief Publishing Officer
+  shortcode: gabby
+  twitter: gabbz_agba
+  bio: Gabby has the wrong qualifications and shouldn't be here. Fortunately no one told him and he went and became a freelance web developer anyway.
+
+- name: Kwame Kwado
+  team: Editorial
+  role: Editor-in-Place
+  shortcode: Kwame
+  twitter: kwae
+  bio: Kwame has the wrong qualifications and shouldn't be here. Fortunately no one told him and he went and became a freelance web developer anyway.
+
+
+- name: Oluchi Gramesz
+  team: Editorial
+  role: Editor
+  shortcode: oluchi
+  twitter: gabbz_agba
+  bio: Zell has the wrong qualifications and shouldn't be here. Fortunately no one told him and he went and became a freelance web developer anyway.
+
+- name: Angelina Okoli
+  team: Editorial
+  role: Executive Editor
+  shortcode: a.okoli
+  twitter: gabbz_agba
+  bio: Zell has the wrong qualifications and shouldn't be here. Fortunately no one told him and he went and became a freelance web developer anyway.
+
+- name: Fabian Ekwi
+  team: Editorial
+  role: Senior Editor
+  shortcode: ekwi
+  twitter: gabbz_agba
+  bio: Zell has the wrong qualifications and shouldn't be here. Fortunately no one told him and he went and became a freelance web developer anyway.
+
+- name: Gabriel Agbans
+  team: Editorial
+  role: Chief Publishing Officer
+  shortcode: gabby
+  twitter: gabbz_agba
+  bio: Zell has the wrong qualifications and shouldn't be here. Fortunately no one told him and he went and became a freelance web developer anyway.
+
+- name: Chinyere Nwosu
+  team: Buisness
+  role: Marketing & Promo Manager
+  shortcode: cnwosu
+  twitter: gabbz_agba
+  bio: Zell has the wrong qualifications and shouldn't be here. Fortunately no one told him and he went and became a freelance web developer anyway.
+
+- name: Jude Okoye
+  team: Product
+  role: Art Director
+  shortcode: gabby
+  twitter: gabbz_agba
+  bio: Zell has the wrong qualifications and shouldn't be here. Fortunately no one told him and he went and became a freelance web developer anyway.
+
+- name: Dwight Chinelo
+  team: Product
+  role: Site Engineer
+  shortcode: chinelo
+  twitter: gabbz_agba
+  bio: Zell has the wrong qualifications and shouldn't be here. Fortunately no one told him and he went and became a freelance web developer anyway.
+
+- name: Yemi Bolanke
+  team: Editorial
+  role: Feature Editor
+  shortcode: gabby
+  twitter: gabbz_agba
+  bio: Zell has the wrong qualifications and shouldn't be here. Fortunately no one told him and he went and became a freelance web developer anyway.
+
+- name: Jude Chris 
+  team: Product
+  role: Product Manager
+  shortcode: gabby
+  twitter: gabbz_agba
+  bio: Zell has the wrong qualifications and shouldn't be here. Fortunately no one told him and he went and became a freelance web developer anyway.
+
+- name: Zainab Okoye
+  team: Contributor
+  role: Co-editor, NP Foreign Events
+  shortcode: zaycodes
+  twitter: zaycodes
+  bio: Zay has the wrong qualifications and shouldn't be here. Fortunately no one told him and he went and became a freelance web developer anyway.
+
+- name: Zell Liew
+  team: Buisness
+  role: Customer Relation Manager
+  shortcode: gabby
+  twitter: gabbz_agba
+  bio: Zell has the wrong qualifications and shouldn't be here. Fortunately no one told him and he went and became a freelance web developer anyway.
+
+- name: Chinwe Nnadi
+  team: Buisness
+  role: Director, Promo & Marketing
+  shortcode: gabby
+  twitter: gabbz_agba
+  bio: Zell has the wrong qualifications and shouldn't be here. Fortunately no one told him and he went and became a freelance web developer anyway.
+
+- name: Dozie Eze
+  team: Buisness
+  role: Sales Manager
+  shortcode: gabby
+  twitter: gabbz_agba
+  bio: Zell has the wrong qualifications and shouldn't be here. Fortunately no one told him and he went and became a freelance web developer anyway.
+
+- name: Amadi Nwankwo
+  team: Buisness
+  role: Data Analytics
+  shortcode: gabby
+  twitter: gabbz_agba
+  bio: Zell has the wrong qualifications and shouldn't be here. Fortunately no one told him and he went and became a freelance web developer anyway.
+
+- name: Eric Baulkman
+  team: Buisness
+  role: Vice President, Buisness Development
+  shortcode: gabby
+  twitter: gabbz_agba
+  bio: Zell has the wrong qualifications and shouldn't be here. Fortunately no one told him and he went and became a freelance web developer anyway.
+
+- name: Zell Liew
+  team: Buisness
+  role: Director, Talent Acquisition and Devs
+  shortcode: gabby
+  twitter: gabbz_agba
+  bio: Zell has the wrong qualifications and shouldn't be here. Fortunately no one told him and he went and became a freelance web developer anyway.
+
+# zell:
+#   name: "Zell Liew"
+#   twitter: "zellwk"
+#   shortcode: "zell"
+#   bio: "Zell has the wrong qualifications and shouldn't be here. Fortunately no one told him and he went and became a freelance web developer anyway."
+#   Role: "Editorial"
+
+
+# Gabby:
+#   name: "Gabriel Agban"
+#   twitter: "gabby"
+#   shortcode: "gabby"
+#   bio: "For some of the reason unknown to mankind, gabby believes his real parents are from jupiter"
+#   Role: "Buisness"
+
+# Cindy:
+#   name: "Cindy Channel"
+#   twitter: "gabby"
+#   shortcode: "gabby"
+#   bio: "For some of the reason unknown to mankind, gabby believes his real parents are from jupiter"
+#   Role: "Buisness"
+
+# william:
+#   name: "William Lim"
+#   twitter: "wlwlz"
+#   shortcode: "william"
+#   bio: "William is a software developer. He is currently building an indie game called Larinite."
+#   Role: "Editorial"
+
+# thomas:
+#   name: "Thomas Gorissen"
+#   twitter: "serrynaimo"
+#   shortcode: "thomas"
+#   bio: "Thomas likes to work with curious people on ambitious tech projects and hosts CSSConf.Asia, a little big yearly gathering of South-east Asia's web designers and front-end developers."
+#   Role: "Editorial"
+
+# tim:
+#   name: "Tim Oxley"
+#   twitter: "secoif"
+#   shortcode: "tim"
+#   bio: "Tim is a JavaScript & NodeJS developer, speaker and founder of the CampJS conference, as well as our sister meetup, SingaporeJS."
+#   Role: "Editorial"
+
+# cheeaun:
+#   name: "Lim Chee Aun"
+#   twitter: "cheeaun"
+#   shortcode: "cheeaun"
+#   bio: "Head Honcho of <a href='https://kopijs.org/'>KopiJS</a>. Maker of products. Purveyor of stickers. (This is what happens when Hui Jing writes your bio for you)"
+#   Role: "Promotional"
+  
+# weiman:
+#   name: "Kow Weiman"
+#   twitter: "weimankow"
+#   shortcode: "weiman"
+#   bio: "Weiman is an user experience designer who is happiest surrounded by robots, graphic novels, and a nice cup of tea. Occasionally she tries to make sense of the world with visuals and is trying her hand at coding to express herself."
+#   Role: "Promotional"

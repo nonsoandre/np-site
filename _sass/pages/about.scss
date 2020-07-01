@@ -327,6 +327,8 @@
 .insight-container{
     margin: 0 auto;
     max-width: 1600px;
+
+    overflow-x: hidden;
 }
 .our-dream{
     position: relative;
@@ -423,4 +425,29 @@
             }
         }
     }
+}
+
+
+//Repairs
+
+button.btn.btn-abt{
+    padding: 0em 1em;
+    
+    /* display: contents; */
+    height: 2.5em;
+    align-self: center;
+    
+    border-radius: 10px;
+    border: 1px solid green;
+
+    transition: all .75s;
+
+    &:hover{
+        background: $color-accent; 
+        color: $color-typo; 
+    }
+}
+
+.abt-btn{
+    display: flex;
 }
