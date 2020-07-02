@@ -78,36 +78,16 @@ layout: compress
                                         <ul class="post-tag__list"> 
                                             <h6 class="post-footer-titles">tags in this story</h6>   
                                             <li>
-                                                <a href="#">{{ page.post-tag-1}}</a>
-                                                <a href="#">{{ page.post-tag-2}}</a>
-                                                <a href="#">{{ page.post-tag-3}}</a>
+                                                {%for tag in page.tags %}
+                                                {% assign tag_slug = tag | slugify: "raw" %}
+                                                <a href="{{ site.baseurl  | append: '/tags/' | append: tag_slug  | append: '/'}}" rel="category tag"> #{{ tag }}</a> 
+                                                <a href="{{ site.baseurl }}/tag/{{tag}}" rel="category tag"> #{{ tag }}</a> 
+                                                {% endfor %}
                                             </li>
                                         </ul>
                                     </div>
                                     <div class="post-article-social">
-                                        <ul>
-                                            <li>
-                                                <a href="#" class="twitter" title="tweet am" target="_blank" rel="noopener">
-                                                    <i class="social-link-frame">
-                                                        <svg width="25" height="20" viewBox="0 0 25 20" xmlns="http://www.w3.org/2000/svg"><path d="M22.053 3.122A5.006 5.006 0 0 0 24.308.364c-.992.573-2.094.987-3.255 1.211A5.212 5.212 0 0 0 17.305 0c-2.835 0-5.129 2.232-5.129 4.986 0 .388.045.77.13 1.134A14.71 14.71 0 0 1 1.737.913a4.884 4.884 0 0 0-.693 2.507c0 1.727.91 3.252 2.286 4.146a5.207 5.207 0 0 1-2.324-.623l-.001.064c0 2.413 1.767 4.427 4.114 4.888-.43.112-.884.172-1.352.172-.33 0-.653-.033-.965-.092.653 1.983 2.548 3.421 4.792 3.462a10.484 10.484 0 0 1-6.37 2.131c-.414 0-.822-.025-1.223-.07a14.8 14.8 0 0 0 7.86 2.239c9.435 0 14.594-7.59 14.594-14.176 0-.219-.004-.435-.013-.647A10.154 10.154 0 0 0 25 2.338c-.92.396-1.908.665-2.947.784z" fill-rule="evenodd" fill="var(--color,#000)"></path></svg>
-                                                    </i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#" class="faecebook" title="face am" target="_blank" rel="noopener">
-                                                    <i>
-                                                        <svg width="25" height="25" viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg"><path d="M1.379 0A1.38 1.38 0 0 0 0 1.38v22.241C0 24.384.62 25 1.379 25h11.779v-9.21h-3.29v-3.948h3.29V8.763c.195-3.227 2.166-4.987 5.047-4.987 1.38 0 2.566.103 2.848.15V7.3h-1.936c-1.566 0-1.868.743-1.868 1.838l.021 2.752 3.783-.048-.658 3.947h-3.29L17.25 25h6.371A1.38 1.38 0 0 0 25 23.621V1.381A1.383 1.383 0 0 0 23.62 0H1.379z" fill-rule="evenodd" fill="var(--color,#000)"></path></svg>
-                                                    </i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#" class="mail" title="mail am" target="_blank" rel="noopener">
-                                                    <i>
-                                                        <svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M18.75 0C19.44 0 20 .56 20 1.25v1.194l-10 10-10-10V1.25C0 .56.559 0 1.25 0h17.5zM20 15.125l-5.015-5.015L20 5.096v10.029zm-9.338-.693l2.998-2.996 6.34 6.34v.974c0 .691-.56 1.25-1.25 1.25H1.25A1.25 1.25 0 0 1 0 18.75v-.974l6.34-6.341 2.996 2.997v.002a.94.94 0 0 0 1.326-.002zM0 5.096l5.015 5.014L0 15.125V5.096z" fill-rule="evenodd" fill="var(--color,#000)"></path></svg>
-                                                    </i>
-                                                </a>
-                                            </li>
-                                        </ul>
+                                        {% include share-article.html %}
                                     </div>                                    
                                 </div>
                             </div>

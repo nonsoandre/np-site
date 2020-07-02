@@ -148,6 +148,11 @@
 
 .social-links{
     margin-top: 1em;
+
+    @media (max-width: 750px){
+       margin-bottom: 3em; 
+    }
+    
     .social-links-nav{
         display: flex;
         
