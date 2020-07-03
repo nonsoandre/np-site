@@ -1,0 +1,4 @@
+backend:
+  name: github
+  repo: https://github.com/nonsoandre/np-site
+  branch: sorting-site-for-jekyll-build # Branch to update (optional; defaults to master)
