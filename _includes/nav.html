@@ -3,9 +3,9 @@
         <div class="nav-wrapper">
             <div class="nav-container-local nav-masthead">
                 <ul class="nav nav-list upper-nav menu-comps">
-                    <li class="top-nav-list-item pos-rel">
-                        <button type="button" title="Toggle menu" class="btn ham-menu">
-                            <span class="">
+                    <li class="top-nav-list-item pos-rel menu-button">
+                        <button type="button" title="Toggle menu" class="btn ham-menu menu-btn">
+                            <span class="menu-span">
                                 <svg class="_6e0d2" xmlns="http://www.w3.org/2000/svg" width="22" height="15" viewBox="0 0 12 12">
                                     <style>.hamburger-icon__bottom,.hamburger-icon__middle,.hamburger-icon__top{fill:var(--color,#707070);transform-origin:50%;transition:all .3s}.open .hamburger-icon__top{transform:translateY(3px) translateX(-25%) rotate(45deg)}.open .hamburger-icon__bottom{transform:translateY(-4px) translateX(-25%) rotate(-45deg)}.open .hamburger-icon__middle{transform:translatex(-100%);opacity:0}</style>
                                     <path class="hamburger-icon__top" d="M0 0h12v2H0z"></path>
@@ -35,11 +35,7 @@
                                     <li class="list-item"><a arial-label="About Us" href="{{ site.baseurl }}/about/" class="nav-link item-link title">About Us</a></li>
                                     <li class="list-item"><a arial-label="Subscribe" href="#" class="nav-link item-link title">Subscribe</a></li>
                                     <li class="list-item"><a aria-label="" href="{{ site.baseurl }}/features/" class="nav-link item-link title">Carrers</a></li>
-                                    <li class="list-item"><a aria-label="" href="{{ site.baseurl }}/features/" class="nav-link item-link title">Featured</a></li>
                                     <li class="list-item"><a arial-label="Contact Us" href="{{ site.baseurl }}/about/#contact-us" class="nav-link item-link title">Contact Us</a></li>
-                                    <li class="list-item"><a aria-label="" href="#" class="nav-link item-link title">Privacy Policy</a></li>
-                                    <li class="list-item"><a aria-label="" href="#" class="nav-link item-link title">Terms and Conditions</a></li>
-                                    <li class="list-item"><a aria-label="" href="#" class="nav-link item-link title">Contact Us</a></li>
                                     <li class="list-item"><a aria-label="" href="#" class="nav-link item-link title">Privacy Policy</a></li>
                                     <li class="list-item"><a aria-label="" href="#" class="nav-link item-link title">Terms and Conditions</a></li>
                                 </ul>
@@ -48,25 +44,25 @@
                             <div class="social-links">
                                 <ul class="social-links-nav">
                                     <li class="list-item">
-                                        <a href="#" class="nav-link">
+                                        <a href="https://www.facebook.com/{{site.title}}" onclick="window.open(this.href, 'mywin','left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"class="nav-link">
                                             <svg class="f582b facebook" width="25" height="25" viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg"><path d="M1.379 0A1.38 1.38 0 0 0 0 1.38v22.241C0 24.384.62 25 1.379 25h11.779v-9.21h-3.29v-3.948h3.29V8.763c.195-3.227 2.166-4.987 5.047-4.987 1.38 0 2.566.103 2.848.15V7.3h-1.936c-1.566 0-1.868.743-1.868 1.838l.021 2.752 3.783-.048-.658 3.947h-3.29L17.25 25h6.371A1.38 1.38 0 0 0 25 23.621V1.381A1.383 1.383 0 0 0 23.62 0H1.379z" fill-rule="evenodd" fill="var(--color,#000)"></path></svg>
                                             <div class="social-link--title">Facebook</div>
                                         </a>                                   
                                     </li>
                                     <li class="list-item">
-                                        <a href="#" class="nav-link">
+                                        <a href="https://twitter.com/{{site.title}}  " onclick="window.open(this.href, 'mywin','left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"class="nav-link">
                                             <svg class="f582b twitter" width="25" height="20" viewBox="0 0 25 20" xmlns="http://www.w3.org/2000/svg"><path d="M22.053 3.122A5.006 5.006 0 0 0 24.308.364c-.992.573-2.094.987-3.255 1.211A5.212 5.212 0 0 0 17.305 0c-2.835 0-5.129 2.232-5.129 4.986 0 .388.045.77.13 1.134A14.71 14.71 0 0 1 1.737.913a4.884 4.884 0 0 0-.693 2.507c0 1.727.91 3.252 2.286 4.146a5.207 5.207 0 0 1-2.324-.623l-.001.064c0 2.413 1.767 4.427 4.114 4.888-.43.112-.884.172-1.352.172-.33 0-.653-.033-.965-.092.653 1.983 2.548 3.421 4.792 3.462a10.484 10.484 0 0 1-6.37 2.131c-.414 0-.822-.025-1.223-.07a14.8 14.8 0 0 0 7.86 2.239c9.435 0 14.594-7.59 14.594-14.176 0-.219-.004-.435-.013-.647A10.154 10.154 0 0 0 25 2.338c-.92.396-1.908.665-2.947.784z" fill-rule="evenodd" fill="var(--color,#000)"></path></svg>
                                             <div class="social-link--title">twitter</div>
                                         </a>                                   
                                     </li>
                                     <!-- <li class="list-item">
-                                        <a href="#" class="nav-link">
+                                        <a href="https://instagram.com/nwangele-post/" onclick="window.open(this.href, 'mywin','left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"class="nav-link">
                                             <svg class="f582b instagram" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><g fill="var(--color,#000)"><path d="M256 49.471c67.266 0 75.233.257 101.8 1.469 24.562 1.121 37.9 5.224 46.778 8.674a78.052 78.052 0 0 1 28.966 18.845 78.052 78.052 0 0 1 18.845 28.966c3.45 8.877 7.554 22.216 8.674 46.778 1.212 26.565 1.469 34.532 1.469 101.8s-.257 75.233-1.469 101.8c-1.121 24.562-5.225 37.9-8.674 46.778a83.427 83.427 0 0 1-47.811 47.811c-8.877 3.45-22.216 7.554-46.778 8.674-26.56 1.212-34.527 1.469-101.8 1.469s-75.237-.257-101.8-1.469c-24.562-1.121-37.9-5.225-46.778-8.674a78.051 78.051 0 0 1-28.966-18.845 78.053 78.053 0 0 1-18.845-28.966c-3.45-8.877-7.554-22.216-8.674-46.778-1.212-26.564-1.469-34.532-1.469-101.8s.257-75.233 1.469-101.8c1.121-24.562 5.224-37.9 8.674-46.778a78.052 78.052 0 0 1 18.847-28.967 78.053 78.053 0 0 1 28.966-18.845c8.877-3.45 22.216-7.554 46.778-8.674 26.565-1.212 34.532-1.469 101.8-1.469m0-45.391c-68.418 0-77 .29-103.866 1.516-26.815 1.224-45.127 5.482-61.151 11.71a123.488 123.488 0 0 0-44.62 29.057A123.488 123.488 0 0 0 17.3 90.982c-6.223 16.025-10.481 34.337-11.7 61.152C4.369 179 4.079 187.582 4.079 256s.29 77 1.521 103.866c1.224 26.815 5.482 45.127 11.71 61.151a123.489 123.489 0 0 0 29.057 44.62 123.486 123.486 0 0 0 44.62 29.057c16.025 6.228 34.337 10.486 61.151 11.71 26.87 1.226 35.449 1.516 103.866 1.516s77-.29 103.866-1.516c26.815-1.224 45.127-5.482 61.151-11.71a128.817 128.817 0 0 0 73.677-73.677c6.228-16.025 10.486-34.337 11.71-61.151 1.226-26.87 1.516-35.449 1.516-103.866s-.29-77-1.516-103.866c-1.224-26.815-5.482-45.127-11.71-61.151a123.486 123.486 0 0 0-29.057-44.62A123.487 123.487 0 0 0 421.018 17.3c-16.025-6.223-34.337-10.481-61.152-11.7C333 4.369 324.418 4.079 256 4.079z"></path><path d="M256 126.635A129.365 129.365 0 1 0 385.365 256 129.365 129.365 0 0 0 256 126.635zm0 213.338A83.973 83.973 0 1 1 339.974 256 83.974 83.974 0 0 1 256 339.973z"></path><circle cx="390.476" cy="121.524" r="30.23"></circle></g></svg>
                                             <div class="social-link--title">Instagram</div>
                                         </a>
                                     </li> -->
                                     <li class="list-item">
-                                        <a href="#" class="nav-link">
+                                        <a href="https://youtube.com/channel/{{ site.youtubekey }}" onclick="window.open(this.href, 'mywin','left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"class="nav-link">
                                             <svg class="f582b _6baae" width="36" height="26" viewBox="0 0 36 26" xmlns="http://www.w3.org/2000/svg"><path d="M14.002 17L14 7l10 5.017L14.002 17zM35.64 5.609s-.352-2.547-1.432-3.67C32.84.468 31.306.46 30.602.375 25.565 0 18.008 0 18.008 0h-.016S10.436 0 5.398.374C4.694.46 3.16.467 1.79 1.94.71 3.062.36 5.609.36 5.609S0 8.6 0 11.592v2.804c0 2.992.36 5.983.36 5.983s.351 2.548 1.43 3.67c1.37 1.472 3.169 1.425 3.97 1.58C8.64 25.912 18 26 18 26s7.565-.012 12.602-.386c.704-.086 2.238-.093 3.607-1.565 1.08-1.122 1.432-3.67 1.432-3.67S36 17.388 36 14.396v-2.804c0-2.992-.36-5.983-.36-5.983z" fill-rule="evenodd" fill="var(--color,#000)"></path></svg>
                                             <div class="social-link--title">Youtube</div>
                                         </a>
@@ -87,7 +83,7 @@
                             </svg>
                         </a>
                     </li>
-                    <li class="top-nav-list-item pos-rel">
+                    <li class="top-nav-list-item pos-rel switch-button">
                         <div class="switch-button" aria-label="toggle dark mode">
                             <input type='checkbox' name="switch"/>
                         </div>
@@ -107,7 +103,7 @@
                 <nav class="primary-nav">
                     <ul class="primary-nav-list">
                         <li class="list-item">
-                            <button type="button" title="Toggle menu" class="btn ham-menu">
+                            <button type="button" title="Toggle menu" class="btn ham-menu menu-btn">
                                 <span class="">
                                     <svg class="_6e0d2" xmlns="http://www.w3.org/2000/svg" width="22" height="15" viewBox="0 0 12 12">
                                         <style>.hamburger-icon__bottom,.hamburger-icon__middle,.hamburger-icon__top{fill:var(--color,#707070);transform-origin:50%;transition:all .3s}.open .hamburger-icon__top{transform:translateY(3px) translateX(-25%) rotate(45deg)}.open .hamburger-icon__bottom{transform:translateY(-4px) translateX(-25%) rotate(-45deg)}.open .hamburger-icon__middle{transform:translatex(-100%);opacity:0}</style>
