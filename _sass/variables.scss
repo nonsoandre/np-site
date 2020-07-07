@@ -7,6 +7,7 @@ $background-2                   : rgb(23, 26, 34);
 $background-3                   : rgba(255,255,255,0.15);
 $background-4                   : rgba(255,255,255,0.15);
 $background-5                   : #171A23;
+$background-card                : #13161d;
 $background-modal               : rgba(23,25,35,0.98);
 $background-border-decor        : rgba(255,255,255,0.15);
 $background-border-interactive  : rgba(255,255,255,0.15);
@@ -21,6 +22,7 @@ $background-2--lite             : #ffffff;
 $background-3--lite             : rgba(0,0,0,0.15);
 $background-4--lite             : #ffffff;
 $background-5--lite             : #9E9999;
+$background-card--lite          : #ffffff;
 $background-modal--lite         : rgba(249,249,249,0.98);
 $background-border-decor--lite  : rgba(0,0,0,0.15);
 $background-border-int--lite    : rgba(0,0,0,0.15);
@@ -28,6 +30,9 @@ $color-typo--lite               : #0C0B0B;
 $color-typo-faint--lite         : rgba(0,0,0,0.7);
 $background-nav--lite           : #f9f9f9;
 
+//fixed colors
+$color-typo--fixed-white        : #ffffff;
+$color-typo--fixed-dark         : #2b2b2b;
 
 //navigation
 $color-nav-link                 : #707070;
@@ -56,10 +61,12 @@ $medium                         : "only screen and (min-width: 30.1em) and (max-
 $large                          : "only screen and (min-width: 48.1em) and (max-width: 62.5em)";
 $notsmall                       : "only screen and (min-width: 48em)";
 
-$lg-scn                         : "only screen and (min-width: 65em)";
+
 $lg-scn--dn                     : "only screen and (max-width: 768px)";
+$md-scn--dn                     : "only screen and (max-width: 48em)";
 
 $md-scn--up                     : "only screen and (min-width: 48em)";
+$lg-scn                         : "only screen and (min-width: 65em)";
 $lg-scn--up                     : "only screen and (min-width: 65em)";
 $xlg-scn--up                    : "only screen and (min-width: 72em)";
 

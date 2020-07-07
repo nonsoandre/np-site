@@ -28,12 +28,20 @@ hamBtn.addEventListener('click', (e)=>{
     const pointerOff = navContainer.querySelector('.menu-button .pointer-off')
     console.log(pointerOff);
 
+    document.body.style.overflowY = 'hidden'
+    // document.body.style.top = `-${window.scrollY}px`;
+
     pointerOff.addEventListener('click', ()=>{
         pathClass.classList.remove('open');
         slideNavMenu.querySelector('span').classList.remove('open');
         mobileMenu.querySelector('.icon-span').classList.remove('open');
         sideMenu.classList.remove('visible');
         pointerOff.classList.remove('pointer-off');
+
+        const scrollY = document.body.style.top;
+        document.body.style.overflowY = 'scroll'
+        // document.body.style.top = ''
+        // window.scrollTo(0, parseInt(scrollY || '0') * -1)
     })
 })
 

@@ -108,7 +108,7 @@
     background: none;
 
     @media #{$lg-scn--up}{
-        background: #fff;
+        //background: #fff;
     }
 }
 .feature-hero-module-container .feature-hero{
@@ -304,7 +304,7 @@
 .module__title-link{
     display: block;
     padding: 2.4rem;
-    color: #2b2b2b;
+    color: --clr-typo;
     
     @media #{$md-scn--up}{
         flex: 1 1 auto;
@@ -313,7 +313,7 @@
 }
 .module__article-details{
     position: relative;
-    background: #fff;
+    background: var(--clr-bg-card);
 }
 .module__title{
     font-size: 2rem;
@@ -353,6 +353,10 @@
     padding: 0 1rem 3rem;
     line-height: 2;
     text-align: center;
+
+    @media #{$lg-scn--up}{
+        padding-bottom: unset;
+    }
 }
 
 .feature-hero .feature-article-details .abstract{
@@ -384,7 +388,7 @@
     font-size: .5rem;
     line-height: 1.5;
     margin-bottom: 2em;
-    color: #2b2b2b;
+    color: var(--clr-typo);
     text-align: center;
     letter-spacing: .01em;
 }
@@ -423,7 +427,7 @@
     letter-spacing: .075em;
     font-weight: 600;
     font-size: .95rem;
-    color: #2b2b2b;
+    color: var(--clr-typo);
     text-align: center;
 }
 .module__authors{
@@ -783,13 +787,15 @@
         height: 284.98px;
     }
 
-    .module__meta {
-        padding: unset;
-        
-    }
+    // .module__meta {
+    //     padding: unset;
+    // }
 
-    a:hover .module__title {
-        color: black;
+    .feature-module:hover .module__title,
+    .module:hover .module__title {
+        color: unset;
+        text-decoration: underline;
+        text-decoration-color: $color-accent;
     }
     .bylne .display-name {
         font-size: .75rem
@@ -807,7 +813,10 @@
     }
 }
 
-
+.article-details a:hover,
+.feature-article-details a:hover{
+    color: inherit;
+}
 .feature-module:hover .highlight {
     height: 5px;
 }
@@ -822,6 +831,3 @@
 }
 
 
-.feature-title {
-    color: black;
-}

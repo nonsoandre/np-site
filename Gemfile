@@ -5,5 +5,6 @@ gem "jekyll-sitemap"
 gem "jekyll-gist"
 gem 'jekyll-mentions'
 gem 'jekyll-feed'
+gem "jekyll-paginate", "~> 1.1.0"
 gem 'wdm', '>= 0.1.0'
 gem "jekyll-gallery-generator"

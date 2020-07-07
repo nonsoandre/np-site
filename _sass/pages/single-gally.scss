@@ -746,4 +746,18 @@ element {
 //     z-index: 0;
 //     display: flex;
 //   }
-  
+
+
+//Repairs
+.gallery-preview__container-inner{
+    border: none;
+    background-color: #25272E;
+    // background for light skin
+    // background: #e7e8e8f7;
+}
+.gallery-preview__btn{
+    transform: none;
+    left: 35%;
+    box-shadow: none;
+    margin-bottom: 1em;
+}

@@ -25,6 +25,7 @@ collections:
 
 plugins:
    - jekyll-gallery-generator
+   - jekyll-paginate
 
 # Gems
 gems:
@@ -33,6 +34,7 @@ gems:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-gallery-generator
+  - jekyll-paginate
 
 jekyll-mentions:
     base_url: https://github.com
@@ -63,5 +65,7 @@ galleries:
     info:
       desc: "Gallery Description" # Info fields can be used in custom templates.
 
+paginate: 2
+paginate_path: "/page/:num"
 # Exclude list
 exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile]

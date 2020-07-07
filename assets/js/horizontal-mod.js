@@ -1,3 +1,4 @@
+//ADD CLASSES WITH MEDIA QUERY
 const secondTier = document.querySelector('.second-tier');
 console.log(secondTier)
 //media query event handler

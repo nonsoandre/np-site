@@ -1,0 +1,44 @@
+<!-- pagination -->
+<nav class="pagination_nav" role="pagination">
+    
+{% if paginator.total_pages > 1 %}               
+    <div class="nav_links">
+
+        {% if paginator.previous_page %}
+            <a href="{{ paginator.previous_page_path |  prepend: site.baseurl | replace: '//', '/'}}" class="prev pagination_page-num">&laquo; Prev Page</a>
+        {%else%}
+            <span></span>
+        {% endif %}  
+
+
+        {% for page in (1..paginator.total_pages)%}
+            {% if page == paginator.page %}
+        <span class="current_page pagination_page-num">{{page}}</span> 
+            {% elsif page == 1 %}
+            <a href="/" class="pagination_page-num">{{ page }}</a>
+            {% else %}
+            <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' }}" class="pagination_page-num">{{ page }}</a>
+            {% endif %}
+        {% endfor %}
+        
+
+
+
+        <!-- <a href="https://www.dikephilipblog.co/articles/page2/" class="pagination_page-num">2</a>
+        <a href="https://www.dikephilipblog.co/articles/page3/" class="pagination_page-num">3</a>
+        <a href="https://www.dikephilipblog.co/articles/page4/" class="pagination_page-num">4</a>
+        <a href="https://www.dikephilipblog.co/articles/page5/" class="pagination_page-num">5</a>
+        <span class="pagination_continuation-dots">...</span> -->
+
+
+
+
+        {% if paginator.next_page %}
+            <a href="{{ paginator.next_page_path |  prepend: site.baseurl | replace: '//', '/'}}" class="prev pagination_page-num"> Next &raquo;</a>
+        {%else%}
+            <span> </span>
+        {% endif %}  
+                   
+    </div>
+{% endif %}     
+</nav>  
