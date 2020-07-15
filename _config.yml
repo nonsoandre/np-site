@@ -2,7 +2,7 @@
 title:                Nwangele Post
 deescription:         From Nwangele to the world
 logo:                 'assets/img/logo.png'
-baseurl:              /np.io/
+baseurl:              /np-site/
 url:                  "http://localhost:4000/np.io/"
 paginate:             10
 paginate_path:        "latest/page:num"     
