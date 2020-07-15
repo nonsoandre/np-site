@@ -8,7 +8,7 @@ const sideMenu = navContainer.querySelector('.side-menu');
 
 const slideNav = document.querySelector('.nav-container--standard');
 const slideNavMenu = slideNav.querySelector('.ham-menu')
-console.dir(hamBtn);
+
 
 hamBtn.addEventListener('click', (e)=>{
     e.preventDefault();
@@ -21,12 +21,11 @@ hamBtn.addEventListener('click', (e)=>{
 
     let sideMenu = document.querySelector('.side-menu');
     sideMenu.classList.toggle('visible');
-    console.dir(sideMenu)
     sideMenu.nextElementSibling.classList.toggle('pointer-off');
 
 
     const pointerOff = navContainer.querySelector('.menu-button .pointer-off')
-    console.log(pointerOff);
+    
 
     document.body.style.overflowY = 'hidden'
     // document.body.style.top = `-${window.scrollY}px`;
@@ -73,7 +72,7 @@ slideNavMenu.addEventListener('click', (e)=>{
     sideMenu.nextElementSibling.classList.toggle('pointer-off');
 
     const pointerOff = navContainer.querySelector('.menu-button .pointer-off')
-    console.log(pointerOff);
+    
 
     pointerOff.addEventListener('click', ()=>{
         pathClass.classList.remove('open');
@@ -95,14 +94,12 @@ window.addEventListener('click',e=>{
 //DARKMODE
 //get darkmode current settings in local storage
 let darkmode = localStorage.getItem('darkmode'); 
-console.log(darkmode);
+
 
 
 //get dm buttons
 const darkmodeToggle = document.querySelector('.switch-button input');
 const onSLideDarkModeToggle = slideNav.querySelector('.switch-button input')
-console.log(onSLideDarkModeToggle)
-console.dir(darkmodeToggle);
 
 //keep darkmode on if darkmode is already set to on
 if(darkmode === 'on'){
@@ -198,14 +195,14 @@ const shareBtn = mobileNavListContainer.querySelector('.share-btn-show');
 const mobCloseBtn = mobileNavListContainer.querySelector('.close-btn');
 const subMenu = mobileNavListContainer.querySelector('.social-submenu');
 
-console.log(mobCloseBtn);
+
 
 shareBtn.addEventListener('click', ()=>{
-    console.log('hello');
+
     displayMobileShare();
 });
 mobCloseBtn.addEventListener('click', ()=>{
-    console.log('removed');
+
     removeMobileShare();
 });
 function displayMobileShare(){
@@ -222,4 +219,3 @@ function removeMobileShare(){
     subMenu.classList.remove('transition-in');
     subMenu.classList.remove('open');
 }
-console.log(shareBtn)

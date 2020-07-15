@@ -1,0 +1,11 @@
+---
+layout: post
+title: "Talk.CSS #20"
+date: 2017-06-05 19:00:00 +0800
+location: PayPal Singapore
+event-date: 2017-08-30 19:00:00 +0800
+categories: meetup
+event-id: 241969862
+meetup: 20
+---
+Today we learnt that most people don't turn up for Talk.CSS twice in a row. Either that or you people just don't like raising your hands. But we absolutely love that you show up anyway. Thank you to PayPal for sponsoring really nice pizza, and as usual, a great venue.

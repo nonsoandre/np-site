@@ -3,7 +3,7 @@ sitemap: false
 ---
 
 // Partials
-@import 'home';
+
 @import 'vendors/Bootstrap/bootstrap.scss';
 @import 'vendors/font-awesome';
 @import 'vendors/animate';
@@ -16,7 +16,7 @@ sitemap: false
 @import 'switchButton';
 @import 'buttons';
 @import 'side-menu';
-@import 'main-page';
+
 @import 'news-module';
 @import 'footer';
 @import 'mobile-nav';

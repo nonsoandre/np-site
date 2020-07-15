@@ -1,0 +1,12 @@
+---
+layout: post
+title: "Talk.CSS #26"
+date: 2018-03-01 19:00:00 +0800
+location: Skyscanner Singapore
+event-date: 2018-03-28 19:00:00 +0800
+categories: meetup
+event-id: 248280037
+meetup: 26
+news: March 2018
+---
+We had quite a crowd this time around, but Skyscanner's conference room was more than capapble of handling said crowd. We want to thank [Ardy](https://twitter.com/wickedmanok) for helping us out with hosting, as well as his great talk. As well as [Michael](https://twitter.com/coderkungfu), who showed up in person to video us this month. 

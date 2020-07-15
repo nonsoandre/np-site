@@ -3,7 +3,11 @@ title:                Nwangele Post
 deescription:         From Nwangele to the world
 logo:                 'assets/img/logo.png'
 baseurl:              /np.io/
-url:                  "http://localhost:4000/np.io/"     
+url:                  "http://localhost:4000/np.io/"
+paginate:             10
+paginate_path:        "latest/page:num"     
+
+# paginate_path:        "/page:num/"
 
 
 # Jekyll
@@ -65,7 +69,9 @@ galleries:
     info:
       desc: "Gallery Description" # Info fields can be used in custom templates.
 
-paginate: 2
-paginate_path: "/page/:num"
+
 # Exclude list
 exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile]
+
+
+include: ["_pages"]

@@ -1,0 +1,11 @@
+---
+layout: post
+title: "Talk.CSS #5"
+date: 2016-04-26 19:00:00 +0800
+location: Viki Singapore
+event-date: 2016-04-26 19:00:00 +0800
+categories: meetup
+meetup: 5
+news: April 2016
+---
+We were graciously hosted by [Viki Singapore](https://www.viki.com/), and they also provided us food, so big kudos to [Aysha](https://twitter.com/RenettaRenula) and everyone at Viki who helped us out.

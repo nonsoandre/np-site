@@ -1,0 +1,11 @@
+---
+layout: post
+title: "talk.js + talk.css = Special Edition!"
+date: 2016-07-27 19:00:00 +0800
+location: PayPal Singapore
+event-date: 2016-07-27 19:00:00 +0800
+categories: meetup
+meetup: 8
+news: July 2016
+---
+So we have a sister meet-up group called Talk.JS, that as the name implies, covers all things Javascript. And, as siblings often can attest to, we clash from time to time (actually no, we've never clashed before, I just screwed up the meet-up scheduling this time). BUT, because we love each other so much, we're turning a timing clash into something different with a super special edition front-end extravaganza!

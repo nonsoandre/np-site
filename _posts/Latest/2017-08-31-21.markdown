@@ -1,0 +1,16 @@
+---
+layout: post
+title: "Talk.CSS #21"
+date: 2017-08-31 19:00:00 +0800
+location: Hackerspace
+event-date: 2017-09-27 19:00:00 +0800
+categories: meetup
+event-id: 242950199
+meetup: 21
+news: September 2017
+---
+This is the first time neither Chris nor Hui Jing was present at the meetup since its inception. Chris had an urgent family matter to attend to back in Australia, while Hui Jing was away at the Mozilla Developer Roadshow. But the show must go on!
+
+We are extremely appreciative of the volunteers who took over hosting duties. It's really heart-warming to know you care enough to help out. We also want to reiterate how grateful we are that you turn out for our little meet-up every month.
+
+Thank you all, from the bottom of our hearts <span class="o-emoji" role="img" tabindex="0" aria-label="red heart">&#x2764;&#xFE0F;</span>.

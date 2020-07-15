@@ -1,0 +1,12 @@
+---
+layout: post
+title: "Talk.CSS #19 CodePen Edition"
+date: 2017-06-05 19:00:00 +0800
+location: Viki Singapore
+event-date: 2017-07-26 19:00:00 +0800
+categories: meetup
+event-id: 240519505
+meetup: 19
+news: July 2017
+---
+We had a great turnout this time. Probably in large part because it was the Codepen edition. Might make this an annual thing. But more importantly, Viki was a wonderful host, as usual, and the food was FANTASTIC! Much love to team Viki <span class="o-emoji" role="img" tabindex="0" aria-label="red heart">&#x2764;&#xFE0F;</span><span class="o-emoji" role="img" tabindex="0" aria-label="red heart">&#x2764;&#xFE0F;</span><span class="o-emoji" role="img" tabindex="0" aria-label="red heart">&#x2764;&#xFE0F;</span>.

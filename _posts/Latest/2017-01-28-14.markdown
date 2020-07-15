@@ -1,0 +1,16 @@
+---
+layout: post
+title: "Talk.CSS #14"
+date: 2017-01-28 19:00:00 +0800
+location: Exabytes Network (Singapore) Pte. Ltd.
+event-date: 2017-02-27 19:00:00 +0800
+categories: meetup
+meetup: 14
+news: February 2017
+hascodepen: true
+---
+Although this month's meet-up was announced on short notice due to logistical mishaps, we still had an audience! [Exabytes](https://www.exabytes.sg/) were awesome hosts!
+
+We introduced some new regular segments starting this month. CSS named colour of the month and awesome CSS grid demos. There are (currently) 147 named CSS colours, which is enough to cover us for more than 12 years worth of Talk.CSS, so that's that. 
+
+Also, we are doing our part to spread awareness of CSS grid as the best option for building layouts on the web by showing cool demos of what CSS grid can do. Hopefully, these will inspire you to learn about and use CSS grid in your projects.

@@ -1,0 +1,12 @@
+---
+layout: post
+title: "Talk.CSS #30"
+date: 2018-06-29 19:00:00 +0800
+location: SP Digital
+event-date: 2018-07-25 19:00:00 +0800
+categories: meetup
+event-id: 252019251
+meetup: 30
+news: July 2018
+---
+Our big three-O, and I'm really glad that we finally got Jacob, who has been doing excellent work, writing really interesting articles, to give his first talk. More to come! Also, glad to have Sophie come in and talk a bit about HTTP/2 server push, because we need more talks about the network side of things. And of course, we're always happy to have Zell, who has been with us since Day 1, to share his vast knowledge.

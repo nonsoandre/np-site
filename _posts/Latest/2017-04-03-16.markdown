@@ -1,0 +1,12 @@
+---
+layout: post
+title: "Talk.CSS #16"
+date: 2017-04-03 19:00:00 +0800
+location: Spacemob Ascent
+event-date: 2017-04-26 19:00:00 +0800
+categories: meetup
+event-id: 238915046
+meetup: 16
+news: April 2017
+---
+Although our hosts were way less than 100% (with one in hospital and the other under the weather), the show must go on! Our hosts Spacemob Ascent was great though, providing a lovely venue for the evening.

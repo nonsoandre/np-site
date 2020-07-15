@@ -1,0 +1,22 @@
+---
+layout: post
+title: "Talk.CSS #7"
+date: 2016-06-28 19:00:00 +0800
+location: Microsoft Singapore
+event-date: 2016-06-28 19:00:00 +0800
+categories: meetup
+meetup: 7
+novideos: true
+---
+It's a pretty short notice this month (sorry, our bad), but we managed to get [Microsoft Singapore](https://www.google.com.sg/maps/place/Microsoft+Operations/@1.281675,103.8518118,18z/data=!4m18!1m12!4m11!1m3!2m2!1d103.8524394!2d1.2823952!1m6!1m2!1s0x31da190ef72075ef:0x1108ee8915a8eacc!2smicrosoft+singapore!2m2!1d103.852437!2d1.282387!3m4!1s0x31da190ef72075ef:0x1108ee8915a8eacc!8m2!3d1.282387!4d103.852437) to host us. Come join the CSS nerd out! 
+
+**React and CSS Modules** by **Thomas Gorissen**  
+Scoped CSS is one of those things on many developers' wishlists. CSS modules could potentially fulfil that wish. Never heard of CSS modules? Join us and hear all about it.
+
+**So your designer wants a masthead** by **Chen Hui Jing**  
+What do you do when you get a design that requires a masthead? Turns out there's more than one way to build a masthead.
+
+**CSS News (June 2016)**  
+Updates and news in the world of CSS for June 2016. Our regular segment. Topics covered available [here](https://github.com/SingaporeCSS/slides/blob/gh-pages/notes/talk-7.md).
+
+*PSA: Unfortunately, we messed up the video recordings, and so super extra effort is required to sync the audio with the video, and our Grand Master Poobah, Michael, is simply too swamped to do it. Apologies to everyone, especially to Michael.*

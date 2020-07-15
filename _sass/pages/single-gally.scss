@@ -481,11 +481,11 @@
 .share-module path {
     fill: #5e5e5e;
 }
-.share-module__primary li .arrow, .share-module__primary li .ring {
-    fill: #ddd !important;
-}
+// .share-module__primary li .arrow, .share-module__primary li .ring {
+//     // fill: #ddd !important;
+// }
 .share-module__primary li:hover path {
-    fill: #1a1a1a !important;
+    fill: #5e5e5e !important;
 }
 .share-module__drawer-trigger{
     display: flex;
@@ -751,9 +751,7 @@ element {
 //Repairs
 .gallery-preview__container-inner{
     border: none;
-    background-color: #25272E;
-    // background for light skin
-    // background: #e7e8e8f7;
+    background-color: var(--clr-bg-card);
 }
 .gallery-preview__btn{
     transform: none;

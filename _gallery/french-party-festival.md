@@ -4,7 +4,8 @@ title: French Party Festival 2020 Portraits
 meta: Candid shots of artists from Pitchfork’s annual festival in Paris, including Charli XCX, Helado Negro, Nilüfer Yanya, and more.
 photographer: Tony Chukwuka
 date: November 8 2019
-date-title: Fri Nov 08 2019 22:12:11 GMT+0100 (Central European Standard Time)
+tags: Carnival
+episode: 1
 image-path: \assets\images\uploads\gallery\French-Party-Festival\
 cover-image: 200611-RZA-250x141.jpg
 album-name: French-Party-Festival

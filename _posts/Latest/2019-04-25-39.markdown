@@ -1,0 +1,14 @@
+---
+layout: post
+title: "Talk.CSS #39"
+date: 2019-04-25 19:00:00 +0800
+location: SP Digital
+event-date: 2019-05-22 19:00:00 +0800
+categories: meetup
+event-id: 259235992
+meetup: 39
+news: May 2019
+---
+This was a relatively cozy meetup, probably because all the cool kids went to the ReactJS meetup instead. But nevertheless, the show goes on. It was a great line-up with talks on CSS custom properties, CSS modules and a walk back in time with Internet Explorer 3 on an original Windows 3.1 installation.
+
+Tonight was mostly friends and regulars, and we truly appreciate your continued support. We're not the flashiest or most exciting meetup in town, but we've managed to keep our unbroken streak after more than 3 years because of you. #anyhowlyforever <span class="emoji" role="img" tabindex="0" aria-label="blue heart">&#x1F499;</span>

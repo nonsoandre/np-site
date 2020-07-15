@@ -1,0 +1,12 @@
+---
+layout: post
+title: "Talk.CSS #17"
+date: 2017-05-03 19:00:00 +0800
+location: CXA Group
+event-date: 2017-05-31 19:00:00 +0800
+categories: meetup
+event-id: 239689378
+meetup: 17
+news: May 2017
+---
+It was a dark and stormy night, but you all still showed up, and we are so appreciative of your support and enthusiasm for CSS. This time we also had wine, courtesy of [The French Cellar](http://www.thefrenchcellar.sg/) (if you missed it, the wine was <span class="o-emoji" role="img" tabindex="0" aria-label="OK hand">&#x1F44C;</span>).

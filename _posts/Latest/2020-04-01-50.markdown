@@ -1,0 +1,11 @@
+---
+layout: post
+title: "Talk.CSS #50"
+date: 2020-04-01 19:00:00 +0800
+location: The Interwebs
+event-date: 2020-05-06 19:00:00 +0800
+categories: meetup
+meetup: 50
+event-id: 267764600
+---
+A Talk.CSS #1 reunion with Chris and Zell! We also got Zoom bombed before the meetup started, oh well, you live and learn. Another fully remote edition in the bag. ICYMI, have some videos.

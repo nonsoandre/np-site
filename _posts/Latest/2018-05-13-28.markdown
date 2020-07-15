@@ -1,0 +1,12 @@
+---
+layout: post
+title: "Talk.CSS #28"
+date: 2018-05-13 19:00:00 +0800
+location: WeWork Beach Centre
+event-date: 2018-05-30 19:00:00 +0800
+categories: meetup
+event-id: 248393588
+meetup: 28
+news: May 2018
+---
+We had our first remote call-in segment in Talk.CSS history. Largely because, a) Hui Jing insists on doing the CSS news update no matter what, b) nobody else wants to do it. Unfortunately, our good friends at [Engineers.SG](https://engineers.sg/) were once again thwarted by the curse that is us, and video recordings went south. Again. Have some slides/backup video instead?

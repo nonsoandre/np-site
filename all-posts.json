@@ -1,0 +1,17 @@
+---
+layout: none
+---
+[
+
+
+  {% for post in site.posts %}
+  {
+    "title" : "{{ post.title }}",
+    "url"   : "{{ post.url }}",
+    "author" :  "{{ post.author }}",
+    "image"   : "{{ post.image }}",
+    "location" : "{{ post.location }}",
+    "siteUrl"   : "{{ site.baseurl }}"
+  } {% unless forloop. last %},{% endunless%}
+  {% endfor %}
+]

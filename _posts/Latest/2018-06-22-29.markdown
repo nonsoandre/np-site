@@ -1,0 +1,12 @@
+---
+layout: post
+title: "Talk.CSS #29"
+date: 2018-06-22 19:00:00 +0800
+location: Carousell HQ
+event-date: 2018-06-28 19:00:00 +0800
+categories: meetup
+event-id: 249447875
+meetup: 29
+news: June 2018
+---
+This month was one of our less anyhowly months, with proper speakers and all! Our lovely hosts, Carousell, also sponsored healthy food, which is a nice change from the pizza everyone keeps eating at tech meetups in general. Our video recordings did NOT fail this time, so maybe we've broken the curse...for now.

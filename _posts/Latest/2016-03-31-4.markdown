@@ -1,0 +1,12 @@
+---
+layout: post
+title: "Talk.CSS #4"
+date: 2016-03-31 19:00:00 +0800
+location: Tinkerbox Studios
+event-date: 2016-03-31 19:00:00 +0800
+categories: meetup
+meetup: 4
+---
+For our fourth iteration, we managed to inject some semblance of planning by confirming the venue and agenda way before the event date itself. We were graciously hosted by [Tinkerbox Studios](https://www.tinkerbox.com.sg/). Unfortunately, the technical difficulties bug had yet to be quashed and we took a little while to get the video recording set up. Life. <span class="o-kaomoji">¯\\\_(ツ)\_/¯</span>
+
+The more exciting thing was, we had our very first panel discussion! Yes, it might have partly been because we couldn't find enough speakers, but it was also due to the fact that opinions on CSS are extremely varied. And it makes sense to discuss all these viewpoints to have a more robust understanding of CSS.

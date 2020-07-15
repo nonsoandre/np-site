@@ -1,0 +1,12 @@
+---
+layout: post
+title: "Talk.CSS #49"
+date: 2020-03-04 19:00:00 +0800
+location: The Interwebs
+event-date: 2020-04-01 19:00:00 +0800
+categories: meetup
+meetup: 49
+event-id: 267764597
+news: April 2020
+---
+Another online edition went by without anything exploding. AH-MAZ-ING. We had 3 mind-blowing talks. Sure, most of you probably missed it. That's why we have video. All fixed in post. You're welcome.

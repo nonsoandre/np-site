@@ -19,7 +19,8 @@ layout: compress
                                 <figure class="img-module--container">
                                     <picture class="img img-banner artdirection">
                                         <source media="(max-width: 26.524em)" srcset="">
-                                            <img src="{{ site.baseurl }}/assets/images/banner-1.png" alt="" class="module--image-box">
+                                            <img src="{{ site.baseurl }}/assets/images/banner-1.png" alt="" class="module--image-box"
+                                            srcset="{{ site.baseurl}}/assets/images/banner-small.jpg 300w">
                                     </picture>
                                     <figcaption class="banner-img-caption">
                                         <a href="#">*Long John Addidas</a>
@@ -33,7 +34,7 @@ layout: compress
                                         <a href="#" class="post-module-content">
                                             <figure>
                                                 <picture class="artdirection--123">
-                                                  <img src="{{ site.baseurl }}/assets/images/img-3a.jpg" alt="a white man passport" class="img img-thumbnail sm-img-module">  
+                                                  <img src="{{ site.baseurl }}/assets/images/img-3a.jpg" srcset="{{ site.baseurl}}/assets/images/img-3a-small.webp 300w" alt="a white man passport" class="img img-thumbnail sm-img-module">  
                                                 </picture>
                                             </figure>                                        
                                             <div class="post-module-summary">
@@ -81,38 +82,32 @@ layout: compress
                                     </li>
                                 </ul>
                             </section>
+                            <!-- FEATURED -->
                             <section id="section" class="main-page-posts featured-post-padding feature-z">
                                 <h3 class="section-title section-header">Featured Articles</h3>
                                 <ul class="main-page-posts-lists">
                                     <li class="post-module inner-section-padding">
                                         <div class="featured-lists">
                                             {% for feature in site.categories.feature %}
-                                            <div class="featured-item featured-card">
+                                            <div class="featured-item featured-card feature-z">
                                                 <div class="image module--visual">
-                                                    <a href=" {{ feature.url }}">
-                                                        <!-- <figure>
-                                                            <picture class="artdirection--123"> -->
-                                                            <img src="{{ site.baseurl }}{{ feature.image-path }}/{{ feature.image }}" alt="a white man passport" class="img featured-image">  
-                                                            <!-- </picture>
-                                                        </figure> -->
+                                                    <a href="#">
+                                                        <figure>
+                                                            <picture class="artdirection--123">
+                                                            <img src="{{site.baseurl}}{{ feature.image-thumb-path}}/{{ feature.image }}" alt="a white man passport" class="img featured-image">  
+                                                            </picture>
+                                                        </figure>
                                                     </a>     
                                                 </div>
                                                 <div class="fetured-details">
-                                                    <a href="{{ feature.url }}" class="featured-title-link fetured-link">
+                                                    <h4 class="video-tag">{{ feature.tags[0] }}</h4>
+                                                    <a href="" class="featured-title-link fetured-link">
                                                         <h2 class="featured-title title">{{ feature.title }}</h2>
                                                     </a>
-                                                    <div class="featured-meta">
-                                                        <div class="featured--byline">
-                                                            <ul class="authors">
-                                                                <li><span class="display-name">by: {{ feature.author }}</span></li>
-                                                            </ul>
-                                                        </div>
-                                                        <p class="cat-date">
-                                                            <a href="#" class="">
-                                                            {{ feature.post-category }}
-                                                            </a>
-                                                        </p>
-                                                    </div>
+                                                    <time class="pub-date" datetime="{{ feature.date | date_to_xmlschema  }}" title="{{ gallery.date-title }}">
+                                                        {%- assign date_format = site.date_format | default: "%b %-d, %Y" -%}
+                                                        {{ feature.date | date: date_format }}
+                                                    </time>
                                                 </div>
                                             </div>
                                             {% endfor %}
@@ -210,256 +205,38 @@ layout: compress
                                     </li>
                                 </ul>
                             </section> 
+                            <!-- VIDEO  -->
                             <section id="section" class="main-page-posts featured-post-padding video-z">
                                 <h3 class="section-title section-header">Videos</h3>
                                 <ul class="main-page-posts-lists">
                                     <li class="post-module inner-section-padding">
                                         <div class="featured-lists">
-                                            <div class="featured-item featured-card">
+                                            {% for video in site.gallery %}
+                                            <div class="featured-item featured-card featured-video">
                                                 <div class="image module--visual">
                                                     <a href="#">
-                                                        <!-- <figure>
-                                                            <picture class="artdirection--123"> -->
-                                                            <img src="../assets/images/img-4a.jpg" alt="a white man passport" class="img featured-image">  
-                                                            <!-- </picture>
-                                                        </figure> -->
-                                                    </a>     
+                                                    <i class="fa fa-play-circle"></i>
+                                                    </a>
+                                                        <figure>
+                                                            <picture class="artdirection--123">
+                                                            <img src="{{site.baseurl}}{{ video.image-path}}{{ video.cover-image }}" alt="a white man passport" class="img featured-image">  
+                                                            </picture>
+                                                        </figure>
+                                                        
                                                 </div>
                                                 <div class="fetured-details">
+                                                    <h4 class="video-tag">{{ video. tags }}</h4>
                                                     <a href="" class="featured-title-link fetured-link">
-                                                        <h2 class="featured-title title">The Strokes Announce North American Concerts</h2>
+                                                        <h2 class="featured-title title">{{ video.title }}</h2>
                                                     </a>
-                                                    <div class="featured-meta">
-                                                        <div class="featured--byline">
-                                                            <ul class="authors">
-                                                                <li><span class="display-name">by: Maddison Bloom</span></li>
-                                                            </ul>
-                                                        </div>
-                                                        <p class="cat-date">
-                                                            <a href="#" class="">
-                                                            Featured/History 
-                                                            </a>
-                                                        </p>
-                                                    </div>
+                                                    
                                                 </div>
                                             </div>
-
-                                            <div class="featured-item featured-card">
-                                                <div class="image module--visual">
-                                                    <a href="#">
-                                                        <!-- <figure>
-                                                            <picture class="artdirection--123"> -->
-                                                            <img src="../assets/images/img-4a.jpg" alt="a white man passport" class="img featured-image">  
-                                                            <!-- </picture>
-                                                        </figure> -->
-                                                    </a>     
-                                                </div>
-                                                <div class="fetured-details">
-                                                    <a href="" class="featured-title-link fetured-link">
-                                                        <h2 class="featured-title title">The Strokes Announce North American Concerts</h2>
-                                                    </a>
-                                                    <div class="featured-meta">
-                                                        <div class="featured--byline">
-                                                            <ul class="authors">
-                                                                <li><span class="display-name">by: Maddison Bloom</span></li>
-                                                            </ul>
-                                                        </div>
-                                                        <p class="cat-date">
-                                                            <a href="#" class="">
-                                                            Featured/History 
-                                                            </a>
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="featured-item featured-card">
-                                                <div class="image module--visual">
-                                                    <a href="#">
-                                                        <!-- <figure>
-                                                            <picture class="artdirection--123"> -->
-                                                            <img src="../assets/images/img-4a.jpg" alt="a white man passport" class="img featured-image">  
-                                                            <!-- </picture>
-                                                        </figure> -->
-                                                    </a>     
-                                                </div>
-                                                <div class="fetured-details">
-                                                    <a href="" class="featured-title-link fetured-link">
-                                                        <h2 class="featured-title title">The Strokes Announce North American Concerts</h2>
-                                                    </a>
-                                                    <div class="featured-meta">
-                                                        <div class="featured--byline">
-                                                            <ul class="authors">
-                                                                <li><span class="display-name">by: Maddison Bloom</span></li>
-                                                            </ul>
-                                                        </div>
-                                                        <p class="cat-date">
-                                                            <a href="#" class="">
-                                                            Featured/History 
-                                                            </a>
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="featured-item featured-card">
-                                                <div class="image module--visual">
-                                                    <a href="#">
-                                                        <!-- <figure>
-                                                            <picture class="artdirection--123"> -->
-                                                            <img src="../assets/images/img-4a.jpg" alt="a white man passport" class="img featured-image">  
-                                                            <!-- </picture>
-                                                        </figure> -->
-                                                    </a>     
-                                                </div>
-                                                <div class="fetured-details">
-                                                    <a href="" class="featured-title-link fetured-link">
-                                                        <h2 class="featured-title title">The Strokes Announce North American Concerts</h2>
-                                                    </a>
-                                                    <div class="featured-meta">
-                                                        <div class="featured--byline">
-                                                            <ul class="authors">
-                                                                <li><span class="display-name">by: Maddison Bloom</span></li>
-                                                            </ul>
-                                                        </div>
-                                                        <p class="cat-date">
-                                                            <a href="#" class="">
-                                                            Featured/History 
-                                                            </a>
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                            {% endfor %}
                                         </div>
                                     </li>
-                                    
                                 </ul>
-                            </section> 
-                            <section id="section" class="main-page-posts featured-post-padding gallery-z">
-                                <h3 class="section-title section-header">Gallery</h3>
-                                <ul class="main-page-posts-lists">
-                                    <li class="post-module inner-section-padding">
-                                        <div class="featured-lists">
-                                            <div class="featured-item featured-card">
-                                                <div class="image module--visual">
-                                                    <a href="#">
-                                                        <!-- <figure>
-                                                            <picture class="artdirection--123"> -->
-                                                            <img src="../assets/images/img-4a.jpg" alt="a white man passport" class="img featured-image">  
-                                                            <!-- </picture>
-                                                        </figure> -->
-                                                    </a>     
-                                                </div>
-                                                <div class="fetured-details">
-                                                    <a href="" class="featured-title-link fetured-link">
-                                                        <h2 class="featured-title title">The Strokes Announce North American Concerts</h2>
-                                                    </a>
-                                                    <div class="featured-meta">
-                                                        <div class="featured--byline">
-                                                            <ul class="authors">
-                                                                <li><span class="display-name">by: Maddison Bloom</span></li>
-                                                            </ul>
-                                                        </div>
-                                                        <p class="cat-date">
-                                                            <a href="#" class="">
-                                                            Featured/History 
-                                                            </a>
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="featured-item featured-card">
-                                                <div class="image module--visual">
-                                                    <a href="#">
-                                                        <!-- <figure>
-                                                            <picture class="artdirection--123"> -->
-                                                            <img src="../assets/images/img-4a.jpg" alt="a white man passport" class="img featured-image">  
-                                                            <!-- </picture>
-                                                        </figure> -->
-                                                    </a>     
-                                                </div>
-                                                <div class="fetured-details">
-                                                    <a href="" class="featured-title-link fetured-link">
-                                                        <h2 class="featured-title title">The Strokes Announce North American Concerts</h2>
-                                                    </a>
-                                                    <div class="featured-meta">
-                                                        <div class="featured--byline">
-                                                            <ul class="authors">
-                                                                <li><span class="display-name">by: Maddison Bloom</span></li>
-                                                            </ul>
-                                                        </div>
-                                                        <p class="cat-date">
-                                                            <a href="#" class="">
-                                                            Featured/History 
-                                                            </a>
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="featured-item featured-card">
-                                                <div class="image module--visual">
-                                                    <a href="#">
-                                                        <!-- <figure>
-                                                            <picture class="artdirection--123"> -->
-                                                            <img src="../assets/images/img-4a.jpg" alt="a white man passport" class="img featured-image">  
-                                                            <!-- </picture>
-                                                        </figure> -->
-                                                    </a>     
-                                                </div>
-                                                <div class="fetured-details">
-                                                    <a href="" class="featured-title-link fetured-link">
-                                                        <h2 class="featured-title title">The Strokes Announce North American Concerts</h2>
-                                                    </a>
-                                                    <div class="featured-meta">
-                                                        <div class="featured--byline">
-                                                            <ul class="authors">
-                                                                <li><span class="display-name">by: Maddison Bloom</span></li>
-                                                            </ul>
-                                                        </div>
-                                                        <p class="cat-date">
-                                                            <a href="#" class="">
-                                                            Featured/History 
-                                                            </a>
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="featured-item featured-card">
-                                                <div class="image module--visual">
-                                                    <a href="#">
-                                                        <!-- <figure>
-                                                            <picture class="artdirection--123"> -->
-                                                            <img src="../assets/images/img-4a.jpg" alt="a white man passport" class="img featured-image">  
-                                                            <!-- </picture>
-                                                        </figure> -->
-                                                    </a>     
-                                                </div>
-                                                <div class="fetured-details">
-                                                    <a href="" class="featured-title-link fetured-link">
-                                                        <h2 class="featured-title title">The Strokes Announce North American Concerts</h2>
-                                                    </a>
-                                                    <div class="featured-meta">
-                                                        <div class="featured--byline">
-                                                            <ul class="authors">
-                                                                <li><span class="display-name">by: Maddison Bloom</span></li>
-                                                            </ul>
-                                                        </div>
-                                                        <p class="cat-date">
-                                                            <a href="#" class="">
-                                                            Featured/History 
-                                                            </a>
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    
-                                </ul>
-                            </section>                              
+                            </section>                             
                             <section id="section" class="main-page-posts section-padding">
                                 <h3 class="section-header">The NIgerian Racism</h3>
                                 <ul class="main-page-posts-lists">

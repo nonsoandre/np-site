@@ -1,0 +1,13 @@
+---
+layout: post
+title: "Talk.CSS #47"
+date: 2020-01-09 19:00:00 +0800
+location: The Interwebs
+event-date: 2020-02-05 19:00:00 +0800
+categories: meetup
+meetup: 47
+event-id: 267764533
+---
+Due to concerns over the nCoV-2019 virus, we have decided to invoke Plan V and do Talk.CSS #47 completely online. Thank you to the 4 people who dialed-in. Your presence will be forever preserved on video. ICYMI, our theme this month was clearly “Testing in Production” as Sheldon and I just live-coded stuff.
+
+Big thanks to Michael for handling the technical setup and uploading the videos before I even ate dinner. We are now 47-in-a-row. I swear I'm not OCD.

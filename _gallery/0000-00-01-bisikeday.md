@@ -5,7 +5,8 @@ meta: The race against time when we cant stop and we find ourselves running thro
 photographer: Adanne Gbamela
 date: January 15 2020
 photographer: Adanne Gbamela
-date-title: Fri Nov 08 2019 22:12:11 GMT+0100 (Central European Standard Time)
+tags: La Familia
+episode: 1
 image-path: \assets\images\uploads\gallery\
 cover-image: lunchFamilia.jpg
 album-name: BisikeDay

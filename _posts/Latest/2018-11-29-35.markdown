@@ -1,0 +1,11 @@
+---
+layout: post
+title: "Talk.CSS #35"
+date: 2018-11-29 19:00:00 +0800
+location: SP Digital
+event-date: 2019-01-30 19:00:00 +0800
+categories: meetup
+event-id: 256782322
+meetup: 35
+---
+We had a great first Talk.CSS of 2019 with a nice turn out of more than 20 people. Because I stop counting at 20. Big thanks to Sheldon and SP Digital for hosting us and feeding the masses.

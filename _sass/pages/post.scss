@@ -126,9 +126,8 @@ article{
         hyphens: auto;
         margin: 3px;
         color: $color-accent;
-        text-align: center;
+        text-align: left;
         @media #{$md-scn--up}{
-            text-align: left;
             font-size: 12px;
         }
         @media #{$lg-scn--up}{
@@ -140,14 +139,13 @@ article{
         font-weight: 800;
         line-height: 1.2;
         margin: 10px auto;
-        text-align: center;
+        text-align: left;
         max-width: 500px;
         text-transform: uppercase;
 
         @media #{$md-scn--up}{
             font-size: 30px;
             max-width: none;
-            text-align: left;
         }
         @media #{$lg-scn--up}{
             font-size: 40px;
@@ -427,11 +425,14 @@ article{
             
             i{
                 background: $color-typo-faint;
-                padding: 1em;
+                padding: .5em;
                 border-radius: 50%;
                 // box-shadow:    1rem 1rem 2rem rgba(0, 0, 0, .2),
                 // -1rem -1rem 2rem rgba(255, 255, 255, .7);
 
+               @media #{$md-scn--up}{
+                   padding: 1em;
+               } 
                &:hover,
                &:focus{
                     // box-shadow: inset  1rem 1rem 2rem rgba(0, 0, 0, .3),

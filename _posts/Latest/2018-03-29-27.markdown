@@ -1,0 +1,12 @@
+---
+layout: post
+title: "Talk.CSS #27"
+date: 2018-03-29 19:00:00 +0800
+location: Microsoft Singapore
+event-date: 2018-04-25 19:00:00 +0800
+categories: meetup
+event-id: 249207798
+meetup: 27
+news: April 2018
+---
+We had a really cozy session at Microsoft Singapore this month, with really nice food sponsored by our very own, Chris. Please give him a hug/high-five/handshake when you see him next. Unfortunately, we had some technical issues with the recording, so no videos this month. Ah, life.

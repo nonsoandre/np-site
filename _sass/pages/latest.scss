@@ -81,6 +81,9 @@
         max-width: 940px;
         margin: 0 auto;
 
+        @media (max-width: 600px){
+            margin: 0 -20px;
+        }
         @media (min-width: 64em){
             max-width: 75em;
         } 
@@ -249,9 +252,104 @@
     font-weight: lighter;
 }
 .context-list .article-meta h3:hover {
-    color: black;
     text-decoration: underline;
+    text-decoration-color: $color-accent;
 }
 .article-info .author {
  display: none;   
 }
+
+
+
+.pagination {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    grid-column: 1 / -1;
+    margin: 2em 0;
+    width: 100%;
+  
+    ul {
+      margin: 0 auto;
+      padding: 0;
+      list-style-type: none;
+    }
+  
+    li {
+      display: block;
+      float: left;
+      margin-left: -1px;
+  
+      a {
+        display: block;
+        margin-bottom: 0.25em;
+        padding: 0.5em 1em;
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 1.5;
+        text-align: center;
+        text-decoration: none;
+        border: 1px solid;
+        border-radius: 0;
+  
+        &.disabled {
+          pointer-events: none;
+          cursor: not-allowed;
+        }
+      }
+  
+    //   &:first-child {
+    //     margin-left: 0;
+  
+    //     a {
+    //       border-top-left-radius: $border-radius;
+    //       border-bottom-left-radius: $border-radius;
+    //     }
+    //   }
+  
+    //   &:last-child {
+    //     a {
+    //       border-top-right-radius: $border-radius;
+    //       border-bottom-right-radius: $border-radius;
+    //     }
+    //   }
+    }
+  }
+  .loadMore {
+    
+    position: relative;
+    display: block;
+    margin: 0 auto;
+
+    padding: .45em .75em;
+    background-color: green;
+    color: $color-typo;
+    border: 1px solid green;
+    cursor: pointer;
+    border-radius: .3em;
+    border-top-left-radius: .9em;
+    margin-bottom: 2em;
+    font-weight: 600;
+    
+    transition: all .2s ease-in-out;
+
+    &:hover{
+        background-color: inherit;
+    /*     border: 1px solid green; */
+        border-top-left-radius: .3em;
+        color: $color-accent;
+    }
+    
+    &.loading {
+      &::after {
+        position: absolute;
+        left: 0;
+        right: 0;
+        background-color: transparent;
+        width: 100%;
+        content: 'Loading...';
+        color: #bcbcbc;
+      }
+    } 
+  }
+  

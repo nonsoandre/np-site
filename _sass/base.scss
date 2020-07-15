@@ -14,6 +14,7 @@
     --clr-typo:             #{$color-typo--lite};
     --clr-typo-faint:       #{$color-typo-faint--lite};
     --clr--bg-nav:          #{$background-nav--lite};
+    --clr-statc:            rgb(27, 27, 27);
 }
 
 .darkmode{
@@ -228,8 +229,12 @@ strong{
 // .section-padding:first-of-type{
 //     // padding-top: 10px;
 // }
+
+
 #section:nth-of-type(2n){
-    @include bg-color(#{$background-3-string});
+    @media (max-width: 670px){       
+        @include bg-color(#{$background-3-string});
+    }
 
     @media #{$md-scn--up}{
         background: none;
@@ -264,7 +269,10 @@ strong{
         margin-bottom: .5em;
     }
     & ul{
-        & li a{
+        &li:hover{
+            opacity: .7;
+        }
+        a{
             @media #{$lg-scn--up}{
                transition: none; 
             }
@@ -369,7 +377,7 @@ svg {
     @media #{$lg-scn--up}{
         position: relative;
         z-index: 100;
-        margin-bottom: 47.9rem;
+        margin-bottom: 34rem;
         box-shadow: 0 0 20px rgba(0,0,0,0.25);
         background-color: $background-1--lite;
         @include bg-color(#{$background-1-string});
@@ -412,3 +420,35 @@ svg {
         font-size: 50px !important;
     }
 }
+
+
+.infinite-spinner {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: #333;
+    margin: 60px auto;
+    
+    -webkit-animation: scaleout 1.0s infinite ease-in-out;
+    animation: scaleout 1.0s infinite ease-in-out;
+  }
+  
+  @-webkit-keyframes scaleout {
+    0% { -webkit-transform: scale(0.0) }
+    100% {
+      -webkit-transform: scale(1.0);
+      opacity: 0;
+    }
+  }
+  
+  @keyframes scaleout {
+    0% {
+      transform: scale(0.0);
+      -webkit-transform: scale(0.0);
+    } 100% {
+      transform: scale(1.0);
+      -webkit-transform: scale(1.0);
+      opacity: 0;
+    }
+  }

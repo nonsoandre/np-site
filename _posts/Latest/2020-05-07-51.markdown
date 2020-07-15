@@ -1,0 +1,11 @@
+---
+layout: post
+title: "Talk.CSS #51"
+date: 2020-05-07 19:00:00 +0800
+location: The Interwebs
+event-date: 2020-06-03 19:00:00 +0800
+categories: meetup
+meetup: 51
+event-id: 267764608
+---
+We are sort of like half-way through Season 4 at this point (if you consider a year a season). Typically TV shows tend to go downhill at this point. But not tonight. It was layout night, and what a spectacular layout night it was.

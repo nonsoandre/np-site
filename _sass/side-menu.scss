@@ -1,7 +1,7 @@
 .side-menu{
     background: gray;
     position: fixed;
-    width: 100vw;
+    width: 60vw;
     z-index: 9999;
     @include bg-color(#{$background-1-string});
     height: calc(100vh - 63px);
@@ -116,11 +116,15 @@
             & .nav-link{
                 display: inline-block;
                 width: 100%;
-                padding: 1.5rem 0;
+                padding: 1.2rem 0;
                 text-transform: uppercase;
                 color:  $color-typo--lite;
                 @include text-color(#{$color-typo-string});
                 @include border-bottom (#{$background-border-decor-string});
+                
+                @media #{$lg-scn--up}{
+                    padding: 1.5rem 0;
+                }
                 &:hover,
                 &:focus{
                     color: $color-accent;
@@ -132,9 +136,11 @@
                 font-weight: 700;
                 font-size: 1.2rem;
                 letter-spacing: 1px;
+                margin-top: 0;
 
                 @media #{$lg-scn} {
                     font-size: 16px !important;
+                    // margin-top: 2em;
                 }
             }
         }

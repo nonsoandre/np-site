@@ -1,0 +1,13 @@
+---
+layout: post
+title: "Talk.CSS #36"
+date: 2019-01-31 19:00:00 +0800
+location: HOOQ
+event-date: 2019-02-27 19:00:00 +0800
+categories: meetup
+event-id: 258526620
+meetup: 36
+---
+We were very honoured to be [HOOQ](https://www.hooq.tv/)'s first tech meetup. They are wonderful hosts and hopefully more tech meetups will take place at their lovely office. But we'll always be the first.
+
+Had a lot of good CSS going on this evening. If you missed it, ah well, videos for you then. We also now have a newsletter, so [subscribe](https://tinyletter.com/SingaporeCSS) to get a dose of monthly HTML & CSS news in your inbox.

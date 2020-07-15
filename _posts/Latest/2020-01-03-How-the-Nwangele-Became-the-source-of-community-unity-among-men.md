@@ -14,7 +14,7 @@ author: Chinyere Nwosu
 date-custom: January 03 2020
 publisher: Nwangele Post
 post-category: Experience
-post-quote: thanks to the reports and resources from my mentor, but that's not to say that I    haven't encountered some challenges.
+post-quote: thanks to the reports and resources from my mentor, but that's not to say that I   haven't encountered some challenges.
 post-tag-1: nkwerre
 post-tag-2: society
 post-tag-area: Nkwerre

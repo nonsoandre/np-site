@@ -1,0 +1,11 @@
+---
+layout: post
+title: "Talk.CSS #13"
+date: 2016-12-11 19:00:00 +0800
+location: CXA Group
+event-date: 2017-01-25 19:00:00 +0800
+categories: meetup
+meetup: 13
+news: January 2017
+---
+We opened 2017 with a CSS grid-themed session at Chris's swanky office (the office he works in, sadly, he doesn't own the office), and they sponsored food and drinks and free wi-fi... I really think we're inching up the ladder, guys and gals <span class="o-emoji" role="img" tabindex="0" aria-label="person dancing">&#x1F483;</span>.

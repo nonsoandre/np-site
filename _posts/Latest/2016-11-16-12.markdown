@@ -1,0 +1,11 @@
+---
+layout: post
+title: "Talk.CSS Anniversary Special"
+date: 2016-11-16 19:00:00 +0800
+location: Spacemob Claymore
+event-date: 2016-11-22 19:00:00 +0800
+categories: meetup
+meetup: 12
+news: November 2016
+---
+Oh my god, we've made it to 1 year! Back to where it all began: at DevFest Asia. This wouldn't have been possible without all of your support. So once again, join us to nerd out on CSS and stuff <span class="o-emoji" role="img" tabindex="0" aria-label="red heart">&#x2764;&#xFE0F;</span>.
