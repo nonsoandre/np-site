@@ -202,10 +202,11 @@ title: Features
                                             <div class="clerarfix">
                                                 <div class="features-fragment">
                                                     <div class="container-fluid">
-                                                        <div class="module-row feature-module-row">
+                                                        <div class="module-row feature-module-row feature-module-list">
                                                             {% for feature in site.categories.feature %}
                                                             {% if feature.level == "non-cover" %}
-                                                            <div class="feature-module module">
+                                                            <div class="feature-module module inner-feature-module-list">
+                                                                <div class="min-module-row">
                                                                 <div class="module_img module__visual">
                                                                     <a href="{{ site.baseurl }}{{ feature.url }}" class="image-link">
                                                                         <span class="sr-only"> {{ feature.title }}A short message that displays module title</span>
@@ -234,6 +235,7 @@ title: Features
                                                                             </time>
                                                                         </p>
                                                                     </div>
+                                                                </div>
                                                                 </div>
                                                                 <div class="highlight"></div>
                                                             </div>

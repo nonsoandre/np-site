@@ -16,6 +16,8 @@ header{
     }
     @media (max-width: 1039px){
         position: fixed;
+        height: 3em;
+        border-bottom: none;
     }
 
     .hide{
@@ -136,7 +138,7 @@ header{
         @include bg-color(#{$background-nav-string});
         transition: transform .3s;
         backface-visibility: hidden;
-        padding-top: 2em;
+        padding-top: 1em;
         width: 100%;
 
         @media #{$lg-scn--dn} {
@@ -148,7 +150,7 @@ header{
     
 }
 .nav-container.nav-container--standard.nav-container--fixed {
-    margin-top: -.5em;
+    margin-top: -.3em;
     @include border(1px, solid, #{$background-border-decor-string}, -bottom);
 }
 .nav-container--fixed{
@@ -167,8 +169,8 @@ header{
     margin:  0 25px;
     & .primary-nav-list{
         display: flex;
-        // justify-content: center;
         align-items: center;
+        margin: 0 0 10px 0;
 
         & .list-item{
             margin-right: 2em;

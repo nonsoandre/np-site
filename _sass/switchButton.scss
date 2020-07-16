@@ -36,4 +36,31 @@
         background: $background-5--lite;
         left: 20px;
     }
+
+    @media (max-width: 64em){
+        margin-top: -1px;
+    }
+    
+    @media (max-width: 45em){
+
+        & input[type="checkbox"]{
+            width: 15px;
+            height: 15px;
+        }
+        & input[type="checkbox"]::before{
+            width: 15px;
+            height: 15px;
+        }
+
+        & input:checked[type="checkbox"]{
+            background: transparent;
+            border: 0;
+            box-shadow: none;
+        }
+
+        & input:checked[type="checkbox"]::before{
+            background: $background-5--lite;
+            left: unset;
+        }
+    }
 }
