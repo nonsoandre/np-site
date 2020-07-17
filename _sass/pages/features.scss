@@ -507,10 +507,11 @@
     margin-bottom: 20px;
     position: relative;
     min-height: 1px;
-    padding: 0 20px;
+    padding: 0 5px;
 
     @media #{$md-scn--up}{
         margin-bottom: 20px;
+        padding: 0 15px;
     }
 }
 .horizontal-modules .feature-module{
@@ -959,3 +960,35 @@
     }
 }
 
+
+//Gallery features modificationa
+.feature-module.module.module-with-abstract{
+    & .module_img.module__visual.gallery-module-image {
+        height: 170px;
+
+            @media (min-width: 467px){
+                height: 60%;
+            }
+
+            @media (min-width: 767px){
+                height: 100%;
+                
+            }
+            
+            @media (min-width: 1047px){
+                min-height: 192px;
+                height: 220px;
+            }
+        & a.image-link {
+            height: 100%;
+
+            & img.module_image {
+                // max-height: 192px;
+                object-fit: cover;
+            }
+        }
+        & a.type {
+            display: none;
+        }
+    }
+}

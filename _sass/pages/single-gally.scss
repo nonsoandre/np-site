@@ -349,7 +349,7 @@
         width: 100%;
     }
 
-    @media only screen and (min-width: 750px) and (max-width: 992px){
+    @media only screen and (min-width: 750px) and (max-width: 1040px){
         text-align: center;
         margin-bottom: 20px;
     }
@@ -361,7 +361,7 @@
         font-weight: 600;
         margin-bottom: 20px;
 
-        @media only screen and (min-width: 750px) and (max-width: 992px){
+        @media only screen and (min-width: 750px) and (max-width: 1040px){
             margin-bottom: 10px;
         }
     }
@@ -371,7 +371,7 @@
     }
 
     & .pub-date{
-        @media only screen and (min-width: 750px) and (max-width: 992px){
+        @media only screen and (min-width: 750px) and (max-width: 1040px){
             margin-bottom: 0;
         }
     }
@@ -379,7 +379,7 @@
 
 .share-module.share-module--horizontal{
 
-    @media only screen and (min-width: 750px) and (max-width: 992px){
+    @media only screen and (min-width: 750px) and (max-width: 1040px){
             width: 13.8rem;
             margin: 2rem auto;
             position: relative;        
@@ -387,19 +387,19 @@
 
 
     & li{
-        @media only screen and (min-width: 750px) and (max-width: 992px){
+        @media only screen and (min-width: 750px) and (max-width: 1040px){
           float: left;  
         } 
     }
     & .share-module__primary{
         li{
-            @media only screen and (min-width: 750px) and (max-width: 992px){
+            @media only screen and (min-width: 750px) and (max-width: 1040px){
                margin: 0 .5rem 0 0; 
             }  
         }
     }
     & .share-module__drawer {
-        @media only screen and (min-width: 750px) and (max-width: 992px){
+        @media only screen and (min-width: 750px) and (max-width: 1040px){
             position: absolute;
             top: .3rem;
             left: 9.8rem;
@@ -582,14 +582,14 @@
     box-shadow: 0 0 0 1rem #fff,0 0 0 1.075rem $color-accent;
     transition: background .15s;
 }
-@media only screen and (min-width: 992px){
+@media only screen and (min-width: 1040px){
     #feature-detail .block-area .article-meta {
         position: absolute;
         top: .8rem;
     }    
 }
 
-@media screen and (min-width: 992px){
+@media screen and (min-width: 1040px){
     .article-meta--features {
         float: left;
         width: 16.66667%;
