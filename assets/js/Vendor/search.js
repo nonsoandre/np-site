@@ -7,8 +7,32 @@
 
       for (var i = 0; i < results.length; i++) {  // Iterate over the results
         var item = store[results[i].ref];
-        appendString += '<li><a href="' + item.url + '"><h3>' + item.title + '</h3></a>';
-        appendString += '<p>' + item.content.substring(0, 150) + '...</p></li>';
+        // appendString += '<li><img src=" '+ item.baseurl + item.imagepath + '/' + item.image +'"  /><a href="' + item.url + '"><h3>' + item.title + '</h3></a>' + item.author;
+
+        appendString += `<div class="sub-article-details context-list">
+        <a href="${ item.url }" class="article-link">
+            <figure class="article-figure size-medium">
+                <div class=" visible pb-cent article-img-box">
+                    <img src="${ item.baseurl }/${ item.imagepath}/${ item.image }" srcset="" alt=" {{ latest.image-alt }} ">
+                </div>
+            </figure>
+            <div class="article-meta local">
+                <div class="article-context meta-details">
+                    <span>${ item.category }</span>
+                </div>
+                <h3>${ item.title }</h3>
+                
+                <div class="article-info">
+                    <div class="author">By {{ latest.author }}</div>
+                    <div class="cat">
+                        <span class="date">${ item.date }</span>
+                    </div> 
+                </div>
+
+            </div>
+        </a>
+    </div>`
+        // appendString += '<p>' + item.content.substring(0, 150) + '...</p></li>';
       }
 
       searchResults.innerHTML = appendString;
@@ -43,6 +67,10 @@
       this.field('author');
       this.field('category');
       this.field('content');
+      this.field('image');
+      this.field('imagepath');
+      this.field('baseurl');
+      this.field('date');
     });
 
     for (var key in window.store) { // Add the data to lunr
@@ -51,7 +79,11 @@
         'title': window.store[key].title,
         'author': window.store[key].author,
         'category': window.store[key].category,
-        'content': window.store[key].content
+        'content': window.store[key].content,
+        'image': window.store[key].image,
+        'imagepath': window.store[key].imagepath,
+        'baseurl': window.store[key].baseurl,
+        'date': window.store[key].date,
       });
 
       var results = idx.search(searchTerm); // Get lunr to perform a search

@@ -5,7 +5,7 @@ console.log(secondTier)
 if(matchMedia){
     // debugger
     //creating our media query
-    const mq = window.matchMedia("(min-width: 747px) and (max-width: 910px)");
+    const mq = window.matchMedia("(min-width: 747px) and (max-width: 1040px)");
     //add a listener on mq that calls function when width is reached
     mq.addListener(WidthChange);
     WidthChange(mq); //ensures that function is called when page is loaded
