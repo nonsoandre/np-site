@@ -1,0 +1,40 @@
+.related-posts{
+    margin: 10em auto 5em;
+    // background: lightblue;
+    max-width: 992px;
+    padding: 0 1rem 0;
+
+   & .divider-title{
+        margin: 20px 0;
+        display: flex;
+        align-items: center;
+        font-weight: bold;
+
+        @media (min-width){
+            margin: 75px 0 1.8rem;
+        }
+
+        & .divider{
+            flex: 1;
+            height: 3px;
+            background: #444444;
+        }
+
+        & h2 {
+            font-family: "IBM Plex Mono", monospace;
+            font-size: 30px;
+            margin: 0 20px;
+        }
+   }
+
+   & .container-fluid .feature-module-list{
+       justify-content: center;
+
+       @media (min-width: 992px){
+           .feature-module.module.inner-feature-module-list {
+                width: 33.3333%;
+            }
+        }
+    }
+
+}

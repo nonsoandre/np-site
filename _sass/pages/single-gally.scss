@@ -752,6 +752,7 @@ element {
 .gallery-preview__container-inner{
     border: none;
     background-color: var(--clr-bg-card);
+    box-shadow: 0 15px 25px var(--clr-bg-card);
 }
 .gallery-preview__btn{
     transform: none;
