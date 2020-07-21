@@ -45,7 +45,7 @@ title: Features
                                     <div class="container-fluid">
                                         <div class="module-row feature-module-row">
                                             <div class="feature-hero-module-container">
-                                                {% for feature in site.categories.feature %}
+                                                {% for feature in site.feature %}
                                                 {% if feature.level == "cover" %}
                                                 <div class="feature-hero module">
                                                     <div class="feature-image image module__visual">
@@ -202,8 +202,18 @@ title: Features
                                             <div class="clerarfix">
                                                 <div class="features-fragment">
                                                     <div class="container-fluid">
-                                                        <div class="module-row feature-module-row feature-module-list">
-                                                            {% for feature in site.categories.feature %}
+
+                                                        {% if paginator.page %}
+                                                        {% assign offset = paginator.page | minus:1 | times:paginator.per_page %}
+                                                        {% assign currentPage = paginator.page %}
+                                                    {% else %}
+                                                        {% assign offset = 0 %}
+                                                        {% assign currentPage = 1 %}
+                                                    {% endif %}
+
+
+                                                        <article id="article-container" class="module-row feature-module-row feature-module-list" data-page="{{ currentPage }}" data-totalPages="{{ paginator.total_pages }}" data-pageurl="{{ page.url | remove: "/index.html"}}">
+                                                            {% for feature in paginator.posts %}
                                                             {% if feature.level == "non-cover" %}
                                                             <div class="feature-module module inner-feature-module-list">
                                                                 <div class="min-module-row">
@@ -241,8 +251,13 @@ title: Features
                                                             </div>
                                                             {% endif %}
                                                             {% endfor %}                                                            
-                                                        </div>
-
+                                                        </article>
+                                                        {% assign postCount = site.posts | size %}
+                                                        {% assign postsCovered = site.paginate | plus:offset %}
+                                                        {% if postsCovered < postCount %}
+                                                          <button class="loadMore">Load more posts</button>
+                                                        {% endif %}
+                                                        
                                                     </div>
                                                 </div>
                                             </div>
@@ -270,5 +285,7 @@ title: Features
    {% include mobi-footer.html %}
    <script src="{{ site.baseurl }}/assets/js/hamburger.js "></script>
    <script src="{{ site.baseurl }}/assets/js/horizontal-mod.js "></script>
+   <script src="{{ site.baseurl }}/assets/js/jquery-3.5.1.min.js "></script>
+   <script src="{{ site.baseurl }}/assets/js/custom-infinite-scroll.js "></script>
 </body>
 </html>

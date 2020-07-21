@@ -1,10 +1,10 @@
 ---
-layout: gallery_index
-title: Gallery
-permalink: /photo-gallery/
+layout: feature
+title: Featured
+permalink: /features/
 pagination: 
   enabled: true
-  per_page: 6
+  per_page: 8
   collection: feature
   permalink: /page:num/
 ---

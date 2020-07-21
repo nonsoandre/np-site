@@ -1,0 +1,5 @@
+{% assign postCount = site.posts | size %}
+{% assign postsCovered = site.paginate | plus:offset %}
+{% if postsCovered < postCount %}
+  <button class="loadMore">Load more posts</button>
+{% endif %}
