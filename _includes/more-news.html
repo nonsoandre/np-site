@@ -1,0 +1,37 @@
+<div class="more-news">
+    <div id="article-container" class="article-inner-container" data-page="{{ currentPage }}" data-totalPages="{{ paginator.total_pages }}">
+        {% for latest in site.posts limit:site.paginate offset:offset %}
+        
+            <article class="article-details context-list article-summary">
+                <div class="sub-article-details context-list">
+                    <a href="{{ site.baseurl }}{{ latest.url }}" class="article-link">
+                        <figure class="article-figure size-medium">
+                            <div class=" visible pb-cent article-img-box">
+                                <img src="{{ site.baseurl}}/{{ latest.image-path}}/{{ latest.image }}" srcset="" alt=" {{ latest.image-alt }} ">
+                            </div>
+                        </figure>
+                        <div class="article-meta local">
+                            <div class="article-context meta-details">
+                                <span>{{ latest.location }}</span>
+                                <address class="feed_item-author">
+                                    <span class="article-spacer">|</span>
+                                    <div class="author">By {{ latest.author }}</div>
+                                </address>
+                            </div>
+                            <h3>{{ latest.title }}</h3>
+                            <div class="site-name"><span>{{ latest.publisher }}</span></div>
+                            <div class="article-info">
+                                <div class="author">By {{ latest.author }}</div>
+                                <div class="cat">
+                                    <span>{{ latest.category}} / </span>
+                                    <span class="date">{{ latest.date-custom }}</span>
+                                </div> 
+                            </div>
+
+                        </div>
+                    </a>
+                </div>
+            </article>
+            {% endfor %}
+        </div> 
+</div>

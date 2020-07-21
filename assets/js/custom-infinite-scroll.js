@@ -8,7 +8,7 @@ function loadMorePosts() {
 
   $(this).addClass("loading");
   
-  $.get("/np.io/latest/page" + nextPage, function (data) {
+  $.get("/np-site/latest/page" + nextPage, function (data) {
     var htmlData = $.parseHTML(data);
     var $articles = $(htmlData).find("article");
 
