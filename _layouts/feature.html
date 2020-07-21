@@ -1,16 +1,8 @@
 ---
-layout: compress
-title: Features
+layout: default
 ---
 
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    {% include head.html %}
-</head>
-<body>
-   <div id="main">
        <div class="div-wrapper">
         {% include nav.html %}   
        </div>
@@ -19,23 +11,12 @@ title: Features
             <div class="homepage">
                 <div class="inner-site-container">
                     <header class="page-feature-header">
-                        <!-- <div class="page-feature--bg page-feature--bg-art">
-                            <div class="page-feature-header--details container container-fluid">
-                                <div class="page-feature--title-block">
-                                    <a href="#" class="page-feature--title">
-                                        <h1 class="styled-header">FEATURED</h1>
-                                    </a>
-                                    <p class="page-feature--sub-title">Stories the take a comprehensive look at what defines our history today</p>
-                                </div>
-                            </div>
-                        </div> -->
                         <div class="container-fluid">
                             <div class="page-title">
                                 <h1>{{ page.title }}</h1>
                                 <p class="page-feature--sub-title">Stories the take a comprehensive look at what defines our history today</p>
                             </div>                            
                         </div>
-
                     </header>
 
                     <div class="features-type feature-page">
@@ -45,157 +26,9 @@ title: Features
                                     <div class="container-fluid">
                                         <div class="module-row feature-module-row">
                                             <div class="feature-hero-module-container">
-                                                {% for feature in site.feature %}
-                                                {% if feature.level == "cover" %}
-                                                <div class="feature-hero module">
-                                                    <div class="feature-image image module__visual">
-                                                        <a href="{{ site.baseurl }}{{ feature.url }}" class="image-link">
-                                                            <img src="{{ site.baseurl}}/{{ feature.image-thumb-path}}/{{ feature.image }}" alt="{{ feature.image-alt }}" class="module__img">
-                                                            <div class="overlay"></div>
-                                                        </a>
-                                                        <a href="#" class="feature-type type">{{ feature.type }}</a>
-                                                    </div>
-                                                    <div class="feature-article-details module__article-details">
-                                                        <a href="{{ site.baseurl }}{{ feature.url }}" class="title-link">
-                                                            <h2 class="feature-title module__title">
-                                                                {{ feature.title }}
-                                                            </h2>
-                                                        </a>
-                                                        <div class="feature-meta module__meta">
-                                                            <div class="abstract module__abstract">
-                                                                <p> {{ feature.post-meta }} </p>
-                                                            </div>
-                                                            <div class="byline module__byline">
-                                                                <ul class="authors module__authors">
-                                                                    <li><span class="display-name">by: {{ feature.author }} / </span></li>
-                                                                </ul>
-                                                                <time class="pub-date module_pub-date" datetime=" {{ feature.pub-date }} " title="">
-                                                                    {{ feature.pub-date }}
-                                                                </time>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                {% endif %}
-                                                {% endfor %}
+                                                {% include feature-hero.html %}
                                             </div>                                            
                                         </div>
-
-                                        <!-- <div class="second-tier module-row">
-                                            <div class="feature-module module module-with-abstract">
-                                                <div class="module_img module__visual">
-                                                    <a href="#" class="image-link">
-                                                        <span class="sr-only">A short message that displays module title</span>
-                                                        <img class="module_image"  src="../assets/images/feature-modules/drill-wide-still.jpg" alt="">
-                                                        <div class="overlay"></div>
-                                                    </a>
-                                                    <a href="#" class="type">Rising</a>
-                                                </div>
-                                                <div class="article-details module__article-details">
-                                                    <a href="#" class="title-link module__title-link">
-                                                        <h2 class="module__title">
-                                                            Talking beyond Buzz Words
-                                                        </h2>
-                                                    </a>
-                                                    <div class="abstract module__abstract">
-                                                        <p>The race against time when we cant stop and we find ourselves running through the red lights</p>
-                                                    </div>
-                                                    <div class="module__meta meta">
-                                                        <div class="bylne module__byline">
-                                                            <ul class="authors module__authors">
-                                                                <li><span class="display-name">
-                                                                    by: Oluchi Gramesz /
-                                                                </span></li>
-                                                            </ul>
-                                                        </div>
-                                                        <p class="date feature-module__date">
-                                                            <time class="pub-date" datetime="" title="">
-                                                                january 15 2020
-                                                            </time>
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                                <div class="module__highlights"></div>
-                                            </div>
-
-                                            {% for feature in site.categories.Feature %}
-                                            <div class="feature-module module module-with-abstract">
-                                                <div class="module_img module__visual">
-                                                    <a href="{{ site.url}}{{ feature.url }}" class="image-link">
-                                                        <span class="sr-only">A short message that displays module title</span>
-                                                        <img class="module_image"  src="../assets/images/feature-modules/pitchforkpplheader.jpg" alt="">
-                                                        <div class="overlay"></div>
-                                                    </a>
-                                                    <a href="#" class="type">Rising</a>
-                                                </div>
-                                                <div class="article-details module__article-details">
-                                                    <a href="{{ site.url}}{{ feature.url }}" class="title-link module__title-link">
-                                                        <h2 class="module__title">
-                                                            Talking beyond Buzz Words
-                                                        </h2>
-                                                    </a>
-                                                    <div class="abstract module__abstract">
-                                                        <p>The race against time when we cant stop and we find ourselves running through the red lights</p>
-                                                    </div>
-                                                    <div class="module__meta meta">
-                                                        <div class="bylne module__byline">
-                                                            <ul class="authors module__authors">
-                                                                <li><span class="display-name">
-                                                                    by: Oluchi Gramesz /
-                                                                </span></li>
-                                                            </ul>
-                                                        </div>
-                                                        <p class="date feature-module__date">
-                                                            <time class="pub-date" datetime="" title="">
-                                                                january 15 2020
-                                                            </time>
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                                <div class="module__highlights"></div>
-                                            </div>
-
-                                            {% endfor %}
-
-                                            <div class="feature-module module module-with-abstract">
-                                                <div class="module_img module__visual">
-                                                    <a href="#" class="image-link">
-                                                        <span class="sr-only">A short message that displays module title</span>
-                                                        <img class="module_image"  src="../assets/images/feature-modules/Music-Festival-Wristbands.jpg" alt="">
-                                                        <div class="overlay"></div>
-                                                    </a>
-                                                    <a href="#" class="type">Rising</a>
-                                                </div>
-                                                <div class="article-details module__article-details">
-                                                    <a href="#" class="title-link module__title-link">
-                                                        <h2 class="module__title">
-                                                            Talking beyond Buzz Words
-                                                        </h2>
-                                                    </a>
-                                                    <div class="abstract module__abstract">
-                                                        <p>The race against time when we cant stop and we find ourselves running through the red lights</p>
-                                                    </div>
-                                                    <div class="module__meta meta">
-                                                        <div class="bylne module__byline">
-                                                            <ul class="authors module__authors">
-                                                                <li><span class="display-name">
-                                                                    by: Oluchi Gramesz /
-                                                                </span></li>
-                                                            </ul>
-                                                        </div>
-                                                        <p class="date feature-module__date">
-                                                            <time class="pub-date" datetime="" title="">
-                                                                january 15 2020
-                                                            </time>
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                                <div class="module__highlights"></div>
-                                            </div>
-
-
-
-                                        </div> -->
                                     </div>
                                     <div class="third-tier compact-list">
                                         <div class="infinite-container">
@@ -204,60 +37,14 @@ title: Features
                                                     <div class="container-fluid">
 
                                                         {% if paginator.page %}
-                                                        {% assign offset = paginator.page | minus:1 | times:paginator.per_page %}
-                                                        {% assign currentPage = paginator.page %}
-                                                    {% else %}
-                                                        {% assign offset = 0 %}
-                                                        {% assign currentPage = 1 %}
-                                                    {% endif %}
-
-
-                                                        <article id="article-container" class="module-row feature-module-row feature-module-list" data-page="{{ currentPage }}" data-totalPages="{{ paginator.total_pages }}" data-pageurl="{{ page.url | remove: "/index.html"}}">
-                                                            {% for feature in paginator.posts %}
-                                                            {% if feature.level == "non-cover" %}
-                                                            <div class="feature-module module inner-feature-module-list">
-                                                                <div class="min-module-row">
-                                                                <div class="module_img module__visual">
-                                                                    <a href="{{ site.baseurl }}{{ feature.url }}" class="image-link">
-                                                                        <span class="sr-only"> {{ feature.title }}A short message that displays module title</span>
-                                                                        <img class="module_image"  src="{{ site.baseurl}}/{{ feature.image-thumb-path}}/{{ feature.image }}" alt=" {{ feature.image-alt }} ">
-                                                                        <div class="overlay"></div>
-                                                                    </a>
-                                                                    <a href="#" class="type">{{ feature.type }}</a>
-                                                                </div>
-                                                                <div class="article-details module__article-details">
-                                                                    <a href="{{ site.baseurl }}{{ feature.url }}" class="title-link module__title-link">
-                                                                        <h2 class="module__title">
-                                                                            {{  feature.title }}
-                                                                        </h2>
-                                                                    </a>
-                                                                    <div class="module__meta meta">
-                                                                        <div class="bylne module__byline">
-                                                                            <ul class="authors module__authors">
-                                                                                <li><span class="display-name">
-                                                                                    by: {{ feature.author }}
-                                                                                </span></li>
-                                                                            </ul>
-                                                                        </div>
-                                                                        <p class="date feature-module__date">
-                                                                            <time class="pub-date" datetime="{{ feature.pub-date }}" title="">
-                                                                                {{ feature.pub-date }}
-                                                                            </time>
-                                                                        </p>
-                                                                    </div>
-                                                                </div>
-                                                                </div>
-                                                                <div class="highlight"></div>
-                                                            </div>
-                                                            {% endif %}
-                                                            {% endfor %}                                                            
-                                                        </article>
-                                                        {% assign postCount = site.posts | size %}
-                                                        {% assign postsCovered = site.paginate | plus:offset %}
-                                                        {% if postsCovered < postCount %}
-                                                          <button class="loadMore">Load more posts</button>
+                                                            {% assign offset = paginator.page | minus:1 | times:paginator.per_page %}
+                                                            {% assign currentPage = paginator.page %}
+                                                        {% else %}
+                                                            {% assign offset = 0 %}
+                                                            {% assign currentPage = 1 %}
                                                         {% endif %}
-                                                        
+                                                        {% include feature-article.html %}
+                                                        {% include loadmore.html %} 
                                                     </div>
                                                 </div>
                                             </div>
@@ -268,11 +55,6 @@ title: Features
                             </div>
                         </div>
                     </div>
-               
-               
-               
-               
-               
                 </div>    
             </div>
         </main>
@@ -281,7 +63,7 @@ title: Features
 
 
     {% include footer.html %}
-   </div>
+   </div><!-- END #MAIN -->
    {% include mobi-footer.html %}
    <script src="{{ site.baseurl }}/assets/js/hamburger.js "></script>
    <script src="{{ site.baseurl }}/assets/js/horizontal-mod.js "></script>
