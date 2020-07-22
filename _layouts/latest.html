@@ -1,16 +1,7 @@
 ---
-layout: compress
-title: Latest stories
-paginator: 10
+layout: default
 ---
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    {% include head.html %}
-</head>
-<body>
-   <div id="main">
        <div class="div-wrapper">
         {% include nav.html %}   
        </div>
@@ -69,26 +60,16 @@ paginator: 10
                                 {% endfor %}
                             </div> 
                             {% include loadmore.html %}
-                
                         </div>
-                        <!-- <div class="infinite-spinner"></div> -->
                     </div>
                 </div>
             </div>
         </main>
-        <!-- <div class="infinite-spinner"></div> -->
        {% include footer.html %} 
+   </div><!-- END #MAIN -->
    {% include mobi-footer.html %}
+
    <script src="{{ site.baseurl }}/assets/js/hamburger.js "></script>
    <script src="{{ site.baseurl }}/assets/js/jquery-3.5.1.min.js "></script>
-   <!-- <script src="{{ site.baseurl }}/assets/js/Vendor/infinite-jekyll.js "></script> -->
    <script src="{{ site.baseurl }}/assets/js/custom-infinite-scroll.js "></script> 
-   <!-- <script src="{{ site.baseurl }}/assets/js/Vendor/InfiniteScroll.js "></script>
-   <script>
-        var postWrapperId = 'article-container';
-        var paginatePath = '/np.io/latest/page';
-        new InfiniteScroll(paginatePath, postWrapperId);
-    </script> -->
-</body>
 
-</html>
