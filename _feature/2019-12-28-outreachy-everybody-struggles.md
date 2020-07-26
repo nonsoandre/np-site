@@ -1,28 +1,16 @@
 ---
 layout: post
 title: Just know that Everybody Struggles
-tags: [Outreachy Internship]
-location: Abba
+tags: [Internship, Advice How To]
 category: feature
-level: non-cover
-type: Interview
-image-random-path: assets\images\uploads\random
-image-thumb-path: assets\images\uploads\feature-modules\thumbnail
-image-path: assets\images\uploads\feature-modules
-image: metal.jpg
-image-caption: Kanyewest
-image-credit: Reuters/Anthony 
-image-alt: trancemusic
+images:
+  path: /random/untitled14.png
+  caption: Man struggle to keep up with the code
+  credit: Charles / Afro Press
 author: Angelina Okoli
-date-custom: Febuary 02 2020
-publisher: Zaycodes
-pub-date: Febuary 02 2020
-post-category:
-post-quote: I'm currently looking for full/part time job opportunities that will help me build a career in software development and also be able to improve developer experience.
-post-tag-1: nkwerre
-post-tag-2: society
-post-tag-area: Abba
-link: /latest-news/2020/05/02/two-killed-in-armed-robbery-gone-wrong-in-nkwerre/ 
+location: 
+publisher: Nwangele Post
+date: 2019-12-28 12:16:49 +0100 
 ---
 
 

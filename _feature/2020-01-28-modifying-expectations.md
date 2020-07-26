@@ -1,28 +1,16 @@
 ---
 layout: post
-title: Modifying Your Expectations
-tags: [Outreachy Internship]
-location: Abba
+title: "Modifying Your Expectations: How not to loose sleep."
+tags: [MediaWiki, Carreers, Job Hunting]
 category: feature
-level: non-cover
-type: Interview
-image-random-path: assets\images\uploads\random
-image-thumb-path: assets\images\uploads\feature-modules\thumbnail
-image-path: assets\images\uploads\feature-modules
-image: PF_Decades_Tumblr_STILL.png
-image-caption: Kanyewest
-image-credit: Reuters/Anthony 
-image-alt: trancemusic
-author: Oluchi Gramesz
-date-custom: Febuary 02 2020
-publisher: Zaycodes
-pub-date: Febuary 02 2020
-post-category:
-post-quote: I'm currently looking for full/part time job opportunities that will help me build a career in software development and also be able to improve developer experience.
-post-tag-1: nkwerre
-post-tag-2: society
-post-tag-area: Abba
-link: /latest-news/2020/05/02/two-killed-in-armed-robbery-gone-wrong-in-nkwerre/ 
+images:
+  path: /random/untitled88.png
+  caption: Picture of protesters in the Stret of New York
+  credit: Kwadom / Afam Press
+author: Chris Gomes
+location: 
+publisher: Nwangele Post
+date: 2020-06-27 19:16:49 +0100
 ---
 
 Contributing to mediawiki has been an amazing journey for me so far. My project was initially divided into two sections, the first part was to improve 20 top 100 most viewed MediaWiki Action API pages on-wiki which was to last 8 weeks starting from the 3rd of December when the internship officially kicked off while the second part of the project was to develop a bot that mass edits sample code from mediaWiki-api-demos repository to the API namespace on MediaWiki.org and vice-versa and this was estimated to take 4 weeks. A couple of timelines and tasks have changed due to un-forseen circumstances and some tasks taking longer than anticipated but in all I'm excited about all I've been able to contribute so far and the knowledge gained while doing so.

@@ -1,0 +1,21 @@
+<div class="post-article-footer">
+    <div class="article-footer-container">
+        <div class="post-footer">
+            <div class="post-tags">
+                <ul class="post-tag__list"> 
+                    <h6 class="post-footer-titles">tags in this story</h6>   
+                    <li>
+                        {%for tag in page.tags %}
+                        {% assign tag_slug = tag | slugify: "raw" %}
+
+                        <a href="{{ site.baseurl }}/tag/{{tag}}" rel="category tag"> #{{ tag }}</a> 
+                        {% endfor %}
+                    </li>
+                </ul>
+            </div>
+            <div class="post-article-social">
+                {% include share-article.html %}
+            </div>                                    
+        </div>
+    </div>
+</div>

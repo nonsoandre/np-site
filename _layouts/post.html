@@ -15,83 +15,11 @@ layout: compress
        <main id="site-content">
             <div class="homepage">
                 <div class="inner-site-container post-container">
-                    <article>
+                    <article class="post--article-content">
                         <div class="post-article-mobile-header"></div>
-                        <div class="article-header"> 
-                            <figure class="post-article-figure">
-                                <div class="pos-rel post-article-img-container">
-                                    <div class="post-article-img">
-                                        <img src="{{ site.baseurl }}/{{ page.image-path }}/{{ page.image }}" alt="" srcset="">
-                                    </div>  
-                                    <div class="img-credit">{{ page.image-credit }}</div>                                  
-                                </div>
-                                <figcaption class="post-article-img-caption">{{ page.image-caption }}</figcaption>
-                            </figure>
-                            <div class="post-article-title">
-                                <div class="post-article-cat">{{ page.post-category }}</div>
-                                <h1>{{ page.title }}</h1>
-                                <div class="author-meta">
-                                    <ul class="post-authors">
-                                        <li>
-                                            <a href="" class="post-author-link">
-                                                <span>by:</span>
-                                                {{ page.author}}
-                                            </a>
-                                        </li>
-                                    </ul>
-                                    <time class="post-pub-date" datetime="" title="{{ page.date-custom}}">{{ page.pub-date }}</time>                                    
-                                </div>
-                            </div>      
-                        </div>
-                        <div class="post-article-body">
-                            <div class="post-meta">
-                                <div class="author-meta">
-                                    <ul class="post-authors">
-                                        <li>
-                                            <a href="" class="post-author-link">
-                                                <span>by:</span>
-                                                {{ page.author }}
-                                            </a>
-                                        </li>
-                                    </ul>
-                                    <time class="post-pub-date" datetime="" title="Mon 27 2020 22:01:58">January 06 2020</time>                                    
-                                </div>
-                                <ul class="post-tag-lists">
-                                    <li class="tag-list_item">
-                                        <a href="#" class="post-tag-link post-tag-area">Abba</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="post-content">
-                                <p>{{content}}</p>
-                            </div>
-                            <div class="post-message">
-                                <p class="hello">
-                                    {{ page.post-quote }}
-                                </p>
-                            </div>
-                        </div>
-                        <div class="post-article-footer">
-                            <div class="article-footer-container">
-                                <div class="post-footer">
-                                    <div class="post-tags">
-                                        <ul class="post-tag__list"> 
-                                            <h6 class="post-footer-titles">tags in this story</h6>   
-                                            <li>
-                                                {%for tag in page.tags %}
-                                                {% assign tag_slug = tag | slugify: "raw" %}
-                                                <a href="{{ site.baseurl  | append: '/tags/' | append: tag_slug  | append: '/'}}" rel="category tag"> #{{ tag }}</a> 
-                                                <a href="{{ site.baseurl }}/tag/{{tag}}" rel="category tag"> #{{ tag }}</a> 
-                                                {% endfor %}
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="post-article-social">
-                                        {% include share-article.html %}
-                                    </div>                                    
-                                </div>
-                            </div>
-                        </div>
+                        {% include article-header.html %}
+                        {% include article-body.html %}
+                        {% include article-footer.html %}
                     </article>
                     {% include relatedposts.html %}
                     <div class="article-footer--related">
@@ -99,12 +27,10 @@ layout: compress
                             <h6 class="post-footer-titles"><svg width="10" height="9" viewBox="0 0 12 11" xmlns="http://www.w3.org/2000/svg"><path d="M5 0h2v8H5z" fill="var(--color,#000)"></path><path d="M6 7.828l4.243-4.242L11.657 5 7.414 9.243 6 10.657.343 5l1.414-1.414L6 7.828z" fill="var(--color,#000)"></path></svg> more from nwangelle post </h6>
                             {% include more-news.html %}
                         </div>
-                        
                     </div>
                 </div>
             </div>
        </main>
-       
        {% include footer.html %}
    </div>
    {% include mobi-footer.html %}

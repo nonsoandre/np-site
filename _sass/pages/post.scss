@@ -77,9 +77,12 @@ article{
     margin: 0 20px;
     @media #{$md-scn--up}{
         margin: 0 40px;
+        
     }
     @media #{$lg-scn--up}{
-        // font-size: 100px;
+        margin: 0 40px;
+        margin-left: -140px;
+        
     }
     @media #{$xlg-scn--up}{
         margin: 0 90px;
@@ -92,8 +95,9 @@ article{
         flex-flow: row;
         @media #{$md-scn--up}{
             display: flex;
-            flex-flow: row !important;
+            flex-flow: column !important;
             justify-content: flex-start;
+            align-items: flex-start;
         }
         .post-authors{
             font-size: 1.1rem; 
@@ -104,6 +108,22 @@ article{
      
             li{
                 display: inline;
+
+            }
+         }
+         .datloc{
+             display: flex;
+             flex-flow: row;
+             position: relative;
+         }
+         .location{
+             margin-right: 1em;
+            &::after{
+                content: '.';
+                margin: 0 5px;
+                font-size: 40px;
+                position: absolute;
+                top: -.74em;
             }
          }
          .post-pub-date{
@@ -111,15 +131,13 @@ article{
              text-transform: uppercase;
              letter-spacing: 0.06rem;
              font-weight: 600;
-     
-             &::before{
-                 content: '/';
-                 margin-left: 5px;
-             }
+             margin-left: .5em;
+             font-family: sans-serif;
          }
     }
 
     .post-article-cat{
+        text-transform: uppercase;
         font-weight: 700;
         line-height: 1.05;
         font-size: 11px;
@@ -135,26 +153,34 @@ article{
         }            
     }
     h1{
-        font-size: 22px;
+        font-size: 25px;
         font-weight: 800;
-        line-height: 1.2;
-        margin: 10px auto;
+        line-height: 1.12;
+        // margin: 10px auto;
         text-align: left;
         max-width: 500px;
-        text-transform: uppercase;
 
+        @media (min-width: 470px){
+            font-size: 32px;
+        }
         @media #{$md-scn--up}{
-            font-size: 30px;
+            font-size: 40px;
             max-width: none;
         }
         @media #{$lg-scn--up}{
-            font-size: 40px;
+            font-size: 60px;
             max-width: none;
             margin: 15px auto;
         } 
     }
 }
+.post-author-link{
+    font-weight: 800;
 
+    span{
+        font-weight: 300;
+    }
+}
 //ARTICLE BODY
 
 .post-article-body{
@@ -196,7 +222,7 @@ article{
 
         &::before{
             content: '/';
-            margin-left: 5px;
+            margin: 0 5px;
         }
     }
 }
@@ -385,9 +411,9 @@ article{
     }
 }
 .post-footer-titles{
-    font-size: .71rem;
+    font-size: 1.21rem;
     text-transform: uppercase;
-    margin-bottom: .5em;
+    margin-bottom: 0;
 }
 .post-tags{
     font-size: 10px;
@@ -396,17 +422,19 @@ article{
         li > a{
             text-decoration: underline;
             color: $color-accent;
-            // margin-right: 1em;
+            margin-right: .5em;
+            font-size: .799rem;
+            font-weight: 800;
         }
         li > a:hover{
             color: inherit;
         }
-        li > a::after{
-            content: ' / ';
-        }
-        li > a:last-of-type::after{
-            content: '';
-        }
+        // li > a::after{
+        //     content: ' | ';
+        // }
+        // li > a:last-of-type::after{
+        //     content: '';
+        // }
     }
 }
 .post-article-social{
@@ -456,27 +484,38 @@ article{
     margin-top: 1em;
     max-width: 1800px;
     padding: 2em 0;
+    display: none;
+    @media (min-width: 48em){
+        display: block;
+        max-width: 950px;
+        margin: 0 auto;
+    }
 }
 .article-feed{
     max-width: 1000px;
     margin: 0 20px;
     @media (min-width: 48em){
-        // margin: 0 40px;
-        max-width: 550px;
+        max-width: 950px;
     }
     @media (min-width: 768px){
-        margin: 0 40px
+        margin: 0 40px;
     }
     @media (min-width: 65em){
-        margin: 0 40px;
-        margin: 0 90px;
+        margin: 0 auto; 
     }
     @media (min-width: 1230px){
-        max-width: 950px;
+        max-width: 1200px;
         // margin: 0 190px;
     }
 }
 
+.post-article-content{
+    margin-top: -1.75em;
+}
+.post-social:hover{
+    color: unset;
+    opacity: .7;
+}
 // .page-title{
 //     font-family: "Alegreya";
 //     font-size: 50px !important;

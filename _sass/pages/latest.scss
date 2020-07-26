@@ -173,7 +173,7 @@
         .meta-details{
             font-weight: 700;
             line-height: 1.05;
-            max-width: 100px;
+            // max-width: 100px;
         }   
         h3{
             font-size: 18px;
@@ -243,6 +243,7 @@
 }
 .context-list .article-meta h3 {
     margin-top: 0;
+    font-weight: 845;
 }
 .feed_item-author .author {
     width: 250px;

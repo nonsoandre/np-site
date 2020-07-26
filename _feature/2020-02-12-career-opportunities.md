@@ -1,28 +1,16 @@
 ---
 layout: post
 title: How to get better Career Opportunities
-tags: [Outreachy Internship]
-location: Abba
+tags: [Outreachy Internship, Carreers]
 category: feature
-level: non-cover
-type: Interview
-image-random-path: assets\images\uploads\random
-image-thumb-path: assets\images\uploads\feature-modules\thumbnail
-image-path: assets\images\uploads\feature-modules
-image: PF_Decades_Tumblr_STILL.png
-image-caption: Kanyewest
-image-credit: Reuters/Anthony 
-image-alt: trancemusic
-author: Oluchi Gramesz
-date-custom: Febuary 02 2020
-publisher: Zaycodes
-pub-date: Febuary 02 2020
-post-category:
-post-quote: I'm currently looking for full/part time job opportunities that will help me build a career in software development and also be able to improve developer experience.
-post-tag-1: nkwerre
-post-tag-2: society
-post-tag-area: Abba
-link: /latest-news/2020/05/02/two-killed-in-armed-robbery-gone-wrong-in-nkwerre/ 
+images:
+  path: /random/untitled99.png
+  caption: Iphone with dataa set
+  credit: Charles / Afro Press
+author: Julius Amadi
+location: 
+publisher: Nwangele Post
+date: 2020-06-27 19:16:49 +0100
 ---
 
 My internship with Wikimedia is gradually coming to an end and I must say it's been a life changing experience for me. I'm really amazed at what I've been able to achieve within this short period of time with the help of the community and guidance from my mentor. 

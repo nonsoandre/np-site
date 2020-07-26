@@ -6,10 +6,10 @@ function loadMorePosts() {
   var nextPage = parseInt($blogContainer.attr("data-page")) + 1;
   var totalPages = parseInt($blogContainer.attr("data-totalPages"));
   var siteurl = $blogContainer.attr("data-pageurl")
-
+  console.log(siteurl)
   $(this).addClass("loading");
   
-  $.get(siteurl + "/page" + nextPage, function (data) {
+  $.get( siteurl +  "/page" + nextPage, function (data) {
     var htmlData = $.parseHTML(data);
     var $articles = $(htmlData).find("article");
 
@@ -20,5 +20,5 @@ function loadMorePosts() {
     }
 
     $(_this).removeClass("loading");
-  });  
+  });   
 }

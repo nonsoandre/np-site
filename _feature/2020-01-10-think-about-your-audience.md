@@ -1,28 +1,16 @@
 ---
 layout: post
 title: Think About Your Audience - Marketing 101
-tags: [Outreachy Internship]
-location: Abba
+tags: [Marketing 101, Carreers, Advice, MediaWiki]
 category: feature
-level: non-cover
-type: Interview
-image-random-path: assets\images\uploads\random
-image-thumb-path: assets\images\uploads\feature-modules\thumbnail
-image-path: assets\images\uploads\feature-modules
-image: readerspoll-results
-image-caption: Kanyewest
-image-credit: Reuters/Anthony 
-image-alt: trancemusic
-author: Kwame Kwado
-date-custom: 2020-01-10
-publisher: Zaycodes
-pub-date: January 02 2020
-post-category:
-post-quote: I'm currently looking for full/part time job opportunities that will help me build a career in software development and also be able to improve developer experience.
-post-tag-1: nkwerre
-post-tag-2: society
-post-tag-area: Abba
-link: /latest-news/2020/05/02/two-killed-in-armed-robbery-gone-wrong-in-nkwerre/ 
+images:
+  path: /random/untitled22.png
+  caption: An Andela worksop in Kenya
+  credit: Charles / Afro Press
+author: Kwame Kwadon
+location: 
+publisher: Nwangele Post
+date: 2020-01-10 19:16:49 +0100
 ---
 
 

@@ -1,27 +1,16 @@
 ---
 layout: post
-title: The Tony Invalid concert; How it all went Down
-tags: [Outreachy Internship]
-location: Nwangele
+title: "The Tony Invalid concert: How it all went Down"
+tags: [Concerts, Nwangele Music Festival]
 category: feature
-level: non-cover
-type: Profile
-image-thumb-path: assets\images\uploads\feature-modules\thumbnail
-image-path: assets\images\uploads\feature-modules
-image: 1Kanye.jpg
-image-caption: Priests
-image-credit: Reuters/Anthony 
-image-alt: KanyeWest
+images:
+  path: /random/thumbs/1Kanye.jpg
+  caption: Kanye West
+  credit: Charles / Afro Press
 author: Fabian Ekwi
-date-custom: April 29 2020
+location: 
 publisher: Nwangele Post
-pub-date: December 06 2020
-post-category: 
-post-quote: I was convinced within me that this was the breakthrough I needed to break out of my shell and get more involved in open source.
-post-tag: music
-post-tag-2: society
-post-tag-area: 
-link: https//www.np.com/latest-news/2020/05/02/two-killed-in-armed-robbery-gone-wrong-in-nkwerre/ 
+date: 2019-12-15 20:16:49 +0100
 ---
 
 

@@ -1,0 +1,38 @@
+<div class="article-header"> 
+    <figure class="post-article-figure">
+        <div class="pos-rel post-article-img-container">
+            <div class="post-article-img">
+                <img src="{{ site.url }}/{{ site.image-path }}{{ page.images.path }}" alt="{{ page.images.caption }}" srcset="">
+            </div>  
+            <div class="img-credit">{{ page.images.credit }}</div>                                  
+        </div>
+        <figcaption class="post-article-img-caption">{{ page.images.caption }}</figcaption>
+    </figure>
+    <div class="post-article-title">
+        <div class="post-article-cat">
+            {% if page.post-category %}
+                {{ page.post-category }}
+            {% else %}
+                {{ page.tags[0] }}
+            {% endif %}
+        </div>
+        <h1>{{ page.title }}</h1>
+        <div class="author-meta">
+            <ul class="post-authors">
+                <li>
+                    <a href="" class="post-author-link">
+                        <span style="font-weight: 300;">by:</span>
+                        {{ page.author}}
+                    </a>
+                </li>
+            </ul>
+            <div class="datloc">
+                <div class="location">
+                    {{ page.location }}
+                </div>
+                <time class="post-pub-date" datetime="" title="{{ page.date  | date_to_xmlschema }}">{{ page.date | date_to_long_string }}</time>                     
+            </div>
+                          
+        </div>
+    </div>      
+</div>

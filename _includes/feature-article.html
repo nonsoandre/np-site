@@ -1,17 +1,17 @@
-<article id="article-container" class="module-row feature-module-row feature-module-list" data-page="{{ currentPage }}" data-totalPages="{{ paginator.total_pages }}" data-pageurl="{{ page.url | remove: "/index.html"}}">
+<article id="article-container" class="module-row feature-module-row feature-module-list" data-page="{{ currentPage }}" data-totalPages="{{ paginator.total_pages }}" data-pageurl="{{ page.url | prepend: site.baseurl  | remove: "/index.html"}}">
     {% for feature in paginator.posts %}
-    {% if feature.level == "non-cover" %}
     <div class="feature-module module inner-feature-module-list">
         <div class="min-module-row">
         <div class="module_img module__visual">
             <a href="{{ site.baseurl }}{{ feature.url }}" class="image-link">
-                <span class="sr-only"> {{ feature.title }}A short message that displays module title</span>
-                <img class="module_image"  src="{{ site.baseurl}}/{{ feature.image-thumb-path}}/{{ feature.image }}" alt=" {{ feature.image-alt }} ">
+                <span class="sr-only"> {{ feature.title }}A short message that displays module title</span> 
+                <img class="module_image"  src="{{ site.baseurl}}/{{ site.image-path }}/{{ feature.images.path }}" alt=" {{ feature.images.caption }} ">
                 <div class="overlay"></div>
             </a>
-            <a href="#" class="type">{{ feature.type }}</a>
+            <a href="#" class="type">{{ feature.tag[0] }}</a>
         </div>
         <div class="article-details module__article-details">
+            <div class="article-context meta-details"> <span>{{ feature.tags[0] }}</span></div>
             <a href="{{ site.baseurl }}{{ feature.url }}" class="title-link module__title-link">
                 <h2 class="module__title">
                     {{  feature.title }}
@@ -26,8 +26,8 @@
                     </ul>
                 </div>
                 <p class="date feature-module__date">
-                    <time class="pub-date" datetime="{{ feature.pub-date }}" title="">
-                        {{ feature.pub-date }}
+                    <time class="pub-date" datetime="{{ feature.date | date_to_xmlschema }}" title="">
+                        {{ feature.date | date: "%B %-d, %Y" }}
                     </time>
                 </p>
             </div>
@@ -35,6 +35,5 @@
         </div>
         <div class="highlight"></div>
     </div>
-    {% endif %}
     {% endfor %}                                                            
 </article>

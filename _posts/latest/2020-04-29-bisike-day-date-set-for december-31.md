@@ -10,7 +10,7 @@ image: 1SmokinGrooves.jpg
 image-caption: trance
 image-credit: Reuters/Anthony 
 image-alt: trancemusic
-author: Angelina Okoli
+author: Angelina Okoli 
 date-custom: April 29 2020
 publisher: Nwangele Post
 pub-date: April 04 2020

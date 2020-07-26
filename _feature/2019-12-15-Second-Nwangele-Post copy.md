@@ -1,26 +1,16 @@
 ---
 layout: post
-title: The Tony Invalid concert; How it all went Down
-tags: [Outreachy Internship]
-location: Nwangele
-category: Feature
-level: non-cover
-type: feature
-image-path: assets\images\uploads\feature-modules
-image: roisin.jpg
-image-caption: Priests
-image-credit: Reuters/Anthony 
-image-alt: trancemusic
+title: How the Nwangele Music Festival has become the best festival concert in Imo.
+tags: [Music Festival, Concerts]
+category: feature
+images:
+  path: /random/thumbs/elpheader.jpg
+  caption: Elpaso
+  credit: Charles / Afro Press
 author: Fabian Ekwi
-date-custom: April 29 2020
+location: 
 publisher: Nwangele Post
-pub-date: December 06 2020
-post-category: Music/Concert
-post-quote: thanks to the reports and resources from my mentor, but that's not to say that I    haven't encountered some challenges.
-post-tag: music
-post-tag-2: society
-post-tag-area: 
-link: https//www.np.com/latest-news/2020/05/02/two-killed-in-armed-robbery-gone-wrong-in-nkwerre/ 
+date: 2019-11-15 20:16:49 +0100
 ---
 
 

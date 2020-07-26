@@ -24,7 +24,7 @@ layout: default
                                 {% assign currentPage = 1 %}
                             {% endif %}
 
-                            <div id="article-container" class="article-inner-container" data-page="{{ currentPage }}" data-totalPages="{{ paginator.total_pages }}" data-pageurl="{{ page.url | remove: "/index.html"}}">
+                            <div id="article-container" class="article-inner-container" data-page="{{ currentPage }}" data-totalPages="{{ paginator.total_pages }}" data-pageurl="{{ page.url | prepend: site.baseurl | remove: "/index.html"}}">
                             {% for latest in paginator.posts %}
                             
                                 <article id="blog-article" class="article-details context-list article-summary" data-url="{{ latest.url | xml_escape }}">

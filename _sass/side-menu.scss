@@ -4,8 +4,8 @@
     width: 100vw;
     z-index: 9999;
     @include bg-color(#{$background-1-string});
-    height: calc(100vh - 50px);
-    top: 50px;
+    height: calc(100vh - 45px);
+    top: 45px;
     bottom: 0;
     // border-top: 1px solid;
     // @include border(1px, solid, #{$background-border-decor-string}, -top);
