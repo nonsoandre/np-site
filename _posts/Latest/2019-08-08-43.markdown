@@ -1,12 +1,15 @@
 ---
 layout: post
-title: "Talk.CSS #43"
-date: 2019-08-07 19:00:00 +0800
-location: HOOQ
-event-date: 2019-09-04 19:00:00 +0800
-categories: meetup
-meetup: 43
-event-id: 261692436
-news: September 2019
+title: "Amazon planning on developing flying cars by the end of 2030"
+tags: [Futuristic, Nwangele, Inequality]
+category: "latest news"
+images:
+  path: /random/untitled0.png
+  caption: A solar panel
+  credit: Tommy / Afam Press
+author: Dwight Auba
+location: 
+publisher: Nwangele Post
+date: 2020-01-27 09:00:00 +0000
 ---
 Back at HOOQ and this time we had 3 great lightning talks by 3 great speakers. If you didn't show up, well, you know that we almost always have video. Almost always. Anyway, try to come next time, okay?

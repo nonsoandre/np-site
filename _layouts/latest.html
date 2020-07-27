@@ -32,15 +32,19 @@ layout: default
                                         <a href="{{ site.baseurl }}{{ latest.url }}" class="article-link">
                                             <figure class="article-figure size-medium">
                                                 <div class=" visible pb-cent article-img-box">
-                                                    <img src="{{ site.baseurl}}/{{ latest.image-path}}/{{ latest.image }}" srcset="" alt=" {{ latest.image-alt }} ">
+                                                    <img src="{{ site.url}}/{{ site.image-path }}{{ latest.images.path}}" srcset="" alt=" {{ latest.images.caption }} ">
                                                 </div>
                                             </figure>
                                             <div class="article-meta local">
                                                 <div class="article-context meta-details">
-                                                    <span>{{ latest.location }}</span>
+                                                    <span>{{ latest.tags[0] }}</span>
                                                     <address class="feed_item-author">
-                                                        <span class="article-spacer">|</span>
-                                                        <div class="author">By {{ latest.author }}</div>
+                                                        {% if latest.author  %}
+                                                            <span class="article-spacer">|</span>
+                                                            <div class="author">
+                                                                By {{ latest.author }}                                                      
+                                                            </div>
+                                                        {% endif %}
                                                     </address>
                                                 </div>
                                                 <h3>{{ latest.title }}</h3>
@@ -49,7 +53,7 @@ layout: default
                                                     <div class="author">By {{ latest.author }}</div>
                                                     <div class="cat">
                                                         <span>{{ latest.category}} / </span>
-                                                        <span class="date">{{ latest.date-custom }}</span>
+                                                        <time datetime="{{ latest.date }}" class="date">{{ latest.date | timeago }}</time>
                                                     </div> 
                                                 </div>
 

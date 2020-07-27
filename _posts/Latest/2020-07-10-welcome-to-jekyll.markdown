@@ -1,8 +1,16 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2020-07-10 11:30:22 +0200
-categories: jekyll update
+title:  "Welcome to Jekyll! Jekyll your way through the world of Static site generators"
+tags: [Jekyll, Frameworks ]
+category: "latest news"
+images:
+  path: /news/Charli-XCX.jpg
+  caption: charli-XCX
+  credit: Tommy / Afam Press
+author: Onyeka Ngozi
+location: Abba
+publisher: Nwangele Post
+date: 2020-07-07 19:16:49 +0100
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 

@@ -1,11 +1,15 @@
 ---
 layout: post
 title: "Talk.CSS #46"
-date: 2019-12-10 19:00:00 +0800
-location: Microsoft Singapore
-event-date: 2020-01-08 19:00:00 +0800
-categories: meetup
-meetup: 46
-event-id: 263998426
+tags: [TalkCSS, Nwangele, Inequality]
+category: "latest news"
+images:
+  path: /random/untitled11.png
+  caption: A solar panel
+  credit: Tommy / Afam Press
+author: Angelina Okoli
+location: Umuozu
+publisher: Nwangele Post
+date: 2020-03-27 12:00:00 +0000
 ---
 First Talk.CSS of the decade went fairly well, in spite of being on the same day as the crowd-drawing Figma meetup. It was a good turnout and we love each and every one of you for supporting us. If you went to the Figma meetup instead, it's okay, we still love you too.

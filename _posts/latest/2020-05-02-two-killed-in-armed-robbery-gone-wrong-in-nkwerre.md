@@ -1,25 +1,16 @@
 ---
 layout: post
-title: two killed in armed robbery gone wrong in nkwerre
-tags: [Outreachy Internship]
-location: Nwangele
-category: latest-news
-type: news
-image-path: assets\images\uploads\latest-news
-image: anticipated3-tweak.jpg
-image-caption: trance
-image-credit: Reuters/Anthony 
-image-alt: trancemusic
-author: Angelina Okoli
-date-custom: April 29 2020
+title: Two killed in sophisticated armed robbery gone wrong in Nkwerre
+tags: [Anti-social, Cosmos, CSS ]
+category: "latest news"
+images:
+  path: /random/untitled33.png
+  caption: I don't know what that is
+  credit: Chriso / Afam Press
+author: Julia Kehnkha
+location: Isu
 publisher: Nwangele Post
-pub-date: April 04 2020
-post-category: Experience
-post-quote: thanks to the reports and resources from my mentor, but that's not to say that I    haven't encountered some challenges.
-post-tag-1: nkwerre
-post-tag-2: society
-post-tag-area: Abba
-link: https//www.np.com/latest-news/2020/05/02/two-killed-in-armed-robbery-gone-wrong-in-nkwerre/ 
+date: 2020-05-02 19:16:49 +0100
 ---
 
 My internship with wikimedia officially kicked off on the 3rd of december 2019. I had a chat session with my mentor where my project tasks were outlined. My first task was to work on pages that weren't completed during the contribution period. I started working on my first task and so far I've been able to work on three pages, create 3 PRs and currently working on the fourth one. The journey so far has been a lot easier for me, thanks to the reports and resources from my mentor, but that's not to say that I haven't encountered some challenges.

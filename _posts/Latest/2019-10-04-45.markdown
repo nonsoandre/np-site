@@ -1,13 +1,16 @@
 ---
 layout: post
 title: "Talk.CSS #45 We're Still Here edition"
-date: 2019-10-04 19:00:00 +0800
-location: Rakuten Viki
-event-date: 2019-11-06 19:00:00 +0800
-categories: meetup
-meetup: 45
-event-id: 261692488
-news: November 2019
+tags: [TALKCSS, Nwangele, Inequality]
+category: "latest news"
+images:
+  path: /random/untitled2.png
+  caption: A solar panel
+  credit: Tommy / Afam Press
+author: Zainab Okoye
+location: Umuozu
+publisher: Nwangele Post
+date: 2020-04-27 09:00:00 +0000
 ---
 4 years. 45 meetups. So many memories. None of this would have been possible without your support. CSS isn't the most cool or most sexy part of web development, but it is and will always be my favourite. And even though it may not be yours, we are so grateful that you've indulged in our passion for CSS by turning out month after month. 
 

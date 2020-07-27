@@ -1,24 +1,16 @@
 ---
 layout: post
 title: LGA chairman initiates inspection committes
-tags: [Outreachy Internship]
-location: Nwangele
-category: latest-news
-type: news
-image-path: assets\images\uploads\latest-news
-image: albums_mock.png
-image-caption: trance
-image-credit: Reuters/Anthony 
-image-alt: trancemusic
-author: Dwight Chiedo
-date-custom: April 25 2020
+tags: [Nwangele, Government, Local Government]
+category: "latest news"
+images:
+  path: /random/thumbs/lorainejamesheader (1).jpg
+  caption: loraine james
+  credit: Tommy / Afam Press
+author: Onyeka Ngozi
+location: Abba
 publisher: Nwangele Post
-pub-date: April 04 2020
-post-category: Experience
-post-quote: thanks to the reports and resources from my mentor, but that's not to say that I    haven't encountered some challenges.
-post-tag-1: nkwerre
-post-tag-2: society
-post-tag-area: Abba
+date: 2020-07-07 19:16:49 +0100
 ---
 
 My internship with wikimedia officially kicked off on the 3rd of december 2019. I had a chat session with my mentor where my project tasks were outlined. My first task was to work on pages that weren't completed during the contribution period. I started working on my first task and so far I've been able to work on three pages, create 3 PRs and currently working on the fourth one. The journey so far has been a lot easier for me, thanks to the reports and resources from my mentor, but that's not to say that I haven't encountered some challenges.

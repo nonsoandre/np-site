@@ -1,24 +1,16 @@
 ---
 layout: post
 title: My Experience Applying to Outreachy
-tags: [Outreachy Internship]
-location: Abba
-category: latest-news
-type: news
-image-path: assets\images\uploads\latest-news
-image: 1Trance.jpg
-image-caption: trance
-image-credit: Reuters/Anthony 
-image-alt: trancemusic
-author: Zainab Okoye
-date-custom: December 06 2019
-publisher: Zaycodes
-pub-date: April 04 2020
-post-category: Experience
-post-quote: thanks to the reports and resources from my mentor, but that's not to say that I    haven't encountered some challenges.
-post-tag-1: nkwerre
-post-tag-2: society
-post-tag-area: Abba
+tags: [Internship, Tech, Outreachy Internship]
+category: "latest news"
+images:
+  path: /random/untitled666.png
+  caption: A solar panel
+  credit: Tommy / Afam Press
+author: Onyeka Chris
+location: Umuozu
+publisher: Nwangele Post
+date: 2020-06-27 09:00:00 +0000
 ---
 
 

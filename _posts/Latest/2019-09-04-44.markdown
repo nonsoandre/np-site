@@ -1,12 +1,15 @@
 ---
 layout: post
-title: "Talk.CSS #44"
-date: 2019-09-04 19:00:00 +0800
-location: GovTech Hive
-event-date: 2019-10-02 19:00:00 +0800
-categories: meetup
-meetup: 44
-event-id: 261692440
-news: October 2019
+title: "Jock Strapper 5,000 art collections are up for sale in Conakary"
+tags: [Artistry, Nwangele, Inequality]
+category: "latest news"
+images:
+  path: /random/jockstrapheader.jpg
+  caption: A solar panel
+  credit: Tommy / Afam Press
+author: Onyeka Chris
+location: Umuozu
+publisher: Nwangele Post
+date: 2020-01-27 09:00:00 +0000
 ---
 We were graciously hosted by GovTech for the first time and turn-out was nice. Dial-in talk wasn't a complete bomb so thank you for all the positive vibes to ensure the internet connection was good. Video recording also didn't fail. When good things happen, don't ask questions.

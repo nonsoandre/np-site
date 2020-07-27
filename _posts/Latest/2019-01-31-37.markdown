@@ -2,11 +2,15 @@
 layout: post
 title: "Talk.CSS #37"
 date: 2019-02-28 19:00:00 +0800
-location: Shopee SG
-event-date: 2019-03-27 19:00:00 +0800
-categories: meetup
-event-id: 259235986
-meetup: 37
+tags: [History, Nwangele, Inequality]
+category: "latest news"
+images:
+  path: /random/untitled9.png
+  caption: Mr. Trump Ishi Ike
+  credit: Tommy / Afam Press
+author: Onyeka Chris
+location: Umuozu
+publisher: Nwangele Post
 ---
 Another month, another successful Talk.CSS. You all showed up in force this time, I stopped counting at 40, so thank you all for spending your precious evening with us. Thank you to Shopee for hosting us and feeding the masses.
 

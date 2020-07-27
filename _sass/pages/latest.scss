@@ -1,4 +1,3 @@
-
 .site-title{
     position: relative;
     text-align: center;
@@ -46,8 +45,6 @@
 .pb-cent{
     padding-bottom: 100%;
 }
-
-
 //ARTICLE SUMMARY AND DETAILS
 .article-container{
     position: relative;
@@ -59,8 +56,6 @@
         max-width: 1600px;
         margin-right: 20px;
         margin-left: 20px;
-
-        
         @media #{$md-scn--up}{
             margin-left: 40px;
             margin-right: 40px;
@@ -224,21 +219,24 @@
     margin-left: .35em;
 
     @media (max-width: 300px){
-        font-size: 10px
+        font-size: 10px;
     }
-    @media (max-width: 425px){
-        font-size: 12px
+    @media (max-width: 455px){
+        display: none;
+        font-size: 12px;
     }
 }
 .article-context > span {
     font-weight: 800;
     color: $color-accent;
+    font-size: 15px;
 
     @media (max-width: 300px){
-        font-size: 10px
+        font-size: 10px;
     }
-    @media (max-width: 425px){
-        font-size: 12px
+    @media (max-width: 455px){
+        font-size: 12px;
+        margin-bottom: .65em;
     }
 }
 .context-list .article-meta h3 {
@@ -250,6 +248,7 @@
     max-width: 300px;
     margin-left: .35em;
     color: $color-accent;
+    font-size: 14px;
     font-weight: lighter;
 }
 .context-list .article-meta h3:hover {
@@ -353,5 +352,10 @@
         color: $color-accent;
       }
     } 
+
+    @media (max-width: 455px){
+        margin-top: 1em;
+        font-size: 12px;
+    }
   }
   

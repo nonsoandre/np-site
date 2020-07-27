@@ -1,12 +1,33 @@
 ---
 layout: post
-title: "Talk.CSS #49"
-date: 2020-03-04 19:00:00 +0800
-location: The Interwebs
-event-date: 2020-04-01 19:00:00 +0800
-categories: meetup
-meetup: 49
-event-id: 267764597
-news: April 2020
+title: "Does the Corona virus (Covid-19) truly exists in Africa?"
+tags: [Virus, History, Inequality]
+category: "latest news"
+images:
+  path: /random/untitled12.png
+  caption: A coronavirus label
+  credit: Tommy / Afam Press
+author: Julia KhenKha
+location: Umuozu
+publisher: Nwangele Post
+date: 2020-07-27 19:00:00 +0000
 ---
 Another online edition went by without anything exploding. AH-MAZ-ING. We had 3 mind-blowing talks. Sure, most of you probably missed it. That's why we have video. All fixed in post. You're welcome.
+
+It would be be less than a month, before the Danish People's Party's **Pia Kjærsgaard** would go from trivializing the harassment of Muslim women with headscarves while chastizing the women for provoking the reactions [in one blog post][article] to crying foul in response to reports of harassment of Jews wearing kippahs in Denmark [in another][post].[^translation]
+
+She writes August 11th:
+
+>Obviously, it's different with Muslims---where the women are allowed to wear scarves, burka, and niqab.
+>
+>I think it's sad for Europe and sad for Denmark. The continent, which has exported democracy and enlightenment, is now not even capable of protecting its own citizens from assault. Yes, it is not only sad; it is, in fact, a disgrace.
+>
+>It goes without saying that the Muslim immigration, which has taken place in recent decades, and which under the current administration has been increased, is a ticking time bomb under the traditionally, especially tolerant Danish society. Here, there has always been room for diversity, and the Danes have historically been accepting towards immigrants from many different countries.
+
+Compare this to her comments from July 14th on the harassment of Muslim women:
+
+>This Friday, [Danish newspaper] Politiken reported how Muslim women who wear headscarves felt overwhelmingly subjected to persecution, rudeness, and jeers on the street. I personally have never experienced such a thing, nor have I ever heard anyone talk about it, so perhaps the extent has been slightly exaggerated. I generally know the Danes as a well-mannered people, who, even though they do not feel great sympathy for the Muslim headscarf, naturally will not resort to foul language against the wearers of the headscarf.
+>
+>Those Muslim women feel provoked by the reaction their headscarves elicit. I feel provoked, too. By them and their choice of the scarf over the Danish society![^muslims]
+
+The public and media were quick to pick up on the double standard; one tweet juxtaposing two of Kjærsgaard's quotes in a graphic from <i>Arbejderen</i> (The Worker) went viral:

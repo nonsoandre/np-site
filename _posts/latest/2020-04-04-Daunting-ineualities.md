@@ -1,24 +1,16 @@
 ---
 layout: post
 title: The Daunting inequalities faced today in modern archiac society
-tags: [Outreachy Internship]
-location: Nwangele
-category: latest-news
-type: news
-image-path: assets\images\uploads\latest-news
-image: books3.jpg
-image-caption: brooks callouz
-image-credit: Reuters/Silva 
-image-alt:
-author: Jude Okoye
-date-custom: April 04 2020
+tags: [Gender, History, Inequality]
+category: "latest news"
+images:
+  path: /random/thumbs/MosesSummey_02042020_Pitchfork_NY_PariDukovic__01986.jpg
+  caption: Moses Summey
+  credit: Tommy / Afam Press
+author: Charles Onyekuru
+location: Umuozu
 publisher: Nwangele Post
-pub-date: April 04 2020
-post-category: News
-post-quote: thanks to the reports and resources from my mentor, but that's not to say that I    haven't encountered some challenges.
-post-tag-1: nkwerre
-post-tag-2: society
-post-tag-area: Abba
+date: 2020-07-21 19:16:49 +0100
 ---
 
 My internship with wikimedia officially kicked off on the 3rd of december 2019. I had a chat session with my mentor where my project tasks were outlined. My first task was to work on pages that weren't completed during the contribution period. I started working on my first task and so far I've been able to work on three pages, create 3 PRs and currently working on the fourth one. The journey so far has been a lot easier for me, thanks to the reports and resources from my mentor, but that's not to say that I haven't encountered some challenges.
