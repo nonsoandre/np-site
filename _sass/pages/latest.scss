@@ -203,6 +203,13 @@
 
             .cat{
                 font-size: 10px;
+                time{
+                    &::before{
+                        content: "/";
+                        display: inline;
+                        margin: 0 5px;
+                    }
+                }
             }
         }
     }   

@@ -425,6 +425,9 @@ article{
             margin-right: .5em;
             font-size: .799rem;
             font-weight: 800;
+            background: var(--clr-bg-card);
+            padding: .2em .5em;
+            letter-spacing: 1px;
         }
         li > a:hover{
             color: inherit;
