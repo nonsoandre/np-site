@@ -319,7 +319,8 @@ layout: compress
                                     <a href="{{ site.baseurl}}{{ latest.url}}">
                                         <div class="latest-module-content">
                                             <div class="latest-img pos-rel bd-ovf" style="padding-bottom: 56.38888888888888886%;">
-                                                <img data-src="{{ site.url}}/{{ site.image-path }}{{ latest.images.path}}" data-expand="-110" srcset="" alt=" {{ latest.images.caption }} " class=" blur-up lazyload">
+                                                <noscript><img src="{{ site.url}}/{{ site.image-path }}{{ latest.images.path}}" srcset="" alt=" {{ latest.images.caption }} " title="{{ latest.images.caption }}" class="img featured-image"></noscript>
+                                                <img data-src="{{ site.url}}/{{ site.image-path }}{{ latest.images.path}}" data-expand="-110" srcset="" alt=" {{ latest.images.caption }} " title="{{ latest.images.caption }}" class=" blur-up lazyload">
                                             </div>
                                             <section class="latest-module-detail">
                                                 <h4>{{ latest.title }}</h4>

@@ -40,7 +40,8 @@ title: Gallery
                                                 <div class="module_img module__visual gallery-module-image">
                                                     <a href="{{ site.baseurl}}{{ gallery.url }}" class="image-link">
                                                         <span class="sr-only">A short message that displays module title</span>
-                                                        <img class="module_image"  src="{{ site.baseurl}}/{{ gallery.image-path}}/{{ gallery.cover-image }}" alt="">
+                                                        <noscript><img src="{{ site.url}}/{{ site.image-path }}/{{ gallery.cover-image }}" srcset="" alt=" {{ gallery.images.title }} " title="{{ gallery.images.title }}"></noscript>
+                                                        <img class="module_image lazyload"  data-src="{{ site.url}}/{{ site.image-path}}/{{ gallery.cover-image }}" alt="" >
                                                         <div class="overlay"></div>
                                                     </a>
                                                     <a href="#" class="type">Rising</a>
@@ -48,11 +49,11 @@ title: Gallery
                                                 <div class="article-details module__article-details">
                                                     <a href="{{ site.baseurl}}{{ gallery .url }}" class="title-link module__title-link">
                                                         <h2 class="module__title">
-                                                            {{ gallery.title }}
+                                                            {{ gallery.title }} 
                                                         </h2>
                                                     </a>
                                                     <div class="abstract module__abstract">
-                                                        <p>{{ gallery.meta }}</p>
+                                                        <p>{{ gallery.description }}</p>
                                                     </div>
                                                     <div class="module__meta meta">
                                                         <div class="bylne module__byline">
@@ -89,5 +90,6 @@ title: Gallery
    {% include mobi-footer.html %}
    <script src="{{ site.baseurl }}/assets/js/hamburger.js "></script>
    <script src="{{ site.baseurl }}/assets/js/horizontal-mod.js "></script>
+   <script src="{{ site.baseurl }}/assets/js/Vendor/lazysizes.min.js"></script>
 </body>
 </html>
