@@ -32,7 +32,7 @@ layout: default
                                         <a href="{{ site.baseurl }}{{ latest.url }}" class="article-link">
                                             <figure class="article-figure size-medium">
                                                 <div class=" visible pb-cent article-img-box">
-                                                    <img src="{{ site.url}}/{{ site.image-path }}{{ latest.images.path}}" srcset="" alt=" {{ latest.images.caption }} ">
+                                                    <img class="lazyload blur-up" data-expand="-90" data-src="{{ site.url}}/{{ site.image-path }}{{ latest.images.path}}" srcset="" alt=" {{ latest.images.caption }} ">
                                                 </div>
                                             </figure>
                                             <div class="article-meta local">
@@ -75,5 +75,6 @@ layout: default
 
    <script src="{{ site.baseurl }}/assets/js/hamburger.js "></script>
    <script src="{{ site.baseurl }}/assets/js/jquery-3.5.1.min.js "></script>
-   <script src="{{ site.baseurl }}/assets/js/custom-infinite-scroll.js "></script> 
+   <script src="{{ site.baseurl }}/assets/js/custom-infinite-scroll.js "></script>
+   <script src="{{ site.baseurl }}/assets/js/Vendor/lazysizes.min.js"></script> 
 

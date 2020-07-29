@@ -149,6 +149,7 @@ strong{
     @media #{$lg-scn--up}{
         max-width: none;
         margin: unset;
+        max-width: 3200px;
     }
 }
 .main-page-header{
@@ -474,5 +475,30 @@ svg {
       transform: scale(1.0);
       -webkit-transform: scale(1.0);
       opacity: 0;
+    }
+  }
+
+  button.more{
+    padding: .5em 1.5em;
+    margin: 0 auto;
+    text-align: center;
+    display: ffl;
+    display: flex;
+    align-self: center;
+    background: var(--clr-accent);
+    border: 0;
+    color: white;
+    font-weight: 600;
+    border-radius: 8px;
+
+    @media (max-width: 460px){
+        font-size: 12px;
+    }
+    &:hover{
+        opacity: .7;
+    }
+    a:hover{
+        color: unset;
+        opacity: .7;
     }
   }

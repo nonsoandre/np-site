@@ -88,25 +88,27 @@ layout: compress
                                 <ul class="main-page-posts-lists">
                                     <li class="post-module inner-section-padding">
                                         <div class="featured-lists">
-                                            {% for feature in site.categories.feature %}
+                                            {% assign featureCollection = site.feature | sort: 'date' | reverse %}
+                                            {% for feature in featureCollection limit: 5  %}
                                             <div class="featured-item featured-card feature-z">
                                                 <div class="image module--visual">
-                                                    <a href="#">
+                                                    <a href="{{ site.baseurl }}{{ feature.url }}">
                                                         <figure>
                                                             <picture class="artdirection--123">
-                                                            <img src="{{site.baseurl}}{{ feature.image-thumb-path}}/{{ feature.image }}" alt="a white man passport" class="img featured-image">  
+                                                                <noscript><img src="{{ site.url}}/{{ site.image-path }}{{ feature.images.path}}" srcset="" alt=" {{ feature.images.caption }} " title="{{ feature.images.caption }}" class="img featured-image"></noscript>
+                                                                <img data-expand="-60" data-src="{{ site.url}}/{{ site.image-path }}{{ feature.images.path}}" srcset="" alt=" {{ feature.images.caption }} " title="{{ feature.images.caption }}" class="img featured-image blur-up lazyload"> 
                                                             </picture>
                                                         </figure>
                                                     </a>     
                                                 </div>
                                                 <div class="fetured-details">
                                                     <h4 class="video-tag">{{ feature.tags[0] }}</h4>
-                                                    <a href="" class="featured-title-link fetured-link">
+                                                    <a href="{{ site.baseurl }}{{ feature.url }}" class="featured-title-link fetured-link">
                                                         <h2 class="featured-title title">{{ feature.title }}</h2>
                                                     </a>
                                                     <time class="pub-date" datetime="{{ feature.date | date_to_xmlschema  }}" title="{{ gallery.date-title }}">
                                                         {%- assign date_format = site.date_format | default: "%b %-d, %Y" -%}
-                                                        {{ feature.date | date: date_format }}
+                                                        {{ feature.date | timeago }}
                                                     </time>
                                                 </div>
                                             </div>
@@ -221,8 +223,7 @@ layout: compress
                                                             <picture class="artdirection--123">
                                                             <img src="{{site.baseurl}}{{ video.image-path}}{{ video.cover-image }}" alt="a white man passport" class="img featured-image">  
                                                             </picture>
-                                                        </figure>
-                                                        
+                                                        </figure>     
                                                 </div>
                                                 <div class="fetured-details">
                                                     <h4 class="video-tag">{{ video. tags }}</h4>
@@ -313,12 +314,12 @@ layout: compress
                                 <h2><a href="/" class="title-link">Latest News From Home</a></h2>
                             </div>
                             <ul class="latest-list">
-                            {% for latest in site.categories.latest-news %}
+                            {% for latest in site.posts limit: 10 %}
                                 <li class="mb-5">
                                     <a href="{{ site.baseurl}}{{ latest.url}}">
                                         <div class="latest-module-content">
                                             <div class="latest-img pos-rel bd-ovf" style="padding-bottom: 56.38888888888888886%;">
-                                                <img src="{{ site.baseurl}}/{{ latest.image-path}}/{{ latest.image }}" alt="" class="pos-rel">
+                                                <img data-src="{{ site.url}}/{{ site.image-path }}{{ latest.images.path}}" data-expand="-110" srcset="" alt=" {{ latest.images.caption }} " class=" blur-up lazyload">
                                             </div>
                                             <section class="latest-module-detail">
                                                 <h4>{{ latest.title }}</h4>
@@ -330,11 +331,14 @@ layout: compress
                                                     <div class="site-name">{{ latest.publisher }}</div>
                                                 </div>
                                             </section>                
-                                        </div> 
+                                        </div>  
                                     </a>
                                 </li>
                             {% endfor %}
                             </ul>
+                            <button class="more">
+                                <a href="{{ site.baseurl }}/latest">More news</a>
+                            </button>
                         </div>                        
                     </div>
                 </div>
@@ -344,5 +348,6 @@ layout: compress
     </div>
     {% include mobi-footer.html %}
     <script src="{{ site.baseurl }}/assets/js/hamburger.js "></script>
+    <script src="{{ site.baseurl }}/assets/js/Vendor/lazysizes.min.js"></script>
 </body>
 </html>
