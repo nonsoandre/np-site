@@ -122,7 +122,7 @@ title: Gallery
         </main>
 
         <!-- Gallery Modal -->
-        <div id="modal-portal" >
+        <div id="modal-portal">
             <div class="gallery-dtl">
                 <button class="gallery-close-btn close-btn gallery__close-btn">
                     <svg class="close" viewBox="0 0 21.3 19.5">
@@ -133,60 +133,21 @@ title: Gallery
                     </svg>
                 </button>
                 <div class="gallery-dtl__container container-fluid">
-                    <h1 class="gallery-dtl__title" style="opacity: 0; font-size: 2em;">
-                       {{ page.title }}
-                        {{ page.description  }}
-                    </h1>
                     <div class="gallery-dtl__row">
                         <div class="gallery-dtl__img-window">
-                             <!-- <button class="gallery-dtl__btn--fs">
-                                <span class="sr-only">Open full screen</span>
-                                <svg x="0px" y="0px" width="15.1px" height="15.1px" viewBox="0 0 15.1 15.1" enable-background="new 0 0 15.1 15.1"><path class="gallery-dtl__btn--fs-outline" d="M0,4.6V0.8C0,0.4,0.4,0,0.8,0h3.8c0.5,0,0.8,0.4,0.8,0.8S5.1,1.7,4.6,1.7H2.9l4,4L5.7,6.9l-4-4v1.8 c0,0.5-0.4,0.8-0.8,0.8S0,5.1,0,4.6z M14.2,9.6c-0.5,0-0.8,0.4-0.8,0.8v1.8l-4-4L8.2,9.4l4,4h-1.8c-0.5,0-0.8,0.4-0.8,0.8 s0.4,0.8,0.8,0.8h3.8c0.5,0,0.8-0.4,0.8-0.8v-3.8C15.1,10,14.7,9.6,14.2,9.6z M14.2,0h-3.8C10,0,9.6,0.4,9.6,0.8s0.4,0.8,0.8,0.8 h1.8L1.7,12.2v-1.8c0-0.5-0.4-0.8-0.8-0.8S0,10,0,10.4v3.8c0,0.5,0.4,0.8,0.8,0.8h3.8c0.5,0,0.8-0.4,0.8-0.8s-0.4-0.8-0.8-0.8H2.9 L13.4,2.9v1.8c0,0.5,0.4,0.8,0.8,0.8c0.5,0,0.8-0.4,0.8-0.8V0.8C15.1,0.4,14.7,0,14.2,0z"></path><path class="gallery-dtl__btn--fs-arrow" d="M14.7,10.4v3.8c0,0.3-0.2,0.5-0.5,0.5h-3.8c-0.3,0-0.5-0.2-0.5-0.5s0.2-0.5,0.5-0.5H13L8.7,9.4l0.7-0.7l4.4,4.4 v-2.6c0-0.3,0.2-0.5,0.5-0.5S14.7,10.2,14.7,10.4z M14.2,0.3h-3.8c-0.3,0-0.5,0.2-0.5,0.5s0.2,0.5,0.5,0.5H13L1.3,13v-2.6 c0-0.3-0.2-0.5-0.5-0.5s-0.5,0.2-0.5,0.5v3.8c0,0.3,0.2,0.5,0.5,0.5h3.8c0.3,0,0.5-0.2,0.5-0.5s-0.2-0.5-0.5-0.5H2.1L13.7,2.1v2.6 c0,0.3,0.2,0.5,0.5,0.5s0.5-0.2,0.5-0.5V0.8C14.7,0.6,14.5,0.3,14.2,0.3z M0.8,5.1c0.3,0,0.5-0.2,0.5-0.5V2l4.4,4.4l0.7-0.7L2.1,1.3 h2.6c0.3,0,0.5-0.2,0.5-0.5S4.9,0.3,4.6,0.3H0.8c-0.3,0-0.5,0.2-0.5,0.5v3.8C0.3,4.9,0.6,5.1,0.8,5.1z"></path></svg>
-                             </button>
-                             <button class="gallery-dtl__arrow gallery-dtl__arrow--prev gallery-dtl__arrow--disabled">
-                                 <span class="sr-only">Previous image</span>
-                                 <svg x="0px" y="0px" width="24.8px" height="44px" viewBox="0 0 24.8 44" enable-background="new 0 0 24.8 44"><g><path fill="#FFFFFF" class="gallery-dtl__arrow-inner" d="M22.8,43.5c-0.4,0-0.8-0.2-1.1-0.4L0.7,22L21.8,0.9c0.3-0.3,0.7-0.4,1.1-0.4s0.8,0.2,1.1,0.4s0.4,0.7,0.4,1.1s-0.2,0.8-0.4,1.1L4.9,22l18.9,18.9c0.3,0.3,0.4,0.7,0.4,1.1s-0.2,0.8-0.4,1.1S23.2,43.5,22.8,43.5z"></path><path fill="#1A1A1A" d="M22.8,1c0.3,0,0.5,0.1,0.7,0.3c0.4,0.4,0.4,1,0,1.4L4.2,22l19.3,19.3c0.4,0.4,0.4,1,0,1.4 c-0.2,0.2-0.5,0.3-0.7,0.3s-0.5-0.1-0.7-0.3L1.4,22L22.1,1.3C22.3,1.1,22.6,1,22.8,1 M22.8,0c-0.5,0-1,0.2-1.4,0.6L0.7,21.3L0,22 l0.7,0.7l20.7,20.7c0.4,0.4,0.9,0.6,1.4,0.6c0.5,0,1-0.2,1.4-0.6c0.4-0.4,0.6-0.9,0.6-1.4c0-0.5-0.2-1-0.6-1.4L5.7,22L24.2,3.4 C24.6,3,24.8,2.5,24.8,2c0-0.5-0.2-1-0.6-1.4C23.9,0.2,23.4,0,22.8,0L22.8,0z"></path></g></svg>
-                            </button> -->
-                            <ul class="gallery-dtl__img-list" data-target="#img-1" data-flickity='{ "cellAlign": "left", "contain": true, "fullscreen": true, "imagesLoaded": true, "bgLazyLoad": true, "bgLazyLoad": 3, "pageDots": false}'>
-                                {% for photo in page.images %}
-                                <li class="carousel-cell gallery-dtl__img gallery-dtl__img--active gallery-dtl__img--portrait"  data-flickity-bg-lazyload = '{{ site.baseurl }}/{{ site.image-path }}/{{ photo.image }}' >
-                                    <div class="info-doc">
-                                        <div class="label">
-                                            <div class="picture-label">
-                                                {{ photo.title }}
-                                            </div>
-                                        </div>
-                                        <div class="author-name">
-                                            Photos By <span>{{ photo.photographer }}</span>
-                                        </div>
-                                    </div>
-                                </li>
-                                {% endfor %}
-                            </ul> 
-                            <!-- <button class="gallery-dtl__arrow gallery-dtl__arrow--next">
-                                <span class="sr-only">Next image</span>
-                                <svg x="0px" y="0px" width="24.8px" height="44px" viewBox="0 0 24.8 44" enable-background="new 0 0 24.8 44">
-                                    <g>
-                                        <path class="gallery-dtl__arrow-inner" fill="#FFFFFF" d="M2,43.5c-0.4,0-0.8-0.2-1.1-0.4S0.5,42.4,0.5,42s0.2-0.8,0.4-1.1L19.9,22L0.9,3.1C0.7,2.8,0.5,2.4,0.5,2 s0.2-0.8,0.4-1.1S1.6,0.5,2,0.5s0.8,0.2,1.1,0.4L24.1,22L3.1,43.1C2.8,43.3,2.4,43.5,2,43.5z"></path>
-                                        <path fill="#1A1A1A" d="M2,1c0.3,0,0.5,0.1,0.7,0.3L23.4,22L2.7,42.7C2.5,42.9,2.3,43,2,43s-0.5-0.1-0.7-0.3c-0.4-0.4-0.4-1,0-1.4 L20.6,22L1.3,2.7c-0.4-0.4-0.4-1,0-1.4C1.5,1.1,1.7,1,2,1 M2,0C1.5,0,1,0.2,0.6,0.6C0.2,1,0,1.5,0,2c0,0.5,0.2,1,0.6,1.4L19.2,22 L0.6,40.6C0.2,41,0,41.5,0,42c0,0.5,0.2,1,0.6,1.4C1,43.8,1.5,44,2,44s1-0.2,1.4-0.6l20.7-20.7l0.7-0.7l-0.7-0.7L3.4,0.6 C3,0.2,2.5,0,2,0L2,0z"></path>
-                                    </g>
-                                </svg>
-                            </button>  -->
-                         </div>
+                            <ul class="gallery-dtl__img-list main-carousel" data-flickity = '{ "cellAlign": "left", "contain": true, "fullscreen": true, "imagesLoaded": true, "bgLazyLoad": true, "bgLazyLoad": 3, "pageDots": false}'>
+                                <li class="carousel-cell gallery-dtl__img gallery-dtl__img--active gallery-dtl__img--portrait" data-flickity-bg-lazyload = '{{site.baseurl}}/assets/images/img-1a.jpg'></li>
+                                <li class="carousel-cell gallery-dtl__img gallery-dtl__img--active gallery-dtl__img--portrait" data-flickity-bg-lazyload = '{{site.baseurl}}/assets/images/img-2a.jpg'></li>
+                            </ul>
+                        </div>
                         <div class="gallery-dtl__info-area">
                             <div class="gallery-dtl__info">
                                 <div class="gallery-dtl__meta">
-                                    <!-- <p class="gallery-dtl__count">
-                                        <span class="gallery-dtl__current">01</span>
-                                        / 
-                                        45
-                                    </p> -->
                                     <h2 class="gallery-dtl__img-title">
                                         The Nwangele Music Festival
                                     </h2>
                                     <p class="gallery-dtl__credit">
                                         Photos brought to you courtsey of High and Broke ChartMan 
-                                        
                                     </p>
                                 </div>
                             </div>
@@ -198,7 +159,7 @@ title: Gallery
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> 
                     <div class="share-module share-module--dark share-module--horizontal gallery_dtl--module">
                         <ul class="share-module__primary">
                             <li>
@@ -225,11 +186,10 @@ title: Gallery
                                 </button>
                             </li>
                         </ul>
-                    </div>
-                </div>                
+                    </div>               
+                </div>
+                
             </div>
-
-        </div>
         {% include footer.html %}
     </div>
     {% include mobi-footer.html %}

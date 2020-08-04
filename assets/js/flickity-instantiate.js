@@ -3,10 +3,14 @@ $(document).ready(function(){
         cellAlign: 'left',
         contain: true,
         pageDots: false,
-        fullscreen: false,
+        fullscreen: false, 
         imagesLoaded: true,
         bgLazyLoad: true,
         bgLazyLoad: 3,
         resize: false
     })        
 });  
+
+
+
+

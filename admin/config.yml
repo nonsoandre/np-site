@@ -1,6 +1,38 @@
 backend:
   name: github
-  repo: https://github.com/nonsoandre/np-site
-  branch: sorting-site-for-jekyll-build # Branch to update (optional; defaults to master)
+  repo: nonsoandre/np-site
+  branch: gh-pages # Branch to update (optional; defaults to master)
+  open_authoring: true
 
-  media_folder: 'assets/images/uploads'
+
+media_folder: 'assets/images/uploads'
+public_folder: 'assets/images.uploads'
+publish_mode: editorial_workflow
+
+
+
+
+collections:
+  - name: "posts" # Used in routes, e.g. /admin/collections/blog
+    label: "Posts" # Used in the UI
+    folder: "_posts" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template i.e. YYYY-MM-DD-title.md
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Tags", name: "tags", widget: "string"}
+      - {label: "Categories", name: "categories", widget: "string"}
+      - label:  "Header Images"
+        name:   "images"
+        widget: "object"
+        fields:
+          - {label: 'image-path', name: "path", widget: "image"}
+          - {label: "image caption", name:  "caption", widget: "string"}
+          - {label: "image  credit", name: "credit", widget: "string", required: false}
+      - {label: "Author", name: "author", widget: "string"}
+      - {label: "location", name: "location", widget: "text"}
+      - {label: "Site Publisher", name: "publisher", widget: "text"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Body", name: "body", widget: "markdown"}
+

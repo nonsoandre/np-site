@@ -2,11 +2,12 @@
 title:                Nwangele Post
 description:         From Nwangele to the world
 logo:                 'assets/img/favicon/logo.png'
-baseurl:              /np-site/
-url:                  "http://localhost:4000/np.io/"
+baseurl:              ""
+url:                  ""
 image-path:          "assets/images/uploads"
 
 
+livereload: true
 
 # Jekyll
 permalink:            pretty

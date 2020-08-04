@@ -252,7 +252,7 @@ strong{
 
 .latest-page{
     display: none;
-    @media #{$lg-scn--up}{
+    @media (min-width: 992px){
         display: block;
         position: sticky;
         top: 0;

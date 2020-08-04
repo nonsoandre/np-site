@@ -446,6 +446,10 @@ button.btn.btn-abt{
         background: $color-accent; 
         color: $color-typo; 
     }
+    
+    @media (max-width: 48em){
+        font-size: 12px;
+    }
 }
 
 .abt-btn{

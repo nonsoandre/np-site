@@ -50,21 +50,20 @@ title: About
                             </div>   
                             
                             <div class="tier-row">
-                                {% for team in site.data.staff-teams %}
+                                {% for team in site.data.staff-teams limit: 3 %}
                                
                                 <div class="editorial tier-module">
                                     <div class="title tier-module--title">
-                                        <h5>{{ team.name }}</h5> 
+                                        <h5>{{ team.name }} Team </h5> 
                                     </div>
-    
                                     <div class="tier-module--members">
                                         <ul class="members--list">
                                             {% for staff in site.data.staffs  %}
                                             {% if staff.team == team.name  %}
-                                            <li>
+                                            <li> 
                                                 <div class="tier-member--image">
                                                     <div class="tier-image">
-                                                        <img src="{{ site.baseurl }}/assets/images/feature-modules/KanyeWyoming.jpg" alt="" class="member-image">                
+                                                        <img src="{{ site.url }}/{{ site.image-path }}/{{ staff.photo }}" alt="" class="member-image">                
                                                     </div>
                                                 </div>
                                                 <div class="title-member--details">
