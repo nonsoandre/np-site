@@ -221,11 +221,7 @@
     padding-left: 1px;
 }
 
-.share-module.share-module--horizontal {
-    width: 13.8rem;
-    margin: 2rem auto;
-    position: relative;
-}
+
 
 .gallery-dtl__img {
     position: absolute;
@@ -254,6 +250,12 @@
     display: block;
     z-index: 2;
 }
+
+.share-module.share-module--horizontal {
+    width: 13.8rem;
+    margin: 2rem auto;
+    position: relative;
+}
 .gallery_dtl--module{
     & .share-module__primary li{
         @media only screen and (min-width: 750px){
@@ -278,9 +280,9 @@
 
     }
 }
-#modal-portal{
-    display: none;
-}
+// #modal-portal{
+//     display: none;
+// }
 
 .main-carousel{
     width: 100%;
@@ -336,39 +338,5 @@
 
 .open-gally{
     display: block;
+    visibility: visible;
 }
-
-// .flickity-enabled.is-draggable .flickity-viewport{
-//     height: 498.4px !important;
-// }
-// .flickity-viewport{
-//     height: 100% !important;
-// }
-
-// .carousel-cell{
-//     height: 498.4px;
-//     // width: 100%;
-// }
-
-// /* Element | http://localhost:4000/articles/ */
-
-// .mobile-gallery__carousel > div:nth-child(1) {
-//     /* height: 0px; */
-//   }
-  
-//   /* main.css | http://localhost:4000/assets/css/main.css */
-  
-//   .mobile-gallery__carousel-ul {
-//     /* width: calc(4500vw); */
-//   }
-  
-//   .mobile-gallery__carousel-item img {
-//     margin: 0 2em;
-//   }
-  
-//   /* flickity.min.css | http://localhost:4000/assets/css/Vendor/flickity.min.css */
-  
-//   .flickity-enabled {
-//     /* position: relative; */
-//   }
-  

@@ -17,10 +17,10 @@ function openModal(){
     const modalBox = document.querySelector('#modal-portal');
     // const modalBox = document.querySelector('.gallery-dtl');
 
-    modalBox.style.display = 'flex'
+    modalBox.style.visibility = 'visible'
 }
 
 function closeModal(){
     const modalBox = document.querySelector('#modal-portal');
-    modalBox.style.display = 'none'
+    modalBox.style.visibility = 'hidden'
 }
