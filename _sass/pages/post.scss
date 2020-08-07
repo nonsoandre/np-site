@@ -481,7 +481,9 @@ article{
 
     }
 }
-
+.tag-article-feed .article-footer--related{
+    display: block;
+}
 .article-footer--related{
     @include border( 1px, solid, #{$background-border-decor-string}, -top);
     margin-top: 1em;
@@ -541,3 +543,12 @@ article{
 //     //     margin: 0 90px;
 //     // }
 // }
+
+.pager{
+    display: flex;
+    justify-content: space-around;
+
+    & li{
+        font-weight: bold;
+    }
+}

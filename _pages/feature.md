@@ -5,6 +5,6 @@ permalink: /features/
 pagination: 
   enabled: true
   per_page: 6
-  collection: feature
+  category: feature
   permalink: /page:num/
 ---

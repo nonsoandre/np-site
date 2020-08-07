@@ -1,36 +1,42 @@
 <div class="more-news">
-    <div id="article-container" class="article-inner-container" data-page="{{ currentPage }}" data-totalPages="{{ paginator.total_pages }}">
-    {% for latest in site.posts limit: 10 offset:offset %}
-        <article class="article-details context-list article-summary">
-            <div class="sub-article-details context-list">
-                <a href="{{ site.baseurl }}{{ latest.url }}" class="article-link">
-                    <figure class="article-figure size-medium">
-                        <div class=" visible pb-cent article-img-box">
-                            <img src="{{ site.baseurl}}/{{ latest.image-path}}/{{ latest.image }}" srcset="" alt=" {{ latest.image-alt }} ">
-                        </div>
-                    </figure>
-                    <div class="article-meta local">
-                        <div class="article-context meta-details">
-                            <span>{{ latest.location }}</span>
-                            <address class="feed_item-author">
-                                <span class="article-spacer">|</span>
-                                <div class="author">By {{ latest.author }}</div>
-                            </address>
-                        </div>
-                        <h3>{{ latest.title }}</h3>
-                        <div class="site-name"><span>{{ latest.publisher }}</span></div>
-                        <div class="article-info">
-                            <div class="author">By {{ latest.author }}</div>
-                            <div class="cat">
-                                <span>{{ latest.category}} / </span>
-                                <span class="date">{{ latest.date-custom }}</span>
-                            </div> 
-                        </div>
 
-                    </div>
-                </a>
-            </div>
-        </article>
-    {% endfor %}
-    </div> 
+    <div id="article-container" class="article-inner-container" data-page="{{ currentPage }}" data-totalPages="{{ paginator.total_pages }}" data-pageurl="{{ page.url | prepend: site.baseurl | remove: "/index.html"}}">
+        {% for latest in site.posts limit: 10 offset: offset %}
+        
+            <article id="blog-article" class="article-details context-list article-summary" data-url="{{ latest.url | xml_escape }}">
+                <div class="sub-article-details context-list">
+                    <a href="{{ site.baseurl }}{{ latest.url }}" class="article-link">
+                        <figure class="article-figure size-medium">
+                            <div class=" visible pb-cent article-img-box">
+                                <img class="lazyload blur-up" data-expand="-90" data-src="{{ site.url}}/{{ site.image-path }}{{ latest.images.path}}" srcset="" alt=" {{ latest.images.caption }} ">
+                            </div>
+                        </figure>
+                        <div class="article-meta local">
+                            <div class="article-context meta-details">
+                                <span>{{ latest.tags[0] }}</span>
+                                <address class="feed_item-author">
+                                    {% if latest.author  %}
+                                        <span class="article-spacer">|</span>
+                                        <div class="author">
+                                            By {{ latest.author }}                                                      
+                                        </div>
+                                    {% endif %}
+                                </address>
+                            </div>
+                            <h3>{{ latest.title }}</h3>
+                            <div class="site-name"><span>{{ latest.publisher }}</span></div>
+                            <div class="article-info">
+                                <div class="author">By {{ latest.author }}</div>
+                                <div class="cat">
+                                    <span>{{ latest.category}}</span>
+                                    <time datetime="{{ latest.date }}" class="date">{{ latest.date | timeago }}</time>
+                                </div> 
+                            </div>
+
+                        </div>
+                    </a>
+                </div>
+            </article>
+            {% endfor %}
+        </div>  
 </div>
