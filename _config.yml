@@ -4,7 +4,15 @@ description:         From Nwangele to the world
 logo:                 'assets/img/favicon/logo.png'
 baseurl:              ""
 url:                  ""
+
+
 image-path:          "assets/images/uploads"
+default_width:       "1200"
+sizes:               "(min-width: 64em) 220x, (min-width: 48em) 150px, 125px"
+data-srcset:
+  - 300
+  - 750
+  - 1000
 
 
 livereload: false
@@ -90,9 +98,9 @@ autopages:
     enabled: true
     layouts:
       - "autopage_tags.html"
-      - "autopage_collection_tags.html"
     path: "/tag/:tag"
 
 picture:
   ignore_missing_images: [development, testing]
   disabled: true
+

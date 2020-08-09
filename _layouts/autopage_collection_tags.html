@@ -1,0 +1,77 @@
+---
+layout: page
+---
+        
+<main id="site-content">
+  <div class="homepage">
+    <div class="inner-site-container post-container tag-article-feed">
+      <div class="article-footer--related" >
+        <div class="article-feed">
+          <h6 class="post-footer-titles"><svg width="10" height="9" viewBox="0 0 12 11" xmlns="http://www.w3.org/2000/svg"><path d="M5 0h2v8H5z" fill="var(--color,#000)"></path><path d="M6 7.828l4.243-4.242L11.657 5 7.414 9.243 6 10.657.343 5l1.414-1.414L6 7.828z" fill="var(--color,#000)"></path></svg> AutoPage for Tag <b>{% if page.autopages %}{{page.autopages.display_name}}{% endif %}</b> Page {{page.pagination_info.curr_page}} of {{page.pagination_info.total_pages}}</h6>
+          <div class="more-news">
+            <div id="article-container" class="article-inner-container">
+              {% for post in paginator.posts %}
+              <article id="blog-article" class="article-details context-list article-summary" data-url="{{ post.url | xml_escape }}">
+                  <div class="sub-article-details context-list">
+                      <a href="{{ site.baseurl }}{{ post.url | relative_url }}" class="article-link">
+                          <figure class="article-figure size-medium">
+                              <div class=" visible pb-cent article-img-box">
+                                  <img class="lazyload blur-up" data-expand="-90" data-src="{{ site.url}}/{{ site.image-path }}{{ post.images.path}}" srcset="" alt=" {{ post.images.caption }} ">
+                              </div>
+                          </figure>
+                          <div class="article-meta local">
+                              <div class="article-context meta-details"> 
+                                  <span>{{ post.tags[0] }}</span>
+                                  <address class="feed_item-author">
+                                      {% if post.author  %}
+                                          <span class="article-spacer">|</span>
+                                          <div class="author">
+                                              By {{ post.author | escape }}                                                      
+                                          </div>
+                                      {% endif %}
+                                  </address>
+                              </div>
+                              <h3>{{ post.title | escape }}</h3>
+                              <div class="site-name"><span>{{ post.publisher }}</span></div>
+                              <div class="article-info">
+                                  <div class="author">By {{ post.author }}</div>
+                                  <div class="cat">
+                                      <span>{{ post.category}}</span>
+                                      <time datetime="{{ post.date }}" class="date">{{ post.date | timeago }}</time>
+                                  </div> 
+                              </div>
+          
+                          </div>
+                      </a>
+                  </div>
+              </article>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+    
+      </div>
+      <div class="page-items">
+        <!-- 
+          Showing buttons to move to the next and to the previous list of posts (pager buttons).
+        -->
+        {% if paginator.total_pages > 1 %}
+        <ul class="pager">
+            {% if paginator.previous_page %}
+            <li class="previous">
+                <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+            </li>
+            {% endif %}
+            {% if paginator.next_page %}
+            <li class="next">
+                <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+            </li>
+            {% endif %}
+        </ul>
+        {% endif %}
+        <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p> -->
+      </div>
+    </div>
+  </div>
+  
+</main>
