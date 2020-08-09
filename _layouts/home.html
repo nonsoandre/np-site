@@ -18,9 +18,10 @@ layout: compress
                             <div id="section" class="section-padding main-page-header">
                                 <figure class="img-module--container">
                                     <picture class="img img-banner artdirection">
-                                        <source media="(max-width: 26.524em)" srcset="">
-                                            <img src="{{ site.baseurl }}/assets/images/banner-1.png" alt="" class="module--image-box"
-                                            srcset="{{ site.baseurl}}/assets/images/banner-small.jpg 300w">
+                                        <source media="(min-width: 48em)" srcset="{{ site.baseurl }}/assets/images/banner-1.png  720w, {{ site.baseurl }}/assets/images/banner-1.png 1440w"  >
+                                        <source media="(max-width: 26.524em)" srcset="{{ site.baseurl }}/assets/images/banner-1.png 767w, {{ site.baseurl }}/assets/images/banner-1.png 15354w">
+                        
+                                        <img src="{{ site.baseurl }}/assets/images/banner-1.png" alt="" class="module--image-box" srcset="{{ site.baseurl}}/assets/images/banner-small.jpg 300w">
                                     </picture>
                                     <figcaption class="banner-img-caption">
                                         <a href="#">*Long John Addidas</a>
@@ -34,6 +35,8 @@ layout: compress
                                         <a href="#" class="post-module-content">
                                             <figure>
                                                 <picture class="artdirection--123">
+                                                    <source media="(max-width: 48em)" srcset="{{ site.baseurl }}/assets/images/img-3a.jpg 120w, {{ site.baseurl }}/assets/images/img-3a.jpg 240w">
+                                                    <source media="(max-width: 26.5624em)" srcset="{{ site.baseurl }}/assets/images/img-3a.jpg 768w, {{ site.baseurl }}/assets/images/img-3a.jpg 1536w">
                                                   <img src="{{ site.baseurl }}/assets/images/img-3a.jpg" srcset="{{ site.baseurl}}/assets/images/img-3a-small.webp 300w" alt="a white man passport" class="img img-thumbnail sm-img-module">  
                                                 </picture>
                                             </figure>                                        
@@ -51,7 +54,9 @@ layout: compress
                                         <a href="#" class="post-module-content">
                                             <!-- <figure>
                                                 <picture class="artdirection--123">
-                                                  <img src="../assets/images/img-3a.jpg" alt="a white man passport" class="img img-thumbnail sm-img-module">  
+                                                    <source media="(max-width: 48em)" srcset="{{ site.baseurl }}/assets/images/img-3a.jpg 120w, {{ site.baseurl }}/assets/images/img-3a.jpg 240w">
+                                                    <source media="(max-width: 26.5624em)" srcset="{{ site.baseurl }}/assets/images/img-3a.jpg 768w, {{ site.baseurl }}/assets/images/img-3a.jpg 1536w">
+                                                  <img src="{{site.baseurl}}/assets/images/img-3a.jpg" alt="a white man passport" class="img img-thumbnail sm-img-module">  
                                                 </picture>
                                             </figure>                                         -->
                                             <div class="post-module-summary">
@@ -68,7 +73,9 @@ layout: compress
                                         <a href="#" class="post-module-content">
                                             <!-- <figure>
                                                 <picture class="artdirection--123">
-                                                  <img src="../assets/images/img-3a.jpg" alt="a white man passport" class="img img-thumbnail sm-img-module">  
+                                                    <source media="(max-width: 48em)" srcset="{{ site.baseurl }}/assets/images/img-3a.jpg 120w, {{ site.baseurl }}/assets/images/img-3a.jpg 240w">
+                                                    <source media="(max-width: 26.5624em)" srcset="{{ site.baseurl }}/assets/images/img-3a.jpg 768w, {{ site.baseurl }}/assets/images/img-3a.jpg 1536w">
+                                                  <img src="{{ site.baseurl }}/assets/images/img-3a.jpg" alt="a white man passport" class="img img-thumbnail sm-img-module">  
                                                 </picture>
                                             </figure>                                         -->
                                             <div class="post-module-summary">
@@ -88,7 +95,7 @@ layout: compress
                                 <ul class="main-page-posts-lists">
                                     <li class="post-module inner-section-padding">
                                         <div class="featured-lists">
-                                            {% assign featureCollection = site.feature | sort: 'date' | reverse %}
+                                            {% assign featureCollection = site.categories.feature | sort: 'date' | reverse %}
                                             {% for feature in featureCollection limit: 5  %}
                                             <div class="featured-item featured-card feature-z">
                                                 <div class="image module--visual">
@@ -125,7 +132,9 @@ layout: compress
                                         <a href="#" class="post-module-content">
                                             <figure>
                                                 <picture class="artdirection--123">
-                                                  <img src="../assets/images/img-3a.jpg" alt="a white man passport" class="img img-thumbnail sm-img-module">  
+                                                    <source media="(max-width: 48em)" srcset="{{ site.baseurl }}/assets/images/img-3a.jpg 120w, {{ site.baseurl }}/assets/images/img-3a.jpg 240w">
+                                                    <source media="(max-width: 26.5624em)" srcset="{{ site.baseurl }}/assets/images/img-3a.jpg 768w, {{ site.baseurl }}/assets/images/img-3a.jpg 1536w">
+                                                  <img src="{{ site.baseurl }}/assets/images/img-3a.jpg" alt="a white man passport" class="img img-thumbnail sm-img-module">  
                                                 </picture>
                                             </figure>                                        
                                             <div class="post-module-summary">
@@ -142,7 +151,9 @@ layout: compress
                                         <a href="#" class="post-module-content">
                                             <figure>
                                                 <picture class="artdirection--123">
-                                                  <img src="../assets/images/img-3a.jpg" alt="a white man passport" class="img img-thumbnail sm-img-module">  
+                                                    <source media="(max-width: 48em)" srcset="{{ site.baseurl }}/assets/images/img-3a.jpg 120w, {{ site.baseurl }}/assets/images/img-3a.jpg 240w">
+                                                    <source media="(max-width: 26.5624em)" srcset="{{ site.baseurl }}/assets/images/img-3a.jpg 768w, {{ site.baseurl }}/assets/images/img-3a.jpg 1536w">
+                                                  <img src="{{ site.baseurl }}/assets/images/img-3a.jpg" alt="a white man passport" class="img img-thumbnail sm-img-module">  
                                                 </picture>
                                             </figure>                                        
                                             <div class="post-module-summary">
@@ -159,7 +170,9 @@ layout: compress
                                         <a href="#" class="post-module-content">
                                             <figure>
                                                 <picture class="artdirection--123">
-                                                  <img src="../assets/images/img-3a.jpg" alt="a white man passport" class="img img-thumbnail sm-img-module">  
+                                                    <source media="(max-width: 48em)" srcset="{{ site.baseurl }}/assets/images/img-3a.jpg 120w, {{ site.baseurl }}/assets/images/img-3a.jpg 240w">
+                                                    <source media="(max-width: 26.5624em)" srcset="{{ site.baseurl }}/assets/images/img-3a.jpg 768w, {{ site.baseurl }}/assets/images/img-3a.jpg 1536w">
+                                                  <img src="{{ site.baseurl }}/assets/images/img-3a.jpg" alt="a white man passport" class="img img-thumbnail sm-img-module">  
                                                 </picture>
                                             </figure>                                        
                                             <div class="post-module-summary">
@@ -176,7 +189,9 @@ layout: compress
                                         <a href="#" class="post-module-content">
                                             <figure>
                                                 <picture class="artdirection--123">
-                                                  <img src="../assets/images/img-3a.jpg" alt="a white man passport" class="img img-thumbnail sm-img-module">  
+                                                    <source media="(max-width: 48em)" srcset="{{ site.baseurl }}/assets/images/img-3a.jpg 120w, {{ site.baseurl }}/assets/images/img-3a.jpg 240w">
+                                                        <source media="(max-width: 26.5624em)" srcset="{{ site.baseurl }}/assets/images/img-3a.jpg 768w, {{ site.baseurl }}/assets/images/img-3a.jpg 1536w">
+                                                  <img src="{{site.baseurl}}/assets/images/img-3a.jpg" alt="a white man passport" class="img img-thumbnail sm-img-module">  
                                                 </picture>
                                             </figure>                                        
                                             <div class="post-module-summary">
@@ -193,7 +208,9 @@ layout: compress
                                         <a href="#" class="post-module-content">
                                             <figure>
                                                 <picture class="artdirection--123">
-                                                  <img src="../assets/images/img-3a.jpg" alt="a white man passport" class="img img-thumbnail sm-img-module">  
+                                                    <source media="(max-width: 48em)" srcset="{{ site.baseurl }}/assets/images/img-3a.jpg 120w, {{ site.baseurl }}/assets/images/img-3a.jpg 240w">
+                                                        <source media="(max-width: 26.5624em)" srcset="{{ site.baseurl }}/assets/images/img-3a.jpg 768w, {{ site.baseurl }}/assets/images/img-3a.jpg 1536w">
+                                                  <img src="{{site.baseurl}}/assets/images/img-3a.jpg" alt="a white man passport" class="img img-thumbnail sm-img-module">  
                                                 </picture>
                                             </figure>                                        
                                             <div class="post-module-summary">
@@ -245,7 +262,9 @@ layout: compress
                                         <a href="#" class="post-module-content">
                                             <figure>
                                                 <picture class="artdirection--123">
-                                                  <img src="../assets/images/img-3a.jpg" alt="a white man passport" class="img img-thumbnail sm-img-module">  
+                                                    <source media="(max-width: 48em)" srcset="{{ site.baseurl }}/assets/images/img-3a.jpg 120w, {{ site.baseurl }}/assets/images/img-3a.jpg 240w">
+                                                    <source media="(max-width: 26.5624em)" srcset="{{ site.baseurl }}/assets/images/img-3a.jpg 768w, {{ site.baseurl }}/assets/images/img-3a.jpg 1536w">
+                                                  <img src="{{ site.baseurl }}/assets/images/img-3a.jpg" alt="a white man passport" class="img img-thumbnail sm-img-module">  
                                                 </picture>
                                             </figure>                                        
                                             <div class="post-module-summary">
@@ -320,7 +339,7 @@ layout: compress
                                         <div class="latest-module-content">
                                             <div class="latest-img pos-rel bd-ovf" style="padding-bottom: 56.38888888888888886%;">
                                                 <noscript><img src="{{ site.url}}/{{ site.image-path }}{{ latest.images.path}}" srcset="" alt=" {{ latest.images.caption }} " title="{{ latest.images.caption }}" class="img featured-image"></noscript>
-                                                <img data-src="{{ site.url}}/{{ site.image-path }}{{ latest.images.path}}" data-expand="-110" srcset="" alt=" {{ latest.images.caption }} " title="{{ latest.images.caption }}" class=" blur-up lazyload">
+                                                <img data-src="{{ site.url}}/{{ site.image-path }}{{ latest.images.path}}" data-expand="-110" data-srcset="{{ site.url}}/{{ site.image-path }}{{ latest.images.path}} 360w, {{ site.url}}/{{ site.image-path }}{{ latest.images.path}} 720w" sizes="(min-width: 1000em) 360px" alt=" {{ latest.images.caption }} " title="{{ latest.images.caption }}" class=" blur-up lazyload">
                                             </div>
                                             <section class="latest-module-detail">
                                                 <h4>{{ latest.title }}</h4>

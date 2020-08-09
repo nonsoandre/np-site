@@ -32,7 +32,17 @@ layout: default
                                         <a href="{{ site.baseurl }}{{ latest.url }}" class="article-link">
                                             <figure class="article-figure size-medium">
                                                 <div class=" visible pb-cent article-img-box">
-                                                    <img class="lazyload blur-up" data-expand="-90" data-src="{{ site.url}}/{{ site.image-path }}{{ latest.images.path}}" srcset="" alt=" {{ latest.images.caption }} ">
+                                                    <noscript><img src="{{ site.url}}/{{ site.image-path }}{{ latest.images.path}}" srcset="" alt=" {{ latest.images.caption }} " title="{{ latest.images.caption }}" class="img featured-image"></noscript>
+                                                    <img class="lazyload blur-up latest-img" 
+                                                         data-expand="-90" 
+                                                         data-src="{{ site.url}}/{{ site.image-path }}{{ latest.images.path}}" 
+                                                         data-srcset=" {{ site.url}}/{{ site.image-path }}{{ latest.images.path}} 125w,
+                                                                        {{ site.url}}/{{ site.image-path }}{{ latest.images.path}} 150w,
+                                                                        {{ site.url}}/{{ site.image-path }}{{ latest.images.path}} 250w,
+                                                                        {{ site.url}}/{{ site.image-path }}{{ latest.images.path}} 300vw,
+                                                                        {{ site.url}}/{{ site.image-path }}{{ latest.images.path}} 400vw"
+                                                         sizes="(min-width: 64em) 220x, (min-width: 48em) 150px, 125px"
+                                                         alt=" {{ latest.images.caption }} ">
                                                 </div>
                                             </figure>
                                             <div class="article-meta local">

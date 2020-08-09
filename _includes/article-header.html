@@ -2,7 +2,17 @@
     <figure class="post-article-figure">
         <div class="pos-rel post-article-img-container">
             <div class="post-article-img">
-                <img src="{{ site.url }}/{{ site.image-path }}{{ page.images.path }}" alt="{{ page.images.caption }}" srcset="">
+                <noscript><img src="{{ site.url}}/{{ site.image-path }}{{ page.images.path}}" srcset="" alt=" {{ page.images.caption }} " title="{{ latest.images.caption }}" class="img featured-image"></noscript>
+                <img src="{{ site.url }}/{{ site.image-path }}{{ page.images.path }}" 
+                     srcset="{{ site.url }}/{{ site.image-path }}{{ page.images.path }} 410w,
+                                {{ site.url }}/{{ site.image-path }}{{ page.images.path }} 690w,
+                                {{ site.url }}/{{ site.image-path }}{{ page.images.path }} 1380w,
+                                {{ site.url }}/{{ site.image-path }}{{ page.images.path }} 950w,
+                                {{ site.url }}/{{ site.image-path }}{{ page.images.path }} 1900w,
+                                {{ site.url }}/{{ site.image-path }}{{ page.images.path }} 3200w"
+                     sizes ="(min-width: 64em) 1600px, (min-width: 48em) 950px, (min-width: 26.5625em) 690px, 410px" 
+                     alt="{{ page.images.caption }}"
+                     class= "post-img">
             </div>  
             <div class="img-credit">{{ page.images.credit }}</div>                                  
         </div>
