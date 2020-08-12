@@ -2,7 +2,7 @@
 title:                Nwangele Post
 description:         From Nwangele to the world
 logo:                 'assets/img/favicon/logo.png'
-baseurl:              ""
+baseurl:              "/np-site/"
 url:                  ""
 
 
