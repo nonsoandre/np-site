@@ -4,6 +4,11 @@ gem "jekyll", "~> 4.0.0"
 gem "jekyll-sitemap"
 gem 'jekyll-mentions'
 gem 'wdm', '>= 0.1.0'
+gem 'rake'
+# gem 'breakpoint'
+# gem 'html-proofer'
+
+# gem 'liquid-c'
 
 
 
