@@ -2,8 +2,8 @@
 title:                Nwangele Post
 description:         From Nwangele to the world
 logo:                 'assets/img/favicon/logo.png'
-baseurl:              "/np-site/"
-url:                  "https//test-np.netlify.app"
+baseurl:              ""
+url:                  ""
 image-path:          "assets/images/uploads"
 
 default_width:       "1200"
