@@ -4,7 +4,21 @@ layout: default
 
 <div class="inner-site-container">
     {% include page-header.html %}
-{{ content }}
-
-
+    <div class="features-type feature-page">
+        <div class="container-block">
+            <div class="container-clear-fix">
+                <div class="feature-page-fragments">
+                    <div class="container-fluid">
+                        {% if page.url contains "terms" %}
+                        <div class="site-terms terms">
+                            {{ content }}
+                        </div>
+                        {%else%}
+                            {{ content }}
+                        {%endif%}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>

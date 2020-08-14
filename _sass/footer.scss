@@ -200,3 +200,41 @@
 //     -webkit-transition: stroke .125s ease-in-out;
 //     transition: stroke .125s ease-in-out;
 // }
+.site-terms.terms{
+    font-family: Georgia,serif;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-right: 20px;
+    margin-left: 20px;
+    max-width: 620px !important;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    color: inherit;
+    
+    @media #{$md-scn--up}{
+        font-size: 20px !important;
+        margin: 0 auto;
+    }
+
+    @media #{$lg-scn--up}{
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+    & h3{
+        margin-bottom: 10px;
+    }
+}
+
+.site-terms.terms > p {
+    text-align: left !important;
+    line-height: 1.5;
+    margin-bottom: 20px !important;
+    font-size: 16px !important;
+
+    @media #{$md-scn--up}{
+        font-size: 20px !important;
+    }
+}
