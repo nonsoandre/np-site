@@ -7,11 +7,11 @@
                     <li>
                         {%for tag in page.tags %}
                         {% assign tag_slug = tag | slugify: "raw" %}
-                        {% if page.collection %}
-                            <a href="{{ site.baseurl }}/tag/{{tag}}" rel="category tag"> #{{ tag }}</a> 
-                        {% else %}
-                            <a href="{{ site.baseurl }}/tag/{{tag}}" rel="category tag"> #{{ tag }}</a> 
-                        {% endif %}
+                            {% if page.collection %}
+                                <a href="{{ site.baseurl }}/tag/{{tag}}" rel="category tag"> #{{ tag }}</a> 
+                            {% else %}
+                                <a href="{{ site.baseurl }}/tag/{{tag}}" rel="category tag"> #{{ tag }}</a> 
+                            {% endif %}
                         {% endfor %}
                     </li>
                 </ul>

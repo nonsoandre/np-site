@@ -1,90 +1,74 @@
 ---
 layout: default
 ---
+<div class="inner-site-container">
+    <div class="site-title">
+        <div class="title title-container">
+            <h1>Latest tories</h1>
+            <p class="site-title-para"></p>
+        </div>
+    </div>
+    <div class="article-container">
+        <div class="container">
+            {% if paginator.page %}
+                {% assign offset = paginator.page | minus:1 | times:paginator.per_page %}
+                {% assign currentPage = paginator.page %}
+            {% else %}
+                {% assign offset = 0 %}
+                {% assign currentPage = 1 %}
+            {% endif %}
 
-       <div class="div-wrapper">
-        {% include nav.html %}   
-       </div>
-        <main id="site-content">
-            <div class="homepage">
-                <div class="inner-site-container">
-                    <div class="site-title">
-                        <div class="title title-container">
-                            <h1>Latest tories</h1>
-                            <p class="site-title-para"></p>
-                        </div>
-                    </div>
-                    <div class="article-container">
-                        <div class="container">
-                            {% if paginator.page %}
-                                {% assign offset = paginator.page | minus:1 | times:paginator.per_page %}
-                                {% assign currentPage = paginator.page %}
-                            {% else %}
-                                {% assign offset = 0 %}
-                                {% assign currentPage = 1 %}
-                            {% endif %}
-
-                            <div id="article-container" class="article-inner-container" data-page="{{ currentPage }}" data-totalPages="{{ paginator.total_pages }}" data-pageurl="{{ page.url | prepend: site.baseurl | remove: "/index.html"}}">
-                            {% for latest in paginator.posts %}
-                            
-                                <article id="blog-article" class="article-details context-list article-summary" data-url="{{ latest.url | xml_escape }}">
-                                    <div class="sub-article-details context-list">
-                                        <a href="{{ site.baseurl }}{{ latest.url }}" class="article-link">
-                                            <figure class="article-figure size-medium">
-                                                <div class=" visible pb-cent article-img-box">
-                                                    <noscript><img src="{{ site.url}}/{{ site.image-path }}{{ latest.images.path}}" srcset="" alt=" {{ latest.images.caption }} " title="{{ latest.images.caption }}" class="img featured-image"></noscript>
-                                                    <img class="lazyload blur-up latest-img" 
-                                                         data-expand="-90" 
-                                                         data-src="{{ site.url}}/{{ site.image-path }}{{ latest.images.path}}" 
-                                                         data-srcset=" {{ site.url}}/{{ site.image-path }}{{ latest.images.path}} 125w,
-                                                                        {{ site.url}}/{{ site.image-path }}{{ latest.images.path}} 150w,
-                                                                        {{ site.url}}/{{ site.image-path }}{{ latest.images.path}} 250w,
-                                                                        {{ site.url}}/{{ site.image-path }}{{ latest.images.path}} 300vw,
-                                                                        {{ site.url}}/{{ site.image-path }}{{ latest.images.path}} 400vw"
-                                                         sizes="(min-width: 64em) 220x, (min-width: 48em) 150px, 125px"
-                                                         alt=" {{ latest.images.caption }} ">
-                                                </div>
-                                            </figure>
-                                            <div class="article-meta local">
-                                                <div class="article-context meta-details">
-                                                    <span>{{ latest.tags[0] }}</span>
-                                                    <address class="feed_item-author">
-                                                        {% if latest.author  %}
-                                                            <span class="article-spacer">|</span>
-                                                            <div class="author">
-                                                                By {{ latest.author }}                                                      
-                                                            </div>
-                                                        {% endif %}
-                                                    </address>
-                                                </div>
-                                                <h3>{{ latest.title }}</h3>
-                                                <div class="site-name"><span>{{ latest.publisher }}</span></div>
-                                                <div class="article-info">
-                                                    <div class="author">By {{ latest.author }}</div>
-                                                    <div class="cat">
-                                                        <span>{{ latest.category}}</span>
-                                                        <time datetime="{{ latest.date }}" class="date">{{ latest.date | timeago }}</time>
-                                                    </div> 
-                                                </div>
-
+            <div id="article-container" class="article-inner-container" data-page="{{ currentPage }}" data-totalPages="{{ paginator.total_pages }}" data-pageurl="{{ page.url | prepend: site.baseurl | remove: "/index.html"}}">
+            {% for latest in paginator.posts %}
+            
+                <article id="blog-article" class="article-details context-list article-summary" data-url="{{ latest.url | xml_escape }}">
+                    <div class="sub-article-details context-list">
+                        <a href="{{ latest.url | relative_url }}" class="article-link">
+                            <figure class="article-figure size-medium">
+                                <div class=" visible pb-cent article-img-box">
+                                    <noscript><img src="{{ site.url}}/{{ site.image-path }}{{ latest.images.path}}" srcset="" alt=" {{ latest.images.caption }} " title="{{ latest.images.caption }}" class="latest-img"></noscript>
+                                    <!-- <img class="lazyload blur-up latest-img" 
+                                            data-expand="-90" 
+                                            data-src="{{ site.url}}/{{ site.image-path }}{{ latest.images.path}}" 
+                                            data-srcset=" {{ site.url}}/{{ site.image-path }}{{ latest.images.path}} 125w,
+                                                        {{ site.url}}/{{ site.image-path }}{{ latest.images.path}} 150w,
+                                                        {{ site.url}}/{{ site.image-path }}{{ latest.images.path}} 250w,
+                                                        {{ site.url}}/{{ site.image-path }}{{ latest.images.path}} 300vw,
+                                                        {{ site.url}}/{{ site.image-path }}{{ latest.images.path}} 400vw"
+                                            sizes="(min-width: 64em) 220x, (min-width: 48em) 150px, 125px"
+                                            alt=" {{ latest.images.caption }} "> -->
+                                    {% include resp-image.html type="data-src" name=latest.images.path data-srcset=latest.images.path data-expand="-90" alt=latest.images.caption title=latest.images.caption class="lazyload blur-up latest-img" sizes="(min-width: 64em) 220x, (min-width: 48em) 150px, 125px"%}
+                                </div>
+                            </figure>
+                            <div class="article-meta local">
+                                <div class="article-context meta-details">
+                                    <span>{{ latest.tags[0] }}</span>
+                                    <address class="feed_item-author">
+                                        {% if latest.author  %}
+                                            <span class="article-spacer">|</span>
+                                            <div class="author">
+                                                By {{ latest.author }}                                                      
                                             </div>
-                                        </a>
-                                    </div>
-                                </article>
-                                {% endfor %}
-                            </div> 
-                            {% include loadmore.html %}
-                        </div>
+                                        {% endif %}
+                                    </address>
+                                </div>
+                                <h3>{{ latest.title }}</h3>
+                                <div class="site-name"><span>{{ latest.publisher }}</span></div>
+                                <div class="article-info">
+                                    <div class="author">By {{ latest.author }}</div>
+                                    <div class="cat">
+                                        <span>{{ latest.category}}</span>
+                                        <time datetime="{{ latest.date }}" class="date">{{ latest.date | timeago }}</time>
+                                    </div> 
+                                </div>
+
+                            </div>
+                        </a>
                     </div>
-                </div>
-            </div>
-        </main>
-       {% include footer.html %} 
-   </div><!-- END #MAIN -->
-   {% include mobi-footer.html %}
-
-   <script src="{{ site.baseurl }}/assets/js/hamburger.js "></script>
-   <script src="{{ site.baseurl }}/assets/js/jquery-3.5.1.min.js "></script>
-   <script src="{{ site.baseurl }}/assets/js/custom-infinite-scroll.js "></script>
-   <script src="{{ site.baseurl }}/assets/js/Vendor/lazysizes.min.js"></script> 
-
+                </article>
+                {% endfor %}
+            </div> 
+            {% include loadmore.html %}
+        </div>
+    </div>
+</div>

@@ -3,7 +3,7 @@
     <nav class="mobile-nav">
         <ul class="mob-nav-links">
             <li>
-                <a href="{{ site.baseurl }}/latest/ " class="end-mark-container">
+                <a href={{"/latest/ " | relative_url }} class="end-mark-container">
                     <span class="sr-only">back to home</span>
                       <svg class="aaf28 icon-latest" width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><g fill="var(--color,#000)"><path d="M10 2a8 8 0 1 0 0 16 8 8 0 0 0 0-16zm0-2c5.523 0 10 4.477 10 10s-4.477 10-10 10S0 15.523 0 10 4.477 0 10 0z"></path><path d="M6 8.5a1.5 1.5 0 0 1 0 3 1.5 1.5 0 0 1 0-3zM10 8.5a1.5 1.5 0 0 1 0 3 1.5 1.5 0 0 1 0-3zM14 8.5a1.5 1.5 0 0 1 0 3 1.5 1.5 0 0 1 0-3z"></path></g></svg>
                     <span>Latest</span>
@@ -11,8 +11,8 @@
                 
             </li>
             <li>
-                <a href="{{ site.baseurl }}/tv/ " class="end-mark-container">
-                    <button href="{{ site.baseurl }}/video-gallery/ ">
+                <a href={{"/tv/ " | relative_url }} class="end-mark-container">
+                    <button href={{"/tv/ " | relative_url }}>
                         <span class="sr-only">Toggle share</span>
                         
                         <svg class="aaf28 icon-members quartz" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="var(--color,#000)"><path fill-rule="evenodd" d="M9.994 2.5l2.5 5 5 2.5-5 2.5-2.5 5-2.5-5-5-2.5 5-2.5 2.5-5zm0-2.5a2.5 2.5 0 0 0-2.237 1.381l-2.125 4.25-4.25 2.125a2.5 2.5 0 0 0 0 4.473l4.25 2.125 2.125 4.25a2.5 2.5 0 0 0 4.473 0l2.125-4.25 4.25-2.125a2.5 2.5 0 0 0 0-4.473l-4.25-2.125-2.125-4.25A2.5 2.5 0 0 0 9.994 0z"></path></svg>
@@ -21,8 +21,8 @@
                 </a>
             </li>
             <li>
-                <a href="{{ site.baseurl }}/photo-gallery/ " class="end-mark-container">
-                    <button href="{{ site.baseurl }}/video-gallery/ ">
+                <a href={{"/photo-gallery/" | relative_url }} class="end-mark-container">
+                    <button href={{"/photo-gallery/" | relative_url }}>
                         <span class="sr-only">Toggle share</span>
                         <svg id="asset_33" class="gallery-svg"    data-name="asset 33" xmlns="http://www.w3.org/2000/svg" width="15.624" height="20" viewBox="0 0 15.624 20">
                             <path id="Path_58" data-name="Path 58" d="M0,0H15.624V20H0Z" fill="none" fill-rule="evenodd" style="fill: none !important;"/>
@@ -37,10 +37,10 @@
             </li>
 
             <li>
-                <button class="open-btn share-btn-show" href="{{ site.baseurl }}/video-gallery/ ">
+                <button class="open-btn share-btn-show">
                     <span class="sr-only">Toggle share</span>
                     <svg class="share-button" x="0px" y="0px" viewBox="0 0 22.9 20.6"><path class="share-mark mark" d="M15.8,18.1H4C4.4,11.9,9.5,7,15.8,7c0.4,0,0.7-0.3,0.7-0.8s-0.3-0.8-0.7-0.8c-6.1,0-11.3,4.2-12.9,9.8V6.2c0-0.4-0.3-0.8-0.8-0.8S1.4,5.8,1.4,6.2v12.6c0,0.4,0.3,0.8,0.8,0.8h13.6c0.4,0,0.7-0.3,0.7-0.8S16.2,18.1,15.8,18.1z M21.2,5.7l-4.5-4.5c-0.3-0.3-0.8-0.3-1.1,0s-0.3,0.8,0,1.1l4,4l-4,4c-0.3,0.3-0.3,0.8,0,1.1c0.1,0.1,0.3,0.2,0.5,0.2c0.2,0,0.4-0.1,0.5-0.2l4.5-4.5C21.5,6.4,21.5,6,21.2,5.7z"></path></svg>
-                    <span style="margin-top: .6em;">Share</span>
+                    <span style="margin-top: .8em;">Share</span>
                 </button>
                 <button class="close-btn">
                     <svg class="close" viewBox="0 0 21.3 19.5" style="width: 2rem;"><g><path d="M17.8,3.7L4.6,16.9c-0.3,0.3-0.8,0.3-1.1,0c-0.3-0.3-0.3-0.8,0-1.1L16.7,2.6c0.3-0.3,0.8-0.3,1.1,0C18.1,2.9,18.1,3.4,17.8,3.7z"></path><path d="M16.7,16.9L3.5,3.7c-0.3-0.3-0.3-0.8,0-1.1s0.8-0.3,1.1,0l13.2,13.2c0.3,0.3,0.3,0.8,0,1.1C17.5,17.2,17,17.2,16.7,16.9z"></path></g></svg></button>
@@ -62,14 +62,14 @@
             </li> 
             
             <li>
-                <button class="mobile-menu" href="{{ site.baseurl }}/video-gallery/ ">
+                <button class="mobile-menu">
                     <span class="sr-only">Toggle share</span>
-                    <span class="icon-span">
+                    <span class="icon-span" style="margin-top: .278em;">
                         <svg class="_6e0d2 menu-icon" xmlns="http://www.w3.org/2000/svg" width="22" height="15" viewBox="0 0 12 12"> <style>.hamburger-icon__bottom,.hamburger-icon__middle,.hamburger-icon__top{fill:var(--color,#707070);transform-origin:50%;transition:all .3s}.open .hamburger-icon__top{transform:translateY(3px) translateX(-25%) rotate(45deg)}.open .hamburger-icon__bottom{transform:translateY(-4px) translateX(-25%) rotate(-45deg)}.open .hamburger-icon__middle{transform:translatex(-100%);opacity:0}</style> <path class="hamburger-icon__top" d="M0 0h12v2H0z"></path> <path class="hamburger-icon__middle" d="M0 5h12v2H0z"></path> <path class="hamburger-icon__bottom" d="M0 10h12v2H0z"></path> </svg>
                                            
                     </span>
  <!-- <svg class="menu-icon" x="0px" y="0px" viewBox="0 0 21.3 19.5"><style>.hamburger-icon__bottom,.hamburger-icon__middle,.hamburger-icon__top{fill:var(--color,#707070);transform-origin:50%;transition:all .3s}.open .hamburger-icon__top{transform:translateY(3px) translateX(-25%) rotate(45deg)}.open .hamburger-icon__bottom{transform:translateY(-4px) translateX(-25%) rotate(-45deg)}.open .hamburger-icon__middle{transform:translatex(-100%);opacity:0}</style><g><path d="M20,10.6H1.3c-0.4,0-0.8-0.3-0.8-0.8s0.3-0.8,0.8-0.8H20c0.4,0,0.8,0.3,0.8,0.8S20.4,10.6,20,10.6z"></path><path d="M20,18.9H1.3c-0.4,0-0.8-0.3-0.8-0.8s0.3-0.8,0.8-0.8H20c0.4,0,0.8,0.3,0.8,0.8S20.4,18.9,20,18.9z"></path><path d="M20,2.2H1.3c-0.4,0-0.8-0.3-0.8-0.8s0.3-0.8,0.8-0.8H20c0.4,0,0.8,0.3,0.8,0.8S20.4,2.2,20,2.2z"></path></g></svg> -->
-                    <span>Menu</span>
+                    <span style="margin-top: .59em;">Menu</span>
                 </button>
                 
             </li>

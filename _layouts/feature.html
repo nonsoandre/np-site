@@ -1,73 +1,44 @@
 ---
 layout: default
 ---
+<div class="inner-site-container">
+{% include page-header.html %}
 
-
-       <div class="div-wrapper">
-        {% include nav.html %}   
-       </div>
-
-       <main id="site-content">
-            <div class="homepage">
-                <div class="inner-site-container">
-                    <header class="page-feature-header">
-                        <div class="container-fluid">
-                            <div class="page-title">
-                                <h1>{{ page.title }}</h1>
-                                <p class="page-feature--sub-title">Stories the take a comprehensive look at what defines our history today</p>
-                            </div>                            
+    <div class="features-type feature-page">
+        <div class="container-block">
+            <div class="container-clear-fix">
+                <div class="feature-page-fragments">
+                    <div class="container-fluid">
+                        <div class="module-row feature-module-row">
+                            <div class="feature-hero-module-container">
+                                {% include feature-hero.html %}
+                            </div>                                            
                         </div>
-                    </header>
-
-                    <div class="features-type feature-page">
-                        <div class="container-block">
-                            <div class="container-clear-fix">
-                                <div class="feature-page-fragments">
+                    </div>
+                    <div class="third-tier compact-list">
+                        <div class="infinite-container">
+                            <div class="clerarfix">
+                                <div class="features-fragment">
                                     <div class="container-fluid">
-                                        <div class="module-row feature-module-row">
-                                            <div class="feature-hero-module-container">
-                                                {% include feature-hero.html %}
-                                            </div>                                            
-                                        </div>
-                                    </div>
-                                    <div class="third-tier compact-list">
-                                        <div class="infinite-container">
-                                            <div class="clerarfix">
-                                                <div class="features-fragment">
-                                                    <div class="container-fluid">
 
-                                                        {% if paginator.page %}
-                                                            {% assign offset = paginator.page | minus:1 | times:paginator.per_page %}
-                                                            {% assign currentPage = paginator.page %}
-                                                        {% else %}
-                                                            {% assign offset = 0 %}
-                                                            {% assign currentPage = 1 %}
-                                                        {% endif %}
-                                                        {% include feature-article.html %}
-                                                        {% include loadmore.html %} 
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="scroll-boundary"></div>
-                                        </div>
+                                        {% if paginator.page %}
+                                            {% assign offset = paginator.page | minus:1 | times:paginator.per_page %}
+                                            {% assign currentPage = paginator.page %}
+                                        {% else %}
+                                            {% assign offset = 0 %}
+                                            {% assign currentPage = 1 %}
+                                        {% endif %}
+                                        {% include feature-article.html %}
+                                        {% include loadmore.html %} 
                                     </div>
                                 </div>
                             </div>
+                            <div class="scroll-boundary"></div>
                         </div>
                     </div>
-                </div>    
+                </div>
             </div>
-        </main>
+        </div>
+    </div>
+</div>    
 
-
-
-
-    {% include footer.html %}
-   </div><!-- END #MAIN -->
-   {% include mobi-footer.html %}
-   <script src="{{ site.baseurl }}/assets/js/hamburger.js "></script>
-   <script src="{{ site.baseurl }}/assets/js/horizontal-mod.js "></script>
-   <script src="{{ site.baseurl }}/assets/js/jquery-3.5.1.min.js "></script>
-   <script src="{{ site.baseurl }}/assets/js/custom-infinite-scroll.js "></script>
-</body>
-</html>

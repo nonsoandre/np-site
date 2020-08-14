@@ -28,16 +28,13 @@
                             </div>
                             <div class="site-extra-menu">
                                 <ul class="side-menu--items">
-                                    <li class="list-item">
-                                        <a href="" class="nav-link item-link title">About us</a>
-                                    </li>
-                                    <li class="list-item"><a arial-label="Features" href="{{ site.baseurl }}/features/" class="nav-link item-link title">Features</a></li>
-                                    <li class="list-item"><a arial-label="Gallery" href="{{ site.baseurl }}/photo-gallery/" class="nav-link item-link title">Gallery</a></li>
-                                    <li class="list-item"><a arial-label="About Us" href="{{ site.baseurl }}/about/" class="nav-link item-link title">About Us</a></li>
+                                    <li class="list-item"><a arial-label="Features" href="{{ '/features/' | relative_url }}" class="nav-link item-link title">Features</a></li>
+                                    <li class="list-item"><a arial-label="Gallery" href="{{ '/photo-gallery/' | relative_url }}" class="nav-link item-link title">Gallery</a></li>
+                                    <li class="list-item"><a arial-label="About Us" href="{{ '/about/' | relative_url }}" class="nav-link item-link title">About Us</a></li>
                                     <li class="list-item"><a arial-label="Subscribe" href="#" class="nav-link item-link title">Subscribe</a></li>
-                                    <li class="list-item"><a aria-label="" href="{{ site.baseurl }}/tv/" class="nav-link item-link title">Carrers</a></li>
-                                    <li class="list-item"><a arial-label="Contact Us" href="{{ site.baseurl }}/about/#contact-us" class="nav-link item-link title">Contact Us</a></li>
-                                    <li class="list-item"><a aria-label="" href="{{ site.baseurl }}/opinions/" class="nav-link item-link title">Opinions</a></li>
+                                    <li class="list-item"><a aria-label="" href="{{ '/tv/' | relative_url }}" class="nav-link item-link title">Carrers</a></li>
+                                    <li class="list-item"><a arial-label="Contact Us" href="{{ '/about/#contact-us/' | relative_url }}" class="nav-link item-link title">Contact Us</a></li>
+                                    <li class="list-item"><a aria-label="" href="{{ '/opinions/' | relative_url }}" class="nav-link item-link title">Opinions</a></li>
                                     <li class="list-item"><a aria-label="" href="#" class="nav-link item-link title">Terms and Conditions</a></li>
                                 </ul>
                             </div>
@@ -88,16 +85,16 @@
                         <div class="switch-button" aria-label="toggle dark mode">
                             <input type='checkbox' name="switch"/>
                         </div>
-                    </li>
+                    </li> 
                 </ul>
                 <ul class="nav nav-list lower-nav menulist">
-                    <li class="list-item pos-rel"><a arial-label="Latest" href="{{ site.baseurl }}/latest/" class="nav-link">Latest</a></li>
-                    <li class="list-item pos-rel"><a arial-label="Articles" href="{{ site.baseurl }}/opinions/" class="nav-link">Opinions</a></li>
-                    <li class="list-item pos-rel"><a arial-label="Features" href="{{ site.baseurl }}/features/" class="nav-link">Features</a></li>
-                    <li class="list-item pos-rel"><a arial-label="Gallery" href="{{ site.baseurl }}/photo-gallery/" class="nav-link">Gallery</a></li>
-                    <li class="list-item pos-rel"><a arial-label="About Us" href="{{ site.baseurl }}/about/" class="nav-link">About Us</a></li>
-                    <li class="list-item pos-rel"><a arial-label="Subscribe" href="{{ site.baseurl }}/tv/" class="nav-link">Subscribe</a></li>
-                    <li class="list-item pos-rel"><a arial-label="Contact Us" href="{{ site.baseurl }}/about/#contact-us" class="nav-link">Contact Us</a></li>
+                    <li class="list-item pos-rel"><a arial-label="Latest" href="{{ '/latest/' | relative_url }}" class="nav-link">Latest</a></li>
+                    <li class="list-item pos-rel"><a arial-label="Articles" href="{{ '/opinions/' | relative_url }}" class="nav-link">Opinions</a></li>
+                    <li class="list-item pos-rel"><a arial-label="Features" href="{{ '/features/' | relative_url }}" class="nav-link">Features</a></li>
+                    <li class="list-item pos-rel"><a arial-label="Gallery" href="{{ '/photo-gallery/' | relative_url }}" class="nav-link">Gallery</a></li>
+                    <li class="list-item pos-rel"><a arial-label="About Us" href="{{ '/about/' | relative_url }}" class="nav-link">About Us</a></li>
+                    <li class="list-item pos-rel"><a arial-label="Subscribe" href="{{ '/tv/' | relative_url }}" class="nav-link">Subscribe</a></li>
+                    <li class="list-item pos-rel"><a arial-label="Contact Us" href="{{ '/about/#contact-us' | relative_url }}" class="nav-link">Contact Us</a></li>
                 </ul>
             </div>
             <div class="nav-container nav-container--standard nav-container--fixed nav-container--hidden">
@@ -115,9 +112,9 @@
                                 </span>
                             </button>
                         </li>
-                        <li class="list-item"><a arial-label="Latest" href="{{site.baseurl}}/latest/" class="nav-link">Latest</a></li>
-                        <li class="list-item"><a arial-label="Articles" href="{{ site.baseurl }}/articles/" class="nav-link">Articles</a></li>
-                        <li class="list-item"><a arial-label="Features" href="{{ site.baseurl }}/features/" class="nav-link">Features</a></li>
+                        <li class="list-item"><a arial-label="Latest" href="{{ '/latest/' | relative_url }}" class="nav-link">Latest</a></li>
+                        <li class="list-item"><a arial-label="Articles" href="{{ '/opinions/' | relative_url }}" class="nav-link">Opinions</a></li>
+                        <li class="list-item"><a arial-label="Features" href="{{ '/features/' | relative_url }}" class="nav-link">Features</a></li>
                         <li class="list-item">
                             <a class="nav-container__logo" href="/">
                                 <svg class="logo-cell" xmlns="http://www.w3.org/2000/svg" width="484.023" height="68.242" viewBox="0 0 484.023 68.242">
@@ -125,8 +122,8 @@
                                 </svg>
                             </a>
                         </li>
-                        <li class="list-item primary-subscribe-cell"><a arial-label="Subscribe" href="#" class="nav-link">Subscribe</a></li>
-                        <li class="list-item"><a arial-label="Contact Us" href="{{ site.baseurl }}/about/#contact-us" class="nav-link">Contact Us</a></li>
+                        <li class="list-item primary-subscribe-cell"><a arial-label="Subscribe" href="{{ '/tv/' | relative_url }}" class="nav-link">Subscribe</a></li>
+                        <li class="list-item"><a arial-label="Contact Us" href="{{ '/about/#contact-us' | relative_url }}" class="nav-link">Contact Us</a></li>
                         <li class="top-nav-list-item">
                             <div class="switch-button" aria-label="toggle dark mode">
                                 <input type='checkbox' name="switch"/>

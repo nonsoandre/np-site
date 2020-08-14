@@ -1,219 +1,189 @@
 ---
-layout: compress
+layout: default
 title: About
 ---
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    {% include head.html %}
-</head>
-<body>
-   <div id="main">
-       <div class="div-wrapper">
-        {% include nav.html %}   
-       </div>
+<div class="inner-site-container insight-container">
+    <header class="page-intro">
+        <div class="type-desc">A Nwangele to the world project.</div>
+        <h1 class="page-intro--title"> A global touch on local news we can strongly relate to for new gneration.</h1>
+    </header>
 
-       <main id="site-content">
-        <div class="homepage">
-            <div class="inner-site-container insight-container">
-                <header class="page-intro">
-                    <div class="type-desc">A Nwangele to the world project.</div>
-                    <h1 class="page-intro--title"> A global touch on local news we can strongly relate to for new gneration.</h1>
-                </header>
+    <div class="about section-tier first-tier-section">
+        <div class="container-fluid">
+            <div class="main-passage">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas voluptatibus quos doloribus magni consectetur cupiditate quae sequi tempora adipisci. Maiores culpa ullam dolore cum quos autem voluptatum aliquid architecto animi placeat eaque ratione, itaque quisquam nisi! Quia inventore, similique tempore aspernatur tenetur obcaecati corrupti voluptatum voluptas adipisci perferendis iusto nemo!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio magnam dicta corporis temporibus totam, officiis eligendi soluta accusantium dignissimos deleniti!</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione, ullam numquam excepturi iusto aperiam ut blanditiis magnam ipsum minus eius voluptates, mollitia cum vel laudantium non explicabo obcaecati sint! Distinctio.</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique sapiente accusantium a, repellat perspiciatis sint quia. Quidem rerum porro maiores voluptatum nisi. Consequuntur, voluptatem perferendis!</p>
+            </div>
+        </div>                            
+    </div>
 
-                <div class="about section-tier first-tier-section">
-                    <div class="container-fluid">
-                        <div class="main-passage">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas voluptatibus quos doloribus magni consectetur cupiditate quae sequi tempora adipisci. Maiores culpa ullam dolore cum quos autem voluptatum aliquid architecto animi placeat eaque ratione, itaque quisquam nisi! Quia inventore, similique tempore aspernatur tenetur obcaecati corrupti voluptatum voluptas adipisci perferendis iusto nemo!</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio magnam dicta corporis temporibus totam, officiis eligendi soluta accusantium dignissimos deleniti!</p>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione, ullam numquam excepturi iusto aperiam ut blanditiis magnam ipsum minus eius voluptates, mollitia cum vel laudantium non explicabo obcaecati sint! Distinctio.</p>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique sapiente accusantium a, repellat perspiciatis sint quia. Quidem rerum porro maiores voluptatum nisi. Consequuntur, voluptatem perferendis!</p>
+
+    <div class="section-tier second-tier-section">
+        <div class="container-fluid">
+            <div class="our-team">
+                <div class="tier-title">
+                    <h3>Meet Our Team</h3>
+                    <div class="section-tier--desc">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi eum quidem expedita suscipit eveniet ducimus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse voluptates omnis explicabo eligendi.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi eum quidem expedita suscipit eveniet ducimus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse voluptates omnis explicabo eligendi.
+                        </p>
+                    </div>
+                </div>   
+                
+                <div class="tier-row">
+                    {% for team in site.data.staff-teams limit: 3 %}
+                    
+                    <div class="editorial tier-module">
+                        <div class="title tier-module--title">
+                            <h5>{{ team.name }} Team </h5> 
                         </div>
-                    </div>                            
-                </div>
-
-
-                <div class="section-tier second-tier-section">
-                    <div class="container-fluid">
-                        <div class="our-team">
-                            <div class="tier-title">
-                                <h3>Meet Our Team</h3>
-                                <div class="section-tier--desc">
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi eum quidem expedita suscipit eveniet ducimus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse voluptates omnis explicabo eligendi.
-                                    </p>
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi eum quidem expedita suscipit eveniet ducimus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse voluptates omnis explicabo eligendi.
-                                    </p>
-                                </div>
-                            </div>   
-                            
-                            <div class="tier-row">
-                                {% for team in site.data.staff-teams limit: 3 %}
-                               
-                                <div class="editorial tier-module">
-                                    <div class="title tier-module--title">
-                                        <h5>{{ team.name }} Team </h5> 
+                        <div class="tier-module--members">
+                            <ul class="members--list">
+                                {% for staff in site.data.staffs  %}
+                                {% if staff.team == team.name  %}
+                                <li> 
+                                    <div class="tier-member--image">
+                                        <div class="tier-image">
+                                            <!-- <img src="{{ site.url }}/{{ site.image-path }}/{{ staff.photo }}" alt="" class="member-image"> -->
+                                            {% include resp-image.html  name=staff.photo  alt=staff.name title=staff.name class="member-image" sizes="(min-width: 64em) 220x, (min-width: 48em) 150px, 125px" %}                
+                                        </div>
                                     </div>
-                                    <div class="tier-module--members">
-                                        <ul class="members--list">
-                                            {% for staff in site.data.staffs  %}
-                                            {% if staff.team == team.name  %}
-                                            <li> 
-                                                <div class="tier-member--image">
-                                                    <div class="tier-image">
-                                                        <img src="{{ site.url }}/{{ site.image-path }}/{{ staff.photo }}" alt="" class="member-image">                
-                                                    </div>
-                                                </div>
-                                                <div class="title-member--details">
-                                                    <div class="name">{{ staff.name }}</div>
-                                                    <div class="job-title">{{ staff.role }}</div>
-                                                </div>
-                                            </li>
-                                            {% endif %}
-                                            {% endfor %}
-                                            <li class="abt-btn">
-                                                <button type="button" class="btn btn-abt">Show more</button>
-                                            </li>
-                                        </ul>
+                                    <div class="title-member--details">
+                                        <div class="name">{{ staff.name }}</div>
+                                        <div class="job-title">{{ staff.role }}</div>
                                     </div>
-                                </div>
-                                
+                                </li>
+                                {% endif %}
                                 {% endfor %}
-                            </div>
+                                <li class="abt-btn">
+                                    <button type="button" class="btn btn-abt">Show more</button>
+                                </li>
+                            </ul>
                         </div>
+                    </div>
+                    
+                    {% endfor %}
+                </div>
+            </div>
 
 
+        </div>
+    </div>
+
+    <div class="section-tier third-tier-section">
+        <section>
+            <div class="container-fluid">
+                <div class="our-dream">
+                    <div class="tier-title">
+                        <h3>Our Dreams...</h3>
+                    </div>
+
+                    <div class="third-tier-module-row tier-module-row">
+                        <ul class="tier-module--desc">
+                            <li>
+                                <h4 class="tier-module--title">
+                                    Our Visions
+                                </h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid nobis pariatur perspiciatis quae recusandae beatae tenetur cum amet error provident autem in, libero, aspernatur esse quis quas deserunt quibusdam id.
+                                </p>
+                            </li>
+                            <li>
+                                <h4 class="tier-module--title">
+                                    Our Mission
+                                </h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid nobis pariatur perspiciatis quae recusandae beatae tenetur cum amet error provident autem in, libero, aspernatur esse quis quas deserunt quibusdam id.
+                                </p>
+                            </li>
+                            <li>
+                                <h4 class="tier-module--title">
+                                    Boldness and Braveness...
+                                </h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid nobis pariatur perspiciatis quae recusandae beatae tenetur cum amet error provident autem in, libero, aspernatur esse quis quas deserunt quibusdam id.
+                                </p>
+                            </li>
+                        </ul>
+                        <ul class="tier-module--desc">
+                            <li>
+                                <h4 class="tier-module--title">
+                                    Our Visions
+                                </h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid nobis pariatur perspiciatis quae recusandae beatae tenetur cum amet error provident autem in, libero, aspernatur esse quis quas deserunt quibusdam id.
+                                </p>
+                            </li>
+                            <li>
+                                <h4 class="tier-module--title">
+                                    Our Mission
+                                </h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid nobis pariatur perspiciatis quae recusandae beatae tenetur cum amet error provident autem in, libero, aspernatur esse quis quas deserunt quibusdam id.
+                                </p>
+                            </li>
+                            <li>
+                                <h4 class="tier-module--title">
+                                    Boldness and Braveness...
+                                </h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid nobis pariatur perspiciatis quae recusandae beatae tenetur cum amet error provident autem in, libero, aspernatur esse quis quas deserunt quibusdam id.
+                                </p>
+                            </li>
+                        </ul>
                     </div>
                 </div>
+            </div>
+        </section>
+    </div>
 
-                <div class="section-tier third-tier-section">
-                    <section>
-                        <div class="container-fluid">
-                            <div class="our-dream">
-                                <div class="tier-title">
-                                    <h3>Our Dreams...</h3>
-                                </div>
+    <div class="section-tier fourth-tier-section" id="contact-us">
+        <section>
+            <div class="container-fluid">
+                <div class="contact-us">
+                    <div class="tier-title">
+                        <h3>Get in touch...</h3>
+                        <p>We’re eager to hear from you. See below for contact information specific to your needs.</p>
+                    </div>
 
-                                <div class="third-tier-module-row tier-module-row">
-                                    <ul class="tier-module--desc">
-                                        <li>
-                                            <h4 class="tier-module--title">
-                                                Our Visions
-                                            </h4>
-                                            <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid nobis pariatur perspiciatis quae recusandae beatae tenetur cum amet error provident autem in, libero, aspernatur esse quis quas deserunt quibusdam id.
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <h4 class="tier-module--title">
-                                                Our Mission
-                                            </h4>
-                                            <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid nobis pariatur perspiciatis quae recusandae beatae tenetur cum amet error provident autem in, libero, aspernatur esse quis quas deserunt quibusdam id.
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <h4 class="tier-module--title">
-                                                Boldness and Braveness...
-                                            </h4>
-                                            <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid nobis pariatur perspiciatis quae recusandae beatae tenetur cum amet error provident autem in, libero, aspernatur esse quis quas deserunt quibusdam id.
-                                            </p>
-                                        </li>
-                                    </ul>
-                                    <ul class="tier-module--desc">
-                                        <li>
-                                            <h4 class="tier-module--title">
-                                                Our Visions
-                                            </h4>
-                                            <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid nobis pariatur perspiciatis quae recusandae beatae tenetur cum amet error provident autem in, libero, aspernatur esse quis quas deserunt quibusdam id.
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <h4 class="tier-module--title">
-                                                Our Mission
-                                            </h4>
-                                            <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid nobis pariatur perspiciatis quae recusandae beatae tenetur cum amet error provident autem in, libero, aspernatur esse quis quas deserunt quibusdam id.
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <h4 class="tier-module--title">
-                                                Boldness and Braveness...
-                                            </h4>
-                                            <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid nobis pariatur perspiciatis quae recusandae beatae tenetur cum amet error provident autem in, libero, aspernatur esse quis quas deserunt quibusdam id.
-                                            </p>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
+                    <div class="fourth-tier-module-row tier-module-row">
+                        <ul>
+                            <li>
+                                <h6>Where do I report technical errors on the site (images won't load, broken links, etc.)?</h6>
+                                <p>www@np.com</p>
+                            </li>
+                            <li>
+                                <h6>Press inquiries</h6>
+                                <p>For media and broadcast inquiries, speaker requests, and press passes to Np events, please contact Ashley Huston at ahuston@qz.com.</p>
+                            </li>
+                            <li>
+                                <h6>What if I have general questions regarding the Pitchfork Music Festival Chicago?</h6>
+                                <p>www@np.com</p>
+                            </li>
+                            <li>
+                                <h6>What if I have general questions regarding the Pitchfork Music Festival Chicago?</h6>
+                                <p>For media and broadcast inquiries, speaker requests, and press passes to Np events, please contact Ashley Huston at ahuston@qz.com.</p>
+                            </li>
+                            <li>
+                                <h6>What if I have general questions regarding the Pitchfork Music Festival Chicago?</h6>
+                                <p>www@np.com</p>
+                            </li>
+                            <li>
+                                <h6>What if I have general questions regarding the Pitchfork Music Festival Chicago?</h6>
+                                <p>For media and broadcast inquiries, speaker requests, and press passes to Np events, please contact Ashley Huston at ahuston@qz.com.</p>
+                            </li>
+                        </ul>
+                    </div>
+
+
                 </div>
-
-                <div class="section-tier fourth-tier-section" id="contact-us">
-                    <section>
-                        <div class="container-fluid">
-                            <div class="contact-us">
-                                <div class="tier-title">
-                                    <h3>Get in touch...</h3>
-                                    <p>We’re eager to hear from you. See below for contact information specific to your needs.</p>
-                                </div>
-
-                                <div class="fourth-tier-module-row tier-module-row">
-                                    <ul>
-                                        <li>
-                                            <h6>Where do I report technical errors on the site (images won't load, broken links, etc.)?</h6>
-                                            <p>www@np.com</p>
-                                        </li>
-                                        <li>
-                                            <h6>Press inquiries</h6>
-                                            <p>For media and broadcast inquiries, speaker requests, and press passes to Np events, please contact Ashley Huston at ahuston@qz.com.</p>
-                                        </li>
-                                        <li>
-                                            <h6>What if I have general questions regarding the Pitchfork Music Festival Chicago?</h6>
-                                            <p>www@np.com</p>
-                                        </li>
-                                        <li>
-                                            <h6>What if I have general questions regarding the Pitchfork Music Festival Chicago?</h6>
-                                            <p>For media and broadcast inquiries, speaker requests, and press passes to Np events, please contact Ashley Huston at ahuston@qz.com.</p>
-                                        </li>
-                                        <li>
-                                            <h6>What if I have general questions regarding the Pitchfork Music Festival Chicago?</h6>
-                                            <p>www@np.com</p>
-                                        </li>
-                                        <li>
-                                            <h6>What if I have general questions regarding the Pitchfork Music Festival Chicago?</h6>
-                                            <p>For media and broadcast inquiries, speaker requests, and press passes to Np events, please contact Ashley Huston at ahuston@qz.com.</p>
-                                        </li>
-                                    </ul>
-                                </div>
-
-
-                            </div>
-                        </div>
-                    </section>
-                </div>
-
-
-
-
-
-
-
-
-
-            </div>    
-        </div>
-    </main>
-
-              {% include footer.html %}
-   </div>
-   {% include mobi-footer.html %}
-   <script src="{{ site.baseurl }}/assets/js/hamburger.js "></script>
-</body>
-</html>
+            </div>
+        </section>
+    </div>
+</div>    

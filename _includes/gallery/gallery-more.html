@@ -1,0 +1,54 @@
+<div class="features-type feature-page gallery-feature">                             
+  <div class="container-block">                        
+      <div class="container-clear-fix">
+          <div class="feature-page-fragments">
+              <div class="container-fluid">
+                  <h2 class="gallery-more">More from Gallery:</h2>                                                
+                  <div class="second-tier module-row feature-module-row">                                    
+                      {% for gallery in site.gallery %}
+                      {% if gallery.title != page.title %}
+                      <div class="feature-module module module-with-abstract">
+                          <div class="module_img module__visual gallery-module-image">
+                              <a href="{{ gallery.url | relative_url }}" class="image-link">
+                                  <span class="sr-only">A short message that displays module title</span>
+                                  <noscript><img src="{{ site.url}}/{{ site.image-path }}/{{ gallery.cover-image }}" srcset="" alt=" {{ gallery.images.title }} " title="{{ gallery.images.title }}"></noscript>
+                                  {% include resp-image.html type="data-src" name=gallery.cover-image data-srcset=gallery.cover-image data-expand="-90" alt=gallery.images.title title=gallery.images.title class="lazyload blur-up module_image" sizes="(min-width: 64em) 220x, (min-width: 48em) 150px, 125px"%}
+                                  <div class="overlay"></div>
+                              </a>
+                              <a href="#" class="type">Rising</a>
+                          </div>
+                          <div class="article-details module__article-details">
+                              <a href="{{ gallery .url | relative_url }}" class="title-link module__title-link">
+                                  <h2 class="module__title">
+                                      {{ gallery.title }}
+                                  </h2>
+                              </a>
+                              <div class="abstract module__abstract">
+                                  <p>{{ gallery.description }}</p>
+                              </div>
+                              <div class="module__meta meta">
+                                  <div class="bylne module__byline">
+                                      <ul class="authors module__authors">
+                                          <li><span class="display-name">
+                                              by: {{ gallery.photographer }} /
+                                          </span></li>
+                                      </ul>
+                                  </div>
+                                  <p class="date feature-module__date">
+                                      <time class="pub-date" datetime="{{ gallery.date | date_to_xmlschema }}" title="{{ gallery.date | date_to_xml_schema }}">
+                                          {{ gallery.date | date: date_format}}
+                                      </time>
+                                  </p>
+                              </div>
+                          </div>
+                          <div class="module__highlights"></div>
+                      </div>
+                      {% endif %}
+                      {% endfor %}
+                  </div>
+                                                             
+              </div>
+          </div>
+      </div>
+  </div>
+</div>

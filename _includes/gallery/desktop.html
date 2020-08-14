@@ -82,7 +82,8 @@
                             {% for photo in page.images limit: 12 %}
                             <li class="gallery-preview__photo">
                                 <button class="gallery-preview__photo-btn">
-                                    <img src="{{ site.baseurl }}/{{ site.image-path }}/{{ photo.image }}" alt="{{ photo.title }}">
+                                    {% include resp-image.html  name=photo.image srcset=photo.image  alt=photo.title title=photo.title  %}
+                                    <!-- <img src="{{ site.baseurl }}/{{ site.image-path }}/{{ photo.image }}" alt="{{ photo.title }}"> -->
                                 </button>
                             </li>
                             {% endfor %}

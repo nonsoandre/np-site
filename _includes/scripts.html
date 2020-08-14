@@ -1,14 +1,38 @@
 <script src="{{ site.baseurl }}/assets/js/hamburger.js "></script>
-<script src="{{ site.baseurl }}/assets/js/mobile-gally.js "></script>
+
 <script src="{{ site.baseurl }}/assets/js/horizontal-mod.js "></script>
-<script src="{{ site.baseurl }}/assets/js/fs-gally.js "></script>
 <script src="{{ site.baseurl }}/assets/js/jquery-3.5.1.min.js"></script>
-<script src="{{ site.baseurl }}/assets/js/slick.min.js"></script>
-<script src="{{ site.baseurl }}/assets/js/Vendor/flickity.pkgd.min.js"></script>
-<script src="{{ site.baseurl }}/assets/js/Vendor/fullscreen.js"></script>
-<script src="{{ site.baseurl }}/assets/js/Vendor/bg-lazyload.js"></script>
-<script src="{{ site.baseurl }}/assets/js/Vendor/slick.min.js"></script>
-<script src="{{ site.baseurl }}/assets/js/Vendor/slick.js"></script>
-<script src="{{ site.baseurl }}/assets/js/Vendor/venobox.min.js"></script>
 <script src="{{ site.baseurl }}/assets/js/Vendor/lazysizes.min.js"></script>
+
+{% if page.url contains 'gallery' %}
+  <script>
+    $(document).ready(function(){
+        $('.main-carousel').flickity({
+            cellAlign: 'left',
+            contain: true,
+            pageDots: false,
+            fullscreen: false,
+            imagesLoaded: true,
+            bgLazyLoad: true,
+            bgLazyLoad: 3,
+            resize: false
+        })        
+    });        
+  </script>
+  <script src="{{ site.baseurl }}/assets/js/mobile-gally.js "></script>
+  <script src="{{ site.baseurl }}/assets/js/fs-gally.js "></script>
+  <script src="{{ site.baseurl }}/assets/js/Vendor/flickity.pkgd.min.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/Vendor/fullscreen.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/Vendor/bg-lazyload.js"></script>
+{% endif %}
+
+{% if page.url contains 'latest' or page.url contains 'features'%}
+  <script src="{{ site.baseurl }}/assets/js/custom-infinite-scroll.js "></script>
+{% endif %}
+
+
+{% if page.url contains 'tv' %}
+  <script src="{{ site.baseurl }}/assets/js/Vendor/venobox.min.js"></script>
+{% endif %}
+
 

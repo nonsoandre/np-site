@@ -7,7 +7,7 @@ category: feature
 level: cover
 type: news
 image-thumb-path: assets\images\uploads\feature-modules\thumbnail
-image-path: assets\images\uploads\feature-modules
+image-path: feature-modules
 image: Priests.jpg
 image-caption: Priests
 image-credit: Reuters/Anthony 

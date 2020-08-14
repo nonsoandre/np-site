@@ -1,5 +1,23 @@
-<img
-  src="{{image_url}}/{{ image.src }}"
-  sizes="`{{ site.sizes }}"
-  srcset="{% for width in site.data-srcset %}{{ site.image-image-path }}/{{ width }}/{{ image.src }} {{ width }}w{% if forloop.last == false %}, {% endif %}{% endfor %}"
-  alt="{{ image.alt }}">
+{% capture imagePath %}{{ site.image-path | relative_url }}{{ include.name | relative_url }}{%endcapture%}
+{% if include.type == 'data-src' %}
+
+  <img loading='lazy' src="{{ imagePath | relative_url }}" data-src="{{imagePath | relative_url }}" 
+  
+          {% if include.data-srcset %} data-srcset="{{imagePath | relative_url }} 120w, {{imagePath | relative_url }} 768w, {{imagePath | relative_url }} 240w"{%endif%}
+          {% if include.data-expand %} data-expand="{{ include.data-expand }}" {% endif %}
+          {% if include.sizes %} sizes="{{ include.sizes }}" {% endif %}
+          {% if include.alt %} alt="{{ include.alt }}" {% endif %}
+          {% if include.title %} title="{{ include.title }}" {% endif %}
+          {%if include.class %} class = "{{ include.class }}"{%endif%} />  
+ 
+{% else %}
+  <img src="{{ imagePath | relative_url }}"
+            {% if include.srcset %}  srcset="{{imagePath | relative_url }} 120w, {{imagePath | relative_url }} 768w, {{imagePath | relative_url }} 240w"{% endif %}
+            {% if include.data-srcset %} data-srcset="{{imagePath | relative_url }} 120w, {{imagePath | relative_url }} 768w, {{imagePath | relative_url }} 240w"{%endif%}
+            {% if include.data-expand %} data-expand="{{ include.data-expand }}" {% endif %}
+            {% if include.sizes %} sizes="{{ include.sizes }}" {% endif %} 
+            {% if include.alt %} alt="{{ include.alt }}" {% endif %} 
+            {% if include.title %} title="{{ include.title }}" {% endif %}
+            {% if include.width %} width="{{ include.width }}" {% endif %} 
+            {%if include.class %} class = "{{ include.class }}"{%endif%} />
+{% endif %}

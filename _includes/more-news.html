@@ -2,13 +2,13 @@
 
     <div id="article-container" class="article-inner-container" data-page="{{ currentPage }}" data-totalPages="{{ paginator.total_pages }}" data-pageurl="{{ page.url | prepend: site.baseurl | remove: "/index.html"}}">
         {% for latest in site.posts limit: 10 offset: offset %}
-        
+           {% if page.url != latest.url %}
             <article id="blog-article" class="article-details context-list article-summary" data-url="{{ latest.url | xml_escape }}">
                 <div class="sub-article-details context-list">
-                    <a href="{{ site.baseurl }}{{ latest.url }}" class="article-link">
+                    <a href="{{ latest.url | relative_url }}" class="article-link">
                         <figure class="article-figure size-medium">
                             <div class=" visible pb-cent article-img-box">
-                                <img class="lazyload blur-up" data-expand="-90" data-src="{{ site.url}}/{{ site.image-path }}{{ latest.images.path}}" srcset="" alt=" {{ latest.images.caption }} ">
+                                {% include resp-image.html type="data-src" name=latest.images.path data-srcset=latest.images.path data-expand="-90" alt=latest.images.caption title=latest.images.caption class="lazyload blur-up latest-img" sizes="(min-width: 64em) 220x, (min-width: 48em) 150px, 125px"%}
                             </div>
                         </figure>
                         <div class="article-meta local">
@@ -37,6 +37,7 @@
                     </a>
                 </div>
             </article>
+            {% endif %}
             {% endfor %}
         </div>  
 </div>

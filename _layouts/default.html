@@ -1,6 +1,5 @@
 ---
-layout: compress
-title: Latest stories
+layout: compress    
 ---
 
 <!DOCTYPE html>
@@ -10,8 +9,23 @@ title: Latest stories
 </head>
 <body>
    <div id="main">
+        {% if page.url == 'index' %}
+            {%include nav.html %}
+        {%else%}
+            <div class="div-wrapper">
+                {% include nav.html %}   
+        </div>
+        {%endif%}           
 
-    {{ content }}
-
+        
+        <main id="site-content">
+            <div class="homepage">
+                {{ content }}
+            </div>
+        </main>
+        {% include footer.html %}
+    </div>        
+    {% include mobi-footer.html %}
+    {% include scripts.html %}
 </body>
 </html>

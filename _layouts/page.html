@@ -1,50 +1,10 @@
 ---
-layout: compress
+layout: default
 ---
 
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    {% include head.html %}
-</head>
-<body>
-   <div id="main">
-       <div class="div-wrapper">
-        {% include nav.html %}   
-       </div>
-        <main id="site-content">
-            <div class="homepage">
-                <div class="inner-site-container">
-
-                    {{ content }}
+<div class="inner-site-container">
+    {% include page-header.html %}
+{{ content }}
 
 
-                </div>
-            </div>
-        </main>
-
-        {% include footer.html %}
-    </div>
-    {% include mobi-footer.html %}
-    {% include scripts.html %}
-    <script src="{{ site.baseurl }}/assets/js/flickity-instantiate.js"></script>
-
-
-    <script>
-        $(document).ready(function(){
-            $('.main-carousel').flickity({
-                cellAlign: 'left',
-                contain: true,
-                pageDots: false,
-                fullscreen: false,
-                imagesLoaded: true,
-                bgLazyLoad: true,
-                bgLazyLoad: 3,
-                resize: false
-            })        
-        });        
-    </script>
-    
- </body>
- </html>
+</div>

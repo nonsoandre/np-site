@@ -3,25 +3,29 @@
     <div class="feature-module module inner-feature-module-list">
         <div class="min-module-row">
         <div class="module_img module__visual">
-            <a href="{{ site.baseurl }}{{ feature.url }}" class="image-link">
+            <a href="{{ feature.url | relative_url }}" class="image-link">
                 <span class="sr-only"> {{ feature.title }}A short message that displays module title</span> 
-                <img class="module_image feature-img"  
-                     src="{{ site.baseurl}}/{{ site.image-path }}/{{ feature.images.path }}"
-                     data-src="{{ site.url}}/{{ site.image-path }}{{ latest.images.path}}" 
-                     data-srcset=" {{ site.url}}/{{ site.image-path }}{{ latest.images.path}} 125w,
-                                    {{ site.url}}/{{ site.image-path }}{{ latest.images.path}} 150w,
-                                    {{ site.url}}/{{ site.image-path }}{{ latest.images.path}} 250w,
-                                    {{ site.url}}/{{ site.image-path }}{{ latest.images.path}} 300vw,
-                                    {{ site.url}}/{{ site.image-path }}{{ latest.images.path}} 400vw"
+                {% assign img = feature.images.path | relative_url %}
+                <noscript><img src="{{ site.image-path }}{{ feature.images.path | relative_url }}" alt=" {{ feature.images.caption }} " title="{{ feature.images.caption }}" class="module_image feature-img" ></noscript>
+                <!-- <img class="module_image feature-img" 
+                     
+                     src="{{site.image-path | relative_url }}{{img | relative_url }}"
+                     data-src="{{ site.image-path }}{{ img | relative_url }}" 
+                     data-srcset=" {{ site.image-path }}{{ img | relative_url }} 125w,
+                                    {{ site.image-path }}{{ img | relative_url }} 150w,
+                                    {{ site.image-path }}{{ img | relative_url }} 250w,
+                                    {{ site.image-path }}{{ img | relative_url }} 300vw,
+                                    {{ site.image-path }}{{ img | relative_url }} 400vw"
                      sizes="(min-width: 64em) 220x, (min-width: 48em) 150px, 125px" 
-                     alt=" {{ feature.images.caption }} ">
+                     alt=" {{ feature.images.caption }} "> --> 
+                     {% include resp-image.html type="data-src" name=img data-srcset=img data-expand="-90" alt=feature.images.caption title=feature.images.caption class="lazyload blur-up module_image feature-img" sizes="(min-width: 64em) 220x, (min-width: 48em) 150px, 125px"%}
                 <div class="overlay"></div>
             </a>
             <a href="#" class="type">{{ feature.tag[0] }}</a>
         </div>
         <div class="article-details module__article-details">
             <div class="article-context meta-details"> <span>{{ feature.tags[0] }}</span></div>
-            <a href="{{ site.baseurl }}{{ feature.url }}" class="title-link module__title-link">
+            <a href="{{ feature.url | relative_url }}" class="title-link module__title-link">
                 <h2 class="module__title">
                     {{  feature.title }}
                 </h2>

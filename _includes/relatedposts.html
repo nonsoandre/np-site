@@ -7,22 +7,23 @@
     </div>
     <div class="related-news">
         <div class="container-fluid">
-            <div class="module-row feature-module-row feature-module-list">
-                <article id="article-container" class="module-row feature-module-row feature-module-list" data-page="{{ currentPage }}" data-totalPages="{{ paginator.total_pages }}" data-pageurl="{{ page.url | prepend: site.baseurl  | remove: "/index.html"}}">
+            <!-- <div class="module-row feature-module-row feature-module-list"> -->
+                <article id="article-container" class="module-row feature-module-row feature-module-list related-module-list" data-page="{{ currentPage }}" data-totalPages="{{ paginator.total_pages }}" data-pageurl="{{ page.url | prepend: site.baseurl  | remove: "/index.html"}}">
                     {% for feature in site.posts limit: 3 %}
-                    <div class="feature-module module inner-feature-module-list">
-                        <div class="min-module-row">
+                    {% if page.url != feature.url %}
+                    <div class="feature-module module inner-feature-module-list related-module">
+                        <div class="min-module-row relative-module-row">
                         <div class="module_img module__visual">
-                            <a href="{{ site.baseurl }}{{ feature.url }}" class="image-link">
-                                <span class="sr-only"> {{ feature.title }}A short message that displays module title</span> 
-                                <img class="module_image"  src="{{ site.baseurl}}/{{ site.image-path }}/{{ feature.images.path }}" alt=" {{ feature.images.caption }} ">
+                            <a href="{{ feature.url | relative_url }}" class="image-link">
+                                <span class="sr-only"> {{ feature.title }}A short message that displays module title</span>
+                                {% include resp-image.html name=feature.images.path alt=feature.images.caption class="module_img lazyload" %}
                                 <div class="overlay"></div>
                             </a>
                             <a href="#" class="type">{{ feature.tag[0] }}</a>
                         </div>
                         <div class="article-details module__article-details">
                             <div class="article-context meta-details"> <span>{{ feature.tags[0] }}</span></div>
-                            <a href="{{ site.baseurl }}{{ feature.url }}" class="title-link module__title-link">
+                            <a href="{{ feature.url | relative_url }}" class="title-link module__title-link">
                                 <h2 class="module__title">
                                     {{  feature.title }}
                                 </h2>
@@ -45,6 +46,7 @@
                         </div>
                         <div class="highlight"></div>
                     </div>
+                    {% endif %}
                     {% endfor %}                                                            
                 </article>                   
             </div>

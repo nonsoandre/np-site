@@ -42,6 +42,7 @@ exclude: [README.md,
           CNAME, 
           LICENSE, 
           Rakefile
+          _assets
         ]
 
 # Sass Config

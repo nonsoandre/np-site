@@ -9,11 +9,11 @@
                     </div>
                 </li>
             </ul>
-            <time class="post-pub-date" datetime="" title="Mon 27 2020 22:01:58">{{ page.date | date: "%B %-d, %Y" }}</time>                                    
+            <time class="post-pub-date" datetime="{{ page.date  | date_to_xmlschema }}" title="{{ page.date  | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>                                    
         </div>
         <ul class="post-tag-lists">
             <li class="tag-list_item">
-                <a href="#" class="post-tag-link post-tag-area">Abba</a>
+                <div class="post-tag-link post-tag-area">Abba</div>
             </li>
         </ul>
     </div>

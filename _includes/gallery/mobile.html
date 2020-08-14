@@ -9,12 +9,12 @@
                 </ul>
                 <time class="pub-date" datetime="{{ page.date | date_to_xmlschema }}" title="{{ page.date | date_to_xmlschema }}">{{ page.date }}</time>
                 <ul class="genre-list-tags genre-list-tags--inline mobile-lower-meta__genre-list-tags">
-                        {%for tag in page.tags %}
-                        {% assign tag_slug = tag | slugify: "raw" %}
-                    <li class="tag-list__item">        
-                                <a href="{{ site.baseurl }}/tag/{{tag}}" rel="category tag"> #{{ tag }}</a> 
-                    </li>       
-                        {% endfor %} 
+                    {%for tag in page.tags %}
+                    {% assign tag_slug = tag | slugify: "raw" %}
+                        <li class="tag-list__item">        
+                            <a href="{{ site.baseurl }}/tag/{{tag}}" rel="category tag"> #{{ tag }}</a> 
+                        </li>       
+                    {% endfor %}    
                 </ul>
             </div>
         </div>
@@ -31,7 +31,7 @@
                 <ul class="main-carousel mobile-gallery__carousel mobile-gallery__carousel-ul">
                     {% for photo in page.images %}
                     <li class="mobile-gallery__carousel-item">
-                        <img src="{{ site.url }}/{{site.image-path}}/{{ photo.image }}" alt="" class="carousel-img" data-flickity-lazyload="{{ site.url }}/{{site.image-path}}/{{ photo.image }}">
+                        <img src="{{site.image-path | relative_url }}/{{ photo.image | relative_url }}" alt="" class="carousel-img" data-flickity-lazyload="{{site.image-path | relative_url }}{{ photo.image | relative_url }}">
                         <div class="mobile-gallery__info">
                             <div class="mobile-gallery__info-text">
                                 <div class="mobile-gallery__title">
