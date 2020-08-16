@@ -23,6 +23,11 @@ layout: compress
                 {{ content }}
             </div>
         </main>
+        {% if page.url contains "gallery" %}
+            <!-- Gallery Modal -->
+            {% include gallery/modal.html %}
+        {% endif %}
+
         {% include footer.html %}
     </div>        
     {% include mobi-footer.html %}

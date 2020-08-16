@@ -13,6 +13,10 @@ layout: default
                         <div class="site-terms terms">
                             {{ content }}
                         </div>
+                        {% elsif page.url contains "privacy" %}
+                        <div class="site-terms terms">
+                            {{ content }}
+                        </div>
                         {%else%}
                             {{ content }}
                         {%endif%}

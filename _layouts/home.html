@@ -333,9 +333,9 @@ layout: default
                     <a href="{{ latest.url | relative_url }}">
                         <div class="latest-module-content">
                             <div class="latest-img pos-rel bd-ovf" style="padding-bottom: 56.38888888888888886%;">
-                                <noscript><img src="{{ site.image-path | relative_url }}{{ latest.images.path | relative_url }}"  alt=" {{ latest.images.caption }} " title="{{ latest.images.caption }}" class="img featured-image"></noscript>
+                                <noscript><img src="{{ site.image-path | relative_url }}{{ latest.images.path | relative_url }}"  alt=" {{ latest.images.caption }} " title="{{ latest.images.caption }}" ></noscript>
                             <!--    <img data-src="{{ site.image-path | relative_url }}{{ latest.images.path | relative_url }}" data-expand="-110" data-srcset="{{ site.url}}/{{ site.image-path }}{{ latest.images.path}} 360w, {{ site.url}}/{{ site.image-path }}{{ latest.images.path}} 720w" sizes="(min-width: 1000em) 360px" alt=" {{ latest.images.caption }} " title="{{ latest.images.caption }}" class=" blur-up lazyload"> -->
-                                {% include resp-image.html type='data-src' name=latest.images.path class='lazyload blur-up' data-srcset=latest.images.path alt=latest.images.caption %}
+                                {% include resp-image.html type='data-src' name=latest.images.path data-expand="-110" data-srcset=latest.images.path alt=latest.images.caption sizes="(min-width: 1000em) 360px" class="lazyload" %}
                             </div>
                             <section class="latest-module-detail">
                                 <h4>{{ latest.title }}</h4>
