@@ -4,7 +4,7 @@
             <div class="feature-image image module__visual">
                 <a href="{{ feature.url | relative_url }}" class="image-link">
                     <!-- <img src="{{ feature.image-thumb-path | relative_url }}/{{ feature.image | relative_url }}" alt="{{ feature.image-alt }}" class="module__img"> -->
-                    {%capture img-path %}{{ feature.image-path | relative_url }}{{ feature.image | relative_url }} {%endcapture%}
+                    {%capture img-path %}{{ feature.image-path }}{{ feature.image }} {%endcapture%}
                     {% include resp-image.html name=img-path srcset=img-path alt=feature.image-alt title=feature.image-alt class="module__img" sizes="(min-width: 64em) 220x, (min-width: 48em) 150px, 125px"%}
                     <div class="overlay"></div>
                 </a>
