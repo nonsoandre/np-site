@@ -1,0 +1,38 @@
+.share-module.share-module--horizontal .share-module__drawer {
+  position: absolute;
+  top: .3rem;
+  left: 9.8rem;
+  width: 20rem;
+}
+
+
+.share-module.share-module--horizontal.share-module--open .share-module__drawer-trigger {
+  border-radius: 50% 0 0 50%;
+}
+.share-module.share-module--horizontal .share-module__drawer-item {
+  border-width: 1px 0 1px 1px;
+}
+.share-module.share-module--horizontal .share-module__drawer-item {
+  border-width: 1px 0 1px 1px;
+}
+.share-module.share-module--horizontal .share-module__drawer-item:focus, 
+.share-module.share-module--horizontal .share-module__drawer-item:hover {
+  border-width: 1px 0 1px 1px;
+  border-color: #5e5e5e;
+}
+
+.share-module__drawer-btn, 
+.share-module__drawer-trigger-btn, 
+.share-module__drawer-trigger 
+.close-btn {
+  width: 100%;
+  height: 100%;
+}
+
+li.share-module__drawer-item.share-module__drawer-trigger.modal_share {
+  border-radius: 50% 0 0 50%;
+}
+
+.share-module.share-module--horizontal .share-module__drawer-item:last-child {
+  border-right: 1px solid #ddd;
+}
