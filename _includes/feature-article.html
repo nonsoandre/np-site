@@ -5,8 +5,9 @@
         <div class="module_img module__visual">
             <a href="{{ feature.url | relative_url }}" class="image-link">
                 <span class="sr-only"> {{ feature.title }}A short message that displays module title</span> 
-                {% assign img = feature.images.path | relative_url %}
-                <noscript><img src="{{ site.image-path }}{{ feature.images.path | relative_url }}" alt=" {{ feature.images.caption }} " title="{{ feature.images.caption }}" class="module_image feature-img" ></noscript>
+                {% assign img = feature.images.path %}
+                {% capture img-path %}{{ site.image-path }}{{ feature.images.path}}{%endcapture%}
+                <noscript><img src="{{ img-path | relative_url }}" alt=" {{ feature.images.caption }} " title="{{ feature.images.caption }}" class="module_image feature-img" ></noscript>
                 <!-- <img class="module_image feature-img" 
                      
                      src="{{site.image-path | relative_url }}{{img | relative_url }}"
