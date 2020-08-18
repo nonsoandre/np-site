@@ -6,7 +6,7 @@ photographer: Adanne Gbamela
 date: January 15 2020
 photographer: Adanne Gbamela
 tags: La Familia
-cover-image: gallery/lunchFamilia.jpg
+cover-image: /gallery/lunchFamilia.jpg
 album-name: BisikeDay
 images:
     - image: gallery/bisikeDay-01.jpg

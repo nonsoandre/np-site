@@ -5,7 +5,7 @@ description: Candid shots of artists from Pitchfork’s annual festival in Paris
 photographer: Tony Chukwuka
 date: November 8 2019
 tags: Carnival french Party
-cover-image: gallery/French-Party-Festival/200611-RZA-250x141.jpg
+cover-image: /gallery/French-Party-Festival/200611-RZA-250x141.jpg
 album-name: French-Party-Festival
 images:
     - image: gallery/French-Party-Festival/2020-06-03-2chainzz-250x141.jpg

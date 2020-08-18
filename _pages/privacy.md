@@ -23,7 +23,7 @@ Control whether we can use your personal data for ad targeting. -->
 
  
 
-Last Updated: December 31, 2019
+- *Last Updated: December 31, 2019*
 
  
 

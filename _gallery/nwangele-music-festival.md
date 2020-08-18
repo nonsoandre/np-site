@@ -6,7 +6,7 @@ photographer: Adanne Gbamela
 date: January 15 2020
 photographer: Adanne Gbamela
 tags: Concert
-cover-image: gallery/nwangele-music-festival/untitled00.png
+cover-image: /gallery/nwangele-music-festival/untitled00.png
 album-name: nwangele-music-festival
 images:
     - image: gallery/nwangele-music-festival/untitled00.png

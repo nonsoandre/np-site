@@ -204,9 +204,9 @@
     font-family: Georgia,serif;
     font-weight: 400;
     line-height: 1.5;
-    margin-right: 20px;
-    margin-left: 20px;
-    max-width: 620px !important;
+    margin-right: 10px;
+    margin-left: 10px;
+    max-width: 720px !important;
     margin-top: 35px;
     margin-bottom: 35px;
     color: inherit;
@@ -233,8 +233,21 @@
     line-height: 1.5;
     margin-bottom: 20px !important;
     font-size: 16px !important;
+    padding: 0 10px !important;
+
+    @media #{$md-scn--up}{
+        font-size: 20px !important;
+        padding: 0 20px !important;
+    }
+}
+.site-terms ul li {
+    font-size: 16px;
+    list-style-type: disc;
 
     @media #{$md-scn--up}{
         font-size: 20px !important;
     }
+}
+.site-terms a{
+    color: $color-accent;
 }
