@@ -3,7 +3,7 @@
         <div class="pos-rel post-article-img-container">
             <div class="post-article-img">
                 {%if page.level %}
-                    {%capture img-path %}{{page.image-path | relative_url }}{{ page.image | relative_url }}{%endcapture%}
+                    {%capture img-path %}{{page.image-path }}{{ page.image }}{%endcapture%}
                     {% include resp-image.html name=img-path srcset=img-path alt=page.image-alt title=page.image-alt class="post-img" sizes="(min-width: 64em) 220x, (min-width: 48em) 150px, 125px"%}
                 {%else%}
                 <noscript><img src="{{ site.url}}/{{ site.image-path }}{{ page.images.path}}" srcset="" alt=" {{ page.images.caption }} " title="{{ latest.images.caption }}" class= "post-img"></noscript>
@@ -16,7 +16,7 @@
                                 {{ site.url }}/{{ site.image-path }}{{ page.images.path }} 3200w"
                      sizes ="(min-width: 64em) 1600px, (min-width: 48em) 950px, (min-width: 26.5625em) 690px, 410px" 
                      alt="{{ page.images.caption }}"
-                     class= "post-img"> -->
+                     class= "post-img"> -->z
                      {% include resp-image.html  name=page.images.path srcset=page.images.path  alt=page.images.caption class="post-img" title=page.images.caption  sizes="(min-width: 64em) 1600px, (min-width: 48em) 950px, (min-width: 26.5625em) 690px, 410px" %}
             {%endif%}
             </div>  

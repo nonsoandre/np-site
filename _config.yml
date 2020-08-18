@@ -4,7 +4,7 @@ description:         From Nwangele to the world
 logo:                 'assets/img/favicon/logo.png'
 baseurl:              "/np-site/"
 url:                  "https//test-np.netlify.app"
-image-path:          "assets/images/uploads"
+image-path:          "/assets/images/uploads/"
 
 default_width:       "1200"
 sizes:               "(min-width: 64em) 220x, (min-width: 48em) 150px, 125px"

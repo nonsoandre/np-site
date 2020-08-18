@@ -92,11 +92,12 @@ layout: default
                             {% for feature in featureCollection limit: 5  %}
                             <div class="featured-item featured-card feature-z">
                                 <div class="image module--visual">
-                                    <a href="{{ site.baseurl }}{{ feature.url }}">
+                                    <a href="{{ feature.url | relative_url }}">
                                         <figure>
                                             <picture class="artdirection--123">
-                                                <noscript><img src="{{ site.url}}/{{ site.image-path }}{{ feature.images.path}}" srcset="" alt=" {{ feature.images.caption }} " title="{{ feature.images.caption }}" class="img featured-image"></noscript>
+                                                <noscript><img src="{{ site.baseurl}}/{{ site.image-path }}{{ feature.images.path}}" srcset="" alt=" {{ feature.images.caption }} " title="{{ feature.images.caption }}" class="img featured-image"></noscript>
                                                 <!-- <img data-expand="-60" data-src="{{ site.url}}/{{ site.image-path }}{{ feature.images.path}}" srcset="" alt=" {{ feature.images.caption }} " title="{{ feature.images.caption }}" class="img featured-image blur-up lazyload">  -->
+                                                {%capture img %}{{ feature.images.path}}{%endcapture%}
                                                 {% include resp-image.html type="data-src" name=img data-srcset=img data-expand="-90" alt=feature.images.caption title=feature.images.caption class="lazyload blur-up featured-image img" sizes="(min-width: 64em) 220x, (min-width: 48em) 150px, 125px"%}
                                             </picture>
                                         </figure>
