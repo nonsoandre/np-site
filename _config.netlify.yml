@@ -1,0 +1,122 @@
+# Site Config
+title:                Nwangele Post
+description:         From Nwangele to the world
+logo:                 'assets/img/favicon/logo.png'
+baseurl:              ""
+url:                  "https//nwangelepost.netlify.app"
+image-path:          "/assets/images/uploads/"
+
+default_width:       "1200"
+sizes:               "(min-width: 64em) 220x, (min-width: 48em) 150px, 125px"
+data-srcset:
+  - 300
+  - 750
+  - 1000
+
+
+livereload: false
+
+# Jekyll Config
+permalink:            pretty
+
+markdown:             kramdown
+kramdown:
+  toc_levels: 1..3
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  entity_output: as_char
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+highlighter: rouge
+strict_front_matter: true
+
+# Exclude list
+exclude: [README.md, 
+          Gemfile, 
+          Gemfile.lock, 
+          node_modules, 
+          gulpfile.js, 
+          package.json,   
+          vendor, 
+          CNAME, 
+          LICENSE, 
+          Rakefile
+          _assets
+        ]
+
+# Sass Config
+sass:
+  sass_dir:           _sass
+  style:              compressed
+
+
+include: ["_pages"]
+
+
+#Collections
+collections:
+   feature-cover:
+    output: true
+   opinion:
+    output: true
+   gallery:
+    output: true
+
+
+# Plugins
+plugins:
+  - jekyll-paginate-v2
+  - jekyll-feed
+  - jekyll-timeago
+  - jekyll-mentions
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate-v2
+  - jekyll_picture_tag
+  - jekyll-tagging-related_posts
+  - jekyll-timeago
+
+# Plugin: Jekyll-Timeago
+jekyll_timeago:
+  depth: 1
+
+# Plugin: Pagination (jekyll-paginate-v2)
+pagination:
+  enabled: true
+  debug: false
+  # The default document collection to paginate if nothing is specified ('posts' is default)
+  collection: 'posts'
+  per_page: 5
+  permalink: '/page/:num/' 
+  title: ':title - page :num'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+  category: 'posts'
+  tag: ''
+  locale: '' 
+  trail: 
+    before: 2
+    after: 2
+  extension: html
+  indexpage: 'index'
+
+# Plugin: Auto Pages (jekyll-paginate-v2)
+autopages:
+  enabled: true
+  categories: 
+    enabled: false
+  collections:
+    enabled: false
+  tags:
+    enabled: true
+    layouts:
+      - "autopage_tags.html"
+    path: "/tag/:tag"
+
+# Plugin: Jekyll Plugin
+picture:
+  ignore_missing_images: [development, testing]
+  disabled: true
+
