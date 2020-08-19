@@ -3,7 +3,7 @@ title:                Nwangele Post
 description:         From Nwangele to the world
 logo:                 'assets/img/favicon/logo.png'
 baseurl:              ""
-url:                  "https//nwangelepost.netlify.app"
+url:                  "https://nwangelepost.netlify.app"
 image-path:          "/assets/images/uploads/"
 
 default_width:       "1200"
