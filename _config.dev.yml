@@ -74,6 +74,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate-v2
   - jekyll_picture_tag
+  - jekyll/tagging
   - jekyll-tagging-related_posts
   - jekyll-timeago
 

@@ -7,7 +7,7 @@ layout: page
     <div class="inner-site-container post-container tag-article-feed">
       <div class="article-footer--related" >
         <div class="article-feed">
-          <h6 class="post-footer-titles"><svg width="10" height="9" viewBox="0 0 12 11" xmlns="http://www.w3.org/2000/svg"><path d="M5 0h2v8H5z" fill="var(--color,#000)"></path><path d="M6 7.828l4.243-4.242L11.657 5 7.414 9.243 6 10.657.343 5l1.414-1.414L6 7.828z" fill="var(--color,#000)"></path></svg> AutoPage for Tag <b>{% if page.autopages %}{{page.autopages.display_name}}{% endif %}</b> Page {{page.pagination_info.curr_page}} of {{page.pagination_info.total_pages}}</h6>
+          <h6 class="post-footer-titles"><svg width="10" height="9" viewBox="0 0 12 11" xmlns="http://www.w3.org/2000/svg"><path d="M5 0h2v8H5z" fill="var(--color,#000)"></path><path d="M6 7.828l4.243-4.242L11.657 5 7.414 9.243 6 10.657.343 5l1.414-1.414L6 7.828z" fill="var(--color,#000)"></path></svg> <b>{% if page.autopages %}{{page.autopages.display_name}}{% endif %}</b> Page {{page.pagination_info.curr_page}} / {{page.pagination_info.total_pages}}</h6>
           <div class="more-news">
             <div id="article-container" class="article-inner-container">
               {% for post in paginator.posts %}
