@@ -18,5 +18,7 @@ group :jekyll_plugins do
     gem "jekyll_picture_tag"
     gem "jekyll-tagging-related_posts"
     gem 'jekyll-timeago'
+    gem 'liquid-c'
+    gem 'jekyll-algolia'
   end
 
