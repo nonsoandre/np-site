@@ -26,7 +26,9 @@ As this was the kind of test you have 24 hours to prepare for, operating on thre
 The woman he had clumsily attempted a smile at was, apparently, so distraught by the experience that she called the police to tip them off to what she perceived as "suspicious behaviour". The police found her a "very credible" witness and kicked everything into gear.
 
 
-<img src="/assets/images/uploads/random/untitled55.png" class="inner_post-img" alt="" style="margin-bottom: 2em;"/>
+
+  <img src="/assets/images/uploads/random/untitled55.png" class="lazyload" alt="" style="margin-bottom: 2em;"/>
+
 
 Once more, here is the police's version of how events transpired in their final press statement on the false alarm:
 
