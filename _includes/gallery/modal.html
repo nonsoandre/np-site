@@ -25,7 +25,7 @@
                   </button> -->
                   <ul class="gallery-dtl__img-list" data-target="#img-1" data-flickity='{ "cellAlign": "left", "contain": true, "fullscreen": true, "imagesLoaded": true, "bgLazyLoad": true, "bgLazyLoad": 3, "pageDots": false}'>
                       {% for photo in page.images %}
-                      <li class="carousel-cell gallery-dtl__img gallery-dtl__img--active gallery-dtl__img--portrait"  data-flickity-bg-lazyload = '{{ site.baseurl }}/{{ site.image-path }}/{{ photo.image }}' >
+                      <li class="carousel-cell gallery-dtl__img gallery-dtl__img--active gallery-dtl__img--portrait"  data-flickity-bg-lazyload = "{{ site.baseurl }}{{ site.image-path }}{{ photo.image }}" >
                           <div class="info-doc">
                               <div class="label">
                                   <div class="picture-label">
@@ -37,6 +37,7 @@
                               </div>
                           </div>
                       </li>
+
                       {% endfor %}
                   </ul> 
                   <!-- <button class="gallery-dtl__arrow gallery-dtl__arrow--next">
@@ -95,7 +96,7 @@
                   </li>
               </ul>
 
-              <ul class="share-module__drawer">
+              <!-- <ul class="share-module__drawer">
                     <li class="share-module__drawer-item share-module__drawer-trigger modal_share">
                       <button class="share-module__drawer-trigger-btn">
                           <span class="sr-only">Open share drawer</span>
@@ -118,7 +119,7 @@
                             </svg>
                         </button>
                     </li>
-              </ul>
+              </ul> -->
           </div>
       </div>                
   </div>

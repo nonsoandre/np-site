@@ -1,55 +1,60 @@
 
-<div class="related-posts">
-    <div class="divider-title">
-        <div class="divider"></div>
-        <h2 class="more-heading">Related News</h2>
-        <div class="divider"></div>
-    </div>
-    <div class="related-news">
-        <div class="container-fluid">
-            <!-- <div class="module-row feature-module-row feature-module-list"> -->
-                <article id="article-container" class="module-row feature-module-row feature-module-list related-module-list" data-page="{{ currentPage }}" data-totalPages="{{ paginator.total_pages }}" data-pageurl="{{ page.url | prepend: site.baseurl  | remove: "/index.html"}}">
-                    {% for feature in site.posts limit: 3 %}
-                    {% if page.url != feature.url %}
-                    <div class="feature-module module inner-feature-module-list related-module">
-                        <div class="min-module-row relative-module-row">
-                        <div class="module_img module__visual">
-                            <a href="{{ feature.url | relative_url }}" class="image-link">
-                                <span class="sr-only"> {{ feature.title }}A short message that displays module title</span>
-                                {% include resp-image.html name=feature.images.path alt=feature.images.caption class="module_img lazyload" %}
-                                <div class="overlay"></div>
-                            </a>
-                            <a href="#" class="type">{{ feature.tag[0] }}</a>
-                        </div>
-                        <div class="article-details module__article-details">
-                            <div class="article-context meta-details"> <span>{{ feature.tags[0] }}</span></div>
-                            <a href="{{ feature.url | relative_url }}" class="title-link module__title-link">
-                                <h2 class="module__title">
-                                    {{  feature.title }}
-                                </h2>
-                            </a>
-                            <div class="module__meta meta">
-                                <div class="bylne module__byline">
-                                    <ul class="authors module__authors">
-                                        <li><span class="display-name">
-                                            by: {{ feature.author }}
-                                        </span></li>
-                                    </ul>
-                                </div>
-                                <p class="date feature-module__date">
-                                    <time class="pub-date" datetime="{{ feature.date | date_to_xmlschema }}" title="">
-                                        {{ feature.date | date: "%B %-d, %Y" }}
-                                    </time>
-                                </p>
-                            </div>
-                        </div>
-                        </div>
-                        <div class="highlight"></div>
-                    </div>
-                    {% endif %}
-                    {% endfor %}                                                            
-                </article>                   
-            </div>
-        </div>
-    </div>
-</div>
+{% assign RELATED_POSTS_THRESHOLD = 3 %}
+
+<ul>
+    {% assign related_post_count = 0 %}
+    {% for post in site.posts %}
+        {% if related_post_count ==  RELATED_POSTS_THRESHOLD %}
+            {% break %}
+        {% endif %}
+        {% if post.url != page.url %}
+            {% for tag in post.tags %}
+                
+                {% if page.tags contains tag %}
+                <li>
+                    {{tag}}
+                    <h3>
+                    <a href="{{ site.url }}{{ post.url }}">
+                        {{ post.title }}
+                        <small>{{ post.date | date_to_string }}</small>
+                    </a>
+                    </h3>
+                </li>
+
+                {% assign related_post_count = related_post_count | plus: 1 %}
+                {% break %}
+                {% endif %}
+            {% endfor %}            
+        {% endif %}
+    {% endfor %}
+
+    {% assign posts_left = RELATED_POSTS_THRESHOLD | minus: related_post_count %}
+    {% unless posts_left== 0 %}
+        {% for post in site.posts %}
+            {% if posts_left == 0 %}
+                {% break %}
+            {% endif %}
+
+            {% assign already_related = false %}
+
+            {% for tag in post.tags %}
+                {% if page.tags contains tag %}
+                    {% assign already_related = false %}
+                    {% break %}
+                {% endif %}
+            {% endfor %}
+            {% unless already_related %}
+                {% assign posts_left = posts_left | minus: 1 %}
+                    <li>
+                        <h3>
+                        <a href="{{ site.url }}{{ post.url }}">
+                            {{ post.title }}
+                            <small>{{ post.date | date_to_string }}</small>
+                        </a>
+                        </h3>
+                    </li>
+            {%endunless%}
+        {% endfor %}
+
+    {% endunless %}
+</ul>

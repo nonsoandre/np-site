@@ -256,6 +256,11 @@
     width: 13.8rem;
     margin: 2rem auto;
     position: relative;
+
+    @media only screen and (min-width: 750px) and (max-width: 1040px){
+        display: flex;
+        justify-content: center; 
+    } 
 }
 .gallery_dtl--module{
     & .share-module__primary li{

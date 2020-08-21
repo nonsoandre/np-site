@@ -31,7 +31,8 @@
                 <ul class="main-carousel mobile-gallery__carousel mobile-gallery__carousel-ul">
                     {% for photo in page.images %}
                     <li class="mobile-gallery__carousel-item">
-                        <img src="{{site.image-path }}/{{ photo.image }}" alt="" class="carousel-img" data-flickity-lazyload="{{site.image-path | relative_url }}{{ photo.image | relative_url }}">
+                        <!-- <img src="{{site.image-path }}/{{ photo.image }}" alt="" class="carousel-img" data-flickity-lazyload="{{site.image-path | relative_url }}{{ photo.image | relative_url }}"> -->
+                        {% include resp-image.html  name=photo.image srcset=photo.image  alt=photo.title title=photo.title  class="carousel-img" %}
                         <div class="mobile-gallery__info">
                             <div class="mobile-gallery__info-text">
                                 <div class="mobile-gallery__title">
