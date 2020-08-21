@@ -1,0 +1,1938 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator>
+  <link href="https//test-np.netlify.app/np-site/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="https//test-np.netlify.app/np-site/" rel="alternate" type="text/html" />
+  <updated>2020-08-21T00:26:44+00:00</updated>
+  <id>https//test-np.netlify.app/np-site/</id>
+
+  
+    <title type="html">Nwangele Post</title>
+  
+
+  
+    <subtitle>From Nwangele to the world</subtitle>
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+    <entry>
+      <title type="html">Does the Corona virus (Covid-19) truly exists in Africa?</title>
+      <link href="https//test-np.netlify.app/np-site/latest%20news/2020/07/27/49/" rel="alternate" type="text/html" title="Does the Corona virus (Covid-19) truly exists in Africa?" />
+      <published>2020-07-27T19:00:00+00:00</published>
+      <updated>2020-07-27T19:00:00+00:00</updated>
+      <id>https//test-np.netlify.app/np-site/latest%20news/2020/07/27/49</id>
+      <content type="html" xml:base="https//test-np.netlify.app/np-site/latest%20news/2020/07/27/49/">
+        
+        
+
+        
+
+        &lt;p&gt;Another online edition went by without anything exploding. AH-MAZ-ING. We had 3 mind-blowing talks. Sure, most of you probably missed it. That’s why we have video. All fixed in post. You’re welcome.&lt;/p&gt;
+
+&lt;p&gt;It would be be less than a month, before the Danish People’s Party’s &lt;strong&gt;Pia Kjærsgaard&lt;/strong&gt; would go from trivializing the harassment of Muslim women with headscarves while chastizing the women for provoking the reactions [in one blog post][article] to crying foul in response to reports of harassment of Jews wearing kippahs in Denmark [in another][post].[^translation]&lt;/p&gt;
+
+&lt;p&gt;She writes August 11th:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Obviously, it’s different with Muslims—where the women are allowed to wear scarves, burka, and niqab.&lt;/p&gt;
+
+  &lt;p&gt;I think it’s sad for Europe and sad for Denmark. The continent, which has exported democracy and enlightenment, is now not even capable of protecting its own citizens from assault. Yes, it is not only sad; it is, in fact, a disgrace.&lt;/p&gt;
+
+  &lt;p&gt;It goes without saying that the Muslim immigration, which has taken place in recent decades, and which under the current administration has been increased, is a ticking time bomb under the traditionally, especially tolerant Danish society. Here, there has always been room for diversity, and the Danes have historically been accepting towards immigrants from many different countries.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Compare this to her comments from July 14th on the harassment of Muslim women:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This Friday, [Danish newspaper] Politiken reported how Muslim women who wear headscarves felt overwhelmingly subjected to persecution, rudeness, and jeers on the street. I personally have never experienced such a thing, nor have I ever heard anyone talk about it, so perhaps the extent has been slightly exaggerated. I generally know the Danes as a well-mannered people, who, even though they do not feel great sympathy for the Muslim headscarf, naturally will not resort to foul language against the wearers of the headscarf.&lt;/p&gt;
+
+  &lt;p&gt;Those Muslim women feel provoked by the reaction their headscarves elicit. I feel provoked, too. By them and their choice of the scarf over the Danish society![^muslims]&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The public and media were quick to pick up on the double standard; one tweet juxtaposing two of Kjærsgaard’s quotes in a graphic from &lt;i&gt;Arbejderen&lt;/i&gt; (The Worker) went viral:&lt;/p&gt;
+
+        
+        &lt;p&gt;&lt;a href=&quot;https//test-np.netlify.app/np-site/latest%20news/2020/07/27/49/&quot; rel=&quot;nofollow&quot;&gt;Does the Corona virus (Covid-19) truly exists in Africa?&lt;/a&gt; was originally published on Nwangele Post.&lt;/p&gt;
+
+      </content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Julia KhenKha</name>
+        
+        
+      </author>
+
+      
+        <category term="latest news" />
+      
+
+      
+        <category term="Virus" />
+      
+        <category term="History" />
+      
+        <category term="Inequality" />
+      
+
+      
+        <summary type="html">Another online edition went by without anything exploding. AH-MAZ-ING. We had 3 mind-blowing talks. Sure, most of you probably missed it. That’s why we have video. All fixed in post. You’re welcome.</summary>
+      
+
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Introducing a New Open Collection of Danish Polls</title>
+      <link href="https//test-np.netlify.app/np-site/latest%20news/2020/07/27/48/" rel="alternate" type="text/html" title="Introducing a New Open Collection of Danish Polls" />
+      <published>2020-07-27T09:00:00+00:00</published>
+      <updated>2020-07-27T09:00:00+00:00</updated>
+      <id>https//test-np.netlify.app/np-site/latest%20news/2020/07/27/48</id>
+      <content type="html" xml:base="https//test-np.netlify.app/np-site/latest%20news/2020/07/27/48/">
+        
+        
+
+        
+
+        &lt;p&gt;Today, I think my collection of Danish opinion polls are mature enough to share with the public. They can be found on &lt;a href=&quot;https://github.com/ndarville/danish-polls&quot;&gt;this&lt;/a&gt; site.&lt;/p&gt;
+
+&lt;p&gt;The political debate in Denmark is not doing well; pundits and talking heads take up all TV, print, and radio.&lt;/p&gt;
+
+&lt;p&gt;The problem with this model is that many of those people aren’t basing their comments and analyses on any solid foundation centred around a proven, scientific model. They are not what people in the U.S. would call “wonks”—political-science nerds.&lt;/p&gt;
+
+&lt;p&gt;Another fundamental problem is that the media and punditry don’t know how an opinion poll actually works. A poll is a snapshot with a statistical uncertainty. Most “movements in the polls” are results of short-lived moods and a statistical uncertainty that can make parties vacillate in polls.&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;The New York Times&lt;/i&gt;’s wonk vertical, &lt;i&gt;The Upshot&lt;/i&gt;, explained the consequence of the statistical uncertainty brilliantly in &lt;a href=&quot;http://www.nytimes.com/2014/05/02/upshot/how-not-to-be-misled-by-the-jobs-report.html&quot;&gt;this article&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;As such, it is a problem that the media don’t get that you need to analyze the development in Danish politics based on a trend, and not by going from one poll to the next. You’ll keep seeing polls presented in the media as a bar chart—not a trend line over time. A bar chart at that, which doesn’t display the statistical uncertainty either.&lt;/p&gt;
+
+&lt;p&gt;As of this writing, a panic has seized the Danish media world and British politics, because YouGov presented a poll showing more Yes votes than No votes to Scottish independence. Meanwhile, Sam Wang &lt;a href=&quot;http://election.princeton.edu/2014/09/12/a-note-on-scottish-independence/&quot;&gt;is estimating&lt;/a&gt; the probability of a Scottish No to be 95%—based on an &lt;em&gt;aggregate&lt;/em&gt; of polls.&lt;/p&gt;
+
+&lt;p&gt;There are several reasons why the American development towards a scientifically-informed political discourse didn’t come from the major new organisations, but from individuals with an academic background. One reason is that the media in Denmark tend to collaborate with a single polling institute; e.g. DR with Epinion and TV 2 with Megafon. It constrains them to basing their coverage on their own polling institute; meanwhile, the rest of us are free to include all public polls and draw a trend from them, which yields a more accurate picture:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/danish-polls/image.png&quot;&gt;&lt;img src=&quot;/assets/danish-polls/image.png&quot; alt=&quot;Trend line&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;We all deserve to participate in the political discussion, and by making polling data public, we can contribute to a salience sorely missed in the Danish coverage of politics.&lt;/p&gt;
+
+&lt;p&gt;So start using the polls &lt;a href=&quot;https://github.com/ndarville/danish-polls&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;american-examples&quot;&gt;American Examples&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;i&gt;&lt;a href=&quot;http://themonkeycage.org/2007/11/20/why_this_blog/&quot;&gt;The Monkey Cage&lt;/a&gt;&lt;/i&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/FiveThirtyEight&quot;&gt;Nate Silver &amp;amp; FiveThirtyEight&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://election.princeton.edu/&quot;&gt;Sam Wang&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i&gt;&lt;a href=&quot;http://nytimes.com/upshot/&quot;&gt;The Upshot&lt;/a&gt;&lt;/i&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;swedish-examples&quot;&gt;Swedish Examples&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/MansMeg/SwedishPolls&quot;&gt;Swedish Polls&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://bottenada.se&quot;&gt;Botten Ada&lt;/a&gt; (Swedish)&lt;/li&gt;
+  &lt;li&gt;&lt;i&gt;&lt;a href=&quot;http://trefyranio.com/english&quot;&gt;trefyranio&lt;/a&gt;&lt;/i&gt; (349)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;great-books&quot;&gt;Great Books&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;i&gt;The Gamble&lt;/i&gt; (free, downloadable chapters &lt;a href=&quot;http://themonkeycage.org/2013/01/24/new-e-chapter-of-the-gamble-available-its-free/&quot;&gt;here&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+        
+        &lt;p&gt;&lt;a href=&quot;https//test-np.netlify.app/np-site/latest%20news/2020/07/27/48/&quot; rel=&quot;nofollow&quot;&gt;Introducing a New Open Collection of Danish Polls&lt;/a&gt; was originally published on Nwangele Post.&lt;/p&gt;
+
+      </content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Julia KhenKha</name>
+        
+        
+      </author>
+
+      
+        <category term="latest news" />
+      
+
+      
+        <category term="Virus" />
+      
+        <category term="History" />
+      
+        <category term="Inequality" />
+      
+
+      
+        <summary type="html">Today, I think my collection of Danish opinion polls are mature enough to share with the public. They can be found on this site.</summary>
+      
+
+      
+    </entry>
+  
+    <entry>
+      <title type="html">A Double Standard for Street Harassment of Muslims and Jews Does Not Go Unnoticed</title>
+      <link href="https//test-np.netlify.app/np-site/latest%20news/2020/07/25/50/" rel="alternate" type="text/html" title="A Double Standard for Street Harassment of Muslims and Jews Does Not Go Unnoticed" />
+      <published>2020-07-25T11:00:00+00:00</published>
+      <updated>2020-07-25T11:00:00+00:00</updated>
+      <id>https//test-np.netlify.app/np-site/latest%20news/2020/07/25/50</id>
+      <content type="html" xml:base="https//test-np.netlify.app/np-site/latest%20news/2020/07/25/50/">
+        
+        
+
+        
+
+        &lt;p&gt;It would be be less than a month, before the Danish People’s Party’s &lt;strong&gt;Pia Kjærsgaard&lt;/strong&gt; would go from trivializing the harassment of Muslim women with headscarves while chastizing the women for provoking the reactions &lt;a href=&quot;/articles/2014/07/25/danish-peoples-party-and-headscarves.html&quot;&gt;in one blog post&lt;/a&gt; to crying foul in response to reports of harassment of Jews wearing kippahs in Denmark &lt;a href=&quot;http://politik.tv2.dk/2014-08-11-vi-skal-ikke-acceptere-gaza-i-danmark&quot;&gt;in another&lt;/a&gt;.&lt;sup id=&quot;fnref:translation&quot;&gt;&lt;a href=&quot;#fn:translation&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;She writes August 11th:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Obviously, it’s different with Muslims—where the women are allowed to wear scarves, burka, and niqab.&lt;/p&gt;
+
+  &lt;p&gt;I think it’s sad for Europe and sad for Denmark. The continent, which has exported democracy and enlightenment, is now not even capable of protecting its own citizens from assault. Yes, it is not only sad; it is, in fact, a disgrace.&lt;/p&gt;
+
+  &lt;p&gt;It goes without saying that the Muslim immigration, which has taken place in recent decades, and which under the current administration has been increased, is a ticking time bomb under the traditionally, especially tolerant Danish society. Here, there has always been room for diversity, and the Danes have historically been accepting towards immigrants from many different countries.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Compare this to her comments from July 14th on the harassment of Muslim women:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This Friday, [Danish newspaper] Politiken reported how Muslim women who wear headscarves felt overwhelmingly subjected to persecution, rudeness, and jeers on the street. I personally have never experienced such a thing, nor have I ever heard anyone talk about it, so perhaps the extent has been slightly exaggerated. I generally know the Danes as a well-mannered people, who, even though they do not feel great sympathy for the Muslim headscarf, naturally will not resort to foul language against the wearers of the headscarf.&lt;/p&gt;
+
+  &lt;p&gt;Those Muslim women feel provoked by the reaction their headscarves elicit. I feel provoked, too. By them and their choice of the scarf over the Danish society!&lt;sup id=&quot;fnref:muslims&quot;&gt;&lt;a href=&quot;#fn:muslims&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The public and media were quick to pick up on the double standard; one tweet juxtaposing two of Kjærsgaard’s quotes in a graphic from &lt;i&gt;Arbejderen&lt;/i&gt; (The Worker) went viral:&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot; lang=&quot;en&quot;&gt;
+    &lt;p&gt;I dag skal vi have en lektion i dobbeltmoral &lt;a href=&quot;https://twitter.com/hashtag/dkpol?src=hash&quot;&gt;#dkpol&lt;/a&gt; &lt;a href=&quot;http://t.co/IzxVmR5ysT&quot;&gt;pic.twitter.com/IzxVmR5ysT&lt;/a&gt;&lt;/p&gt;&amp;mdash; Abdel Aziz Mahmoud (@AbdelsTweet) &lt;a href=&quot;https://twitter.com/AbdelsTweet/statuses/500557753359024129&quot;&gt;August 16, 2014&lt;/a&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The tweet reads “Today we’re getting a lesson in double standards”.&lt;/p&gt;
+
+&lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;h3 id=&quot;further-reading-and-watching&quot;&gt;Further Reading and Watching&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.b.dk/politiko/pia-k-uanstaendigt-at-sammenligne-kalot-og-toerklaede&quot;&gt;“Pia K: Unseemly to Compare Kippah and Scarf”&lt;/a&gt; (Danish interview)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.dr.dk/tv/se/deadline/deadline-713&quot;&gt;Danish TV interview with Kjærsgaard&lt;/a&gt; (&lt;a href=&quot;http://vpodcast.dr.dk/DR2/deadline2230/2014/deadline2230_140818223000.mp4&quot;&gt;direct link&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://ekstrabladet.dk/nyheder/frontalt/article4974860.ece&quot;&gt;Kjærsgaard debates law student Natasha Al-Hariri&lt;/a&gt; (Danish)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.thelocal.dk/20140816/kippah-march-goes-off-without-drama&quot;&gt;“‘Kippah March’ Goes Off without Drama”&lt;/a&gt; (English)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:translation&quot;&gt;
+      &lt;p&gt;Full translation of Kjærsgaard’s remarks on the harassment of Jews &lt;a href=&quot;https://gist.github.com/ndarville/5130a558e8b649ac7019&quot;&gt;here&lt;/a&gt;. &lt;a href=&quot;#fnref:translation&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:muslims&quot;&gt;
+      &lt;p&gt;Revisit Kjærsgaard’s original remarks in the &lt;i&gt;Hafnia Times&lt;/i&gt;’s &lt;a href=&quot;/articles/2014/07/25/danish-peoples-party-and-headscarves.html&quot;&gt;article&lt;/a&gt; on the street harassment of Muslim women in Denmark. &lt;a href=&quot;#fnref:muslims&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+
+        
+        &lt;p&gt;&lt;a href=&quot;https//test-np.netlify.app/np-site/latest%20news/2020/07/25/50/&quot; rel=&quot;nofollow&quot;&gt;A Double Standard for Street Harassment of Muslims and Jews Does Not Go Unnoticed&lt;/a&gt; was originally published on Nwangele Post.&lt;/p&gt;
+
+      </content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Charles Onyekuru</name>
+        
+        
+      </author>
+
+      
+        <category term="latest news" />
+      
+
+      
+        <category term="Gender" />
+      
+        <category term="History" />
+      
+        <category term="Inequality" />
+      
+
+      
+        <summary type="html">It would be be less than a month, before the Danish People’s Party’s Pia Kjærsgaard would go from trivializing the harassment of Muslim women with headscarves while chastizing the women for provoking the reactions in one blog post to crying foul in response to reports of harassment of Jews wearing kippahs in Denmark in another.1 Full translation of Kjærsgaard’s remarks on the harassment of Jews [here][translation]. &amp;#8617;</summary>
+      
+
+      
+    </entry>
+  
+    <entry>
+      <title type="html">The Unconventional history and impact of the Nwangele river</title>
+      <link href="https//test-np.netlify.app/np-site/latest%20news/2020/07/21/The-unconventionall-history-of-the-nwangele-river/" rel="alternate" type="text/html" title="The Unconventional history and impact of the Nwangele river" />
+      <published>2020-07-21T18:16:49+00:00</published>
+      <updated>2020-07-21T18:16:49+00:00</updated>
+      <id>https//test-np.netlify.app/np-site/latest%20news/2020/07/21/The%20unconventionall-history-of%20-the-nwangele-river</id>
+      <content type="html" xml:base="https//test-np.netlify.app/np-site/latest%20news/2020/07/21/The-unconventionall-history-of-the-nwangele-river/">
+        
+        
+
+        
+
+        &lt;p&gt;On Thursday the 28th, people in Denmark was confounded to receive a bulletin from the Copenhagen police concerning a person exhibiting “suspicious behaviour”.&lt;/p&gt;
+
+&lt;p&gt;People following the development on Twitter would experience it like this:&lt;/p&gt;
+
+&lt;p&gt;What, exactly, sent Copenhagen into high alert?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Alisiv Ceran&lt;/strong&gt; is a 21-year-old English and Mandarin student at the University of Copenhagen. He was on the train heading for a written exam on the subject of the War on Terror for his course on American history.&lt;/p&gt;
+
+&lt;p&gt;As this was the kind of test you have 24 hours to prepare for, operating on three to four hours of sleep, Ceran was still going through his book on 9-11 on the ride towards his destination. Nervous about the impending exam, he locked eyes with a fellow passenger by Nørreport train station and attempted a smile, but knocked over his luggage case which contained the printer he had to bring for the exam.&lt;/p&gt;
+
+&lt;p&gt;The woman he had clumsily attempted a smile at was, apparently, so distraught by the experience that she called the police to tip them off to what she perceived as “suspicious behaviour”. The police found her a “very credible” witness and kicked everything into gear.&lt;/p&gt;
+
+&lt;p&gt;Once more, here is the police’s version of how events transpired in their final press statement on the false alarm:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This morning, Copenhagen Police received a report of a person in a train who exhibited suspicious behaviour. After the police’s assessment of the report, it was decided to start a search for the person, as we wanted to clear up what was behind the behaviour. The police concluded that the witness was very credible and takes such reports seriously.&lt;/p&gt;
+
+  &lt;p&gt;- We have nothing but good reason to praise [/applaud] the reporter for being alert and for doing the only right thing, which is to contact the police about their observations. It creates a feeling of safety in the society that the citizen wishes to aid the police, says vice chief superintendent Claus Hjelm Olsen, who lead today’s police operation.&lt;/p&gt;
+
+  &lt;p&gt;- We are aware that a massive police presence can create a certain discomfort, so we found it important to inform the population about what the background was, says Claus Hjelm Olsen.&lt;/p&gt;
+
+  &lt;p&gt;Copenhagen Police’s massive effort had the intent of uncovering whether there was a criminal situation. When the wanted person was identified and approached, it turned out that it was a case of a perfectly legal situation, and the search was called off.&lt;/p&gt;
+
+  &lt;p&gt;- We have received great help from the population, who’ve reacted appropriately during the situation. Based on our use of Twitter, we received great tips in our Service Centre. Huge kudos [/applause] to the public and the wanted’s family for their way of handling the situation. The wanted person, too, has handled all the ruckus with an understanding of the police’s reaction, and we want to emphasize that he in no way was known by the police already, says Claus Hjelm Olsen.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;interviewsonce-everything-had-calmed-down&quot;&gt;Interviews—Once Everything Had Calmed Down&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;i&gt;&lt;a href=&quot;http://www.dr.dk/Nyheder/Indland/2014/08/28/152102.htm&quot;&gt;Danish Radio (DR)&lt;/a&gt;&lt;/i&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i&gt;&lt;a href=&quot;http://nyhederne.tv2.dk/krimi/2014-08-28-bombemand-var-uskyldig-studerende&quot;&gt;TV 2&lt;/a&gt;&lt;/i&gt;&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;i&gt;&lt;a href=&quot;http://www.b.dk/nationalt/maalet-for-menneskejagten-mange-tror-det-vaerste-om-folk-som-mig&quot;&gt;Berlingske Tidende&lt;/a&gt;&lt;/i&gt;&lt;/p&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;&lt;strong&gt;Interviewer&lt;/strong&gt;: Are you shocked that so little from your side of the train could set off so much?&lt;/p&gt;
+
+      &lt;p&gt;&lt;strong&gt;Ceran&lt;/strong&gt;: Not really. I think a lot of people assume the worst about people like me. That people who look like me and have a beard like me are probably terrorists. There are probably many who don’t know a single person who looks like me. I can understand that the woman was a little scared[.]&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;i&gt;&lt;a href=&quot;http://politiken.dk/indland/ECE2380165/offer-for-politi--og-mediejagt-jeg-vil-bare-gerne-vaere-gymnasielaerer/&quot;&gt;Politiken&lt;/a&gt;&lt;/i&gt;&lt;/p&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;&lt;strong&gt;Interviewer&lt;/strong&gt;: You weren’t thinking about how your behaviour might appear suspicious in the train?&lt;/p&gt;
+
+      &lt;p&gt;&lt;strong&gt;Ceran&lt;/strong&gt;: Not at all. But I have a beard and a dark appearance. In the media, it’s always people like me who are the extremists. I will say, though, that if I actually were a terrorist, why would I be sitting and reading a book about it, but not carrying out the attack instead?&lt;/p&gt;
+
+      &lt;p&gt;&lt;strong&gt;Interviewer&lt;/strong&gt;: Does it make you think that you shouldn’t be sitting and reading a book on terror the next time on the train?&lt;/p&gt;
+
+      &lt;p&gt;&lt;strong&gt;Ceran&lt;/strong&gt;: I will try to be more careful with my demeanour and talk to people around me, so they don’t fear that something is amiss. And give them a smile.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And what of the police? Ceran had to lock himself into a accessible toilet as a precaution against people who might attempt a citizen’s arrest on him—or worse. From here, he called the police himself to set the record straight. Below is an excerpt of &lt;i&gt;Politiken&lt;/i&gt;’s &lt;a href=&quot;http://politiken.dk/indland/ECE2379596/politidirektoer-efter-menneskejagt-vi-har-ikke-noget-at-undskylde/&quot;&gt;interview&lt;/a&gt; with police commissioner Thorkild Fogde.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Interviewer&lt;/strong&gt;: When you get a hold of [the former suspect], will you give him an apology?&lt;/p&gt;
+
+  &lt;p&gt;&lt;strong&gt;Police&lt;/strong&gt;: “No, I don’t believe we have anything to apologize for. But I am going to explain to him why we react the way we do, so he has an understanding of it. But I don’t believe the police should apologize for taking the safety of the population seriously. It is our job, and even there was no terror threat in the specific case, we are not going to get around how there is an increased threat level against Denmark in general these years”, says Thorkild Fogde.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+        
+        &lt;p&gt;&lt;a href=&quot;https//test-np.netlify.app/np-site/latest%20news/2020/07/21/The-unconventionall-history-of-the-nwangele-river/&quot; rel=&quot;nofollow&quot;&gt;The Unconventional history and impact of the Nwangele river&lt;/a&gt; was originally published on Nwangele Post.&lt;/p&gt;
+
+      </content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Jude Amadi</name>
+        
+        
+      </author>
+
+      
+        <category term="latest news" />
+      
+
+      
+        <category term="History" />
+      
+        <category term="Nwangele" />
+      
+        <category term="Local Government" />
+      
+
+      
+        <summary type="html">On Thursday the 28th, people in Denmark was confounded to receive a bulletin from the Copenhagen police concerning a person exhibiting “suspicious behaviour”.</summary>
+      
+
+      
+    </entry>
+  
+    <entry>
+      <title type="html">The Daunting inequalities faced today in modern archiac society</title>
+      <link href="https//test-np.netlify.app/np-site/latest%20news/2020/07/21/Daunting-ineualities/" rel="alternate" type="text/html" title="The Daunting inequalities faced today in modern archiac society" />
+      <published>2020-07-21T18:16:49+00:00</published>
+      <updated>2020-07-21T18:16:49+00:00</updated>
+      <id>https//test-np.netlify.app/np-site/latest%20news/2020/07/21/Daunting-ineualities</id>
+      <content type="html" xml:base="https//test-np.netlify.app/np-site/latest%20news/2020/07/21/Daunting-ineualities/">
+        
+        
+
+        
+
+        &lt;p&gt;My internship with wikimedia officially kicked off on the 3rd of december 2019. I had a chat session with my mentor where my project tasks were outlined. My first task was to work on pages that weren’t completed during the contribution period. I started working on my first task and so far I’ve been able to work on three pages, create 3 PRs and currently working on the fourth one. The journey so far has been a lot easier for me, thanks to the reports and resources from my mentor, but that’s not to say that I haven’t encountered some challenges.&lt;/p&gt;
+
+&lt;h3 id=&quot;major-challenge-faced-so-far&quot;&gt;Major Challenge Faced So Far&lt;/h3&gt;
+
+&lt;p&gt;The major challenge I think I’ve faced so far is working with git. I have worked with git in the past but not like I’ve had to within this past few weeks on this project. My issue with git started during the contribution period when I had to rebase my changes with the upstream master, there was a lot of back and forth between me and my mentor because she couldn’t merge my pull request due to the conflicts. All these back and forth and time wasting happened simply becuase I was ashamed to tell my mentor that I had issues with git especially since it wasn’t an issue with the project itself. I thought it would make her look down on me but I was wrong.  This issue took me days to resolve and after trying all I could, I just opted to delete my branch and create a clean branch to work on. At that time I was happy and relieved since I had found a way to get rid of the problem, but the truth is I didn’t fix the issue I only found a way around it, which wasn’t sustainable because I can’t keep deleting branches whenever there’s a merge conflict but I didn’t think of this at that time.&lt;/p&gt;
+
+&lt;p&gt;I came across the same problem after I started my internship, and since I only bypassed it the first time, I couldn’t solve it, my commits kept increasing trying to resolve conflicts that still resurfaced when my mentor tried to merge, It was like I was going in circles, I was stuck again, and I couldn’t delete my branch again like I did initially so this time, I sought for help from my mentor. We had a chat session where she put me through &lt;code class=&quot;highlighter-rouge&quot;&gt;merging commits&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;rebasing my branch with the upstream master&lt;/code&gt; and from this session I got to see all the errors I was making and fixed them. I also made sure to note down all the commands we used for future reference. And that was how I was able to solve a problem I had battled with for days in just few minutes with the help of my mentor.&lt;/p&gt;
+
+&lt;h3 id=&quot;lesson-learnt&quot;&gt;Lesson Learnt&lt;/h3&gt;
+
+&lt;p&gt;Nobody is perfect, just as no man is an Island. I could have saved so much time if I had simply just asked for help from my mentor or the community when I encountered difficulty in fixing the issue the first time, but I didn’t. There is no shame in making mistakes and facing challenges, it’s a something everyone at the top has passed through and can relate to, and the best thing to do when such situations happen is to fix them and learn from them so you don’t make those mistakes or face those challenges again and even if you do or encounter someone else facing the same challenge which is possible, fixing it wouldn’t be a problem.&lt;/p&gt;
+
+&lt;p&gt;Another improtant lesson learnt is &lt;code class=&quot;highlighter-rouge&quot;&gt;do not take shortcuts&lt;/code&gt;. As a developer, I know how frustrating challenges and bugs can be especially when you are on a timeline, and how tempting it can be to take the easier route which in most cases, is just a workaround and not exactly a solution to the problem. Yeah, it may seem better at the moment but the truth is most times, these solutions aren’t sustainable and can even lead to even more bugs to manage, thereby wasting more time and resources. So my advice will be to ask questions, research and don’t stay glued to your screen for long hours trying to solve the same problem because at some point you start to try the same things over and over again, expecting to get a different result and when you don’t, you get dissapointed. So instead of working long hours at a stretch, take breaks, when you get back you might be able to look at things a bit differently and when you finally fix that bug, issue, mistake, challenge or whatever it may be, &lt;code class=&quot;highlighter-rouge&quot;&gt;document&lt;/code&gt; everything. Do not just assume you have known it and can’t forget, be sure to put down your findings so when you or anyone else passes through the same issue, you can pass your solution on to them easily and save yourselves a lot of time.&lt;/p&gt;
+
+        
+        &lt;p&gt;&lt;a href=&quot;https//test-np.netlify.app/np-site/latest%20news/2020/07/21/Daunting-ineualities/&quot; rel=&quot;nofollow&quot;&gt;The Daunting inequalities faced today in modern archiac society&lt;/a&gt; was originally published on Nwangele Post.&lt;/p&gt;
+
+      </content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Charles Onyekuru</name>
+        
+        
+      </author>
+
+      
+        <category term="latest news" />
+      
+
+      
+        <category term="Gender" />
+      
+        <category term="History" />
+      
+        <category term="Inequality" />
+      
+
+      
+        <summary type="html">My internship with wikimedia officially kicked off on the 3rd of december 2019. I had a chat session with my mentor where my project tasks were outlined. My first task was to work on pages that weren’t completed during the contribution period. I started working on my first task and so far I’ve been able to work on three pages, create 3 PRs and currently working on the fourth one. The journey so far has been a lot easier for me, thanks to the reports and resources from my mentor, but that’s not to say that I haven’t encountered some challenges.</summary>
+      
+
+      
+    </entry>
+  
+    <entry>
+      <title type="html">LGA chairman initiates inspection committes</title>
+      <link href="https//test-np.netlify.app/np-site/latest%20news/2020/07/07/lga-chairman-initiates-inspection-committe/" rel="alternate" type="text/html" title="LGA chairman initiates inspection committes" />
+      <published>2020-07-07T18:16:49+00:00</published>
+      <updated>2020-07-07T18:16:49+00:00</updated>
+      <id>https//test-np.netlify.app/np-site/latest%20news/2020/07/07/lga-chairman-initiates-inspection-committe</id>
+      <content type="html" xml:base="https//test-np.netlify.app/np-site/latest%20news/2020/07/07/lga-chairman-initiates-inspection-committe/">
+        
+        
+
+        
+
+        &lt;p&gt;My internship with wikimedia officially kicked off on the 3rd of december 2019. I had a chat session with my mentor where my project tasks were outlined. My first task was to work on pages that weren’t completed during the contribution period. I started working on my first task and so far I’ve been able to work on three pages, create 3 PRs and currently working on the fourth one. The journey so far has been a lot easier for me, thanks to the reports and resources from my mentor, but that’s not to say that I haven’t encountered some challenges.&lt;/p&gt;
+
+&lt;p&gt;The major challenge I think I’ve faced so far is working with git. I have worked with git in the past but not like I’ve had to within this past few weeks on this project. My issue with git started during the contribution period when I had to rebase my changes with the upstream master, there was a lot of back and forth between me and my mentor because she couldn’t merge my pull request due to the conflicts. All these back and forth and time wasting happened simply becuase I was ashamed to tell my mentor that I had issues with git especially since it wasn’t an issue with the project itself. I thought it would make her look down on me but I was wrong.  This issue took me days to resolve and after trying all I could, I just opted to delete my branch and create a clean branch to work on. At that time I was happy and relieved since I had found a way to get rid of the problem, but the truth is I didn’t fix the issue I only found a way around it, which wasn’t sustainable because I can’t keep deleting branches whenever there’s a merge conflict but I didn’t think of this at that time.&lt;/p&gt;
+
+&lt;p&gt;I came across the same problem after I started my internship, and since I only bypassed it the first time, I couldn’t solve it, my commits kept increasing trying to resolve conflicts that still resurfaced when my mentor tried to merge, It was like I was going in circles, I was stuck again, and I couldn’t delete my branch again like I did initially so this time, I sought for help from my mentor. We had a chat session where she put me through &lt;code class=&quot;highlighter-rouge&quot;&gt;merging commits&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;rebasing my branch with the upstream master&lt;/code&gt; and from this session I got to see all the errors I was making and fixed them. I also made sure to note down all the commands we used for future reference. And that was how I was able to solve a problem I had battled with for days in just few minutes with the help of my mentor.&lt;/p&gt;
+
+        
+        &lt;p&gt;&lt;a href=&quot;https//test-np.netlify.app/np-site/latest%20news/2020/07/07/lga-chairman-initiates-inspection-committe/&quot; rel=&quot;nofollow&quot;&gt;LGA chairman initiates inspection committes&lt;/a&gt; was originally published on Nwangele Post.&lt;/p&gt;
+
+      </content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Onyeka Ngozi</name>
+        
+        
+      </author>
+
+      
+        <category term="latest news" />
+      
+
+      
+        <category term="Nwangele" />
+      
+        <category term="Government" />
+      
+        <category term="Local Government" />
+      
+
+      
+        <summary type="html">My internship with wikimedia officially kicked off on the 3rd of december 2019. I had a chat session with my mentor where my project tasks were outlined. My first task was to work on pages that weren’t completed during the contribution period. I started working on my first task and so far I’ve been able to work on three pages, create 3 PRs and currently working on the fourth one. The journey so far has been a lot easier for me, thanks to the reports and resources from my mentor, but that’s not to say that I haven’t encountered some challenges.</summary>
+      
+
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Welcome to Jekyll! Jekyll your way through the world of Static site generators</title>
+      <link href="https//test-np.netlify.app/np-site/latest%20news/2020/07/07/welcome-to-jekyll/" rel="alternate" type="text/html" title="Welcome to Jekyll! Jekyll your way through the world of Static site generators" />
+      <published>2020-07-07T18:16:49+00:00</published>
+      <updated>2020-07-07T18:16:49+00:00</updated>
+      <id>https//test-np.netlify.app/np-site/latest%20news/2020/07/07/welcome-to-jekyll</id>
+      <content type="html" xml:base="https//test-np.netlify.app/np-site/latest%20news/2020/07/07/welcome-to-jekyll/">
+        
+        
+
+        
+
+        &lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;YEAR-MONTH-DAY-title.MARKUP&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Where &lt;code class=&quot;highlighter-rouge&quot;&gt;YEAR&lt;/code&gt; is a four-digit number, &lt;code class=&quot;highlighter-rouge&quot;&gt;MONTH&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;DAY&lt;/code&gt; are both two-digit numbers, and &lt;code class=&quot;highlighter-rouge&quot;&gt;MARKUP&lt;/code&gt; is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
+
+        
+        &lt;p&gt;&lt;a href=&quot;https//test-np.netlify.app/np-site/latest%20news/2020/07/07/welcome-to-jekyll/&quot; rel=&quot;nofollow&quot;&gt;Welcome to Jekyll! Jekyll your way through the world of Static site generators&lt;/a&gt; was originally published on Nwangele Post.&lt;/p&gt;
+
+      </content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Onyeka Ngozi</name>
+        
+        
+      </author>
+
+      
+        <category term="latest news" />
+      
+
+      
+        <category term="Jekyll" />
+      
+        <category term="Frameworks" />
+      
+
+      
+        <summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary>
+      
+
+      
+    </entry>
+  
+    <entry>
+      <title type="html">The thearitical fortunes of African rich and famous families and its cost on the growth and well being of society</title>
+      <link href="https//test-np.netlify.app/np-site/feature/2020/07/07/Thearitical-images-of-the-tombstone/" rel="alternate" type="text/html" title="The thearitical fortunes of African rich and famous families and its cost on the growth and well being of society" />
+      <published>2020-07-07T18:16:49+00:00</published>
+      <updated>2020-07-07T18:16:49+00:00</updated>
+      <id>https//test-np.netlify.app/np-site/feature/2020/07/07/Thearitical-images-of-the-tombstone</id>
+      <content type="html" xml:base="https//test-np.netlify.app/np-site/feature/2020/07/07/Thearitical-images-of-the-tombstone/">
+        
+        
+
+        
+
+        &lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. This post along with all of the other example posts is paginated by the new &lt;a href=&quot;https://github.com/sverrirs/jekyll-paginate-v2&quot;&gt;jekyll-paginate-v2 gem&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;This pagination gem is built specially for Jekyll 3 and newer and is intended to replace the now discontinuted jekyll-paginate gem.&lt;/p&gt;
+
+&lt;p&gt;This v2 of the gem offers full backwards compatibility with the old gem and its site configuration. You can simply replace the old jekyll-paginate gem with this one and your sites will still work without any changes.&lt;/p&gt;
+
+&lt;p&gt;However to access the new enhanced features of this gem, like pagination on categories, tags and locales, then you need to remove the old jekyll-paginate configuration and activate the new &lt;code class=&quot;highlighter-rouge&quot;&gt;pagination:&lt;/code&gt; &lt;a href=&quot;https://github.com/sverrirs/jekyll-paginate-v2#site-configuration&quot;&gt;site configuration&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&quot;https://github.com/sverrirs/jekyll-paginate-v2/tree/master/examples&quot;&gt;source code&lt;/a&gt; for this example project will show you all the necessary steps.&lt;/p&gt;
+
+&lt;h2 id=&quot;installing&quot;&gt;Installing&lt;/h2&gt;
+
+&lt;p&gt;Go ahead and install the latest version of the gem from &lt;a href=&quot;https://rubygems.org/gems/jekyll-paginate-v2&quot;&gt;rubygems.org&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gem install jekyll-paginate-v2
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Replace the &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll-paginate&lt;/code&gt; gem with &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll-paginate-v2&lt;/code&gt; in both your &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; and your &lt;code class=&quot;highlighter-rouge&quot;&gt;Gemfile&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Now go ahead and re-build your site to start running the new pagination logic. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;Please see the &lt;a href=&quot;https://github.com/sverrirs/jekyll-paginate-v2&quot;&gt;GitHub repo&lt;/a&gt; to learn how to get the most out of this new pagination gem. There we also discuss the gems more advanced features.&lt;/p&gt;
+
+&lt;p&gt;Please file all bugs/feature requests in the issues section of the &lt;a href=&quot;https://github.com/sverrirs/jekyll-paginate-v2/issues&quot;&gt;GitHub repo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Have a great day :)&lt;/p&gt;
+
+        
+        &lt;p&gt;&lt;a href=&quot;https//test-np.netlify.app/np-site/feature/2020/07/07/Thearitical-images-of-the-tombstone/&quot; rel=&quot;nofollow&quot;&gt;The thearitical fortunes of African rich and famous families and its cost on the growth and well being of society&lt;/a&gt; was originally published on Nwangele Post.&lt;/p&gt;
+
+      </content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Onyeka Ngozi</name>
+        
+        
+      </author>
+
+      
+        <category term="feature" />
+      
+
+      
+        <category term="Gambit" />
+      
+        <category term="Money" />
+      
+        <category term="Family" />
+      
+
+      
+        <summary type="html">You’ll find this post in your _posts directory. This post along with all of the other example posts is paginated by the new jekyll-paginate-v2 gem.</summary>
+      
+
+      
+    </entry>
+  
+    <entry>
+      <title type="html">How to get better Career Opportunities</title>
+      <link href="https//test-np.netlify.app/np-site/feature/2020/06/27/career-opportunities/" rel="alternate" type="text/html" title="How to get better Career Opportunities" />
+      <published>2020-06-27T18:16:49+00:00</published>
+      <updated>2020-06-27T18:16:49+00:00</updated>
+      <id>https//test-np.netlify.app/np-site/feature/2020/06/27/career-opportunities</id>
+      <content type="html" xml:base="https//test-np.netlify.app/np-site/feature/2020/06/27/career-opportunities/">
+        
+        
+
+        
+
+        &lt;p&gt;My internship with Wikimedia is gradually coming to an end and I must say it’s been a life changing experience for me. I’m really amazed at what I’ve been able to achieve within this short period of time with the help of the community and guidance from my mentor.&lt;/p&gt;
+
+&lt;h3 id=&quot;looking-for-a-job-internship-a-grant-a-volunteer-position-or-some-type-of-other-opportunity-&quot;&gt;Looking for a job, internship, a grant, a volunteer position, or some type of other opportunity ?&lt;/h3&gt;
+
+&lt;p&gt;I’m currently looking for full/part time job opportunities that will help me build a career in software development and also be able to improve developer experience. These opportunities could be remote and non-remote. Working remotely with Wikimedia has given some experience working remotely with a team and I must say, I enjoyed the flexibility that came with it. I am also open to relocating, if the need arises.&lt;/p&gt;
+
+&lt;h3 id=&quot;types-of-work-i-would-love-to-contribute-to--skills-that-would-help-me-wiith-such-work-&quot;&gt;Types of work I would love to contribute to / skills that would help me wiith such work ?&lt;/h3&gt;
+
+&lt;p&gt;I would love to contribute to projects that involve software development, improving developer experience, technical writing and documentation.&lt;/p&gt;
+
+&lt;p&gt;During my internship with Wikimedia, I worked on documentation improvements to most viewed MediaWiki Action API pages on-wiki, this project had me testing mediawiki action APIs with different scenerios and writing sample codes in different programming languages to come up with concise API documentations for these APIs. My drive for this project was majorly knowing the fact that while working on the API documentation, I was helping in my own little way, to improve the experience of developers making use of those APIs. My technical writing skills have improved from writing technical documentations, to blog posts and reports, I have more experience in building developer friendly APIs and writing Clean Code. Having to work remotely with a community using a collaboration tool called &lt;a href=&quot;https://www.phacility.com/&quot;&gt;phabricator&lt;/a&gt; has also improved my communication skills.&lt;/p&gt;
+
+&lt;p&gt;Before my internship with Wikimedia, I went through a &lt;a href=&quot;https://medium.com/interswitch-engineering-blog/introducing-the-1st-cohort-of-interswitchs-developer-academy-8569fda1bd21&quot;&gt;Developer Academy Program&lt;/a&gt; hosted by &lt;a href=&quot;https://www.interswitchgroup.com/&quot;&gt;Interswitch Nigeria LTD&lt;/a&gt; (a digital payments and commerce company in Nigeria). This program lasted for 8 months where I went through series of training in Software Development, particularly building Enterprise Applications.
+The first four months comprised of indepth classroom training on courses such as algorithms and data structures, design patterns, springboot and .net frameworks, quality assurance and software testing, and legacy systems etc. Followed by one month practical project where I built a Voucher microservice application using Java (&lt;a href=&quot;https://spring.io/projects/spring-boot&quot;&gt;Spring boot&lt;/a&gt;), C#(&lt;a href=&quot;https://docs.microsoft.com/en-us/dotnet/core&quot;&gt;.NET Core&lt;/a&gt;), &lt;a href=&quot;https://docs.microsoft.com/en-us/dotnet/core&quot;&gt;Mongodb&lt;/a&gt; and other tools and finally 3 months internship working with a team.&lt;/p&gt;
+
+&lt;p&gt;During my three months internship, I worked with the developer relations team where I worked on series of tasks which include software development, technical writing, documentation, research, carrying out surveys and onboarding programs for new engineers.&lt;/p&gt;
+
+&lt;p&gt;These internships have helped me build technical skills in software development, technical writing, developer relations, and soft skills in communication, being a team player, using collaboration tools and working remotely.&lt;/p&gt;
+
+&lt;h3 id=&quot;tools-or-skills-would-you-like-to-learn&quot;&gt;Tools or skills would you like to learn?&lt;/h3&gt;
+
+&lt;p&gt;I would love to learn and explore software testing and devOps.&lt;/p&gt;
+
+&lt;h3 id=&quot;interpersonal-skills-that-make-me-a-collaborative-team-member-&quot;&gt;Interpersonal skills that make me a collaborative team member ?&lt;/h3&gt;
+
+&lt;p&gt;I respect every member of my team(junior and senior), their opinions and their views. I am open to new ideas and believe in creativity. Having to work within a community and with a mentor during my internship also improved my communication skills. The project also helped improved my ability to connect with people through writing articles and blogposts.&lt;/p&gt;
+
+&lt;p&gt;To summarize it all up, I have learnt alot while working with the mediawiki team and I intend to keep improving myself even after the internship. I’m really excited about moving on to the next phase of my career and seeking opportunities that will expand my knowledge and skills. Considering the knowledge gained and skills acquired from this internship and previous experiences, I am convinced that I’ll be a valuable employee to any company that’s lucky to have me. Cheers.&lt;/p&gt;
+
+        
+        &lt;p&gt;&lt;a href=&quot;https//test-np.netlify.app/np-site/feature/2020/06/27/career-opportunities/&quot; rel=&quot;nofollow&quot;&gt;How to get better Career Opportunities&lt;/a&gt; was originally published on Nwangele Post.&lt;/p&gt;
+
+      </content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Julius Amadi</name>
+        
+        
+      </author>
+
+      
+        <category term="feature" />
+      
+
+      
+        <category term="Outreachy Internship" />
+      
+        <category term="Carreers" />
+      
+
+      
+        <summary type="html">My internship with Wikimedia is gradually coming to an end and I must say it’s been a life changing experience for me. I’m really amazed at what I’ve been able to achieve within this short period of time with the help of the community and guidance from my mentor.</summary>
+      
+
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Modifying Your Expectations: How not to loose sleep.</title>
+      <link href="https//test-np.netlify.app/np-site/feature/2020/06/27/modifying-expectations/" rel="alternate" type="text/html" title="Modifying Your Expectations: How not to loose sleep." />
+      <published>2020-06-27T18:16:49+00:00</published>
+      <updated>2020-06-27T18:16:49+00:00</updated>
+      <id>https//test-np.netlify.app/np-site/feature/2020/06/27/modifying-expectations</id>
+      <content type="html" xml:base="https//test-np.netlify.app/np-site/feature/2020/06/27/modifying-expectations/">
+        
+        
+
+        
+
+        &lt;p&gt;Contributing to mediawiki has been an amazing journey for me so far. My project was initially divided into two sections, the first part was to improve 20 top 100 most viewed MediaWiki Action API pages on-wiki which was to last 8 weeks starting from the 3rd of December when the internship officially kicked off while the second part of the project was to develop a bot that mass edits sample code from mediaWiki-api-demos repository to the API namespace on MediaWiki.org and vice-versa and this was estimated to take 4 weeks. A couple of timelines and tasks have changed due to un-forseen circumstances and some tasks taking longer than anticipated but in all I’m excited about all I’ve been able to contribute so far and the knowledge gained while doing so.&lt;/p&gt;
+
+&lt;h2 id=&quot;goals-and-accomplishments-so-far&quot;&gt;Goals and Accomplishments So far&lt;/h2&gt;
+
+&lt;p&gt;So far I’ve been able to improve 14 Mediawiki Action API pages and submit pull requests for Sample codes in Python, Javascript, PHP, and MediawikiJS for each of these pages. Links to Mediawiki action pages I’ve worked on and Pull requests can be found on my Mediawiki user page &lt;a href=&quot;https://www.mediawiki.org/wiki/User:Zaycodes&quot;&gt;Zaycodes&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;what-project-goals-took-longer-than-expected-and-why&quot;&gt;What project goals took longer than expected and Why?&lt;/h2&gt;
+
+&lt;p&gt;Improving the Mediawiki action API pages took longer than expected and this happened because I under-estimated the amount of work to be done. During the contribution phase I improved 2 pages, working on these pages was not so tedious for me because there was already some information on the existing page that I could work with and also guide me through testing the APIs so I assumed that the remaining pages were going to be the same, however I was wrong. During the community bonding period when I was putting together pages that I was going to improve, I discovered that some pages had little or no information to work with, so I had to do more research on these pages and test the APIs thoroughly so I could document all possible scenerios. such pages ended up taking longer time to work on than the estimated time. Lastly, &lt;a href=&quot;https://zaycodes.github.io/outreachy-everybody-struggles/&quot;&gt;everyone struggles&lt;/a&gt;, therefore i’ve also had some challenges such as git which also caused some delay.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-would-you-do-differently-if-you-were-starting-the-project-over&quot;&gt;What would you do differently if you were starting the project over?&lt;/h2&gt;
+
+&lt;p&gt;I would definitely do more research on the work that’s to be done before submiting my timelines, I would not just assume and under-estimate tasks especially when I have to work with tools I’ve not used before. I would also ask more questions when I’m not sure about tasks before making time commitments.&lt;/p&gt;
+
+&lt;h2 id=&quot;which-original-goals-needed-to-be-modified&quot;&gt;Which original goals needed to be modified?&lt;/h2&gt;
+
+&lt;p&gt;The second part of my project to develop a bot that mass edits sample code from mediaWiki-api-demos repository to the API namespace on MediaWiki.org and vice-versa was replaced with improving additional Mediawiki action pages instead.&lt;/p&gt;
+
+&lt;h2 id=&quot;my-new-plan-for-the-second-half-of-the-internship&quot;&gt;My new plan for the second half of the internship?&lt;/h2&gt;
+
+&lt;p&gt;To improve as many Mediawiki action pages as I can, I’m more used to the tools and environment than I was when I started so I believe I’ll be able to work on more pages in the second half of the internship all things being equal.&lt;/p&gt;
+
+        
+        &lt;p&gt;&lt;a href=&quot;https//test-np.netlify.app/np-site/feature/2020/06/27/modifying-expectations/&quot; rel=&quot;nofollow&quot;&gt;Modifying Your Expectations: How not to loose sleep.&lt;/a&gt; was originally published on Nwangele Post.&lt;/p&gt;
+
+      </content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Chris Gomes</name>
+        
+        
+      </author>
+
+      
+        <category term="feature" />
+      
+
+      
+        <category term="MediaWiki" />
+      
+        <category term="Carreers" />
+      
+        <category term="Job Hunting" />
+      
+
+      
+        <summary type="html">Contributing to mediawiki has been an amazing journey for me so far. My project was initially divided into two sections, the first part was to improve 20 top 100 most viewed MediaWiki Action API pages on-wiki which was to last 8 weeks starting from the 3rd of December when the internship officially kicked off while the second part of the project was to develop a bot that mass edits sample code from mediaWiki-api-demos repository to the API namespace on MediaWiki.org and vice-versa and this was estimated to take 4 weeks. A couple of timelines and tasks have changed due to un-forseen circumstances and some tasks taking longer than anticipated but in all I’m excited about all I’ve been able to contribute so far and the knowledge gained while doing so.</summary>
+      
+
+      
+    </entry>
+  
+    <entry>
+      <title type="html">My Experience Applying to Outreachy</title>
+      <link href="https//test-np.netlify.app/np-site/latest%20news/2020/06/27/Welcome-to-Nwangele-Post/" rel="alternate" type="text/html" title="My Experience Applying to Outreachy" />
+      <published>2020-06-27T09:00:00+00:00</published>
+      <updated>2020-06-27T09:00:00+00:00</updated>
+      <id>https//test-np.netlify.app/np-site/latest%20news/2020/06/27/Welcome-to-Nwangele-Post</id>
+      <content type="html" xml:base="https//test-np.netlify.app/np-site/latest%20news/2020/06/27/Welcome-to-Nwangele-Post/">
+        
+        
+
+        
+
+        &lt;p&gt;Outreachy is an internship program that helps women and people who are under-represented get more invloved with open source through remote internships. Outreachy provides a supportive community for beginning to contribute any time throughout the year and offer focused internship opportunities twice a year with a number of free software organizations.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-application-process&quot;&gt;The Application Process&lt;/h2&gt;
+
+&lt;p&gt;When I first heard of outreachy I was skeptical because I had very little experience in open source. I decided to do some research. After series of research on outreachy and reading the reports and success stories of ex-interns, I was convinced within me that this was the breakthrough I needed to break out of my shell and get more involved in open source.&lt;/p&gt;
+
+&lt;p&gt;So I subscribed to Outreachy’s mailing list to get a notification when applications would open and started getting more involved in open source contributions as I was really motivated by all the success stories I had read at this point.&lt;/p&gt;
+
+&lt;p&gt;Fastforward few weeks later I submitted my initial application and was ecstatic when it was approved. This took me to the the second phase which is the contribution phase.&lt;/p&gt;
+
+&lt;h3 id=&quot;contribution-phase&quot;&gt;Contribution Phase&lt;/h3&gt;
+
+&lt;h4 id=&quot;selecting-a-project&quot;&gt;Selecting a Project&lt;/h4&gt;
+
+&lt;p&gt;The contribution phase kicked off on 1st of October and lasted for about a month. It came with the dilemma of selecting a project from the numerous list of projects to contribute to. I wanted to make contributions to at least two different projects to increase my chances of getting selected. I went through all the projects and read their descriptions and required skill set to find a project that matches my skillset and where I knew I could make a difference. I was happy when I came across Mediawiki’s project &lt;code class=&quot;highlighter-rouge&quot;&gt;Documentation improvements to the ~20 top 100 most viewed MediaWiki Action API pages on-wiki&lt;/code&gt;. Wikipedia has always been a primary source of content when carrying out any research for me, from solving school assignments to undergraduate thesis, to post-graduate studies, my software-development career and even getting information on the fly. Though I hadn’t contributed to wikimedia before, although I have worked on improving documentation for an organization before and managed their engineering blog, I decided to take a leap of faith by applying with the mindset that even if I didn’t get accepted, I will have the opportunity to contribute to improving the experience of thousands of developers who utilize Mediawiki’s API and be able to give back to the community that has helped me by so doing. So with that mindset, I chose wikimedia and my contribution phase began.&lt;/p&gt;
+
+&lt;h3 id=&quot;contributing&quot;&gt;Contributing&lt;/h3&gt;
+
+&lt;p&gt;After selecting my choice project, I went through all the available resources, registered on the communication platform which was zulip, created a phabricator account and a mediawiki account. I introduced myself on &lt;code class=&quot;highlighter-rouge&quot;&gt;zulip&lt;/code&gt; -MediaWiki’s communication channel- to other members and also to the mentor assigned to me (Brenda Jerop).&lt;/p&gt;
+
+&lt;p&gt;Then came the time to actually put in some work. A phabricator page was created for us (applicants) with a list of micro-tasks to work on. Things like API documentation page improvement were included in the tasks. I picked my first task which became my first contribution and started working on it. To be honest it was all overwhelming at first as most of the technologies were a bit new to me. But then there was something very important I learnt from this phase, which is fact that &lt;code class=&quot;highlighter-rouge&quot;&gt;communication&lt;/code&gt; is key. I asked my mentor for guidance whenever I got stuck or was confused coupled with the fact that mediawiki had a lot of resources to help including blog posts and reports of past interns, all you had to do was just look.&lt;/p&gt;
+
+&lt;p&gt;I was so excited when I created my first pull request but even more ecstatic when it was merged. I was able to submit three pull requests during the contribution period with one work in progress. Somewhere in between contributions, I drafted out my final application and submitted it to my mentor to review. Then I submitted on outreachy.&lt;/p&gt;
+
+&lt;p&gt;One great advice I got for this contribution phase, which I’m happy I took was to start contributing early. At first it might seem like you have enough time but depending on the organization and project you are working on and how familiar you are with their process, you might need some time to understand the tools and process. For me, even though I had worked on similar projects outside wikimedia, I hadn’t contributed to wikimedia before and their processes and tools were slightly different, so starting early gave me enough room to get used to all these.&lt;/p&gt;
+
+&lt;h2 id=&quot;getting-selected-as-an-outreachy-wikimedia-intern&quot;&gt;Getting Selected as an Outreachy Wikimedia Intern&lt;/h2&gt;
+
+&lt;p&gt;On the 26th of November 2019, I got the most exciting news that I had been selected as an Outreachy intern for Wikimedia. I was excited that I didn’t give up before I even started simply because I thought it wasn’t for me. So I will be working on the project: Documentation improvements to the ~20 top 100 most viewed MediaWiki Action API pages on-wiki.&lt;/p&gt;
+
+&lt;p&gt;I’m really excited to be working for Wikimedia, it feels like a dream come through and I also look forward to working with my mentor and the Wikimedia community to be able to contribute my own little quota to this wonderful foundation.&lt;/p&gt;
+
+        
+        &lt;p&gt;&lt;a href=&quot;https//test-np.netlify.app/np-site/latest%20news/2020/06/27/Welcome-to-Nwangele-Post/&quot; rel=&quot;nofollow&quot;&gt;My Experience Applying to Outreachy&lt;/a&gt; was originally published on Nwangele Post.&lt;/p&gt;
+
+      </content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Onyeka Chris</name>
+        
+        
+      </author>
+
+      
+        <category term="latest news" />
+      
+
+      
+        <category term="Internship" />
+      
+        <category term="Tech" />
+      
+        <category term="Outreachy Internship" />
+      
+
+      
+        <summary type="html">Outreachy is an internship program that helps women and people who are under-represented get more invloved with open source through remote internships. Outreachy provides a supportive community for beginning to contribute any time throughout the year and offer focused internship opportunities twice a year with a number of free software organizations.</summary>
+      
+
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Ascendendant Danish People’s Party Finds No Sympathy for Harassed Danish, Muslim Women</title>
+      <link href="https//test-np.netlify.app/np-site/latest%20news/2020/06/03/52/" rel="alternate" type="text/html" title="Ascendendant Danish People's Party Finds No Sympathy for Harassed Danish, Muslim Women" />
+      <published>2020-06-03T18:16:49+00:00</published>
+      <updated>2020-06-03T18:16:49+00:00</updated>
+      <id>https//test-np.netlify.app/np-site/latest%20news/2020/06/03/52</id>
+      <content type="html" xml:base="https//test-np.netlify.app/np-site/latest%20news/2020/06/03/52/">
+        
+        
+
+        
+
+        &lt;p&gt;In &lt;a href=&quot;http://www.microsofttranslator.com/bv.aspx?from=da&amp;amp;to=en&amp;amp;a=http%3A%2F%2Fpolitiken.dk%2Fdebat%2Fdebatindlaeg%2FECE2340214%2Fjeg-er-blevet-overfaldet-og-svinet-til-paa-grund-af-mit-toerklaede%2F&quot;&gt;a letter&lt;/a&gt; published in the Danish newspaper &lt;i&gt;Politiken&lt;/i&gt; on July 11th, &lt;strong&gt;Aya Baram&lt;/strong&gt; shares her experience of living in Denmark for sixteen years as a Muslim woman who wears a headscarf.&lt;/p&gt;
+
+&lt;p&gt;An excerpt of her experiences reads:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;I have been punched on the street, after which I’ve been told to “take my f… scarf of”. The police wouldn’t even press charges, because my husband was my only witness. I have witnessed an entire bus yelling that they would vote for the Danish People’s Party and get the Muslims out of the country, because a girl with a scarf happened to hold the seat in front of her, when the bus turned, whereby she touched another girl’s hair.&lt;/p&gt;
+
+  &lt;p&gt;I have had a guy suddenly let loose on my then-three-months-old nephew’s stroller with punches and kicks, after which another guy abused my sister with words like “terrorists” and other choice words, spat her in the face at a packed Nørreport [Train] Station, while everyone watched without helping.&lt;/p&gt;
+
+  &lt;p&gt;The only remark we got was from a couple who told my crying sister “but they didn’t mean it personally”.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The crux of her article beyond sharing her stories from living sixteen years as a Muslim in Denmark is to encourage Muslim women to speak up for themselves, and not let others speak on their behalf.&lt;/p&gt;
+
+&lt;p&gt;The full translation of her letter can be read &lt;a href=&quot;https://gist.github.com/ndarville/0b7d56cdcb4620ecb6ad&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;After Baram’s letter, &lt;i&gt;Politiken&lt;/i&gt; went on to do a &lt;a href=&quot;http://www.microsofttranslator.com/bv.aspx?from=da&amp;amp;to=en&amp;amp;a=http%3A%2F%2Fpolitiken.dk%2Findland%2FECE2340586%2Fkvinder-chikaneres-paa-grund-af-deres-toerklaede%2F&quot;&gt;follow-up article&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-danish-peoples-party-responds&quot;&gt;The Danish People’s Party Responds&lt;/h3&gt;
+
+&lt;p&gt;Not one to pass on an Islam-related discussion, &lt;strong&gt;Pia Kjærsgaard&lt;/strong&gt; from the—aforementioned—&lt;strong&gt;Danish People’s Party&lt;/strong&gt; (DPP) chimed in with an entry on her blog&lt;sup id=&quot;fnref:tv2-blog&quot;&gt;&lt;a href=&quot;#fn:tv2-blog&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;p&gt;But before we get to her comments, some background on Kjærsgaard and her party in the context of Danish politics today.&lt;/p&gt;
+
+&lt;h4 id=&quot;todays-danish-peoples-party&quot;&gt;Today’s Danish People’s Party&lt;/h4&gt;
+
+&lt;p&gt;The nationalistic DPP is no niche party nor a group of people riding a political wave; the party is currently &lt;a href=&quot;https://en.wikipedia.org/w/index.php?title=Opinion_polling_for_the_next_Danish_general_election&amp;amp;oldid=616777716&quot;&gt;trailing the two largest coalition parties&lt;/a&gt;, polling in the low 20s, compared to the 12.3% it managed at the last election.&lt;/p&gt;
+
+&lt;p&gt;It has never polled higher, since it was founded in 1995 by Pia Kjærsgaard and entered parliament in 1998. Kjærsgaard was the party leader, until 2012, when she passed the torch to &lt;strong&gt;Kristian Thulesen Dahl&lt;/strong&gt;. She then relegated herself to the position of the party’s &lt;em&gt;spokesperson on values&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Recently, the euroskeptic party emerged victorious in the election to the European Parliament, where they doubled their MEP seats from two to four with 26.6 per cent of the vote, sweeping the nation as the biggest party in the election.&lt;/p&gt;
+
+&lt;p&gt;The DPP are currently in the opposition to the incumbent government, but an impending change of administration seems a done deal in light of how the opposition has lead in &lt;em&gt;&lt;a href=&quot;https://en.wikipedia.org/w/index.php?title=Opinion_polling_for_the_next_Danish_general_election&amp;amp;oldid=616777716&quot;&gt;every single poll&lt;/a&gt; since the last election&lt;/em&gt; in September 2012, aside from one intermittent bump in the road in May–June that soon petered out.&lt;/p&gt;
+
+&lt;p&gt;Said bump, a scandal surrounding &lt;strong&gt;Lars Løkke Rasmussen&lt;/strong&gt;, the leader of the opposition’s biggest party, &lt;strong&gt;Venstre&lt;/strong&gt;, has suddenly eroded Venstre’s dominance in polls and levelled the playing field between the party and the DPP.&lt;/p&gt;
+
+&lt;p&gt;The Danish People’s Party are no longer in a position of tipping the balance of power in Denmark; they now are contenders for claiming it for themselves.&lt;/p&gt;
+
+&lt;h4 id=&quot;pia-kjærsgaards-blog-entry&quot;&gt;Pia Kjærsgaard’s Blog Entry&lt;/h4&gt;
+
+&lt;p&gt;Returning to Kjærsgaard’s &lt;a href=&quot;http://www.microsofttranslator.com/bv.aspx?from=da&amp;amp;to=en&amp;amp;a=http%3A%2F%2Fpolitik.tv2.dk%2F2014-07-14-jeg-f%25C3%25B8ler-mig-provokeret&quot;&gt;entry&lt;/a&gt; in which she does not mince words on her position on the plight of Danish Muslim women.&lt;/p&gt;
+
+&lt;p&gt;She begins&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This Friday, [Danish newspaper] Politiken reported how Muslim women who wear headscarves felt overwhelmingly subjected to persecution, rudeness, and jeers on the street. I personally have never experienced such a thing, nor have I ever heard anyone talk about it, so perhaps the extent has been slightly exaggerated. I generally know the Danes as a well-mannered people, who, even though they do not feel great sympathy for the Muslim headscarf, naturally will not resort to foul language against the wearers of the headscarf.&lt;/p&gt;
+
+  &lt;p&gt;Those Muslim women feel provoked by the reaction their headscarves elicit. I feel provoked, too. By them and their choice of the scarf over the Danish society!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;And no ground is ceded in the discussion over headscarves, as Kjærsgaard ends her entry:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Fact is that the scarf in all its variants is a symbol of Islamic fundamentalism and a declaration of war against women’s right to equal right and equal value. Thus, there is every reason to criticize the headscarf. Muslim women who choose the scarf must therefore not expect to smoke peace pipe with me. On the contrary. When you choose to distance yourself from the Danish society, you must also come to expect that the Danish society distances itself from your choice. This is how it is.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Read the entire entry translated &lt;a href=&quot;https://gist.github.com/ndarville/e2205ee779ef5962057e&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;kjærsgaard-interviewed&quot;&gt;Kjærsgaard Interviewed&lt;/h3&gt;
+
+&lt;p&gt;&lt;i&gt;Politiken&lt;/i&gt; got a hold of Kjærsgaard for an &lt;a href=&quot;http://www.microsofttranslator.com/bv.aspx?from=da&amp;amp;to=en&amp;amp;a=http%3A%2F%2Fpolitiken.dk%2Fdebat%2FECE2343459%2Fjeg-foeler-mig-provokeret-af-kvinder-med-toerklaede%2F&quot;&gt;interview&lt;/a&gt;. In it, they pressed her for a response to the actual subject of violence raised by Aya Baram, which Kjærsgaard had glossed over in her diatribe against the Muslim headscarf.&lt;/p&gt;
+
+&lt;p&gt;When interviewed, Kjærsgaard continues to express empathy for the people reacting to the women in public.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Interviewer:&lt;/strong&gt; In a debate concerning violence against women with [head]scarves, shouldn’t you address the violence, which &lt;em&gt;is&lt;/em&gt; the central topic?&lt;/p&gt;
+
+  &lt;p&gt;&lt;strong&gt;Kjærsgaard:&lt;/strong&gt; Just because I haven’t written in bold type that I abhor violence, it doesn’t mean that I support it. I am writing that I feel provoked by women with scarves. That others feel provoked by these women I can understand. That they have been subjected to comments, I can understand just fine.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;And in closing, Kjærsgaard is unwaivering in doubling down on blaming the victims.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Interviewer:&lt;/strong&gt; You must be a victim, when you as an innocent person are subjected to violence?&lt;/p&gt;
+
+  &lt;p&gt;&lt;strong&gt;Kjærsgaard:&lt;/strong&gt; Yes, but women with scarves could also just think through the situation; if they keep getting those reactions on the street, they could just take off the scarf. Then they would also signal that they want to be a part of the Danish society.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Read &lt;a href=&quot;https://gist.github.com/ndarville/ceebac30db5399f77287&quot;&gt;the full interview&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;further-reading&quot;&gt;Further Reading&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Kjærsgaard decries public intolerance and harassment by Muslims in &lt;a href=&quot;http://www.danskfolkeparti.dk/Giv_os_N%C3%B8rrebro_tilbage...&quot;&gt;her weekly party newsletter from November 24 2003&lt;/a&gt;.&lt;/p&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;In the interim, we back home will work to get back [the capital district] Nørrebro.&lt;/p&gt;
+
+      &lt;p&gt;So that once again, tolerance and free-mindedness can come to the north of Dronning Louise’s Bridge.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://fra.europa.eu/en/publication/2014/vaw-survey-main-results&quot;&gt;2014 report&lt;/a&gt; by the European Agency for Fundamental Rights on violence againt women.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;article-links&quot;&gt;Article Links&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.microsofttranslator.com/bv.aspx?from=da&amp;amp;to=en&amp;amp;a=http%3A%2F%2Fpolitiken.dk%2Fdebat%2Fdebatindlaeg%2FECE2340214%2Fjeg-er-blevet-overfaldet-og-svinet-til-paa-grund-af-mit-toerklaede%2F&quot;&gt;Aya Baram’s letter to &lt;i&gt;Politiken&lt;/i&gt;&lt;/a&gt; (&lt;a href=&quot;https://gist.github.com/ndarville/0b7d56cdcb4620ecb6ad&quot;&gt;full translation&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.microsofttranslator.com/bv.aspx?from=da&amp;amp;to=en&amp;amp;a=http%3A%2F%2Fpolitiken.dk%2Findland%2FECE2340586%2Fkvinder-chikaneres-paa-grund-af-deres-toerklaede%2F&quot;&gt;&lt;i&gt;Politiken’s&lt;/i&gt; follow-up article&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.microsofttranslator.com/bv.aspx?from=da&amp;amp;to=en&amp;amp;a=http%3A%2F%2Fpolitik.tv2.dk%2F2014-07-14-jeg-f%25C3%25B8ler-mig-provokeret&quot;&gt;Pia Kjærsgaard’s blog entry&lt;/a&gt; (&lt;a href=&quot;https://gist.github.com/ndarville/e2205ee779ef5962057e&quot;&gt;full translation&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.microsofttranslator.com/bv.aspx?from=da&amp;amp;to=en&amp;amp;a=http%3A%2F%2Fpolitiken.dk%2Fdebat%2FECE2343459%2Fjeg-foeler-mig-provokeret-af-kvinder-med-toerklaede%2F&quot;&gt;Interview with Pia Kjærsgaard&lt;/a&gt; (&lt;a href=&quot;https://gist.github.com/ndarville/ceebac30db5399f77287&quot;&gt;full translation&lt;/a&gt;)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:tv2-blog&quot;&gt;
+      &lt;p&gt;Pia Kjærsgaard’s blog is hosted by Danish TV network TV 2 on tv2.dk—not privately nor by her party. &lt;a href=&quot;#fnref:tv2-blog&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+
+        
+        &lt;p&gt;&lt;a href=&quot;https//test-np.netlify.app/np-site/latest%20news/2020/06/03/52/&quot; rel=&quot;nofollow&quot;&gt;Ascendendant Danish People’s Party Finds No Sympathy for Harassed Danish, Muslim Women&lt;/a&gt; was originally published on Nwangele Post.&lt;/p&gt;
+
+      </content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Julia Kehnkha</name>
+        
+        
+      </author>
+
+      
+        <category term="latest news" />
+      
+
+      
+        <category term="Hafnia Posts" />
+      
+        <category term="Cosmos" />
+      
+        <category term="CSS" />
+      
+
+      
+        <summary type="html">In a letter published in the Danish newspaper Politiken on July 11th, Aya Baram shares her experience of living in Denmark for sixteen years as a Muslim woman who wears a headscarf.</summary>
+      
+
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Sexism at Danish Juice Bar Gets a Facebook Call-out</title>
+      <link href="https//test-np.netlify.app/np-site/latest%20news/2020/05/07/51/" rel="alternate" type="text/html" title="Sexism at Danish Juice Bar Gets a Facebook Call-out" />
+      <published>2020-05-07T18:16:49+00:00</published>
+      <updated>2020-05-07T18:16:49+00:00</updated>
+      <id>https//test-np.netlify.app/np-site/latest%20news/2020/05/07/51</id>
+      <content type="html" xml:base="https//test-np.netlify.app/np-site/latest%20news/2020/05/07/51/">
+        
+        
+
+        
+
+        &lt;p&gt;&lt;strong&gt;Lisa B. Nygaard&lt;/strong&gt; got more than she ordered, when she took her two daughters to a &lt;strong&gt;Joe &amp;amp; the Juice&lt;/strong&gt; bar. She took to sharing her experience as an open letter &lt;a href=&quot;https://www.facebook.com/lisabjort/posts/821727854512732&quot;&gt;on Facebook&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;I visited you in [the Fields mall] today along with my daughters. We might have been there for 30 minutes, but in the span of that half hour, we managed to listen in on a lot of exciting details pertaining to you and your colleagues’ private life.&lt;/p&gt;
+
+  &lt;p&gt;We could hear how one of you had “done” an ugly girl in the weekend, because “the girlfriend was out travelling, which meant there was some serious [f—ing] to do”. Apparently, you won’t be as picky then, and even the ugly girls can “get a piece” of yours.&lt;/p&gt;
+
+  &lt;p&gt;We could also follow how all girls entering were rated “totally nice”, “semi”, and “ok with the lights off” and other more and less flattering phrases.&lt;/p&gt;
+
+  &lt;p&gt;Photos of the aforementioned ugly girl were shared, and I heard one of you show off with how you, when you’re out at night with your friends, feel awesome treating women “as crappy as possible”.&lt;/p&gt;
+
+  &lt;p&gt;(…)&lt;sup id=&quot;fnref:full&quot;&gt;&lt;a href=&quot;#fn:full&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;joe--the-juice&quot;&gt;Joe &amp;amp; the Juice&lt;/h3&gt;
+
+&lt;p&gt;Kaspar Basse founded the company in Denmark in 2002. It has become the biggest juice-bar chain in Denmark with affiliates in the U.K., Germany, Norway, Sweden, and Iceland. It was acquired in 2013 by Swedish private-equity group &lt;a href=&quot;http://www.valedopartners.com/joe-and-the-juice-och-valedo.aspx&quot;&gt;Valedo Partners&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;In the bars, customers lounge with their juices and sandwiches. All bars are heavily branded with an environment of loud music and noises, and a staff of fresh-faced men exuding a upbeat, chatty, and fratty demeanour. The branded culture is evident a menu featuring juices like &lt;strong&gt;“Joe’s Green Kiss”&lt;/strong&gt;, &lt;strong&gt;“Sex Me Up”&lt;/strong&gt;, and &lt;strong&gt;“Young Blood”&lt;/strong&gt;&lt;sup id=&quot;fnref:menu&quot;&gt;&lt;a href=&quot;#fn:menu&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;p&gt;The Abercrombie &amp;amp; Sandwich concept has been adopted by competing juice bars such as &lt;a href=&quot;http://big-apple.dk&quot;&gt;Big Apple&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-reaction&quot;&gt;The Reaction&lt;/h3&gt;
+
+&lt;p&gt;Nygaard’s Facebook post sparked a fiery discussion and quickly prompted coverage all over Danish media.&lt;sup id=&quot;fnref:coverage&quot;&gt;&lt;a href=&quot;#fn:coverage&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;Five hours after the original post, Joe &amp;amp; the Juice responded in a hastily-scribbled Facebook comment. It was penned by &lt;strong&gt;Simon Nielsen&lt;/strong&gt;, the company’s Academy Leader and Brand Police&lt;sup id=&quot;fnref:simon-nielsen&quot;&gt;&lt;a href=&quot;#fn:simon-nielsen&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;. The statement reads&lt;sup id=&quot;fnref:language&quot;&gt;&lt;a href=&quot;#fn:language&quot; class=&quot;footnote&quot;&gt;5&lt;/a&gt;&lt;/sup&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Hi Lisa&lt;/p&gt;
+
+  &lt;p&gt;First of all, thanks for bringing this episode to our attention.&lt;/p&gt;
+
+  &lt;p&gt;Since you wrote the post, I’ve been trying to get a hold of the employees, who worked that day, to deal with the matter. I have been in touch with the manager of the bar and the employees, and it will be dealt with immediately, as we find it completely unacceptable, and it is far away from our own values for such language to be used in a bar to talk about other people like that.&lt;/p&gt;
+
+  &lt;p&gt;I am sorry that you and your daughters had to witness this, and I want to assure you it won’t happen again.&lt;/p&gt;
+
+  &lt;p&gt;We hope that you will return, and arrangements will obviously be made for a better experience on the house.&lt;/p&gt;
+
+  &lt;p&gt;Once again, many apologies on behalf of us and the boys … I’ll give them an earful, and hopefully, this will be a lesson to them. Kind regards, Simon Nielsen, Academy Leader - Joe &amp;amp; the Juice.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The exact consequences of the incident have yet to be specified.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:full&quot;&gt;
+      &lt;p&gt;The rest of Nygaard’s Facebook post translated:&lt;/p&gt;
+
+      &lt;blockquote&gt;
+        &lt;p&gt;It’s one thing that you ruined our meal completely with your completely ridiculous discussion of the wonderful sex, which you instead should hallow and respect, and that my girls, who still believe they’re worth as much as the boys in the kindergarten, had to listen to you rate and disrespect women in that vicious way. Another is that I assume that you all have moms, who’ve given birth to you, nursed you, and been the most important woman for the majority of your life, and if you’re lucky, you’ll have some beautiful daughters one da (when you grow up) . but try to consider what world you’ll release them into? A world full of boys like you.&lt;/p&gt;
+
+        &lt;p&gt;I forgive you, because after all, you aren’t any older. And because you apparently are so insecure about yourselves, your sexuality, and your own worth that it’s the only way you can communicate with each other.&lt;/p&gt;
+
+        &lt;p&gt;But I implore you to reconsider your conduct anyway - for your customers’ sake, for your own sake, and for your future daughters’ sake. There are so many people who think you are “awesome”, so what about making a difference and being a part of changing teenage boys’ perception of the opposite sex? Perhaps you can focus on respecting all the wonderful girls and women out there - and stop the hatred?&lt;/p&gt;
+
+        &lt;p&gt;Kind regards, Lisa Björt Nygaard&lt;/p&gt;
+      &lt;/blockquote&gt;
+      &lt;p&gt;&lt;a href=&quot;#fnref:full&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:menu&quot;&gt;
+      &lt;p&gt;Sandwich names taken from the &lt;a href=&quot;http://www.joejuice.com/site/#!menu&quot;&gt;website menu&lt;/a&gt;; the juice names are respectively covered by ™, ®, and ®. &lt;a href=&quot;#fnref:menu&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:coverage&quot;&gt;
+      &lt;p&gt;Coverage in &lt;i&gt;&lt;a href=&quot;http://ekstrabladet.dk/nyheder/samfund/article4943823.ece&quot;&gt;Ekstra Bladet&lt;/a&gt;&lt;/i&gt;, &lt;i&gt;&lt;a href=&quot;http://www.bt.dk/danmark/mor-i-chok-over-joe-and-the-juice-hold-jeres-vamle-sex-historier-for-jer-selv&quot;&gt;BT&lt;/a&gt;&lt;/i&gt;, &lt;i&gt;&lt;a href=&quot;http://nyhederne.tv2.dk/samfund/2014-07-30-lisa-k%C3%B8bte-juice-m%C3%A5tte-h%C3%B8re-p%C3%A5-personalets-sex-historier&quot;&gt;TV 2&lt;/a&gt;&lt;/i&gt;. &lt;a href=&quot;#fnref:coverage&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:simon-nielsen&quot;&gt;
+      &lt;p&gt;Nielsen’s job titles are in the parlance of his own &lt;a href=&quot;https://www.linkedin.com/profile/view?id=61417382&quot;&gt;LinekdIn profile&lt;/a&gt;. &lt;a href=&quot;#fnref:simon-nielsen&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:language&quot;&gt;
+      &lt;p&gt;The informal nature of Nielsen’s comment, with errant spelling and punctuation, is not reflected in the translation. &lt;a href=&quot;#fnref:language&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+
+        
+        &lt;p&gt;&lt;a href=&quot;https//test-np.netlify.app/np-site/latest%20news/2020/05/07/51/&quot; rel=&quot;nofollow&quot;&gt;Sexism at Danish Juice Bar Gets a Facebook Call-out&lt;/a&gt; was originally published on Nwangele Post.&lt;/p&gt;
+
+      </content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Julia Kehnkha</name>
+        
+        
+      </author>
+
+      
+        <category term="latest news" />
+      
+
+      
+        <category term="Social Save" />
+      
+        <category term="Cosmos" />
+      
+        <category term="CSS" />
+      
+
+      
+        <summary type="html">Lisa B. Nygaard got more than she ordered, when she took her two daughters to a Joe &amp;amp; the Juice bar. She took to sharing her experience as an open letter on Facebook:</summary>
+      
+
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Two killed in sophisticated armed robbery gone wrong in Nkwerre</title>
+      <link href="https//test-np.netlify.app/np-site/latest%20news/2020/05/02/two-killed-in-armed-robbery-gone-wrong-in-nkwerre/" rel="alternate" type="text/html" title="Two killed in sophisticated armed robbery gone wrong in Nkwerre" />
+      <published>2020-05-02T18:16:49+00:00</published>
+      <updated>2020-05-02T18:16:49+00:00</updated>
+      <id>https//test-np.netlify.app/np-site/latest%20news/2020/05/02/two-killed-in-armed-robbery-gone-wrong-in-nkwerre</id>
+      <content type="html" xml:base="https//test-np.netlify.app/np-site/latest%20news/2020/05/02/two-killed-in-armed-robbery-gone-wrong-in-nkwerre/">
+        
+        
+
+        
+
+        &lt;p&gt;My internship with wikimedia officially kicked off on the 3rd of december 2019. I had a chat session with my mentor where my project tasks were outlined. My first task was to work on pages that weren’t completed during the contribution period. I started working on my first task and so far I’ve been able to work on three pages, create 3 PRs and currently working on the fourth one. The journey so far has been a lot easier for me, thanks to the reports and resources from my mentor, but that’s not to say that I haven’t encountered some challenges.&lt;/p&gt;
+
+&lt;p&gt;The major challenge I think I’ve faced so far is working with git. I have worked with git in the past but not like I’ve had to within this past few weeks on this project. My issue with git started during the contribution period when I had to rebase my changes with the upstream master, there was a lot of back and forth between me and my mentor because she couldn’t merge my pull request due to the conflicts. All these back and forth and time wasting happened simply becuase I was ashamed to tell my mentor that I had issues with git especially since it wasn’t an issue with the project itself. I thought it would make her look down on me but I was wrong.  This issue took me days to resolve and after trying all I could, I just opted to delete my branch and create a clean branch to work on. At that time I was happy and relieved since I had found a way to get rid of the problem, but the truth is I didn’t fix the issue I only found a way around it, which wasn’t sustainable because I can’t keep deleting branches whenever there’s a merge conflict but I didn’t think of this at that time.&lt;/p&gt;
+
+        
+        &lt;p&gt;&lt;a href=&quot;https//test-np.netlify.app/np-site/latest%20news/2020/05/02/two-killed-in-armed-robbery-gone-wrong-in-nkwerre/&quot; rel=&quot;nofollow&quot;&gt;Two killed in sophisticated armed robbery gone wrong in Nkwerre&lt;/a&gt; was originally published on Nwangele Post.&lt;/p&gt;
+
+      </content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Julia Kehnkha</name>
+        
+        
+      </author>
+
+      
+        <category term="latest news" />
+      
+
+      
+        <category term="Anti-social" />
+      
+        <category term="Cosmos" />
+      
+        <category term="CSS" />
+      
+
+      
+        <summary type="html">My internship with wikimedia officially kicked off on the 3rd of december 2019. I had a chat session with my mentor where my project tasks were outlined. My first task was to work on pages that weren’t completed during the contribution period. I started working on my first task and so far I’ve been able to work on three pages, create 3 PRs and currently working on the fourth one. The journey so far has been a lot easier for me, thanks to the reports and resources from my mentor, but that’s not to say that I haven’t encountered some challenges.</summary>
+      
+
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Bisike day set for the 31st of ddecember 2020</title>
+      <link href="https//test-np.netlify.app/np-site/latest%20news/2020/04/29/bisike-day-date-set-for-december-31/" rel="alternate" type="text/html" title="Bisike day set for the 31st of ddecember 2020" />
+      <published>2020-04-29T18:16:49+00:00</published>
+      <updated>2020-04-29T18:16:49+00:00</updated>
+      <id>https//test-np.netlify.app/np-site/latest%20news/2020/04/29/bisike-day-date-set-for%20december-31</id>
+      <content type="html" xml:base="https//test-np.netlify.app/np-site/latest%20news/2020/04/29/bisike-day-date-set-for-december-31/">
+        
+        
+
+        
+
+        &lt;p&gt;On Thursday the 28th, people in Denmark was confounded to receive a bulletin from the Copenhagen police concerning a person exhibiting “suspicious behaviour”.&lt;/p&gt;
+
+&lt;p&gt;People following the development on Twitter would experience it like this:&lt;/p&gt;
+
+&lt;p&gt;What, exactly, sent Copenhagen into high alert?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Alisiv Ceran&lt;/strong&gt; is a 21-year-old English and Mandarin student at the University of Copenhagen. He was on the train heading for a written exam on the subject of the War on Terror for his course on American history.&lt;/p&gt;
+
+&lt;p&gt;As this was the kind of test you have 24 hours to prepare for, operating on three to four hours of sleep, Ceran was still going through his book on 9-11 on the ride towards his destination. Nervous about the impending exam, he locked eyes with a fellow passenger by Nørreport train station and attempted a smile, but knocked over his luggage case which contained the printer he had to bring for the exam.&lt;/p&gt;
+
+&lt;p&gt;The woman he had clumsily attempted a smile at was, apparently, so distraught by the experience that she called the police to tip them off to what she perceived as “suspicious behaviour”. The police found her a “very credible” witness and kicked everything into gear.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/uploads/random/untitled55.png&quot; class=&quot;inner_post-img&quot; alt=&quot;&quot; style=&quot;margin-bottom: 2em;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Once more, here is the police’s version of how events transpired in their final press statement on the false alarm:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This morning, Copenhagen Police received a report of a person in a train who exhibited suspicious behaviour. After the police’s assessment of the report, it was decided to start a search for the person, as we wanted to clear up what was behind the behaviour. The police concluded that the witness was very credible and takes such reports seriously.&lt;/p&gt;
+
+  &lt;p&gt;- We have nothing but good reason to praise [/applaud] the reporter for being alert and for doing the only right thing, which is to contact the police about their observations. It creates a feeling of safety in the society that the citizen wishes to aid the police, says vice chief superintendent Claus Hjelm Olsen, who lead today’s police operation.&lt;/p&gt;
+
+  &lt;p&gt;- We are aware that a massive police presence can create a certain discomfort, so we found it important to inform the population about what the background was, says Claus Hjelm Olsen.&lt;/p&gt;
+
+  &lt;p&gt;Copenhagen Police’s massive effort had the intent of uncovering whether there was a criminal situation. When the wanted person was identified and approached, it turned out that it was a case of a perfectly legal situation, and the search was called off.&lt;/p&gt;
+
+  &lt;p&gt;- We have received great help from the population, who’ve reacted appropriately during the situation. Based on our use of Twitter, we received great tips in our Service Centre. Huge kudos [/applause] to the public and the wanted’s family for their way of handling the situation. The wanted person, too, has handled all the ruckus with an understanding of the police’s reaction, and we want to emphasize that he in no way was known by the police already, says Claus Hjelm Olsen.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+        
+        &lt;p&gt;&lt;a href=&quot;https//test-np.netlify.app/np-site/latest%20news/2020/04/29/bisike-day-date-set-for-december-31/&quot; rel=&quot;nofollow&quot;&gt;Bisike day set for the 31st of ddecember 2020&lt;/a&gt; was originally published on Nwangele Post.&lt;/p&gt;
+
+      </content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Angelina Okoli</name>
+        
+        
+      </author>
+
+      
+        <category term="latest news" />
+      
+
+      
+        <category term="Concert" />
+      
+        <category term="Cosmos" />
+      
+        <category term="latest" />
+      
+
+      
+        <summary type="html">On Thursday the 28th, people in Denmark was confounded to receive a bulletin from the Copenhagen police concerning a person exhibiting “suspicious behaviour”.</summary>
+      
+
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Talk.CSS #45 We’re Still Here edition</title>
+      <link href="https//test-np.netlify.app/np-site/latest%20news/2020/04/27/45/" rel="alternate" type="text/html" title="Talk.CSS #45 We're Still Here edition" />
+      <published>2020-04-27T09:00:00+00:00</published>
+      <updated>2020-04-27T09:00:00+00:00</updated>
+      <id>https//test-np.netlify.app/np-site/latest%20news/2020/04/27/45</id>
+      <content type="html" xml:base="https//test-np.netlify.app/np-site/latest%20news/2020/04/27/45/">
+        
+        
+
+        
+
+        &lt;p&gt;4 years. 45 meetups. So many memories. None of this would have been possible without your support. CSS isn’t the most cool or most sexy part of web development, but it is and will always be my favourite. And even though it may not be yours, we are so grateful that you’ve indulged in our passion for CSS by turning out month after month.&lt;/p&gt;
+
+&lt;p&gt;Thank you all for being part of this journey with us. ❤️🧡💛💚💙💜&lt;/p&gt;
+
+        
+        &lt;p&gt;&lt;a href=&quot;https//test-np.netlify.app/np-site/latest%20news/2020/04/27/45/&quot; rel=&quot;nofollow&quot;&gt;Talk.CSS #45 We’re Still Here edition&lt;/a&gt; was originally published on Nwangele Post.&lt;/p&gt;
+
+      </content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Zainab Okoye</name>
+        
+        
+      </author>
+
+      
+        <category term="latest news" />
+      
+
+      
+        <category term="TALKCSS" />
+      
+        <category term="Nwangele" />
+      
+        <category term="Inequality" />
+      
+
+      
+        <summary type="html">4 years. 45 meetups. So many memories. None of this would have been possible without your support. CSS isn’t the most cool or most sexy part of web development, but it is and will always be my favourite. And even though it may not be yours, we are so grateful that you’ve indulged in our passion for CSS by turning out month after month.</summary>
+      
+
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Talk.CSS #46</title>
+      <link href="https//test-np.netlify.app/np-site/latest%20news/2020/03/27/46/" rel="alternate" type="text/html" title="Talk.CSS #46" />
+      <published>2020-03-27T12:00:00+00:00</published>
+      <updated>2020-03-27T12:00:00+00:00</updated>
+      <id>https//test-np.netlify.app/np-site/latest%20news/2020/03/27/46</id>
+      <content type="html" xml:base="https//test-np.netlify.app/np-site/latest%20news/2020/03/27/46/">
+        
+        
+
+        
+
+        &lt;p&gt;First Talk.CSS of the decade went fairly well, in spite of being on the same day as the crowd-drawing Figma meetup. It was a good turnout and we love each and every one of you for supporting us. If you went to the Figma meetup instead, it’s okay, we still love you too.&lt;/p&gt;
+
+        
+        &lt;p&gt;&lt;a href=&quot;https//test-np.netlify.app/np-site/latest%20news/2020/03/27/46/&quot; rel=&quot;nofollow&quot;&gt;Talk.CSS #46&lt;/a&gt; was originally published on Nwangele Post.&lt;/p&gt;
+
+      </content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Angelina Okoli</name>
+        
+        
+      </author>
+
+      
+        <category term="latest news" />
+      
+
+      
+        <category term="TalkCSS" />
+      
+        <category term="Nwangele" />
+      
+        <category term="Inequality" />
+      
+
+      
+        <summary type="html">First Talk.CSS of the decade went fairly well, in spite of being on the same day as the crowd-drawing Figma meetup. It was a good turnout and we love each and every one of you for supporting us. If you went to the Figma meetup instead, it’s okay, we still love you too.</summary>
+      
+
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Man Wins Lawsuit for Enduring Mistaken Anti-Terror Manhunt</title>
+      <link href="https//test-np.netlify.app/np-site/latest%20news/2020/01/27/47/" rel="alternate" type="text/html" title="Man Wins Lawsuit for Enduring Mistaken Anti-Terror Manhunt" />
+      <published>2020-01-27T09:00:00+00:00</published>
+      <updated>2020-01-27T09:00:00+00:00</updated>
+      <id>https//test-np.netlify.app/np-site/latest%20news/2020/01/27/47</id>
+      <content type="html" xml:base="https//test-np.netlify.app/np-site/latest%20news/2020/01/27/47/">
+        
+        
+
+        
+
+        &lt;p&gt;Due to concerns over the nCoV-2019 virus, we have decided to invoke Plan V and do Talk.CSS #47 completely online. Thank you to the 4 people who dialed-in. Your presence will be forever preserved on video. ICYMI, our theme this month was clearly “Testing in Production” as Sheldon and I just live-coded stuff.&lt;/p&gt;
+
+&lt;p&gt;Big thanks to Michael for handling the technical setup and uploading the videos before I even ate dinner. We are now 47-in-a-row. I swear I’m not OCD.&lt;/p&gt;
+
+&lt;p&gt;Almost one year after &lt;a href=&quot;/articles/2014/08/29/antiterror-manhunt/&quot;&gt;&lt;strong&gt;Alisiv Ceran&lt;/strong&gt; was the subject of a massive manhunt&lt;/a&gt; based on a single train passenger’s report, Ceran was awarded 35,000 DKK ($5,000) in damages. He initially sought 75,000 ($11,000).&lt;/p&gt;
+
+&lt;p&gt;In &lt;a href=&quot;https://www.dr.dk/nyheder/indland/menneskejagt-paa-terrormistaenkt-studerende-udloeser-erstatning&quot;&gt;an interview with DR&lt;/a&gt;, Ceran’s lawyer reacted to the verdict:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;He was cleared of suspicion, but on the other hand, the exposure of him forced him to go public and clear his name in the media.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;About the damages awarded:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;We set the damages sought to 75,000 DKK, because we didn’t have any precedent. That gave the prosecution a span for meting out the damages according to they found fair.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;In closing, on the public prosecutor’s ruling:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;They believe the police were required to respond. They don’t think the police did anything wrong. On the other hand, my client endured this tort.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Ceran’s lawyer believes the verdict to be principle, and that this will help others enduring a similar suspicion to seek similar damages.&lt;/p&gt;
+
+&lt;h3 id=&quot;related-articles&quot;&gt;Related Articles&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/articles/2014/08/29/antiterror-manhunt/&quot;&gt;“Copenhagen Police and Media Sound Anti-Terror Alarm over Woman’s Unease at Train Passenger”&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        
+        &lt;p&gt;&lt;a href=&quot;https//test-np.netlify.app/np-site/latest%20news/2020/01/27/47/&quot; rel=&quot;nofollow&quot;&gt;Man Wins Lawsuit for Enduring Mistaken Anti-Terror Manhunt&lt;/a&gt; was originally published on Nwangele Post.&lt;/p&gt;
+
+      </content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Jude Amadi</name>
+        
+        
+      </author>
+
+      
+        <category term="latest news" />
+      
+
+      
+        <category term="Manhunt" />
+      
+        <category term="History" />
+      
+        <category term="Inequality" />
+      
+
+      
+        <summary type="html">Due to concerns over the nCoV-2019 virus, we have decided to invoke Plan V and do Talk.CSS #47 completely online. Thank you to the 4 people who dialed-in. Your presence will be forever preserved on video. ICYMI, our theme this month was clearly “Testing in Production” as Sheldon and I just live-coded stuff.</summary>
+      
+
+      
+    </entry>
+  
+    <entry>
+      <title type="html">How the Nwangele River became the source of community unity among men</title>
+      <link href="https//test-np.netlify.app/np-site/latest%20news/2020/01/27/How-the-Nwangele-Became-the-source-of-community-unity-among-men/" rel="alternate" type="text/html" title="How the Nwangele River became the source of community unity among men" />
+      <published>2020-01-27T09:00:00+00:00</published>
+      <updated>2020-01-27T09:00:00+00:00</updated>
+      <id>https//test-np.netlify.app/np-site/latest%20news/2020/01/27/How-the-Nwangele-Became-the-source-of-community-unity-among-men</id>
+      <content type="html" xml:base="https//test-np.netlify.app/np-site/latest%20news/2020/01/27/How-the-Nwangele-Became-the-source-of-community-unity-among-men/">
+        
+        
+
+        
+
+        &lt;p&gt;My internship with wikimedia officially kicked off on the 3rd of december 2019. I had a chat session with my mentor where my project tasks were outlined. My first task was to work on pages that weren’t completed during the contribution period. I started working on my first task and so far I’ve been able to work on three pages, create 3 PRs and currently working on the fourth one. The journey so far has been a lot easier for me, thanks to the reports and resources from my mentor, but that’s not to say that I haven’t encountered some challenges.&lt;/p&gt;
+
+&lt;h3 id=&quot;major-challenge-faced-so-far&quot;&gt;Major Challenge Faced So Far&lt;/h3&gt;
+
+&lt;p&gt;The major challenge I think I’ve faced so far is working with git. I have worked with git in the past but not like I’ve had to within this past few weeks on this project. My issue with git started during the contribution period when I had to rebase my changes with the upstream master, there was a lot of back and forth between me and my mentor because she couldn’t merge my pull request due to the conflicts. All these back and forth and time wasting happened simply becuase I was ashamed to tell my mentor that I had issues with git especially since it wasn’t an issue with the project itself. I thought it would make her look down on me but I was wrong.  This issue took me days to resolve and after trying all I could, I just opted to delete my branch and create a clean branch to work on. At that time I was happy and relieved since I had found a way to get rid of the problem, but the truth is I didn’t fix the issue I only found a way around it, which wasn’t sustainable because I can’t keep deleting branches whenever there’s a merge conflict but I didn’t think of this at that time.&lt;/p&gt;
+
+&lt;p&gt;I came across the same problem after I started my internship, and since I only bypassed it the first time, I couldn’t solve it, my commits kept increasing trying to resolve conflicts that still resurfaced when my mentor tried to merge, It was like I was going in circles, I was stuck again, and I couldn’t delete my branch again like I did initially so this time, I sought for help from my mentor. We had a chat session where she put me through &lt;code class=&quot;highlighter-rouge&quot;&gt;merging commits&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;rebasing my branch with the upstream master&lt;/code&gt; and from this session I got to see all the errors I was making and fixed them. I also made sure to note down all the commands we used for future reference. And that was how I was able to solve a problem I had battled with for days in just few minutes with the help of my mentor.&lt;/p&gt;
+
+&lt;h3 id=&quot;lesson-learnt&quot;&gt;Lesson Learnt&lt;/h3&gt;
+
+&lt;p&gt;Nobody is perfect, just as no man is an Island. I could have saved so much time if I had simply just asked for help from my mentor or the community when I encountered difficulty in fixing the issue the first time, but I didn’t. There is no shame in making mistakes and facing challenges, it’s a something everyone at the top has passed through and can relate to, and the best thing to do when such situations happen is to fix them and learn from them so you don’t make those mistakes or face those challenges again and even if you do or encounter someone else facing the same challenge which is possible, fixing it wouldn’t be a problem.&lt;/p&gt;
+
+&lt;p&gt;Another improtant lesson learnt is &lt;code class=&quot;highlighter-rouge&quot;&gt;do not take shortcuts&lt;/code&gt;. As a developer, I know how frustrating challenges and bugs can be especially when you are on a timeline, and how tempting it can be to take the easier route which in most cases, is just a workaround and not exactly a solution to the problem. Yeah, it may seem better at the moment but the truth is most times, these solutions aren’t sustainable and can even lead to even more bugs to manage, thereby wasting more time and resources. So my advice will be to ask questions, research and don’t stay glued to your screen for long hours trying to solve the same problem because at some point you start to try the same things over and over again, expecting to get a different result and when you don’t, you get dissapointed. So instead of working long hours at a stretch, take breaks, when you get back you might be able to look at things a bit differently and when you finally fix that bug, issue, mistake, challenge or whatever it may be, &lt;code class=&quot;highlighter-rouge&quot;&gt;document&lt;/code&gt; everything. Do not just assume you have known it and can’t forget, be sure to put down your findings so when you or anyone else passes through the same issue, you can pass your solution on to them easily and save yourselves a lot of time.&lt;/p&gt;
+
+        
+        &lt;p&gt;&lt;a href=&quot;https//test-np.netlify.app/np-site/latest%20news/2020/01/27/How-the-Nwangele-Became-the-source-of-community-unity-among-men/&quot; rel=&quot;nofollow&quot;&gt;How the Nwangele River became the source of community unity among men&lt;/a&gt; was originally published on Nwangele Post.&lt;/p&gt;
+
+      </content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Onyeka Chris</name>
+        
+        
+      </author>
+
+      
+        <category term="latest news" />
+      
+
+      
+        <category term="History" />
+      
+        <category term="Nwangele" />
+      
+        <category term="Inequality" />
+      
+
+      
+        <summary type="html">My internship with wikimedia officially kicked off on the 3rd of december 2019. I had a chat session with my mentor where my project tasks were outlined. My first task was to work on pages that weren’t completed during the contribution period. I started working on my first task and so far I’ve been able to work on three pages, create 3 PRs and currently working on the fourth one. The journey so far has been a lot easier for me, thanks to the reports and resources from my mentor, but that’s not to say that I haven’t encountered some challenges.</summary>
+      
+
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Jock Strapper 5,000 art collections are up for sale in Conakary</title>
+      <link href="https//test-np.netlify.app/np-site/latest%20news/2020/01/27/44/" rel="alternate" type="text/html" title="Jock Strapper 5,000 art collections are up for sale in Conakary" />
+      <published>2020-01-27T09:00:00+00:00</published>
+      <updated>2020-01-27T09:00:00+00:00</updated>
+      <id>https//test-np.netlify.app/np-site/latest%20news/2020/01/27/44</id>
+      <content type="html" xml:base="https//test-np.netlify.app/np-site/latest%20news/2020/01/27/44/">
+        
+        
+
+        
+
+        &lt;p&gt;We were graciously hosted by GovTech for the first time and turn-out was nice. Dial-in talk wasn’t a complete bomb so thank you for all the positive vibes to ensure the internet connection was good. Video recording also didn’t fail. When good things happen, don’t ask questions.&lt;/p&gt;
+
+        
+        &lt;p&gt;&lt;a href=&quot;https//test-np.netlify.app/np-site/latest%20news/2020/01/27/44/&quot; rel=&quot;nofollow&quot;&gt;Jock Strapper 5,000 art collections are up for sale in Conakary&lt;/a&gt; was originally published on Nwangele Post.&lt;/p&gt;
+
+      </content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Onyeka Chris</name>
+        
+        
+      </author>
+
+      
+        <category term="latest news" />
+      
+
+      
+        <category term="Artistry" />
+      
+        <category term="Nwangele" />
+      
+        <category term="Inequality" />
+      
+
+      
+        <summary type="html">We were graciously hosted by GovTech for the first time and turn-out was nice. Dial-in talk wasn’t a complete bomb so thank you for all the positive vibes to ensure the internet connection was good. Video recording also didn’t fail. When good things happen, don’t ask questions.</summary>
+      
+
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Amazon planning on developing flying cars by the end of 2030</title>
+      <link href="https//test-np.netlify.app/np-site/latest%20news/2020/01/27/43/" rel="alternate" type="text/html" title="Amazon planning on developing flying cars by the end of 2030" />
+      <published>2020-01-27T09:00:00+00:00</published>
+      <updated>2020-01-27T09:00:00+00:00</updated>
+      <id>https//test-np.netlify.app/np-site/latest%20news/2020/01/27/43</id>
+      <content type="html" xml:base="https//test-np.netlify.app/np-site/latest%20news/2020/01/27/43/">
+        
+        
+
+        
+
+        &lt;p&gt;Back at HOOQ and this time we had 3 great lightning talks by 3 great speakers. If you didn’t show up, well, you know that we almost always have video. Almost always. Anyway, try to come next time, okay?&lt;/p&gt;
+
+        
+        &lt;p&gt;&lt;a href=&quot;https//test-np.netlify.app/np-site/latest%20news/2020/01/27/43/&quot; rel=&quot;nofollow&quot;&gt;Amazon planning on developing flying cars by the end of 2030&lt;/a&gt; was originally published on Nwangele Post.&lt;/p&gt;
+
+      </content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Dwight Auba</name>
+        
+        
+      </author>
+
+      
+        <category term="latest news" />
+      
+
+      
+        <category term="Futuristic" />
+      
+        <category term="Nwangele" />
+      
+        <category term="Inequality" />
+      
+
+      
+        <summary type="html">Back at HOOQ and this time we had 3 great lightning talks by 3 great speakers. If you didn’t show up, well, you know that we almost always have video. Almost always. Anyway, try to come next time, okay?</summary>
+      
+
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Talk.CSS #38 Codepen edition</title>
+      <link href="https//test-np.netlify.app/np-site/latest%20news/2020/01/27/38/" rel="alternate" type="text/html" title="Talk.CSS #38 Codepen edition" />
+      <published>2020-01-27T09:00:00+00:00</published>
+      <updated>2020-01-27T09:00:00+00:00</updated>
+      <id>https//test-np.netlify.app/np-site/latest%20news/2020/01/27/38</id>
+      <content type="html" xml:base="https//test-np.netlify.app/np-site/latest%20news/2020/01/27/38/">
+        
+        
+
+        
+
+        &lt;p&gt;We finally had a long overdue CodePen edition, but in addition to that, we also had one of the best talks at Talk.CSS  by &lt;a href=&quot;https://wgao19.cc/&quot;&gt;Gao Wei&lt;/a&gt; on CSS blend-modes. She has also been cheated onto the SingaporeCSS pirate ship as our new co-organiser. &lt;span class=&quot;emoji&quot; role=&quot;img&quot; tabindex=&quot;0&quot; aria-label=&quot;women with bunny ears&quot;&gt;👯‍♀️&lt;/span&gt;&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;https//test-np.netlify.app/assets/img/pirate-ship.jpg&quot; srcset=&quot;https//test-np.netlify.app/assets/img/pirate-ship@2x.jpg 2x&quot; alt=&quot;The SingaporeCSS pirate ship&quot; /&gt;
+  &lt;figcaption&gt;Follow @wgao19 on all the things&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Also, to everyone who volunteered for the CodePen Show &amp;amp; Tell, including those who dialed in from overseas. Words cannot describe how grateful I am for your patience and willingness to go along with my hare-brained schemes.&lt;/p&gt;
+
+&lt;p&gt;In order of appearance, the biggest thank you to Chris and Sarah Lienert (&lt;span class=&quot;emoji&quot; role=&quot;img&quot; tabindex=&quot;0&quot; aria-label=&quot;Australia&quot;&gt;🇦🇺&lt;/span&gt;), Olivia Ng (&lt;span class=&quot;emoji&quot; role=&quot;img&quot; tabindex=&quot;0&quot; aria-label=&quot;United States of America&quot;&gt;🇺🇸&lt;/span&gt;), Ayaka Sasaki (&lt;span class=&quot;emoji&quot; role=&quot;img&quot; tabindex=&quot;0&quot; aria-label=&quot;Japan&quot;&gt;🇯🇵&lt;/span&gt;), Ten “Tenzy” Zhi Yang, Purnima Kamath and Jay.&lt;/p&gt;
+
+        
+        &lt;p&gt;&lt;a href=&quot;https//test-np.netlify.app/np-site/latest%20news/2020/01/27/38/&quot; rel=&quot;nofollow&quot;&gt;Talk.CSS #38 Codepen edition&lt;/a&gt; was originally published on Nwangele Post.&lt;/p&gt;
+
+      </content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Tony Chukwu</name>
+        
+        
+      </author>
+
+      
+        <category term="latest news" />
+      
+
+      
+        <category term="History" />
+      
+        <category term="Nwangele" />
+      
+        <category term="Inequality" />
+      
+
+      
+        <summary type="html">We finally had a long overdue CodePen edition, but in addition to that, we also had one of the best talks at Talk.CSS by Gao Wei on CSS blend-modes. She has also been cheated onto the SingaporeCSS pirate ship as our new co-organiser. 👯‍♀️</summary>
+      
+
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Think About Your Audience - Marketing 101</title>
+      <link href="https//test-np.netlify.app/np-site/feature/2020/01/10/think-about-your-audience/" rel="alternate" type="text/html" title="Think About Your Audience - Marketing 101" />
+      <published>2020-01-10T18:16:49+00:00</published>
+      <updated>2020-01-10T18:16:49+00:00</updated>
+      <id>https//test-np.netlify.app/np-site/feature/2020/01/10/think-about-your-audience</id>
+      <content type="html" xml:base="https//test-np.netlify.app/np-site/feature/2020/01/10/think-about-your-audience/">
+        
+        
+
+        
+
+        &lt;p&gt;MediaWiki is a collaboration and documentation platform brought to you by a vibrant community and anyone who shares Wikimedia’s vision to collect and share knowledge that fully represents human diversity is very much welcome to participate in the community.&lt;/p&gt;
+
+&lt;h2 id=&quot;differences-between-wikipedia-wikimedia-mediawiki-and-wiki&quot;&gt;Differences between Wikipedia, Wikimedia, MediaWiki, and wiki&lt;/h2&gt;
+
+&lt;p&gt;You probably know &lt;a href=&quot;https://en.wikipedia.org/wiki/Wikipedia&quot;&gt;Wikipedia&lt;/a&gt;, the free encyclopedia, and may possibly be a little bit confused by similar, but different, words such as Wiki, Wikimedia or &lt;strong&gt;MediaWiki&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;wiki&quot;&gt;Wiki&lt;/h3&gt;
+
+&lt;p&gt;A wiki is a type of website whose contents can be edited from the web browser, and which keeps a version history for each editable page. Wikis are often, but not always, editable by any visitor to the site.&lt;/p&gt;
+
+&lt;h3 id=&quot;wikimedia&quot;&gt;Wikimedia&lt;/h3&gt;
+
+&lt;p&gt;Wikimedia is the collective name for the &lt;a href=&quot;https://meta.wikimedia.org/wiki/Wikimedia_movement&quot;&gt;Wikimedia movement&lt;/a&gt;, revolving around a group of inter-related &lt;a href=&quot;https://meta.wikimedia.org/wiki/Wikimedia_projects&quot;&gt;projects&lt;/a&gt;, including &lt;a href=&quot;https://meta.wikimedia.org/wiki/Wikipedia&quot;&gt;Wikipedia&lt;/a&gt;, &lt;a href=&quot;https://meta.wikimedia.org/wiki/Wiktionary&quot;&gt;Wiktionary&lt;/a&gt;, &lt;a href=&quot;https://meta.wikimedia.org/wiki/Wikiquote&quot;&gt;Wikiquote&lt;/a&gt; and others, which aim to use the collaborative power of the Internet, and the wiki concept, to create and share free knowledge of all kinds&lt;/p&gt;
+
+&lt;h3 id=&quot;wikipedia&quot;&gt;Wikipedia&lt;/h3&gt;
+
+&lt;p&gt;Wikipedia is a Wikimedia project that is a global, free and multilingual internet encyclopedia. It is the oldest and largest Wikimedia project, predating the Wikimedia Foundation itself. Wikipedia is often described as a wiki, but it is in fact a collection of over 200 wikis, one for each language, all running on the MediaWiki software.&lt;/p&gt;
+
+&lt;p&gt;Now that we have cleared the air on the difference between these concepts, let’s get back to the project I’m currently working on which is Mediawiki&lt;/p&gt;
+
+&lt;h2 id=&quot;what-problem-is-your-community-trying-to-solve&quot;&gt;What problem is your community trying to solve?&lt;/h2&gt;
+
+&lt;p&gt;The MediaWiki action API is a web service that allows access to some wiki-features like authentication, page operations, and search. It can provide meta information about the wiki and the logged-in user. Several Wikimedia projects make use of this API.&lt;/p&gt;
+
+&lt;p&gt;As of now, there are 128 pages on the Action API on MediaWiki.org. A little research was done on the state of the docs and a few problems and recommendations documented for next steps. One of the issues chosen to address was inconsistency. For example, some pages had the automated API docs embedded; some didn’t, some pages had code samples, some didn’t, etc.&lt;/p&gt;
+
+&lt;p&gt;As a first step, a documentation template was designed and used to re-write the top 20 viewed pages of the API. But then, to improve all 128 pages, it was made open to new Wikimedia contributors for help :-) The next 60 pages were improved in the last two Outreachy rounds.&lt;/p&gt;
+
+&lt;p&gt;The goal of this project is to improve documentation of ~20 top 100 most viewed MediaWiki Action API pages on-wiki using the documentation template.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-does-mediawiki-fit-into-the-larger-community&quot;&gt;How does Mediawiki fit into the larger community?&lt;/h2&gt;
+
+&lt;p&gt;The MediaWiki software is used by tens of thousands of websites and thousands of companies and organizations. It powers Wikipedia and helps collect and organize knowledge and make it available to people. It’s powerful, multilingual, free and open for others to use (and improve), extensible, customizable, reliable, and free of charge.&lt;/p&gt;
+
+&lt;p&gt;The site, mediawiki.org, is intended for information about MediaWiki and related software.&lt;/p&gt;
+
+&lt;p&gt;Besides Wikimedia sister projects, many other sites exist that are using MediaWiki engine. Such sites based on Mediawiki software generally display the Powered by icon near the bottom right corner of their pages. Some examples include &lt;a href=&quot;http://www.reviewingaids.com/awiki&quot;&gt;AIDS Wiki&lt;/a&gt;, &lt;a href=&quot;http://www.apple2games.com/&quot;&gt;Apple 2 Games&lt;/a&gt;, &lt;a href=&quot;http://bitcoin.it/&quot;&gt;Bitcoin Wiki&lt;/a&gt;, &lt;a href=&quot;http://biblestrength.com/&quot;&gt;Bible Strength&lt;/a&gt; and many more.&lt;/p&gt;
+
+&lt;h2 id=&quot;why-would-people-want-to-use-your-project&quot;&gt;Why would people want to use your project?&lt;/h2&gt;
+
+&lt;p&gt;MediaWiki is an extremely powerful, scalable software and a feature-rich wiki implementation that uses PHP to process and display data stored in a database, such as MySQL. Pages use MediaWiki’s wikitext format, so that users without knowledge of HTML or CSS can edit them easily. When a user submits an edit to a page, MediaWiki writes it to the database, but without deleting the previous versions of the page, thus allowing easy reverts in case of vandalism or spamming. MediaWiki can manage image and multimedia files, too, which are stored in the filesystem. For large wikis with lots of users, MediaWiki supports caching and can be easily coupled with proxy server software. With dedicated extensions, MediaWiki can also handle structured data.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-makes-you-most-excited-to-work-on-your-project&quot;&gt;What makes you most excited to work on your project?&lt;/h2&gt;
+
+&lt;p&gt;The fact that while improving the documentation to MediaWiki Action API pages in my cubicle, I am also improving the experience of thousands of developers who utilize Mediawiki’s API and also having the opportunity to collaborate with the great minds behind the Wikimedia Foundation (WMF) and improve my skills while doing so.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-new-terms-or-concepts-have-you-learned-in-the-past-month&quot;&gt;What new terms or concepts have you learned in the past month?&lt;/h2&gt;
+
+&lt;p&gt;I’ve learned Wiki editing, using mediawiki templates, creating and managing translatable pages and also how to use the &lt;a href=&quot;https://phabricator.wikimedia.org/&quot;&gt;Wikimedia Phabricator&lt;/a&gt; tool.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-was-confusing-to-you-about-the-project&quot;&gt;What was confusing to you about the project?&lt;/h2&gt;
+
+&lt;p&gt;Well I’ll say at first creating and managing translatable pages and adding translation tags to my sandbox pages before pushing to the main page was quite confusing but with the help of my mentor and going through resources on translating pages, I am well past that confusion now.&lt;/p&gt;
+
+&lt;p&gt;My journey and experience so far with this wonderful community has been an exciting one and I’m ecstatic about the opportunity to learn and collaborate and also experiences that still awaits me.&lt;/p&gt;
+
+        
+        &lt;p&gt;&lt;a href=&quot;https//test-np.netlify.app/np-site/feature/2020/01/10/think-about-your-audience/&quot; rel=&quot;nofollow&quot;&gt;Think About Your Audience - Marketing 101&lt;/a&gt; was originally published on Nwangele Post.&lt;/p&gt;
+
+      </content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kwame Kwadon</name>
+        
+        
+      </author>
+
+      
+        <category term="feature" />
+      
+
+      
+        <category term="Marketing 101" />
+      
+        <category term="Carreers" />
+      
+        <category term="Advice" />
+      
+        <category term="MediaWiki" />
+      
+
+      
+        <summary type="html">MediaWiki is a collaboration and documentation platform brought to you by a vibrant community and anyone who shares Wikimedia’s vision to collect and share knowledge that fully represents human diversity is very much welcome to participate in the community.</summary>
+      
+
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Just know that Everybody Struggles</title>
+      <link href="https//test-np.netlify.app/np-site/feature/2019/12/28/outreachy-everybody-struggles/" rel="alternate" type="text/html" title="Just know that Everybody Struggles" />
+      <published>2019-12-28T11:16:49+00:00</published>
+      <updated>2019-12-28T11:16:49+00:00</updated>
+      <id>https//test-np.netlify.app/np-site/feature/2019/12/28/outreachy-everybody-struggles</id>
+      <content type="html" xml:base="https//test-np.netlify.app/np-site/feature/2019/12/28/outreachy-everybody-struggles/">
+        
+        
+
+        
+
+        &lt;p&gt;My internship with wikimedia officially kicked off on the 3rd of december 2019. I had a chat session with my mentor where my project tasks were outlined. My first task was to work on pages that weren’t completed during the contribution period. I started working on my first task and so far I’ve been able to work on three pages, create 3 PRs and currently working on the fourth one. The journey so far has been a lot easier for me, thanks to the reports and resources from my mentor, but that’s not to say that I haven’t encountered some challenges.&lt;/p&gt;
+
+&lt;h3 id=&quot;major-challenge-faced-so-far&quot;&gt;Major Challenge Faced So Far&lt;/h3&gt;
+
+&lt;p&gt;The major challenge I think I’ve faced so far is working with git. I have worked with git in the past but not like I’ve had to within this past few weeks on this project. My issue with git started during the contribution period when I had to rebase my changes with the upstream master, there was a lot of back and forth between me and my mentor because she couldn’t merge my pull request due to the conflicts. All these back and forth and time wasting happened simply becuase I was ashamed to tell my mentor that I had issues with git especially since it wasn’t an issue with the project itself. I thought it would make her look down on me but I was wrong.  This issue took me days to resolve and after trying all I could, I just opted to delete my branch and create a clean branch to work on. At that time I was happy and relieved since I had found a way to get rid of the problem, but the truth is I didn’t fix the issue I only found a way around it, which wasn’t sustainable because I can’t keep deleting branches whenever there’s a merge conflict but I didn’t think of this at that time.&lt;/p&gt;
+
+&lt;p&gt;I came across the same problem after I started my internship, and since I only bypassed it the first time, I couldn’t solve it, my commits kept increasing trying to resolve conflicts that still resurfaced when my mentor tried to merge, It was like I was going in circles, I was stuck again, and I couldn’t delete my branch again like I did initially so this time, I sought for help from my mentor. We had a chat session where she put me through &lt;code class=&quot;highlighter-rouge&quot;&gt;merging commits&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;rebasing my branch with the upstream master&lt;/code&gt; and from this session I got to see all the errors I was making and fixed them. I also made sure to note down all the commands we used for future reference. And that was how I was able to solve a problem I had battled with for days in just few minutes with the help of my mentor.&lt;/p&gt;
+
+&lt;h3 id=&quot;lesson-learnt&quot;&gt;Lesson Learnt&lt;/h3&gt;
+
+&lt;p&gt;Nobody is perfect, just as no man is an Island. I could have saved so much time if I had simply just asked for help from my mentor or the community when I encountered difficulty in fixing the issue the first time, but I didn’t. There is no shame in making mistakes and facing challenges, it’s a something everyone at the top has passed through and can relate to, and the best thing to do when such situations happen is to fix them and learn from them so you don’t make those mistakes or face those challenges again and even if you do or encounter someone else facing the same challenge which is possible, fixing it wouldn’t be a problem.&lt;/p&gt;
+
+&lt;p&gt;Another improtant lesson learnt is &lt;code class=&quot;highlighter-rouge&quot;&gt;do not take shortcuts&lt;/code&gt;. As a developer, I know how frustrating challenges and bugs can be especially when you are on a timeline, and how tempting it can be to take the easier route which in most cases, is just a workaround and not exactly a solution to the problem. Yeah, it may seem better at the moment but the truth is most times, these solutions aren’t sustainable and can even lead to even more bugs to manage, thereby wasting more time and resources. So my advice will be to ask questions, research and don’t stay glued to your screen for long hours trying to solve the same problem because at some point you start to try the same things over and over again, expecting to get a different result and when you don’t, you get dissapointed. So instead of working long hours at a stretch, take breaks, when you get back you might be able to look at things a bit differently and when you finally fix that bug, issue, mistake, challenge or whatever it may be, &lt;code class=&quot;highlighter-rouge&quot;&gt;document&lt;/code&gt; everything. Do not just assume you have known it and can’t forget, be sure to put down your findings so when you or anyone else passes through the same issue, you can pass your solution on to them easily and save yourselves a lot of time.&lt;/p&gt;
+
+        
+        &lt;p&gt;&lt;a href=&quot;https//test-np.netlify.app/np-site/feature/2019/12/28/outreachy-everybody-struggles/&quot; rel=&quot;nofollow&quot;&gt;Just know that Everybody Struggles&lt;/a&gt; was originally published on Nwangele Post.&lt;/p&gt;
+
+      </content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Angelina Okoli</name>
+        
+        
+      </author>
+
+      
+        <category term="feature" />
+      
+
+      
+        <category term="Internship" />
+      
+        <category term="Advice How To" />
+      
+
+      
+        <summary type="html">My internship with wikimedia officially kicked off on the 3rd of december 2019. I had a chat session with my mentor where my project tasks were outlined. My first task was to work on pages that weren’t completed during the contribution period. I started working on my first task and so far I’ve been able to work on three pages, create 3 PRs and currently working on the fourth one. The journey so far has been a lot easier for me, thanks to the reports and resources from my mentor, but that’s not to say that I haven’t encountered some challenges.</summary>
+      
+
+      
+    </entry>
+  
+    <entry>
+      <title type="html">The Tony Invalid concert: How it all went Down</title>
+      <link href="https//test-np.netlify.app/np-site/feature/2019/12/15/the-tony-invalid-concert/" rel="alternate" type="text/html" title="The Tony Invalid concert: How it all went Down" />
+      <published>2019-12-15T19:16:49+00:00</published>
+      <updated>2019-12-15T19:16:49+00:00</updated>
+      <id>https//test-np.netlify.app/np-site/feature/2019/12/15/the-tony-invalid-concert</id>
+      <content type="html" xml:base="https//test-np.netlify.app/np-site/feature/2019/12/15/the-tony-invalid-concert/">
+        
+        
+
+        
+
+        &lt;p&gt;Outreachy is an internship program that helps women and people who are under-represented get more invloved with open source through remote internships. Outreachy provides a supportive community for beginning to contribute any time throughout the year and offer focused internship opportunities twice a year with a number of free software organizations.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-application-process&quot;&gt;The Application Process&lt;/h2&gt;
+
+&lt;p&gt;When I first heard of outreachy I was skeptical because I had very little experience in open source. I decided to do some research. After series of research on outreachy and reading the reports and success stories of ex-interns, I was convinced within me that this was the breakthrough I needed to break out of my shell and get more involved in open source.&lt;/p&gt;
+
+&lt;p&gt;So I subscribed to Outreachy’s mailing list to get a notification when applications would open and started getting more involved in open source contributions as I was really motivated by all the success stories I had read at this point.&lt;/p&gt;
+
+&lt;p&gt;Fastforward few weeks later I submitted my initial application and was ecstatic when it was approved. This took me to the the second phase which is the contribution phase.&lt;/p&gt;
+
+&lt;h3 id=&quot;contribution-phase&quot;&gt;Contribution Phase&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/np-site//assets/images/feature-modules/DanBejaDestroyer1.jpg&quot; alt=&quot;mosiac feature of drillz concert&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;selecting-a-project&quot;&gt;Selecting a Project&lt;/h4&gt;
+
+&lt;p&gt;The contribution phase kicked off on 1st of October and lasted for about a month. It came with the dilemma of selecting a project from the numerous list of projects to contribute to. I wanted to make contributions to at least two different projects to increase my chances of getting selected. I went through all the projects and read their descriptions and required skill set to find a project that matches my skillset and where I knew I could make a difference. I was happy when I came across Mediawiki’s project &lt;code class=&quot;highlighter-rouge&quot;&gt;Documentation improvements to the ~20 top 100 most viewed MediaWiki Action API pages on-wiki&lt;/code&gt;. Wikipedia has always been a primary source of content when carrying out any research for me, from solving school assignments to undergraduate thesis, to post-graduate studies, my software-development career and even getting information on the fly. Though I hadn’t contributed to wikimedia before, although I have worked on improving documentation for an organization before and managed their engineering blog, I decided to take a leap of faith by applying with the mindset that even if I didn’t get accepted, I will have the opportunity to contribute to improving the experience of thousands of developers who utilize Mediawiki’s API and be able to give back to the community that has helped me by so doing. So with that mindset, I chose wikimedia and my contribution phase began.&lt;/p&gt;
+
+&lt;h3 id=&quot;contributing&quot;&gt;Contributing&lt;/h3&gt;
+
+&lt;p&gt;After selecting my choice project, I went through all the available resources, registered on the communication platform which was zulip, created a phabricator account and a mediawiki account. I introduced myself on &lt;code class=&quot;highlighter-rouge&quot;&gt;zulip&lt;/code&gt; -MediaWiki’s communication channel- to other members and also to the mentor assigned to me (Brenda Jerop).&lt;/p&gt;
+
+&lt;p&gt;Then came the time to actually put in some work. A phabricator page was created for us (applicants) with a list of micro-tasks to work on. Things like API documentation page improvement were included in the tasks. I picked my first task which became my first contribution and started working on it. To be honest it was all overwhelming at first as most of the technologies were a bit new to me. But then there was something very important I learnt from this phase, which is fact that &lt;code class=&quot;highlighter-rouge&quot;&gt;communication&lt;/code&gt; is key. I asked my mentor for guidance whenever I got stuck or was confused coupled with the fact that mediawiki had a lot of resources to help including blog posts and reports of past interns, all you had to do was just look.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/np-site//assets/images/uploads/gallery/poster-full.jpg&quot; alt=&quot;mosiac feature of drillz concert&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I was so excited when I created my first pull request but even more ecstatic when it was merged. I was able to submit three pull requests during the contribution period with one work in progress. Somewhere in between contributions, I drafted out my final application and submitted it to my mentor to review. Then I submitted on outreachy.&lt;/p&gt;
+
+&lt;p&gt;One great advice I got for this contribution phase, which I’m happy I took was to start contributing early. At first it might seem like you have enough time but depending on the organization and project you are working on and how familiar you are with their process, you might need some time to understand the tools and process. For me, even though I had worked on similar projects outside wikimedia, I hadn’t contributed to wikimedia before and their processes and tools were slightly different, so starting early gave me enough room to get used to all these.&lt;/p&gt;
+
+        
+        &lt;p&gt;&lt;a href=&quot;https//test-np.netlify.app/np-site/feature/2019/12/15/the-tony-invalid-concert/&quot; rel=&quot;nofollow&quot;&gt;The Tony Invalid concert: How it all went Down&lt;/a&gt; was originally published on Nwangele Post.&lt;/p&gt;
+
+      </content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Fabian Ekwi</name>
+        
+        
+      </author>
+
+      
+        <category term="feature" />
+      
+
+      
+        <category term="Concerts" />
+      
+        <category term="Nwangele Music Festival" />
+      
+
+      
+        <summary type="html">Outreachy is an internship program that helps women and people who are under-represented get more invloved with open source through remote internships. Outreachy provides a supportive community for beginning to contribute any time throughout the year and offer focused internship opportunities twice a year with a number of free software organizations.</summary>
+      
+
+      
+    </entry>
+  
+</feed>
