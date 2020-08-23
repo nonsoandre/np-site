@@ -4,9 +4,6 @@
 
 
 <script>
-  "use strict"
-  
-  //instanciating instantsearch.js with Algolia
 
   var search = instantsearch({
     appId: "{{ site.algolia.application_id }}",
@@ -52,8 +49,6 @@
           </div>
         `
   }
-
-  //Searchbbar widget
   search.addWidget(
         instantsearch.widgets.searchBox({
           container: ".search-wrapper",
@@ -62,8 +57,7 @@
           reset: true
         })
   );
-
-  //searchresultWidget
+  
   search.addwidget(
     instantsearch.widgets.hits({
       container: "#search-results",
