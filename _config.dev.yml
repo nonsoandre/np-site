@@ -122,3 +122,21 @@ picture:
   ignore_missing_images: [development, testing]
   disabled: true
 
+algolia:
+  application_id: A175MIQXEP
+  index_name: nwangelepost
+  search_only_api_key: e979cd213c6f5f40183363e1329d6a24
+  nodes_to_index: "p,blockquote"
+  files_to_exclude:
+    - index.html
+    - index.md
+    - _pages/404.md
+    - _pages/gallery.md
+    - _pages/about.md
+    - _pages/articles.md
+    - _pages/opinion.md
+    - _pages/terms.md
+    - _pages/tv.md
+    - _pages/privacy.md
+
+
