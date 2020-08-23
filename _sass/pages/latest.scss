@@ -80,7 +80,7 @@
             margin: 0 -20px;
         }
         @media (min-width: 64em){
-            max-width: 75em;
+            max-width: 65em;
         } 
     }
 
@@ -171,7 +171,7 @@
             // max-width: 100px;
         }   
         h3{
-            font-size: 18px;
+            font-size: 16px;
             line-height: 1.03;
             margin: 7px 0 5px;
 
@@ -185,7 +185,7 @@
             }
             @media #{$xlg-scn--up}{
                 margin: 15px 0;
-                font-size: 50px;
+                // font-size: 50px;
             }
         }
         .article-info{
@@ -248,7 +248,7 @@
 }
 .context-list .article-meta h3 {
     margin-top: 0;
-    font-weight: 845;
+    // font-weight: 845;
 }
 .feed_item-author .author {
     width: 250px;
