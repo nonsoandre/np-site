@@ -1,5 +1,6 @@
 
-
+var searchResults = document.getElementById("search-results");
+console.log(searchResults)
 var search = instantsearch({
   appId: "{{ site.algolia.application_id }}",
   apiKey: "{{ site.algolia.search_only_api_key }}",
@@ -8,7 +9,7 @@ var search = instantsearch({
     restrictSearchableAttributes: ["title", "content"]
   },
   searchFunction: function searchFunction(helper) {
-    var searchResults = document.getElementById("#search-results");
+    
     if (helper.state.query === "") {
       searchResults.style.display = "none";
       return;
