@@ -8,7 +8,7 @@ var search = instantsearch({
     restrictSearchableAttributes: ["title", "content"]
   },
   searchFunction: function searchFunction(helper) {
-    var searchResults = document.querySelector(".search-hits");
+    var searchResults = document.getElementById("#search-results");
     if (helper.state.query === "") {
       searchResults.style.display = "none";
       return;
