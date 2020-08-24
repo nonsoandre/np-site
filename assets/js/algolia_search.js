@@ -55,7 +55,7 @@ search.addWidget(
 );
 
 //searchresultWidget
-search.addwidget(
+search.addWidget(
 instantsearch.widgets.hits({
   container: "#search-results",
   templates: {
