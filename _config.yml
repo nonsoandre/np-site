@@ -1,4 +1,4 @@
-# Site Config
+ # Site Config
 title:                Nwangele Post
 description:         From Nwangele to the world
 logo:                 'assets/img/favicon/logo.png'
@@ -13,7 +13,7 @@ data-srcset:
   - 750
   - 1000
 
-
+google-verification: googled89ab212b3259058.html
 livereload: false
 
 # Jekyll Config
