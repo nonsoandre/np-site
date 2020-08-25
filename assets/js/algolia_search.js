@@ -48,7 +48,7 @@ var hitTemplate = function hitTemplate(hit) {
 //Searchbbar widget
 search.addWidget(
   instantsearch.widgets.searchBox({
-    container: ".search-wrapper",
+    container: ".search_box",
     poweredBy: true,
     placeholder: "Search...",
     reset: true

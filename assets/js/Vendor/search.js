@@ -13,7 +13,7 @@
         <a href="${ item.url }" class="article-link">
             <figure class="article-figure size-medium">
                 <div class=" visible pb-cent article-img-box">
-                    <img src="${ item.baseurl }/${ item.imagepath}/${ item.image }" srcset="" alt=" {{ latest.image-alt }} ">
+                    <img src="${ item.imagepath}/${ item.image }" srcset="" alt=" {{ latest.image-alt }} ">
                 </div>
             </figure>
             <div class="article-meta local">
@@ -71,6 +71,7 @@
       this.field('imagepath');
       this.field('baseurl');
       this.field('date');
+
     });
 
     for (var key in window.store) { // Add the data to lunr
